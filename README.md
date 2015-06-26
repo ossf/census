@@ -8,10 +8,10 @@ to improve security.
 
 Key files include:
 
-*   projects_to_examine.csv : CSV file listing OSS projects to be examined, as well as data that requires human input
-*   oss_package_analysis.py : Python program that reads projects_to_examine.csv to determine the OSS projects to examine.  It gathers data from a a variety of data sources, caching where it can. It produces results.csv.
-*   results.csv: CSV file listing OSS projects and related metrics.
-*   oss-needing-help.docx : Documentation about this work.
+* [OSS-2015-06-19.pdf](OSS-2015-06-19.pdf): Detailed documentation about this work.
+* [projects_to_examine.csv](projects_to_examine.csv): CSV file listing OSS projects to be examined, as well as data that requires human input
+* [oss_package_analysis.py](oss_package_analysis.py): Python program that reads projects_to_examine.csv to determine the OSS projects to examine.  It gathers data from a a variety of data sources, caching where it can. It produces results.csv.
+* [results.csv](results.csv): CSV file listing OSS projects and related metrics.
 
 The Python analysis program is released under the MIT license and requires "BeautifulSoup" to work. The program requires an [API key](https://github.com/blackducksw/ohloh_api#api-key) from Black Duck Open Hub to work.
 
@@ -40,12 +40,12 @@ examine, we took the set of packages installed by Debian base and added a set
 of packages that were identified as potentially concerning.
 
 We invite you to contribute in the following ways:
-- fork the repository and try different metrics and heuristics. Send us pull
+* fork the repository and try different metrics and heuristics. Send us pull
 requests for the ones that you find experimentally make the most sense.
-- fork the repository and try different data sources.
-- review the data in projects_to_examine.csv and send corrections and elaborations.
-- suggest more projects to consider in the future.
-- open an issue to mention additional relevant literature in the field.
+* fork the repository and try different data sources.
+* review the data in projects_to_examine.csv and send corrections and elaborations.
+* suggest more projects to consider in the future.
+* open an issue to mention additional relevant literature in the field.
 
 # Background
 
