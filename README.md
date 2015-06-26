@@ -10,10 +10,10 @@ Key files include:
 
 * [OSS-2015-06-19.pdf](OSS-2015-06-19.pdf): Detailed documentation about this work.
 * [projects_to_examine.csv](projects_to_examine.csv): CSV file listing OSS projects to be examined, as well as data that requires human input
-* [oss_package_analysis.py](oss_package_analysis.py): Python program that reads projects_to_examine.csv to determine the OSS projects to examine.  It gathers data from a a variety of data sources, caching where it can. It produces results.csv.
+* [oss_package_analysis.py](oss_package_analysis.py): Python program that reads projects_to_examine.csv to determine the OSS projects to examine.  It gathers data from a a variety of data sources, caching where it can. It produces [results.csv](results.csv).
 * [results.csv](results.csv): CSV file listing OSS projects and related metrics.
 
-The Python analysis program is released under the MIT license and requires "BeautifulSoup" to work. The program requires an [API key](https://github.com/blackducksw/ohloh_api#api-key) from Black Duck Open Hub to work.
+The Python analysis program is released under the MIT license and requires [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/) to work. The program requires an [API key](https://github.com/blackducksw/ohloh_api#api-key) from Black Duck Open Hub to work.
 
 The documentation is released under the Creative Commons CC-BY license.
 

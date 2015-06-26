@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-# Analyze the projects listed in "projects.txt", producing "results.csv"
+# Analyze the projects listed in "projects_to_examine.csv",
+# producing "results.csv"
 # that contains a collection of metrics.
 # (C) 2015 Institute for Defense Analyses (IDA)
 # Authors: Samir Khakimov and David A. Wheeler
@@ -273,7 +274,7 @@ def main():
   global debian_pop
   global popularity_threshold
 
-  parser = argparse.ArgumentParser(description = 'OSS Metrics', usage ='python program.py -p projects.csv')
+  parser = argparse.ArgumentParser(description = 'OSS Metrics', usage ='python program.py -p projects_to_examine.csv')
   parser.add_argument('-p','--project_file', help='path to csv file with project list', required = True)
 
   args = parser.parse_args()
