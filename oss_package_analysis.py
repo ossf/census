@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 
-# Analyze the projects listed in "projects_to_examine.csv",
-# producing "results.csv"
-# that contains a collection of metrics.
+# Analyze the projects listed in a CSV file, e.g., "projects_to_examine.csv",
+# producing "results.csv" that contains a collection of metrics.
 # (C) 2015 Institute for Defense Analyses (IDA)
 # Authors: Samir Khakimov and David A. Wheeler
 
@@ -45,7 +44,7 @@ import sys, urllib, re
 import xml.etree.ElementTree as ET
 import csv
 import argparse
-import os.path
+import os
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
@@ -60,6 +59,9 @@ debian_include = ['Source: ', 'Version: ', 'Description: ', 'Homepage: ']
 
 #save web results locally for caching purposes
 def cache_data(url, destination):
+  folder = destination.split('/')[0] + '/'
+  if not os.path.exists(folder):
+    os.makedirs(folder)
   f = urllib.urlopen(url)
   contents = f.read()
   cache_file = open(destination, 'w')
