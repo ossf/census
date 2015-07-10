@@ -55,6 +55,7 @@ exim4,,exim,exim4,, metapackage to ease Exim MTA (v4) installation,Standard Syst
 exim4-base,exim4,exim,exim,, support files for all Exim MTA (v4) packages,Standard System Utilities,1,0,0,"This is an MTA, thus has to process untrustworthy data.  There are several MTA in use; should we focus on this one? ++",
 exim4-config,exim4,exim,exim,, configuration for the Exim MTA (v4),Standard System Utilities,1,0,0,"This is an MTA, thus has to process untrustworthy data.  There are several MTA in use; should we focus on this one? ++",
 exim4-daemon-light,exim4,exim,exim,, lightweight Exim MTA (v4) daemon,Standard System Utilities,1,0,0,"This is an MTA, thus has to process untrustworthy data.  There are several MTA in use; should we focus on this one? ++",
+fail2ban,fail2ban,fail2ban,fail2ban, https://api.github.com/repos/fail2ban/fail2ban/issues, ban hosts that cause multiple authentication errors,,0,1,1,Used on 10% of Debian installations according to popcon thus millions of users,Monitors and parses log files and  executes commands to manipulate firewalls based on parsed logfiles (thus possibility of injection) usually runs as root
 fakeroot,,6854,fakeroot,, tool for simulating superuser privileges,Standard System Utilities,0,0,0,,
 file,,file,libmagic1,," Determines file type using ""magic"" numbers",Standard System Utilities,0,0,0,,
 findutils,,findutils,findutils,," utilities for finding files--find, xargs",Standard System Utilities,0,0,0,,
