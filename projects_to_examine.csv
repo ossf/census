@@ -66,6 +66,7 @@ gcc-4.7,,gcc,gcc,, GNU C compiler,Standard System Utilities,0,0,0,,
 gcc-4.7-base,gcc-4.7,gcc,gcc,," GCC, the GNU Compiler Collection (base package)",Standard System Utilities,0,0,0,,
 geoip-database,,geoipdb,geoipdb,, IP lookup command line tools that use the GeoIP library (country database),Standard System Utilities,1,0,0,,
 gettext-base,gettext,gettext,gettext,, GNU Internationalization utilities for the base system,Standard System Utilities,0,0,0,,
+glib-networking,,glib-networking,glib-networking,https://bugzilla.gnome.org/buglist.cgi?quicksearch=component:network product:"glib", network-related giomodules for GLib,???,1,0,0,TLS API. Implements its own certificate verification. No support for certificate revocation. No active developers.,Implements GLib's TLS API, most notably used by libsoup (used by all GNOME applications, WebKitGTK+, etc.). It uses GnuTLS internally.
 gnupg,,gnupg,gnupg,, GNU privacy guard - a free PGP replacement,Standard System Utilities,0,1,0,Vital for protecting email (CII has already invested with a one-time investment) ++,
 gpgv,gnupg, gnupg,gnupg,, GNU privacy guard - signature verification tool,Standard System Utilities,0,1,0,Vital for protecting email (CII has already invested with a one-time investment) ++,
 grep,,grep,grep,," GNU grep, egrep and fgrep",Standard System Utilities,0,0,0,,
