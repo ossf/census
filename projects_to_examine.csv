@@ -56,6 +56,7 @@ exim4-base,exim4,exim,exim,, support files for all Exim MTA (v4) packages,Standa
 exim4-config,exim4,exim,exim,, configuration for the Exim MTA (v4),Standard System Utilities,1,0,0,"This is an MTA, thus has to process untrustworthy data.  There are several MTA in use; should we focus on this one? ++",
 exim4-daemon-light,exim4,exim,exim,, lightweight Exim MTA (v4) daemon,Standard System Utilities,1,0,0,"This is an MTA, thus has to process untrustworthy data.  There are several MTA in use; should we focus on this one? ++",
 fakeroot,,6854,fakeroot,, tool for simulating superuser privileges,Standard System Utilities,0,0,0,,
+ffmpeg,,ffmpeg,ffmpeg,https://trac.ffmpeg.org/query?status=new&status=open&status=reopened&col=id&col=summary&col=status&col=type&col=component&col=version&col=time&col=changetime&order=priority&report=1,"Tools for transcoding, streaming and playing of multimedia files",,0,1,0,,
 file,,file,libmagic1,," Determines file type using ""magic"" numbers",Standard System Utilities,0,0,0,,
 findutils,,findutils,findutils,," utilities for finding files--find, xargs",Standard System Utilities,0,0,0,,
 ftp,netkit-ftp,,netkit-ftp,, classical file transfer client,Standard System Utilities,1,0,0,"Ftp isn't secure by itself, and the ftp client is less commonly used now.  That said, it certainly is used and connects to the wide Internet.",Extinct upstream per http://metadata.ftp-master.debian.org/changelogs//main/n/netkit-ftp/netkit-ftp_0.17-27_copyright and ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
