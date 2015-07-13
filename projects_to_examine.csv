@@ -306,6 +306,7 @@ python2.6,,python,python,, Interactive high-level object-oriented language (vers
 python2.6-minimal,python2.6,python,python,, Minimal subset of the Python language (version 2.6),Standard System Utilities,0,0,0,,
 python2.7,,python,python,, Interactive high-level object-oriented language (version 2.7),Standard System Utilities,0,0,0,,
 python2.7-minimal,python2.7,python,python,, Minimal subset of the Python language (version 2.7),Standard System Utilities,0,0,0,,
+qemu,,qemu,qemu,https://bugs.launchpad.net/qemu/,fast processor emulator,,0,0,1,,
 readline-common,readline6,,readline,," GNU readline and history libraries, common files",Standard System Utilities,0,0,0,,
 reportbug,,reportbug,reportbug,, reports bugs in the Debian distribution,Standard System Utilities,1,0,0,,
 rpcbind,,rpcbind,rpcbind,, converts RPC program numbers into universal addresses,Standard System Utilities,1,0,0,"IPC communication, including network communcation from untrustworthy sources.",
