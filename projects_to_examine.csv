@@ -334,6 +334,7 @@ util-linux,,util-linux-ng,util-linux,, Miscellaneous system utilities,Standard S
 util-linux-locales,util-linux,util-linux-ng,util-linux,, Locales files for util-linux,Standard System Utilities,0,0,0,,
 vim-common,vim,vim,vim,, Vi IMproved - Common files,Standard System Utilities,0,0,0,,
 vim-tiny,vim,vim,vim,, Vi IMproved - enhanced vi editor - compact version,Standard System Utilities,0,0,0,,
+virt-manager,,virt-manager,virt-manager,https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&classification=Community&component=virt-manager&product=Virtualization%20Tools,desktop application for managing virtual machines,Standard System Utilities,1,0,0,,
 virtualbox-guest-dkms,virtualbox,virtualbox,virtualbox,, x86 virtualization solution - guest addition module source for dkms,Standard System Utilities,0,0,1,,
 virtualbox-guest-utils,virtualbox,virtualbox,virtualbox,, x86 virtualization solution - non-X11 guest utilities,Standard System Utilities,0,0,1,,
 virtualbox-guest-x11,virtualbox,virtualbox,virtualbox,, x86 virtualization solution - X11 guest utilities,Standard System Utilities,0,0,1,,
