@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>604637</id>
+      <name>S-Lang</name>
+      <url>https://www.openhub.net/p/s-lang.xml</url>
+      <html_url>https://www.openhub.net/p/s-lang</html_url>
+      <created_at>2012-08-21T19:16:14Z</created_at>
+      <updated_at>2015-07-10T13:17:21Z</updated_at>
+      <description>S-Lang is a multi-platform programming library designed to allow creation of robust multi-platform software. It provides facilities required by interactive applications, including display/screen management, keyboard input, and keymaps. A major feature of the library is the S-Lang interpreter that may be easily embedded into a program to make it extensible. The interpreter may also be used in a stand-alone fashion through the use of slsh, which is part of the S-Lang distribution.</description>
+      <homepage_url>http://www.jedsoft.org/slang</homepage_url>
+      <download_url>http://www.jedsoft.org/slang/download.html</download_url>
+      <url_name>s-lang</url_name>
+      <user_count>1</user_count>
+      <average_rating>5.0</average_rating>
+      <rating_count>1</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25107206</analysis_id>
+      <tags>
+        <tag>interpreter</tag>
+        <tag>s-lang</tag>
+        <tag>multi-platform</tag>
+        <tag>slsh</tag>
+      </tags>
+      <analysis>
+        <id>25107206</id>
+        <url>https://www.openhub.net/analyses/25107206.xml</url>
+        <project_id>604637</project_id>
+        <updated_at>2015-07-16T13:30:15Z</updated_at>
+        <logged_at>2015-07-16T13:30:06Z</logged_at>
+        <min_month>2006-05-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
+        <total_contributor_count>4</total_contributor_count>
+        <twelve_month_commit_count>47</twelve_month_commit_count>
+        <total_commit_count>666</total_commit_count>
+        <total_code_lines>115067</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsVeryLow">
+Very few source code comments          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/s-lang/analyses/25107206/languages.png">
+          <language percentage="86" color="FF8F00" id="42">
+C          </language>
+          <language percentage="7" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="7" color="000000" id="">
+5 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl3_or_later</name>
+          <nice_name>GNU General Public License v3.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>40</value>
+        <description>Low</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>6567</id>
+      <name>GNU netcat</name>
+      <url>https://www.openhub.net/p/netcat.xml</url>
+      <html_url>https://www.openhub.net/p/netcat</html_url>
+      <created_at>2007-07-12T11:59:12Z</created_at>
+      <updated_at>2015-02-07T12:24:45Z</updated_at>
+      <description>Netcat is a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol.
+
+It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts. At the same time, it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.</description>
+      <homepage_url>http://netcat.sourceforge.net/</homepage_url>
+      <download_url>http://netcat.sourceforge.net/download.php</download_url>
+      <url_name>netcat</url_name>
+      <user_count>356</user_count>
+      <average_rating>4.37288</average_rating>
+      <rating_count>59</rating_count>
+      <review_count>3</review_count>
+      <analysis_id>23801932</analysis_id>
+      <tags>
+        <tag>networking</tag>
+        <tag>gui</tag>
+        <tag>network</tag>
+        <tag>client</tag>
+        <tag>server</tag>
+        <tag>tool</tag>
+        <tag>console</tag>
+        <tag>utilitiy</tag>
+        <tag>netcat</tag>
+      </tags>
+      <analysis>
+        <id>23801932</id>
+        <url>https://www.openhub.net/analyses/23801932.xml</url>
+        <project_id>6567</project_id>
+        <updated_at>2015-02-03T17:02:01Z</updated_at>
+        <logged_at>2015-02-03T17:01:57Z</logged_at>
+        <min_month>2002-04-01T00:00:00Z</min_month>
+        <max_month>2006-08-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
+        <total_contributor_count>1</total_contributor_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
+        <total_commit_count>332</total_commit_count>
+        <total_code_lines>14433</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeOld">
+Well-established codebase          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/netcat/analyses/23801932/languages.png">
+          <language percentage="42" color="555555" id="3">
+XML          </language>
+          <language percentage="32" color="FF8F00" id="42">
+C          </language>
+          <language percentage="16" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="10" color="000000" id="">
+5 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>20</value>
+        <description>Inactive</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

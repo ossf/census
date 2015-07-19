@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>4032</id>
+      <name>Oracle VM VirtualBox</name>
+      <url>https://www.openhub.net/p/virtualbox.xml</url>
+      <html_url>https://www.openhub.net/p/virtualbox</html_url>
+      <created_at>2007-01-16T15:41:12Z</created_at>
+      <updated_at>2015-01-25T23:06:33Z</updated_at>
+      <description>Oracle VM VirtualBox is a family of powerful x86 virtualization products for enterprise as well as home use. VirtualBox is an extremely feature rich, high performance product for enterprise customers.
+
+VirtualBox runs on Windows, Linux, Mac OS X and Solaris hosts in both 32-bit and 64-bit modes. It supports a large number of guest operating systems including but not limited to Solaris, Windows, Linux, and OpenBSD.</description>
+      <homepage_url>http://www.virtualbox.org</homepage_url>
+      <download_url>http://www.virtualbox.org/wiki/Downloads</download_url>
+      <url_name>virtualbox</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/256/virtualbox_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/256/virtualbox_small.png</small_logo_url>
+      <user_count>962</user_count>
+      <average_rating>4.33197</average_rating>
+      <rating_count>244</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>23793884</analysis_id>
+      <tags>
+        <tag>x86</tag>
+        <tag>virtualization</tag>
+        <tag>virtual</tag>
+        <tag>osx</tag>
+        <tag>machine</tag>
+        <tag>virtualbox_ose</tag>
+        <tag>virtual_machine</tag>
+        <tag>emulation</tag>
+        <tag>virtualisation</tag>
+        <tag>oracle</tag>
+        <tag>sun</tag>
+        <tag>hypervisor</tag>
+        <tag>gnu_linux</tag>
+      </tags>
+      <analysis>
+        <id>23793884</id>
+        <url>https://www.openhub.net/analyses/23793884.xml</url>
+        <project_id>4032</project_id>
+        <updated_at>2015-01-10T15:33:30Z</updated_at>
+        <logged_at>2015-01-10T15:23:20Z</logged_at>
+        <min_month>2002-10-01T00:00:00Z</min_month>
+        <max_month>2015-01-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
+        <total_contributor_count>7</total_contributor_count>
+        <twelve_month_commit_count>3637</twelve_month_commit_count>
+        <total_commit_count>56268</total_commit_count>
+        <total_code_lines>5935210</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/virtualbox/analyses/23793884/languages.png">
+          <language percentage="61" color="FF8F00" id="42">
+C          </language>
+          <language percentage="23" color="F35F1F" id="44">
+C++          </language>
+          <language percentage="10" color="555555" id="3">
+XML          </language>
+          <language percentage="6" color="000000" id="">
+31 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>0</value>
+        <description>Not Available</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>VirtualBox Forums</title>
+          <url>http://forums.virtualbox.org/</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>VirtualBox Documentation</title>
+          <url>http://virtualbox.org/wiki/Documentation</url>
+          <category>Documentation</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

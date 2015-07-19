@@ -1,0 +1,806 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>Debian -- Details of package rpm in wheezy</title>
+<link rev="made" href="mailto:webmaster@debian.org">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="Debian Webmaster, webmaster@debian.org">
+<meta name="Description" content="package manager for RPM">
+<meta name="Keywords" content="Debian,  wheezy, security, main, admin, 4.10.0-5+deb7u2">
+
+
+<link href="/debpkg.css" rel="stylesheet" type="text/css" media="all">
+
+<script src="/packages.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="header">
+   <div id="upperheader">
+
+   <div id="logo">
+  <!-- very Debian specific use of the logo stuff -->
+<a href="http://www.debian.org/"><img src="/Pics/openlogo-50.png" alt="Debian" with="50" height="61"></a>
+</div> <!-- end logo -->
+<p class="hidecss"><a href="#inner">skip the navigation</a></p>
+<p class="section"><a href="/">Packages</a></p>
+</div> <!-- end upperheader -->
+<!-- navbar -->
+<div id="navbar">
+<ul>
+   <li><a href="http://www.debian.org/intro/about">About Debian</a></li>
+   <li><a href="http://www.debian.org/distrib/">Getting Debian</a></li>
+   <li><a href="http://www.debian.org/support">Support</a></li>
+   <li><a href="http://www.debian.org/devel/">Developers'&nbsp;Corner</a></li>
+</ul>
+</div> <!-- end navbar -->
+
+<div id="pnavbar">
+ &nbsp;&#x2F; <a href="/" title="Debian Packages Homepage">Packages</a>
+
+ &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (oldstable)</a> 
+
+ &#x2F; <a href="/wheezy/admin/" title="All packages in this section">admin</a> 
+
+ &#x2F; rpm 
+
+</div> <!-- end navbar -->
+
+</div> <!-- end header -->
+<div id="content">
+
+
+<form method="GET" action="/search">
+<div id="hpacketsearch">
+
+
+
+
+
+
+<input type="submit" value="Search">
+<select size="1" name="searchon">
+<option value="names" selected="selected">
+package names</option>
+<option value="all" >descriptions</option>
+<option value="sourcenames" >source package names</option>
+<option value="contents" >package contents</option>
+</select>
+<input type="text" size="30" name="keywords" value="" id="kw">
+<span style="font-size: 60%"><a href="/">all options</a></span>
+</div> <!-- end hpacketsearch -->
+</form>
+
+<!-- show.tmpl -->
+
+
+   <div id="pothers">       [&nbsp;    <a  href="/squeeze-lts/rpm">squeeze-lts</a>  &nbsp;]
+          [&nbsp;    <a  href="/squeeze/rpm">squeeze</a>  &nbsp;]
+          [&nbsp;   <strong>wheezy</strong>  &nbsp;]
+          [&nbsp;    <a  href="/jessie/rpm">jessie</a>  &nbsp;]
+          [&nbsp;    <a  href="/stretch/rpm">stretch</a>  &nbsp;]
+          [&nbsp;    <a  href="/sid/rpm">sid</a>  &nbsp;]</div>
+
+
+<div id="psource">
+  [&nbsp;Source:    <a title="Source package building this package" href="/source/wheezy/rpm">rpm</a>  &nbsp;]
+</div>
+
+<!-- messages.tmpl -->
+
+<h1>Package: rpm (4.10.0-5+deb7u2)
+ [<strong class="pmarker" >security</strong>] </h1>
+
+
+<div id="pmoreinfo">
+<h2>Links for rpm</h2>
+
+<div class="screenshot">
+<a id="screenshot" href="//screenshots.debian.net/package/rpm"><img src="//screenshots.debian.net/thumbnail-with-version//rpm/4.10.0-5+deb7u2" alt="Screenshot" border="0"/></a>
+</div>
+
+<h3>Debian Resources:</h3>
+<ul>
+<li><a href="http://bugs.debian.org/rpm">Bug Reports</a></li>
+
+<li><a href="http://packages.qa.debian.org/rpm">Developer Information (PTS)</a></li>
+
+
+
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/r/rpm/rpm_4.10.0-5+deb7u2_changelog">Debian Changelog</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/r/rpm/rpm_4.10.0-5+deb7u2_copyright">Copyright File</a></li>
+
+
+
+
+  
+      
+      
+    
+    <li><a href="http://patch-tracker.debian.org/package/rpm/4.10.0-5+deb7u2">Debian Patch Tracker</a></li>
+      
+</ul>
+
+
+  <h3>Download Source Package <a href="/source/wheezy/rpm">rpm</a>:</h3>
+  
+    <ul>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/r/rpm/rpm_4.10.0-5+deb7u2.dsc">[rpm_4.10.0-5+deb7u2.dsc]</a></li>
+    
+  
+    
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/r/rpm/rpm_4.10.0.orig.tar.bz2">[rpm_4.10.0.orig.tar.bz2]</a></li>
+    
+  
+    
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/r/rpm/rpm_4.10.0-5+deb7u2.debian.tar.gz">[rpm_4.10.0-5+deb7u2.debian.tar.gz]</a></li>
+    </ul>
+  
+  
+
+
+  <h3>Maintainers:</h3><ul>	<li><a href="mailto:nijel@debian.org">Michal Čihař</a>
+	(<a href="http://qa.debian.org/developer.php?login=nijel%40debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>)
+	</li>	<li><a href="mailto:lool@dooz.org">Loic Minier</a>
+	(<a href="http://qa.debian.org/developer.php?login=lool%40dooz.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>)
+	</li></ul>
+
+<h3>External Resources:</h3>
+<ul>
+<li><a href="http://rpm.org/">Homepage</a> [rpm.org]</li>
+</ul>
+
+
+
+	
+	<h3>Similar packages:</h3>
+	<ul>
+	
+	<li><a href="/rpm2cpio">rpm2cpio</a></li>
+	
+
+	
+	<li><a href="/librpmbuild3">librpmbuild3</a></li>
+	
+
+	
+	<li><a href="/librpmsign1">librpmsign1</a></li>
+	
+
+	
+	<li><a href="/librpmsign3">librpmsign3</a></li>
+	
+
+	
+	<li><a href="/librpmio3">librpmio3</a></li>
+	
+
+	
+	<li><a href="/rpm-common">rpm-common</a></li>
+	
+
+	
+	<li><a href="/librpm-dbg">librpm-dbg</a></li>
+	
+
+	
+	<li><a href="/librpmbuild1">librpmbuild1</a></li>
+	
+
+	
+	<li><a href="/librpm3">librpm3</a></li>
+	
+
+	
+	<li><a href="/librpmio1">librpmio1</a></li>
+	</ul>
+
+
+</div> <!-- end pmoreinfo -->
+
+
+
+
+<div id="ptablist">
+</div>
+
+
+<div id="pdesctab">
+
+<div id="pdesc" >
+	
+	<h2>package manager for RPM</h2>
+	<p>
+The RPM Package Manager (RPM) is a command-line driven package
+management system capable of installing, uninstalling, verifying,
+querying, and updating computer software packages.
+<p>
+On Debian and derived systems it is recommended to use &quot;alien&quot; to
+convert RPM packages into .deb format instead of bypassing the Debian
+package management system by installing them directly with rpm.
+	
+
+</div> <!-- end pdesc -->
+
+
+
+
+</div> <!-- pdesctab -->
+
+
+
+
+
+      <div id="pdeps">
+    <h2>Other Packages Related to rpm</h2>
+
+    <table id="pdeplegend" class="visual" summary="legend"><tr>
+    
+    <td><ul class="uldep"><li>depends</li></ul></td>
+    <td><ul class="ulrec"><li>recommends</li></ul></td>
+    <td><ul class="ulsug"><li>suggests</li></ul></td>
+    <td><ul class="ulenh"><li>enhances</li></ul></td>
+    
+    </tr></table>
+
+  <ul class="uldep">
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc0.1">libc0.1</a>
+	 (>= 2.4)
+         [kfreebsd-amd64, kfreebsd-i386]</dt>        <dd lang="en">Embedded GNU C Library: Shared libraries	  <br>also a virtual package provided by
+	  
+	    <span id="js_libc0.1" class="p_js_elem"></span> <span id="html_libc0.1"><a href="/wheezy/libc0.1-udeb">libc0.1-udeb</a></span>
+	
+        
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.13)
+         [s390x]</dt>        <dd lang="en">Embedded GNU C Library: Shared libraries	  <br>also a virtual package provided by
+	  
+	    <span id="js_libc6" class="p_js_elem"></span> <span id="html_libc6"><a href="/wheezy/libc6-udeb">libc6-udeb</a></span>
+	
+        
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.13-28)
+         [armhf]</dt>
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.4)
+         [not armhf, ia64, kfreebsd-amd64, kfreebsd-i386, s390x, sparc]</dt>
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.6)
+         [sparc]</dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6.1">libc6.1</a>
+	 (>= 2.3.4)
+         [ia64]</dt>        <dd lang="en">Embedded GNU C Library: Shared libraries	  <br>also a virtual package provided by
+	  
+	    <span id="js_libc6.1" class="p_js_elem"></span> <span id="html_libc6.1"><a href="/wheezy/libc6.1-udeb">libc6.1-udeb</a></span>
+	
+        
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libelf1">libelf1</a>
+	 (>= 0.131)
+        </dt>        <dd lang="en">library to read and write ELF files
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libgcc1">libgcc1</a>
+	 (>= 1:4.4.0)
+         [armel, armhf]</dt>        <dd lang="en">GCC support library
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libpopt0">libpopt0</a>
+	 (>= 1.14)
+        </dt>        <dd lang="en">lib for parsing cmdline parameters
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/librpm3">librpm3</a>
+	 (>= 4.10.0)
+        </dt>        <dd lang="en">RPM shared library
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/librpmbuild3">librpmbuild3</a>
+	 (>= 4.10.0)
+        </dt>        <dd lang="en">RPM build shared library
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/librpmio3">librpmio3</a>
+	 (>= 4.10.0)
+        </dt>        <dd lang="en">RPM IO shared library
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/librpmsign1">librpmsign1</a>
+	 (>= 4.10.0)
+        </dt>        <dd lang="en">RPM signing shared library
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/perl">perl</a>
+	
+        </dt>        <dd lang="en">Larry Wall's Practical Extraction and Report Language
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/rpm-common">rpm-common</a>
+	 (= 4.10.0-5+deb7u2)
+        </dt>        <dd lang="en">common files for RPM
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/rpm2cpio">rpm2cpio</a>
+	
+        </dt>        <dd lang="en">tool to convert RPM package to CPIO archive
+        </dd>
+      
+      </dl>
+    
+  
+  </ul>
+
+  
+
+  
+
+  <ul class="ulsug">
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/alien">alien</a>
+	
+        </dt>        <dd lang="en">convert and install rpm and other packages
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/elfutils">elfutils</a>
+	
+        </dt>        <dd lang="en">collection of utilities to handle ELF objects
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/rpm-i18n">rpm-i18n</a>
+	
+        </dt>        <dd lang="en">localization and localized man pages for rpm
+        </dd>
+      
+      </dl>
+    
+  
+  </ul>
+
+      </div> <!-- end pdeps -->
+
+
+
+      <div id="pdownload">
+    <h2>Download rpm</h2>
+    
+    <table summary="The download table links to the download of the package and a file overview. In addition it gives information about the package size and the installed size.">
+    <caption class="hidecss">Download for all available architectures</caption>
+    <tr><th>Architecture</th>
+	
+	<th>Package Size</th>
+	<th>Installed Size</th>
+	<th>Files</th>
+    </tr>
+
+<tr>
+
+<th><a href="/wheezy/amd64/rpm/download">amd64</a></th>
+
+
+<td class="size">1,041.6&nbsp;kB</td><td class="size">1,292.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/amd64/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/armel/rpm/download">armel</a></th>
+
+
+<td class="size">1,044.4&nbsp;kB</td><td class="size">1,272.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/armel/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/armhf/rpm/download">armhf</a></th>
+
+
+<td class="size">1,037.0&nbsp;kB</td><td class="size">1,251.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/armhf/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/i386/rpm/download">i386</a></th>
+
+
+<td class="size">1,032.8&nbsp;kB</td><td class="size">1,206.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/i386/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/ia64/rpm/download">ia64</a></th>
+
+
+<td class="size">1,057.2&nbsp;kB</td><td class="size">1,369.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/ia64/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/kfreebsd-amd64/rpm/download">kfreebsd-amd64</a></th>
+
+
+<td class="size">1,037.2&nbsp;kB</td><td class="size">1,237.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/kfreebsd-amd64/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/kfreebsd-i386/rpm/download">kfreebsd-i386</a></th>
+
+
+<td class="size">1,036.0&nbsp;kB</td><td class="size">1,211.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/kfreebsd-i386/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/mips/rpm/download">mips</a></th>
+
+
+<td class="size">1,032.5&nbsp;kB</td><td class="size">1,217.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/mips/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/mipsel/rpm/download">mipsel</a></th>
+
+
+<td class="size">1,040.2&nbsp;kB</td><td class="size">1,278.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/mipsel/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/powerpc/rpm/download">powerpc</a></th>
+
+
+<td class="size">1,040.1&nbsp;kB</td><td class="size">1,270.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/powerpc/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/s390/rpm/download">s390</a></th>
+
+
+<td class="size">1,043.7&nbsp;kB</td><td class="size">1,282.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/s390/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/s390x/rpm/download">s390x</a></th>
+
+
+<td class="size">1,044.4&nbsp;kB</td><td class="size">1,307.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/s390x/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/sparc/rpm/download">sparc</a></th>
+
+
+<td class="size">1,034.5&nbsp;kB</td><td class="size">1,265.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/sparc/rpm/filelist">list of files</a>]
+
+</td>
+</tr>
+
+      </table>
+
+    </div> <!-- end pdownload -->
+
+
+
+
+
+</div> <!-- end inner -->
+
+<div id="footer">
+
+
+<hr class="hidecss">
+<!--UdmComment-->
+<div id="pageLang">
+<div id="langSelector">
+<p>This page is also available in the following languages (How to set <a href="http://www.debian.org/intro/cn">the default document language</a>):</p>
+<div id="langContainer">
+
+<a href="/bg/wheezy/rpm" title="Bulgarian" hreflang="bg" lang="bg" rel="alternate">&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080; (B&#601;lgarski)</a>
+
+<a href="/da/wheezy/rpm" title="Danish" hreflang="da" lang="da" rel="alternate">dansk</a>
+
+<a href="/de/wheezy/rpm" title="German" hreflang="de" lang="de" rel="alternate">Deutsch</a>
+
+<a href="/fi/wheezy/rpm" title="Finnish" hreflang="fi" lang="fi" rel="alternate">suomi</a>
+
+<a href="/fr/wheezy/rpm" title="French" hreflang="fr" lang="fr" rel="alternate">fran&ccedil;ais</a>
+
+<a href="/hu/wheezy/rpm" title="Hungarian" hreflang="hu" lang="hu" rel="alternate">magyar</a>
+
+<a href="/it/wheezy/rpm" title="Italian" hreflang="it" lang="it" rel="alternate">Italiano</a>
+
+<a href="/ja/wheezy/rpm" title="Japanese" hreflang="ja" lang="ja" rel="alternate">&#26085;&#26412;&#35486; (Nihongo)</a>
+
+<a href="/nl/wheezy/rpm" title="Dutch" hreflang="nl" lang="nl" rel="alternate">Nederlands</a>
+
+<a href="/pl/wheezy/rpm" title="Polish" hreflang="pl" lang="pl" rel="alternate">polski</a>
+
+<a href="/pt-br/wheezy/rpm" title="Portuguese (Brasilia)" hreflang="pt-br" lang="pt-br" rel="alternate">Portugu&ecirc;s (br)</a>
+
+<a href="/ru/wheezy/rpm" title="Russian" hreflang="ru" lang="ru" rel="alternate">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russkij)</a>
+
+<a href="/sk/wheezy/rpm" title="Slovak" hreflang="sk" lang="sk" rel="alternate">slovensky</a>
+
+<a href="/sv/wheezy/rpm" title="Swedish" hreflang="sv" lang="sv" rel="alternate">svenska</a>
+
+<a href="/tr/wheezy/rpm" title="Turkish" hreflang="tr" lang="tr" rel="alternate">T&uuml;rk&ccedil;e</a>
+
+<a href="/uk/wheezy/rpm" title="Ukrainian" hreflang="uk" lang="uk" rel="alternate">&#1091;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072; (ukrajins'ka)</a>
+
+<a href="/zh-cn/wheezy/rpm" title="Chinese (China)" hreflang="zh-cn" lang="zh-cn" rel="alternate">&#20013;&#25991; (Zhongwen,&#31616;)</a>
+
+<a href="/zh-tw/wheezy/rpm" title="Chinese (Taiwan)" hreflang="zh-tw" lang="zh-tw" rel="alternate">&#20013;&#25991; (Zhongwen,&#32321;)</a>
+
+</div>
+</div>
+</div>
+<!--/UdmComment-->
+
+
+<hr class="hidecss">
+<div id="fineprint" class="bordertop">
+<div id="impressum">
+<p>To report a problem with the web site, e-mail <a href="mailto:debian-www@lists.debian.org">debian-www@lists.debian.org</a>. For other contact information, see the Debian <a href="http://www.debian.org/contact">contact page</a>.</p>
+
+<p>
+Content Copyright &copy; 1997 - 2015 <a href="http://www.spi-inc.org/">SPI Inc.</a>; See <a href="http://www.debian.org/license">license terms</a>. Debian is a <a href="http://www.debian.org/trademark">trademark</a> of SPI Inc.
+ <a href="/about/">Learn more about this site</a>.</p>
+
+</div> <!-- end impressum -->
+
+<div id="sponsorfooter"><p>
+This service is sponsored by <a href="http://cs.helsinki.fi/index.en.html">University of Helsinki - Department of Computer Science</a>.</p></div>
+
+</div> <!-- end fineprint -->
+</div> <!-- end footer -->
+</body>
+</html>

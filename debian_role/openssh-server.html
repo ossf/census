@@ -1,0 +1,1076 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>Debian -- Details of package openssh-server in wheezy</title>
+<link rev="made" href="mailto:webmaster@debian.org">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="Debian Webmaster, webmaster@debian.org">
+<meta name="Description" content="secure shell (SSH) server, for secure access from remote machines">
+<meta name="Keywords" content="Debian,  wheezy, us, main, net, 1:6.0p1-4+deb7u2">
+
+
+<link href="/debpkg.css" rel="stylesheet" type="text/css" media="all">
+
+<script src="/packages.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="header">
+   <div id="upperheader">
+
+   <div id="logo">
+  <!-- very Debian specific use of the logo stuff -->
+<a href="http://www.debian.org/"><img src="/Pics/openlogo-50.png" alt="Debian" with="50" height="61"></a>
+</div> <!-- end logo -->
+<p class="hidecss"><a href="#inner">skip the navigation</a></p>
+<p class="section"><a href="/">Packages</a></p>
+</div> <!-- end upperheader -->
+<!-- navbar -->
+<div id="navbar">
+<ul>
+   <li><a href="http://www.debian.org/intro/about">About Debian</a></li>
+   <li><a href="http://www.debian.org/distrib/">Getting Debian</a></li>
+   <li><a href="http://www.debian.org/support">Support</a></li>
+   <li><a href="http://www.debian.org/devel/">Developers'&nbsp;Corner</a></li>
+</ul>
+</div> <!-- end navbar -->
+
+<div id="pnavbar">
+ &nbsp;&#x2F; <a href="/" title="Debian Packages Homepage">Packages</a>
+
+ &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (stable)</a> 
+
+ &#x2F; <a href="/wheezy/net/" title="All packages in this section">net</a> 
+
+ &#x2F; openssh-server 
+
+</div> <!-- end navbar -->
+
+</div> <!-- end header -->
+<div id="content">
+
+
+<form method="GET" action="/search">
+<div id="hpacketsearch">
+
+
+
+
+
+
+<input type="submit" value="Search">
+<select size="1" name="searchon">
+<option value="names" selected="selected">
+package names</option>
+<option value="all" >descriptions</option>
+<option value="sourcenames" >source package names</option>
+<option value="contents" >package contents</option>
+</select>
+<input type="text" size="30" name="keywords" value="" id="kw">
+<span style="font-size: 60%"><a href="/">all options</a></span>
+</div> <!-- end hpacketsearch -->
+</form>
+
+<!-- show.tmpl -->
+
+
+   <div id="pothers">       [&nbsp;    <a  href="/squeeze/openssh-server">squeeze</a>  &nbsp;]
+          [&nbsp;   <strong>wheezy</strong>  &nbsp;]
+          [&nbsp;    <a  href="/wheezy-backports/openssh-server">wheezy-backports</a>  &nbsp;]
+          [&nbsp;    <a  href="/jessie/openssh-server">jessie</a>  &nbsp;]
+          [&nbsp;    <a  href="/sid/openssh-server">sid</a>  &nbsp;]</div>
+
+
+<div id="psource">
+  [&nbsp;Source:    <a title="Source package building this package" href="/source/wheezy/openssh">openssh</a>  &nbsp;]
+</div>
+
+<!-- messages.tmpl -->
+
+<h1>Package: openssh-server (1:6.0p1-4+deb7u2)
+</h1>
+
+
+<div id="pmoreinfo">
+<h2>Links for openssh-server</h2>
+
+<div class="screenshot">
+<a id="screenshot" href="//screenshots.debian.net/package/openssh-server"><img src="//screenshots.debian.net/thumbnail-with-version//openssh-server/1:6.0p1-4+deb7u2" alt="Screenshot" border="0"/></a>
+</div>
+
+<h3>Debian Resources:</h3>
+<ul>
+<li><a href="http://bugs.debian.org/openssh-server">Bug Reports</a></li>
+
+<li><a href="http://packages.qa.debian.org/openssh">Developer Information (PTS)</a></li>
+
+
+
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/o/openssh/openssh_6.0p1-4+deb7u2_changelog">Debian Changelog</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/o/openssh/openssh_6.0p1-4+deb7u2_copyright">Copyright File</a></li>
+
+
+
+
+  
+      
+      
+    
+    <li><a href="http://patch-tracker.debian.org/package/openssh/1:6.0p1-4+deb7u2">Debian Patch Tracker</a></li>
+      
+</ul>
+
+
+  <h3>Download Source Package <a href="/source/wheezy/openssh">openssh</a>:</h3>
+  
+    <ul>
+    <li><a href="http://ftp.de.debian.org/debian/pool/main/o/openssh/openssh_6.0p1-4+deb7u2.dsc">[openssh_6.0p1-4+deb7u2.dsc]</a></li>
+    
+  
+    
+    <li><a href="http://ftp.de.debian.org/debian/pool/main/o/openssh/openssh_6.0p1.orig.tar.gz">[openssh_6.0p1.orig.tar.gz]</a></li>
+    
+  
+    
+    <li><a href="http://ftp.de.debian.org/debian/pool/main/o/openssh/openssh_6.0p1-4+deb7u2.debian.tar.gz">[openssh_6.0p1-4+deb7u2.debian.tar.gz]</a></li>
+    </ul>
+  
+  
+
+
+  <h3>Maintainers:</h3><ul>	<li><a href="mailto:debian-ssh@lists.debian.org">Debian OpenSSH Maintainers</a>
+	(<a href="http://qa.debian.org/developer.php?login=debian-ssh%40lists.debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>, <a href="http://lists.debian.org/debian-ssh/" title="Archive of the Maintainer Mailinglist">Mail&nbsp;Archive</a>)
+	</li>	<li><a href="mailto:cjwatson@debian.org">Colin Watson</a>
+	(<a href="http://qa.debian.org/developer.php?login=cjwatson%40debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>)
+	</li>	<li><a href="mailto:matthew@debian.org">Matthew Vernon</a>
+	(<a href="http://qa.debian.org/developer.php?login=matthew%40debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>)
+	</li></ul>
+
+<h3>External Resources:</h3>
+<ul>
+<li><a href="http://www.openssh.org/">Homepage</a> [www.openssh.org]</li>
+</ul>
+
+
+
+	
+	<h3>Similar packages:</h3>
+	<ul>
+	
+	<li><a href="/openssh-client">openssh-client</a></li>
+	
+
+	
+	<li><a href="/openssh-sftp-server">openssh-sftp-server</a></li>
+	
+
+	
+	<li><a href="/lsh-client">lsh-client</a></li>
+	
+
+	
+	<li><a href="/lsh-server">lsh-server</a></li>
+	
+
+	
+	<li><a href="/openssh-server-udeb">openssh-server-udeb</a></li>
+	
+
+	
+	<li><a href="/lsh-utils">lsh-utils</a></li>
+	
+
+	
+	<li><a href="/lsh-doc">lsh-doc</a></li>
+	
+
+	
+	<li><a href="/openssh-client-udeb">openssh-client-udeb</a></li>
+	
+
+	
+	<li><a href="/libnet-sftp-foreign-perl">libnet-sftp-foreign-perl</a></li>
+	</ul>
+
+
+</div> <!-- end pmoreinfo -->
+
+
+
+
+<div id="ptablist">
+</div>
+
+
+<div id="pdesctab">
+
+<div id="pdesc" >
+	
+	<h2>secure shell (SSH) server, for secure access from remote machines</h2>
+	<p>
+This is the portable version of OpenSSH, a free implementation of
+the Secure Shell protocol as specified by the IETF secsh working
+group.
+<p>
+Ssh (Secure Shell) is a program for logging into a remote machine
+and for executing commands on a remote machine.
+It provides secure encrypted communications between two untrusted
+hosts over an insecure network. X11 connections and arbitrary TCP/IP
+ports can also be forwarded over the secure channel.
+It can be used to provide applications with a secure communication
+channel.
+<p>
+This package provides the sshd server.
+<p>
+In some countries it may be illegal to use any encryption at all
+without a special permit.
+<p>
+sshd replaces the insecure rshd program, which is obsolete for most
+purposes.
+	
+
+</div> <!-- end pdesc -->
+
+
+      <div id="ptags"><p>
+    <a href="http://debtags.alioth.debian.org/edit.html?pkg=openssh-server">Tags</a>:
+  
+  System Administration: 
+  
+   <a href="/about/debtags#admin::login">Login</a>, 
+  
+  
+  
+
+  
+  
+  Implemented in: 
+  
+   <a href="/about/debtags#implemented-in::c">C</a>, 
+  
+  
+  
+
+  
+  
+  User Interface: 
+  
+   <a href="/about/debtags#interface::daemon">Daemon</a>, 
+  
+  
+  
+
+  
+  
+  Networking: 
+  
+  network::server,
+ protocol::ssh, 
+  
+  
+  
+
+  
+  
+  Role: 
+  
+   <a href="/about/debtags#role::program">Program</a>, 
+  
+  
+  
+
+  
+  
+  Security: 
+  
+  security::authentication,
+ security::cryptography, 
+  
+  
+  
+
+  
+  
+  Purpose: 
+  
+   <a href="/about/debtags#use::login">Login</a>, 
+  
+  
+  
+
+  
+  
+  
+  
+   <a href="/about/debtags#use::transmission">Transmission</a>
+  
+  
+      </p>
+    </div> <!-- end ptags -->
+
+
+
+</div> <!-- pdesctab -->
+
+
+
+
+
+      <div id="pdeps">
+    <h2>Other Packages Related to openssh-server</h2>
+
+    <table id="pdeplegend" class="visual" summary="legend"><tr>
+    
+    <td><ul class="uldep"><li>depends</li></ul></td>
+    <td><ul class="ulrec"><li>recommends</li></ul></td>
+    <td><ul class="ulsug"><li>suggests</li></ul></td>
+    <td><ul class="ulenh"><li>enhances</li></ul></td>
+    
+    </tr></table>
+
+  <ul class="uldep">
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/adduser">adduser</a>
+	 (>= 3.9)
+        </dt>        <dd lang="en">add and remove users and groups
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/debconf">debconf</a>
+	 (>= 1.2.0)
+        </dt>        <dd lang="en">Debian configuration management system
+        </dd>
+      
+      
+    
+      
+      <dt>or 
+	<a href="/wheezy/debconf-2.0">debconf-2.0</a>
+	
+        </dt>        <dd lang="en">	  virtual package provided by
+	  
+	    <span id="js_debconf-2.0" class="p_js_elem"></span> <span id="html_debconf-2.0"><a href="/wheezy/cdebconf">cdebconf</a>, <a href="/wheezy/cdebconf-udeb">cdebconf-udeb</a>, <a href="/wheezy/debconf">debconf</a></span>
+	
+        
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/dpkg">dpkg</a>
+	 (>= 1.9.0)
+        </dt>        <dd lang="en">Debian package management system
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc0.1">libc0.1</a>
+	 (>= 2.8)
+         [kfreebsd-amd64, kfreebsd-i386]</dt>        <dd lang="en">Embedded GNU C Library: Shared libraries	  <br>also a virtual package provided by
+	  
+	    <span id="js_libc0.1" class="p_js_elem"></span> <span id="html_libc0.1"><a href="/wheezy/libc0.1-udeb">libc0.1-udeb</a></span>
+	
+        
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.13)
+         [s390x]</dt>        <dd lang="en">Embedded GNU C Library: Shared libraries	  <br>also a virtual package provided by
+	  
+	    <span id="js_libc6" class="p_js_elem"></span> <span id="html_libc6"><a href="/wheezy/libc6-udeb">libc6-udeb</a></span>
+	
+        
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.13-28)
+         [armhf]</dt>
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.8)
+         [not armhf, ia64, kfreebsd-amd64, kfreebsd-i386, s390, s390x]</dt>
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.9)
+         [s390]</dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6.1">libc6.1</a>
+	 (>= 2.8)
+         [ia64]</dt>        <dd lang="en">Embedded GNU C Library: Shared libraries	  <br>also a virtual package provided by
+	  
+	    <span id="js_libc6.1" class="p_js_elem"></span> <span id="html_libc6.1"><a href="/wheezy/libc6.1-udeb">libc6.1-udeb</a></span>
+	
+        
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libcomerr2">libcomerr2</a>
+	 (>= 1.01)
+        </dt>        <dd lang="en">common error description library
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libgcc1">libgcc1</a>
+	 (>= 1:4.4.0)
+         [armel, armhf]</dt>        <dd lang="en">GCC support library
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libgssapi-krb5-2">libgssapi-krb5-2</a>
+	 (>= 1.10+dfsg~)
+        </dt>        <dd lang="en">MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libkrb5-3">libkrb5-3</a>
+	 (>= 1.6.dfsg.2)
+        </dt>        <dd lang="en">MIT Kerberos runtime libraries
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libpam-modules">libpam-modules</a>
+	 (>= 0.72-9)
+        </dt>        <dd lang="en">Pluggable Authentication Modules for PAM
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libpam-runtime">libpam-runtime</a>
+	 (>= 0.76-14)
+        </dt>        <dd lang="en">Runtime support for the PAM library
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libpam0g">libpam0g</a>
+	 (>= 0.99.7.1)
+        </dt>        <dd lang="en">Pluggable Authentication Modules library
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libselinux1">libselinux1</a>
+	 (>= 1.32)
+         [not kfreebsd-amd64, kfreebsd-i386]</dt>        <dd lang="en">SELinux runtime shared libraries
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libssl1.0.0">libssl1.0.0</a>
+	 (>= 1.0.1)
+        </dt>        <dd lang="en">SSL shared libraries
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libwrap0">libwrap0</a>
+	 (>= 7.6-4~)
+        </dt>        <dd lang="en">Wietse Venema's TCP wrappers library
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/lsb-base">lsb-base</a>
+	 (>= 3.2-13)
+        </dt>        <dd lang="en">Linux Standard Base 4.1 init script functionality
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/openssh-client">openssh-client</a>
+	 (= 1:6.0p1-4+deb7u2)
+        </dt>        <dd lang="en">secure shell (SSH) client, for secure access to remote machines
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/procps">procps</a>
+	
+        </dt>        <dd lang="en">/proc file system utilities
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/zlib1g">zlib1g</a>
+	 (>= 1:1.1.4)
+        </dt>        <dd lang="en">compression library - runtime
+        </dd>
+      
+      </dl>
+    
+  
+  </ul>
+
+  
+
+  
+
+  <ul class="ulrec">
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">rec:</span>
+	<a href="/wheezy/ncurses-term">ncurses-term</a>
+	
+        </dt>        <dd lang="en">additional terminal type definitions
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">rec:</span>
+	<a href="/wheezy/openssh-blacklist">openssh-blacklist</a>
+	
+        </dt>        <dd lang="en">list of default blacklisted OpenSSH RSA and DSA keys
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">rec:</span>
+	<a href="/wheezy/openssh-blacklist-extra">openssh-blacklist-extra</a>
+	
+        </dt>        <dd lang="en">list of non-default blacklisted OpenSSH RSA and DSA keys
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">rec:</span>
+	<a href="/wheezy/xauth">xauth</a>
+	
+        </dt>        <dd lang="en">X authentication utility
+        </dd>
+      
+      </dl>
+    
+  
+  </ul>
+
+  
+
+  
+
+  <ul class="ulsug">
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/molly-guard">molly-guard</a>
+	
+        </dt>        <dd lang="en">protects machines from accidental shutdowns/reboots
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/monkeysphere">monkeysphere</a>
+	
+        </dt>        <dd lang="en">leverage the OpenPGP web of trust for SSH and TLS authentication
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/rssh">rssh</a>
+	
+        </dt>        <dd lang="en">Restricted shell allowing scp, sftp, cvs, svn, rsync or rdist
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/ssh-askpass">ssh-askpass</a>
+	
+        </dt>        <dd lang="en">under X, asks user for a passphrase for ssh-add	  <br>also a virtual package provided by
+	  
+	    <span id="js_ssh-askpass" class="p_js_elem"></span> <span id="html_ssh-askpass"><a href="/wheezy/ksshaskpass">ksshaskpass</a>, <a href="/wheezy/kwalletcli">kwalletcli</a>, <a href="/wheezy/ssh-askpass-fullscreen">ssh-askpass-fullscreen</a>, <a href="/wheezy/ssh-askpass-gnome">ssh-askpass-gnome</a></span>
+	
+        
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/ufw">ufw</a>
+	
+        </dt>        <dd lang="en">program for managing a Netfilter firewall
+        </dd>
+      
+      </dl>
+    
+  
+  </ul>
+
+      </div> <!-- end pdeps -->
+
+
+
+      <div id="pdownload">
+    <h2>Download openssh-server</h2>
+    
+    <table summary="The download table links to the download of the package and a file overview. In addition it gives information about the package size and the installed size.">
+    <caption class="hidecss">Download for all available architectures</caption>
+    <tr><th>Architecture</th>
+	
+	<th>Package Size</th>
+	<th>Installed Size</th>
+	<th>Files</th>
+    </tr>
+
+<tr>
+
+<th><a href="/wheezy/amd64/openssh-server/download">amd64</a></th>
+
+
+<td class="size">331.7&nbsp;kB</td><td class="size">709.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/amd64/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/armel/openssh-server/download">armel</a></th>
+
+
+<td class="size">309.0&nbsp;kB</td><td class="size">725.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/armel/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/armhf/openssh-server/download">armhf</a></th>
+
+
+<td class="size">291.7&nbsp;kB</td><td class="size">605.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/armhf/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/i386/openssh-server/download">i386</a></th>
+
+
+<td class="size">334.5&nbsp;kB</td><td class="size">809.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/i386/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/ia64/openssh-server/download">ia64</a></th>
+
+
+<td class="size">430.5&nbsp;kB</td><td class="size">1,305.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/ia64/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/kfreebsd-amd64/openssh-server/download">kfreebsd-amd64</a></th>
+
+
+<td class="size">316.4&nbsp;kB</td><td class="size">679.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/kfreebsd-amd64/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/kfreebsd-i386/openssh-server/download">kfreebsd-i386</a></th>
+
+
+<td class="size">312.6&nbsp;kB</td><td class="size">676.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/kfreebsd-i386/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/mips/openssh-server/download">mips</a></th>
+
+
+<td class="size">310.5&nbsp;kB</td><td class="size">815.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/mips/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/mipsel/openssh-server/download">mipsel</a></th>
+
+
+<td class="size">310.7&nbsp;kB</td><td class="size">815.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/mipsel/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/powerpc/openssh-server/download">powerpc</a></th>
+
+
+<td class="size">327.1&nbsp;kB</td><td class="size">830.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/powerpc/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/s390/openssh-server/download">s390</a></th>
+
+
+<td class="size">356.0&nbsp;kB</td><td class="size">869.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/s390/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/s390x/openssh-server/download">s390x</a></th>
+
+
+<td class="size">337.2&nbsp;kB</td><td class="size">868.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/s390x/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/sparc/openssh-server/download">sparc</a></th>
+
+
+<td class="size">311.5&nbsp;kB</td><td class="size">776.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/sparc/openssh-server/filelist">list of files</a>]
+
+</td>
+</tr>
+
+      </table>
+
+    </div> <!-- end pdownload -->
+
+
+
+
+
+</div> <!-- end inner -->
+
+<div id="footer">
+
+
+<hr class="hidecss">
+<!--UdmComment-->
+<div id="pageLang">
+<div id="langSelector">
+<p>This page is also available in the following languages (How to set <a href="http://www.debian.org/intro/cn">the default document language</a>):</p>
+<div id="langContainer">
+
+<a href="/bg/wheezy/openssh-server" title="Bulgarian" hreflang="bg" lang="bg" rel="alternate">&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080; (B&#601;lgarski)</a>
+
+<a href="/da/wheezy/openssh-server" title="Danish" hreflang="da" lang="da" rel="alternate">dansk</a>
+
+<a href="/de/wheezy/openssh-server" title="German" hreflang="de" lang="de" rel="alternate">Deutsch</a>
+
+<a href="/es/wheezy/openssh-server" title="Spanish" hreflang="es" lang="es" rel="alternate">espa&ntilde;ol</a>
+
+<a href="/fi/wheezy/openssh-server" title="Finnish" hreflang="fi" lang="fi" rel="alternate">suomi</a>
+
+<a href="/fr/wheezy/openssh-server" title="French" hreflang="fr" lang="fr" rel="alternate">fran&ccedil;ais</a>
+
+<a href="/hu/wheezy/openssh-server" title="Hungarian" hreflang="hu" lang="hu" rel="alternate">magyar</a>
+
+<a href="/it/wheezy/openssh-server" title="Italian" hreflang="it" lang="it" rel="alternate">Italiano</a>
+
+<a href="/ja/wheezy/openssh-server" title="Japanese" hreflang="ja" lang="ja" rel="alternate">&#26085;&#26412;&#35486; (Nihongo)</a>
+
+<a href="/nl/wheezy/openssh-server" title="Dutch" hreflang="nl" lang="nl" rel="alternate">Nederlands</a>
+
+<a href="/pl/wheezy/openssh-server" title="Polish" hreflang="pl" lang="pl" rel="alternate">polski</a>
+
+<a href="/pt/wheezy/openssh-server" title="Portuguese" hreflang="pt" lang="pt" rel="alternate">Portugu&ecirc;s (pt)</a>
+
+<a href="/pt-br/wheezy/openssh-server" title="Portuguese (Brasilia)" hreflang="pt-br" lang="pt-br" rel="alternate">Portugu&ecirc;s (br)</a>
+
+<a href="/ru/wheezy/openssh-server" title="Russian" hreflang="ru" lang="ru" rel="alternate">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russkij)</a>
+
+<a href="/sk/wheezy/openssh-server" title="Slovak" hreflang="sk" lang="sk" rel="alternate">slovensky</a>
+
+<a href="/sv/wheezy/openssh-server" title="Swedish" hreflang="sv" lang="sv" rel="alternate">svenska</a>
+
+<a href="/tr/wheezy/openssh-server" title="Turkish" hreflang="tr" lang="tr" rel="alternate">T&uuml;rk&ccedil;e</a>
+
+<a href="/uk/wheezy/openssh-server" title="Ukrainian" hreflang="uk" lang="uk" rel="alternate">&#1091;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072; (ukrajins'ka)</a>
+
+<a href="/zh-cn/wheezy/openssh-server" title="Chinese (China)" hreflang="zh-cn" lang="zh-cn" rel="alternate">&#20013;&#25991; (Zhongwen,&#31616;)</a>
+
+<a href="/zh-tw/wheezy/openssh-server" title="Chinese (Taiwan)" hreflang="zh-tw" lang="zh-tw" rel="alternate">&#20013;&#25991; (Zhongwen,&#32321;)</a>
+
+</div>
+</div>
+</div>
+<!--/UdmComment-->
+
+
+<hr class="hidecss">
+<div id="fineprint" class="bordertop">
+<div id="impressum">
+<p>To report a problem with the web site, e-mail <a href="mailto:debian-www@lists.debian.org">debian-www@lists.debian.org</a>. For other contact information, see the Debian <a href="http://www.debian.org/contact">contact page</a>.</p>
+
+<p>
+Content Copyright &copy; 1997 - 2015 <a href="http://www.spi-inc.org/">SPI Inc.</a>; See <a href="http://www.debian.org/license">license terms</a>. Debian is a <a href="http://www.debian.org/trademark">trademark</a> of SPI Inc.
+ <a href="/about/">Learn more about this site</a>.</p>
+
+</div> <!-- end impressum -->
+
+<div id="sponsorfooter"><p>
+This service is sponsored by <a href="http://www.hp.com/">Hewlett-Packard</a>.</p></div>
+
+</div> <!-- end fineprint -->
+</div> <!-- end footer -->
+</body>
+</html>
