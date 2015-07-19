@@ -198,7 +198,7 @@ libsemanage-common,libsemanage,libsemanage,libsemanage, https://api.github.com/r
 libsemanage1,libsemanage,libsemanage,libsemanage, https://api.github.com/repos/pld-linux/libsemanage/issues, SELinux policy management library,Standard System Utilities,0,0,0,,
 libsepol1,libsepol,serefpolicy,serefpolicy,, SELinux library for manipulating binary security policies,Standard System Utilities,0,0,0,,
 libsigc++-2.0-0c2a,libsigc++-2.0,libsigc,libsigc,, type-safe Signal Framework for C++ - runtime,Standard System Utilities,0,0,0,,
-libslang2,slang2,slang,slang,, S-Lang programming library - runtime version,Standard System Utilities,0,0,0,,
+libslang2,slang2,s-lang,slang,, S-Lang programming library - runtime version,Standard System Utilities,0,0,0,,
 libsm6,libsm,,libsm,, X11 Session Management library,Standard System Utilities,0,0,0,Just stores X11 sessions for later use.,
 libsqlite3-0,sqlite3,sqlite,sqlite,, SQLite 3 shared library,Standard System Utilities,0,0,0,,
 libss2,e2fsprogs,e2fsprogs,e2fsprogs,, command-line interface parsing library,Standard System Utilities,0,0,0,,
