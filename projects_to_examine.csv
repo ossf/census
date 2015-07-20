@@ -309,6 +309,7 @@ python2.7-minimal,python2.7,python,python,, Minimal subset of the Python languag
 readline-common,readline6,,readline,," GNU readline and history libraries, common files",Standard System Utilities,0,0,0,,
 reportbug,,reportbug,reportbug,, reports bugs in the Debian distribution,Standard System Utilities,1,0,0,,
 rpcbind,,rpcbind,rpcbind,, converts RPC program numbers into universal addresses,Standard System Utilities,1,0,0,"IPC communication, including network communcation from untrustworthy sources.",
+rsync,,rsync,rsync,https://rsync.samba.org/bugzilla.html,"fast, versatile, remote (and local) file-copying tool",Standard System Utilities,1,0,0,,
 rsyslog,,rsyslog,rsyslog,, reliable system and kernel logging daemon,Standard System Utilities,1,0,0,"Processes data from untrusted users.  Important today; as systemd becomes more used, its use may lessen but still important for merging data sources. Project page http://www.rsyslog.com/ Official repo on GitHub, https://github.com/rsyslog This is an active multi-person project; in the one-month period February 12, 2015 ﾖ March 12, 2015, excluding merges, 7 authors have pushed 27 commits to master and 40 commits to all branches. On master, 37 files have changed and there have been 677 additions and 216 deletions. ++",
 sed,,sed,sed,, The GNU sed stream editor,Standard System Utilities,0,0,0,,
 sensible-utils,,debianutils,debianutils,, Utilities for sensible alternative selection,Standard System Utilities,0,0,0,,
