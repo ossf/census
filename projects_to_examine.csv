@@ -51,6 +51,7 @@ dpkg,,dpkg,dpkg,, Debian package management system,Standard System Utilities,1,0
 e2fslibs,e2fsprogs,e2fsprogs,e2fslibs,, ext2/ext3/ext4 file system libraries,Standard System Utilities,0,0,0,,
 e2fsprogs,,e2fsprogs,e2fsprogs,, ext2/ext3/ext4 file system utilities,Standard System Utilities,0,0,0,,
 eject,,eject,eject,, ejects CDs and operates CD-Changers under Linux,Standard System Utilities,0,0,0,,
+encfs,,encfs,encfs,https://github.com/vgough/encfs/issues,encrypted virtual filesystem,,0,0,0,,
 exim4,,exim,exim4,, metapackage to ease Exim MTA (v4) installation,Standard System Utilities,1,0,0,"This is an MTA, thus has to process untrustworthy data.  Mailing lists, bugzilla tracker, public git repo. Active history of CVE issues and fixes. Active with 16 contributors in last year. ++",Exim may be used to contact network
 exim4-base,exim4,exim,exim,, support files for all Exim MTA (v4) packages,Standard System Utilities,1,0,0,"This is an MTA, thus has to process untrustworthy data.  There are several MTA in use; should we focus on this one? ++",
 exim4-config,exim4,exim,exim,, configuration for the Exim MTA (v4),Standard System Utilities,1,0,0,"This is an MTA, thus has to process untrustworthy data.  There are several MTA in use; should we focus on this one? ++",
