@@ -45,6 +45,7 @@ discover-data,,,discover-data,, Data lists for Discover hardware detection syste
 dkms,,dkms-framework,dkms,, Dynamic Kernel Module Support Framework,Standard System Utilities,0,0,1,,
 dmidecode,,dmidecode,dmidecode,, SMBIOS/DMI table decoder,Standard System Utilities,0,0,0,,
 dmsetup,lvm2 (2.02.95-8),device-mapper,lvm2,, Linux Kernel Device Mapper userspace library,Standard System Utilities,0,0,0,,
+dnsmasq,,dnsmasq,dnsmasq,,Small caching DNS proxy and DHCP/TFTP server,,1,1,0,,
 dnsutils,bind9,bind,bind9,, Clients provided with BIND,Standard System Utilities,1,0,0,Bind9 is critical for security. It does have active development. ++,
 doc-debian,,doc-debian,doc-debian,, Debian Project documentation and other documents,Standard System Utilities,0,0,0,,
 dpkg,,dpkg,dpkg,, Debian package management system,Standard System Utilities,1,0,0,"Should primarily be managing data from trusted source; if it ensures data source okay, less risky.",
