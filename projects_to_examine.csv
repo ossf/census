@@ -282,6 +282,7 @@ openssh-client,openssh,openssh,openssh,," secure shell (SSH) client, for secure 
 openssh-server,openssh,openssh,openssh,," secure shell (SSH) server, for secure access from remote machines",SSH Server,1,0,0,Vital for security. CII already investing in this. ++,
 openssl,,openssl,openssl,, Secure Socket Layer (SSL) binary and related cryptographic tools,Standard System Utilities,1,0,0,"Critical, in wide use.  OpenSSL is already funded by CII. ++",
 os-prober,,os-prober,os-prober,, utility to detect other OSes on a set of drives,Standard System Utilities,0,0,0,,
+owncloud,,owncloud,owncloud,https://github.com/owncloud/core/issues,"cloud storage for files, music, contacts, calendars, and many more",Standard System Utilities,1,0,0,,
 passwd,shadow,shadow-tool-suite,shadow,, change and administer password and group data,Standard System Utilities,1,0,0,Critical for security; unclear if undicovered vulnerabilities are likely to be here.,
 patch,,diffutils,,, Apply a diff file to an original,Standard System Utilities,0,0,0,,
 pciutils,,pciutils,pciutils,, Linux PCI Utilities,Standard System Utilities,0,0,0,,
