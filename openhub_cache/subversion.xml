@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>1</id>
+      <name>Apache Subversion</name>
+      <url>https://www.openhub.net/p/subversion.xml</url>
+      <html_url>https://www.openhub.net/p/subversion</html_url>
+      <created_at>2006-10-10T15:51:31Z</created_at>
+      <updated_at>2015-07-18T18:12:52Z</updated_at>
+      <description>Subversion has rapidly become the version control standard and it is rapidly replacing open source and commercial solutions around the world.
+Subversion enables globally distributed software development teams to efficiently version and share source code. The open source Subversion project was started in early 2000 by CollabNet, the primary corporate sponsor of Subversion.
+
+Key Capabilities:
+- Versioned directories
+- Atomic commits
+- Efficient handling of binary files
+- Quick branching and tagging
+- Directory and file meta data
+- Merge tracking
+- Natively client-server
+- Minimal server and network requirements
+- Low admin overhead
+- Good security
+
+more at: http://subversion.apache.org/
+
+
+Read Submerged, a blog about Subversion at http://blogs.open.collab.net/svn</description>
+      <homepage_url>http://subversion.apache.org/</homepage_url>
+      <download_url>http://subversion.apache.org/packages.html</download_url>
+      <url_name>subversion</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1/svn_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1/svn_small.png</small_logo_url>
+      <user_count>8673</user_count>
+      <average_rating>4.22513</average_rating>
+      <rating_count>2252</rating_count>
+      <review_count>16</review_count>
+      <analysis_id>25120977</analysis_id>
+      <tags>
+        <tag>source_control</tag>
+        <tag>svn</tag>
+        <tag>version_control</tag>
+        <tag>revision_control</tag>
+        <tag>scm</tag>
+      </tags>
+      <analysis>
+        <id>25120977</id>
+        <url>https://www.openhub.net/analyses/25120977.xml</url>
+        <project_id>1</project_id>
+        <updated_at>2015-07-16T19:34:58Z</updated_at>
+        <logged_at>2015-07-16T13:47:09Z</logged_at>
+        <min_month>2000-03-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>21</twelve_month_contributor_count>
+        <total_contributor_count>176</total_contributor_count>
+        <twelve_month_commit_count>2172</twelve_month_commit_count>
+        <total_commit_count>52358</total_commit_count>
+        <total_code_lines>615904</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/subversion/analyses/25120977/languages.png">
+          <language percentage="60" color="FF8F00" id="42">
+C          </language>
+          <language percentage="19" color="4A246B" id="9">
+Python          </language>
+          <language percentage="8" color="F35F1F" id="44">
+C++          </language>
+          <language percentage="13" color="000000" id="">
+15 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>apache_2</name>
+          <nice_name>Apache License 2.0</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>70</value>
+        <description>Very High</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>SVN Book Online</title>
+          <url>http://svnbook.red-bean.com/</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>TortoiseSVN Documentation</title>
+          <url>http://tortoisesvn.net/support</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>Mailing Lists</title>
+          <url>http://subversion.apache.org/mailing-lists.html</url>
+          <category>Mailing Lists</category>
+        </link>
+        <link>
+          <title>Issue Tracking</title>
+          <url>http://subversion.apache.org/reporting-issues.html</url>
+          <category>Issue Trackers</category>
+        </link>
+        <link>
+          <title>Commercial support</title>
+          <url>http://www.collab.net/</url>
+          <category>Other</category>
+        </link>
+        <link>
+          <title>Commercial support</title>
+          <url>http://www.wandisco.com/</url>
+          <category>Other</category>
+        </link>
+        <link>
+          <title>uberSVN Server</title>
+          <url>http://www.ubersvn.com/</url>
+          <category>Other</category>
+        </link>
+        <link>
+          <title>Merge Tracking doc</title>
+          <url>http://subversion.tigris.org/merge-tracking/</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>VisualSVN Server</title>
+          <url>http://www.visualsvn.com/server/</url>
+          <category>Other</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

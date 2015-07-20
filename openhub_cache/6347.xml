@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>6347</id>
+      <name>encfs</name>
+      <url>https://www.openhub.net/p/6347.xml</url>
+      <html_url>https://www.openhub.net/p/6347</html_url>
+      <created_at>2007-06-30T10:17:48Z</created_at>
+      <updated_at>2015-07-04T12:06:13Z</updated_at>
+      <description>EncFS provides an encrypted filesystem in user-space. It runs without any special permissions and uses the FUSE library and Linux kernel module to provide the filesystem interface. You can find links to source and binary releases below. EncFS is open source software, licensed under the GPL.
+
+As with most encrypted filesystems, Encfs is meant to provide security against off-line attacks; ie your notebook or backups fall into the wrong hands, etc. The way Encfs works is different from the &#8220;loopback&#8221; encrypted filesystem support built into the Linux kernel because it works on files at a time, not an entire block device. This is a big advantage in some ways, but does not come without a cost.</description>
+      <homepage_url>https://vgough.github.io/encfs/</homepage_url>
+      <download_url></download_url>
+      <url_name></url_name>
+      <user_count>10</user_count>
+      <average_rating>5.0</average_rating>
+      <rating_count>5</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25094327</analysis_id>
+      <tags>
+        <tag>encryption</tag>
+        <tag>fuse</tag>
+        <tag>filesystems</tag>
+        <tag>decryption</tag>
+        <tag>user-space</tag>
+      </tags>
+      <analysis>
+        <id>25094327</id>
+        <url>https://www.openhub.net/analyses/25094327.xml</url>
+        <project_id>6347</project_id>
+        <updated_at>2015-07-15T18:29:01Z</updated_at>
+        <logged_at>2015-07-15T18:28:58Z</logged_at>
+        <min_month>2008-01-01T00:00:00Z</min_month>
+        <max_month>2015-06-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>9</twelve_month_contributor_count>
+        <total_contributor_count>9</total_contributor_count>
+        <twelve_month_commit_count>167</twelve_month_commit_count>
+        <total_commit_count>302</total_commit_count>
+        <total_code_lines>9265</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/6347/analyses/25094327/languages.png">
+          <language percentage="85" color="F35F1F" id="44">
+C++          </language>
+          <language percentage="11" color="D2C690" id="8">
+Perl          </language>
+          <language percentage="4" color="000000" id="">
+4 Other          </language>
+        </languages>
+        <main_language_id>44</main_language_id>
+        <main_language_name>C++</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl3_or_later</name>
+          <nice_name>GNU General Public License v3.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>Issues</title>
+          <url>https://github.com/vgough/encfs/issues</url>
+          <category>Issue Trackers</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

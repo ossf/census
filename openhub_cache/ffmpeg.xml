@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>4482</id>
+      <name>FFmpeg</name>
+      <url>https://www.openhub.net/p/ffmpeg.xml</url>
+      <html_url>https://www.openhub.net/p/ffmpeg</html_url>
+      <created_at>2007-02-18T23:06:08Z</created_at>
+      <updated_at>2015-07-19T10:13:53Z</updated_at>
+      <description>FFmpeg is a complete solution to record, convert and stream audio and video. It includes libavcodec, the leading audio/video codec library. FFmpeg is mostly developed under Linux, but portable to operating systems, including Windows.</description>
+      <homepage_url>http://www.ffmpeg.org/</homepage_url>
+      <download_url>http://www.ffmpeg.org/download.html</download_url>
+      <url_name>ffmpeg</url_name>
+      <user_count>933</user_count>
+      <average_rating>4.36723</average_rating>
+      <rating_count>177</rating_count>
+      <review_count>1</review_count>
+      <analysis_id>25124270</analysis_id>
+      <tags>
+        <tag>audio</tag>
+        <tag>mkv</tag>
+        <tag>mov</tag>
+        <tag>rtp</tag>
+        <tag>codec</tag>
+        <tag>mp3</tag>
+        <tag>theora</tag>
+        <tag>aac</tag>
+        <tag>wav</tag>
+        <tag>mp4</tag>
+        <tag>streaming</tag>
+        <tag>cross_platform</tag>
+        <tag>wmv</tag>
+        <tag>mpeg4</tag>
+        <tag>linux</tag>
+        <tag>mpeg_1</tag>
+        <tag>mpeg_2</tag>
+        <tag>video</tag>
+        <tag>vorbis</tag>
+        <tag>ac3</tag>
+        <tag>c</tag>
+        <tag>multimedia</tag>
+        <tag>multi_platform</tag>
+        <tag>dts</tag>
+        <tag>library</tag>
+        <tag>flac</tag>
+        <tag>ogg</tag>
+        <tag>ape</tag>
+        <tag>mpeg</tag>
+        <tag>avi</tag>
+        <tag>rtsp</tag>
+        <tag>matroska</tag>
+        <tag>vp8</tag>
+        <tag>wma</tag>
+      </tags>
+      <analysis>
+        <id>25124270</id>
+        <url>https://www.openhub.net/analyses/25124270.xml</url>
+        <project_id>4482</project_id>
+        <updated_at>2015-07-19T10:13:53Z</updated_at>
+        <logged_at>2015-07-19T10:10:26Z</logged_at>
+        <min_month>2000-12-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>305</twelve_month_contributor_count>
+        <total_contributor_count>1321</total_contributor_count>
+        <twelve_month_commit_count>8857</twelve_month_commit_count>
+        <total_commit_count>73779</total_commit_count>
+        <total_code_lines>886911</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidCommentsLow">
+Few source code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/ffmpeg/analyses/25124270/languages.png">
+          <language percentage="90" color="FF8F00" id="42">
+C          </language>
+          <language percentage="7" color="333333" id="19">
+Assembly          </language>
+          <language percentage="3" color="000000" id="">
+13 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>lgpl21_or_later</name>
+          <nice_name>GNU Lesser General Public License v2.1 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>70</value>
+        <description>Very High</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

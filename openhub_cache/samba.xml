@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>4558</id>
+      <name>Samba</name>
+      <url>https://www.openhub.net/p/samba.xml</url>
+      <html_url>https://www.openhub.net/p/samba</html_url>
+      <created_at>2007-02-22T20:01:29Z</created_at>
+      <updated_at>2015-07-19T20:43:52Z</updated_at>
+      <description>Samba is an Open Source/Free Software suite that provides file and print services to all manner of SMB/CIFS clients, including the numerous versions of Microsoft Windows operating systems.</description>
+      <homepage_url>http://www.samba.org</homepage_url>
+      <download_url>http://samba.org/samba/download/</download_url>
+      <url_name>samba</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/33240/samba_2010_logo_transparent_151x151_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/33240/samba_2010_logo_transparent_151x151_small.png</small_logo_url>
+      <user_count>1208</user_count>
+      <average_rating>4.06311</average_rating>
+      <rating_count>206</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25125287</analysis_id>
+      <tags>
+        <tag>authorization</tag>
+        <tag>smb</tag>
+        <tag>dcerpc</tag>
+        <tag>cifs</tag>
+        <tag>pdc</tag>
+        <tag>single_sign_on</tag>
+        <tag>windows</tag>
+        <tag>spnego</tag>
+        <tag>clustering</tag>
+        <tag>netbios</tag>
+        <tag>kerberos</tag>
+        <tag>pam</tag>
+        <tag>gssapi</tag>
+        <tag>samba</tag>
+        <tag>dfs</tag>
+        <tag>authentication</tag>
+        <tag>ldap</tag>
+        <tag>smb2</tag>
+        <tag>nsswitch</tag>
+        <tag>directory</tag>
+      </tags>
+      <analysis>
+        <id>25125287</id>
+        <url>https://www.openhub.net/analyses/25125287.xml</url>
+        <project_id>4558</project_id>
+        <updated_at>2015-07-19T20:43:52Z</updated_at>
+        <logged_at>2015-07-19T20:41:50Z</logged_at>
+        <min_month>2006-12-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>83</twelve_month_contributor_count>
+        <total_contributor_count>357</total_contributor_count>
+        <twelve_month_commit_count>3883</twelve_month_commit_count>
+        <total_commit_count>99763</total_commit_count>
+        <total_code_lines>1601907</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/samba/analyses/25125287/languages.png">
+          <language percentage="81" color="FF8F00" id="42">
+C          </language>
+          <language percentage="7" color="555555" id="3">
+XML          </language>
+          <language percentage="7" color="4A246B" id="9">
+Python          </language>
+          <language percentage="5" color="000000" id="">
+20 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl3</name>
+          <nice_name>GNU General Public License v3.0 only</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>70</value>
+        <description>Very High</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>Samba Project Website</title>
+          <url>http://www.samba.org</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>Samba Bugzilla</title>
+          <url>http://bugzilla.samba.org</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>Samba Wiki</title>
+          <url>http://wiki.samba.org</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>Samba Bugzilla</title>
+          <url>https://bugzilla.samba.org</url>
+          <category>Issue Trackers</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>
