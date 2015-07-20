@@ -410,7 +410,7 @@ Repo publicly available in git, see: http://rpm.org/wiki/GetSource and a number 
 ,,,,,,,,,,,
 fail2ban,fail2ban,fail2ban,fail2ban, https://api.github.com/repos/fail2ban/fail2ban/issues,ban hosts that cause multiple authentication errors,,0,1,1,"Used on 10% of Debian installations according to popcon thus millions of users,Monitors and parses log files and  executes commands to manipulate firewalls based on parsed logfiles (thus possibility of injection) usually runs as root",
 glib-networking,,glib-networking,glib-networking,"https://bugzilla.gnome.org/buglist.cgi?quicksearch=component:network product:""glib""", network-related giomodules for GLib,,1,0,0,"TLS API. Implements its own certificate verification. No support for certificate revocation. No active developers.,Implements GLib's TLS API, most notably used by libsoup (used by all GNOME applications, WebKitGTK+, etc.). It uses GnuTLS internally.",
-openvpn,,openvpn,openvpn,https://community.openvpn.net/openvpn/report,virtual private network daemon,Standard System Utilities,2,0,0,,
+openvpn,,openvpn,openvpn,https://community.openvpn.net/openvpn/report,virtual private network daemon,Standard System Utilities,1,0,0,,
 clamav,,clamav,clamav,https://bugzilla.clamav.net/,anti-virus utility for Unix - command-line interface,,1,1,0,,
 dnsmasq,,dnsmasq,dnsmasq,,Small caching DNS proxy and DHCP/TFTP server,,1,1,0,,
 encfs,,6347,encfs,https://github.com/vgough/encfs/issues,encrypted virtual filesystem,,0,0,0,,
