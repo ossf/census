@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>1428</id>
+      <name>GNU troff</name>
+      <url>https://www.openhub.net/p/groff.xml</url>
+      <html_url>https://www.openhub.net/p/groff</html_url>
+      <created_at>2006-10-12T02:34:27Z</created_at>
+      <updated_at>2015-02-03T12:16:38Z</updated_at>
+      <description>The groff (GNU Troff) software is a typesetting package which reads plain text mixed with formatting commands and produces formatted output. Groff now supports HTML.</description>
+      <homepage_url>http://www.gnu.org/software/groff/</homepage_url>
+      <download_url>http://www.gnu.org/software/groff/#downloading</download_url>
+      <url_name>groff</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/9218/groff-head_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/9218/groff-head_small.png</small_logo_url>
+      <user_count>14</user_count>
+      <average_rating>3.85714</average_rating>
+      <rating_count>7</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>23837379</analysis_id>
+      <tags>
+        <tag>troff</tag>
+        <tag>typesetting</tag>
+        <tag>c++</tag>
+        <tag>typography</tag>
+      </tags>
+      <analysis>
+        <id>23837379</id>
+        <url>https://www.openhub.net/analyses/23837379.xml</url>
+        <project_id>1428</project_id>
+        <updated_at>2015-02-03T12:16:38Z</updated_at>
+        <logged_at>2014-11-28T12:53:47Z</logged_at>
+        <min_month>1991-06-01T00:00:00Z</min_month>
+        <max_month>2014-11-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>16</twelve_month_contributor_count>
+        <total_contributor_count>28</total_contributor_count>
+        <twelve_month_commit_count>407</twelve_month_commit_count>
+        <total_commit_count>2660</total_commit_count>
+        <total_code_lines>181300</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsLow">
+Few source code comments          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/groff/analyses/23837379/languages.png">
+          <language percentage="41" color="F35F1F" id="44">
+C++          </language>
+          <language percentage="16" color="47A400" id="1">
+HTML          </language>
+          <language percentage="14" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="29" color="000000" id="">
+12 Other          </language>
+        </languages>
+        <main_language_id>44</main_language_id>
+        <main_language_name>C++</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>GNU Troff (Groff) Manuals</title>
+          <url>http://www.gnu.org/software/groff/manual/</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>The groff wiki page</title>
+          <url>http://www.groff-wiki.info/</url>
+          <category>Documentation</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>592992</id>
+      <name>installation-report</name>
+      <url>https://www.openhub.net/p/installation-report.xml</url>
+      <html_url>https://www.openhub.net/p/installation-report</html_url>
+      <created_at>2012-03-08T03:40:20Z</created_at>
+      <updated_at>2014-12-13T00:37:37Z</updated_at>
+      <description></description>
+      <homepage_url></homepage_url>
+      <download_url></download_url>
+      <url_name>installation-report</url_name>
+      <user_count>0</user_count>
+      <average_rating></average_rating>
+      <rating_count>0</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>23539216</analysis_id>
+      <analysis>
+        <id>23539216</id>
+        <url>https://www.openhub.net/analyses/23539216.xml</url>
+        <project_id>592992</project_id>
+        <updated_at>2015-01-12T05:03:56Z</updated_at>
+        <logged_at>2015-01-12T05:03:47Z</logged_at>
+        <min_month>2003-09-01T00:00:00Z</min_month>
+        <max_month>2014-12-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>3</twelve_month_contributor_count>
+        <total_contributor_count>66</total_contributor_count>
+        <twelve_month_commit_count>14</twelve_month_commit_count>
+        <total_commit_count>1268</total_commit_count>
+        <total_code_lines>468</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/installation-report/analyses/23539216/languages.png">
+          <language percentage="100" color="777777" id="11">
+shell script          </language>
+          <language percentage="&lt;1" color="EEE" id="52">
+Make          </language>
+        </languages>
+        <main_language_id>11</main_language_id>
+        <main_language_name>shell script</main_language_name>
+      </analysis>
+      <licenses>
+      </licenses>
+      <project_activity_index>
+        <value>30</value>
+        <description>Very Low</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

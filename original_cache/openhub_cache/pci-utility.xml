@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>106548</id>
+      <name>PCI Configuration Utility.</name>
+      <url>https://www.openhub.net/p/pci-utility.xml</url>
+      <html_url>https://www.openhub.net/p/pci-utility</html_url>
+      <created_at>2008-12-27T00:41:15Z</created_at>
+      <updated_at>2014-12-27T04:35:02Z</updated_at>
+      <description>pci-utility is utility developed to access PCI Device configuration Space. It enables user to read and write registers on PCI Configuration space of PCI Devices.</description>
+      <homepage_url>http://sourceforge.net/projects/pci-utility</homepage_url>
+      <download_url></download_url>
+      <url_name>pci-utility</url_name>
+      <user_count>0</user_count>
+      <average_rating></average_rating>
+      <rating_count>0</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>23743695</analysis_id>
+      <analysis>
+        <id>23743695</id>
+        <url>https://www.openhub.net/analyses/23743695.xml</url>
+        <project_id>106548</project_id>
+        <updated_at>2015-01-25T04:28:48Z</updated_at>
+        <logged_at>2015-01-25T04:28:45Z</logged_at>
+        <min_month>2007-02-01T00:00:00Z</min_month>
+        <max_month>2007-02-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
+        <total_contributor_count>1</total_contributor_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
+        <total_commit_count>3</total_commit_count>
+        <total_code_lines>1119</total_code_lines>
+        <factoids>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidAgeYoung">
+Short source control history          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/pci-utility/analyses/23743695/languages.png">
+          <language percentage="60" color="FF8F00" id="42">
+C          </language>
+          <language percentage="40" color="F35F1F" id="44">
+C++          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+      </licenses>
+      <project_activity_index>
+        <value>20</value>
+        <description>Inactive</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>1238</id>
+      <name>gettext</name>
+      <url>https://www.openhub.net/p/gettext.xml</url>
+      <html_url>https://www.openhub.net/p/gettext</html_url>
+      <created_at>2006-10-11T22:56:56Z</created_at>
+      <updated_at>2015-01-15T23:03:05Z</updated_at>
+      <description>gettext is the GNU internationalization (i18n) library. It is commonly used for writing multilingual programs.</description>
+      <homepage_url>http://savannah.gnu.org/projects/gettext/</homepage_url>
+      <download_url>http://ftp.gnu.org/gnu/gettext</download_url>
+      <url_name>gettext</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_small.png</small_logo_url>
+      <user_count>404</user_count>
+      <average_rating>4.10938</average_rating>
+      <rating_count>64</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>23826211</analysis_id>
+      <tags>
+        <tag>localization</tag>
+        <tag>c++</tag>
+        <tag>gettext</tag>
+        <tag>internationalization</tag>
+        <tag>language</tag>
+        <tag>i18n</tag>
+        <tag>translation</tag>
+        <tag>po</tag>
+      </tags>
+      <analysis>
+        <id>23826211</id>
+        <url>https://www.openhub.net/analyses/23826211.xml</url>
+        <project_id>1238</project_id>
+        <updated_at>2015-01-11T00:45:47Z</updated_at>
+        <logged_at>2015-01-10T14:46:34Z</logged_at>
+        <min_month>2000-06-01T00:00:00Z</min_month>
+        <max_month>2015-01-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>14</twelve_month_contributor_count>
+        <total_contributor_count>40</total_contributor_count>
+        <twelve_month_commit_count>315</twelve_month_commit_count>
+        <total_commit_count>6546</total_commit_count>
+        <total_code_lines>357997</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/gettext/analyses/23826211/languages.png">
+          <language percentage="69" color="FF8F00" id="42">
+C          </language>
+          <language percentage="15" color="777777" id="11">
+shell script          </language>
+          <language percentage="6" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="10" color="000000" id="">
+21 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+        <license>
+          <name>gpl3_or_later</name>
+          <nice_name>GNU General Public License v3.0 or later</nice_name>
+        </license>
+        <license>
+          <name>lgpl</name>
+          <nice_name>GNU Library or "Lesser" GPL (LGPL)</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>0</value>
+        <description>Not Available</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

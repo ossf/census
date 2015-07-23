@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>4062</id>
+      <name>XML::Simple</name>
+      <url>https://www.openhub.net/p/perl-xml-simple.xml</url>
+      <html_url>https://www.openhub.net/p/perl-xml-simple</html_url>
+      <created_at>2007-01-18T23:24:45Z</created_at>
+      <updated_at>2014-10-30T00:54:40Z</updated_at>
+      <description>XML::Simple is a Perl module that makes it really easy to read and write XML files. It was originally developed for the purpose of reading and writing config files in XML format, many people find it useful for other purposes.</description>
+      <homepage_url>http://search.cpan.org/dist/XML-Simple/</homepage_url>
+      <download_url></download_url>
+      <url_name>perl-xml-simple</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/6236/perl-module_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/6236/perl-module_small.png</small_logo_url>
+      <user_count>32</user_count>
+      <average_rating>4.7</average_rating>
+      <rating_count>10</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>23092135</analysis_id>
+      <tags>
+        <tag>perl</tag>
+        <tag>cpan</tag>
+        <tag>xml</tag>
+        <tag>perl-module</tag>
+      </tags>
+      <analysis>
+        <id>23092135</id>
+        <url>https://www.openhub.net/analyses/23092135.xml</url>
+        <project_id>4062</project_id>
+        <updated_at>2014-11-13T06:00:17Z</updated_at>
+        <logged_at>2014-11-13T06:00:14Z</logged_at>
+        <min_month>2001-12-01T00:00:00Z</min_month>
+        <max_month>2012-06-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
+        <total_contributor_count>1</total_contributor_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
+        <total_commit_count>126</total_commit_count>
+        <total_code_lines>4350</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/perl-xml-simple/analyses/23092135/languages.png">
+          <language percentage="99" color="D2C690" id="8">
+Perl          </language>
+          <language percentage="1" color="000000" id="">
+2 Other          </language>
+        </languages>
+        <main_language_id>8</main_language_id>
+        <main_language_name>Perl</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>Artistic_License_2_0</name>
+          <nice_name>Artistic License 2.0</nice_name>
+        </license>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>0</value>
+        <description>Not Available</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

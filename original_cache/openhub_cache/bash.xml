@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>5120</id>
+      <name>Bash</name>
+      <url>https://www.openhub.net/p/bash.xml</url>
+      <html_url>https://www.openhub.net/p/bash</html_url>
+      <created_at>2007-05-07T09:46:35Z</created_at>
+      <updated_at>2015-02-08T23:55:35Z</updated_at>
+      <description>Bash is an sh-compatible command language interpreter that executes commands read from the standard input or from a file.  Bash also incorporates useful features from the Korn and C shells (ksh and csh).
+
+Bash is ultimately intended to be a conformant implementation of the IEEE POSIX Shell and Tools specification (IEEE Working Group 1003.2).</description>
+      <homepage_url>http://www.gnu.org/software/bash/</homepage_url>
+      <download_url>http://ftp.gnu.org/gnu/bash/</download_url>
+      <url_name>bash</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_small.png</small_logo_url>
+      <user_count>6228</user_count>
+      <average_rating>4.45416</average_rating>
+      <rating_count>1189</rating_count>
+      <review_count>2</review_count>
+      <analysis_id>23582325</analysis_id>
+      <tags>
+        <tag>open_source</tag>
+        <tag>command</tag>
+        <tag>unix</tag>
+        <tag>console</tag>
+        <tag>gnu</tag>
+        <tag>posix</tag>
+        <tag>shell</tag>
+        <tag>sysadmin</tag>
+        <tag>system</tag>
+        <tag>burnaganshell</tag>
+      </tags>
+      <analysis>
+        <id>23582325</id>
+        <url>https://www.openhub.net/analyses/23582325.xml</url>
+        <project_id>5120</project_id>
+        <updated_at>2015-01-12T06:55:41Z</updated_at>
+        <logged_at>2015-01-12T06:55:36Z</logged_at>
+        <min_month>1996-08-01T00:00:00Z</min_month>
+        <max_month>2014-10-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>1</twelve_month_contributor_count>
+        <total_contributor_count>2</total_contributor_count>
+        <twelve_month_commit_count>32</twelve_month_commit_count>
+        <total_commit_count>100</total_commit_count>
+        <total_code_lines>175760</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidTeamSizeOne">
+Only a single active developer          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/bash/analyses/23582325/languages.png">
+          <language percentage="64" color="FF8F00" id="42">
+C          </language>
+          <language percentage="13" color="47A400" id="1">
+HTML          </language>
+          <language percentage="10" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="13" color="000000" id="">
+7 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>30</value>
+        <description>Very Low</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>GIT-prompt</title>
+          <url>http://volnitsky.com/project/git-prompt</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>Bash Scripting Project</title>
+          <url>http://cam.ly/blog/2010/10/how-the-pinata-buster-works/</url>
+          <category>Documentation</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

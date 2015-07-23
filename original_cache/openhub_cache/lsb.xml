@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>486317</id>
+      <name>Linux Standard Base</name>
+      <url>https://www.openhub.net/p/LSB.xml</url>
+      <html_url>https://www.openhub.net/p/LSB</html_url>
+      <created_at>2010-11-04T14:01:03Z</created_at>
+      <updated_at>2014-07-19T14:35:24Z</updated_at>
+      <description>The Linux Standard Base was created to lower the overall costs of supporting the Linux platform. LSB identifies and specifies the behavior of common functionality across distributions; distributions are then encouraged to stay compatible with that common base. By reducing the differences between individual Linux distributions, the LSB greatly reduces the costs involved with porting applications to different distributions, as well as lowering the cost and effort involved in after-market support of those applications.</description>
+      <homepage_url>http://www.linuxbase.org</homepage_url>
+      <download_url>https://www.linuxfoundation.org/collaborate/workgroups/lsb/download</download_url>
+      <url_name>LSB</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/69946/stamp-cover_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/69946/stamp-cover_small.png</small_logo_url>
+      <user_count>2</user_count>
+      <average_rating></average_rating>
+      <rating_count>0</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>21524440</analysis_id>
+      <tags>
+        <tag>abi</tag>
+        <tag>cross_distribution</tag>
+        <tag>lsb</tag>
+        <tag>linux</tag>
+        <tag>standard</tag>
+        <tag>iso23360</tag>
+      </tags>
+      <analysis>
+        <id>21524440</id>
+        <url>https://www.openhub.net/analyses/21524440.xml</url>
+        <project_id>486317</project_id>
+        <updated_at>2014-07-19T14:35:23Z</updated_at>
+        <logged_at>2014-07-19T14:29:30Z</logged_at>
+        <min_month>2000-01-01T00:00:00Z</min_month>
+        <max_month>2014-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>6</twelve_month_contributor_count>
+        <total_contributor_count>61</total_contributor_count>
+        <twelve_month_commit_count>665</twelve_month_commit_count>
+        <total_commit_count>19758</total_commit_count>
+        <total_code_lines>4888477</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeAverage">
+Average size development team          </factoid>
+          <factoid type="FactoidCommentsVeryLow">
+Very few source code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/LSB/analyses/21524440/languages.png">
+          <language percentage="77" color="FF8F00" id="42">
+C          </language>
+          <language percentage="6" color="555555" id="3">
+XML          </language>
+          <language percentage="5" color="47A400" id="1">
+HTML          </language>
+          <language percentage="12" color="000000" id="">
+24 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>Artistic_License_2_0</name>
+          <nice_name>Artistic License 2.0</nice_name>
+        </license>
+        <license>
+          <name>BSD-3-Clause</name>
+          <nice_name>BSD 3-clause "New" or "Revised" License</nice_name>
+        </license>
+        <license>
+          <name>GNU_Free_Documentation_License</name>
+          <nice_name>GNU Free Documentation License v1.2</nice_name>
+        </license>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>0</value>
+        <description>Not Available</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>LSB Bugzilla</title>
+          <url>https://bugs.linuxbase.org</url>
+          <category>Issue Trackers</category>
+        </link>
+        <link>
+          <title>LSB Discussion list</title>
+          <url>https://lists.linuxfoundation.org/mailman/listinfo/lsb-discuss</url>
+          <category>Mailing Lists</category>
+        </link>
+        <link>
+          <title>LSB Specifications</title>
+          <url>https://refspecs.linuxfoundation.org</url>
+          <category>Documentation</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

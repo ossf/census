@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>7270</id>
+      <name>virt-manager</name>
+      <url>https://www.openhub.net/p/virt-manager.xml</url>
+      <html_url>https://www.openhub.net/p/virt-manager</html_url>
+      <created_at>2007-08-07T23:32:14Z</created_at>
+      <updated_at>2015-07-17T04:24:11Z</updated_at>
+      <description>The "Virtual Machine Manager" application (virt-manager for short package name) is a desktop user interface for managing virtual machines. It presents a summary view of running domains and their live performance &amp; resource utilization statistics. A detailed view presents graphs showing performance &amp; utilization over time. Ultimately it will allow creation of new domains, and configuration &amp; adjustment of a domain's resource allocation &amp; virtual hardware. Finally an embedded VNC client viewer presents a full graphical console to the guest domain.
+
+The virt-install, virt-clone, and virt-xml command line tools are also developed as part of virt-manager</description>
+      <homepage_url>http://virt-manager.org</homepage_url>
+      <download_url>http://virt-manager.org/download.html</download_url>
+      <url_name>virt-manager</url_name>
+      <user_count>16</user_count>
+      <average_rating>4.4</average_rating>
+      <rating_count>5</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25122198</analysis_id>
+      <tags>
+        <tag>virtualisation</tag>
+        <tag>system-management</tag>
+        <tag>monitoring</tag>
+        <tag>sysadmin</tag>
+        <tag>kvm</tag>
+        <tag>libvirt</tag>
+        <tag>virtual_machines</tag>
+        <tag>xen</tag>
+        <tag>vm</tag>
+        <tag>managementconsole</tag>
+        <tag>systemsmanagement</tag>
+        <tag>management</tag>
+      </tags>
+      <analysis>
+        <id>25122198</id>
+        <url>https://www.openhub.net/analyses/25122198.xml</url>
+        <project_id>7270</project_id>
+        <updated_at>2015-07-17T04:24:10Z</updated_at>
+        <logged_at>2015-07-16T17:46:05Z</logged_at>
+        <min_month>2006-03-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>25</twelve_month_contributor_count>
+        <total_contributor_count>130</total_contributor_count>
+        <twelve_month_commit_count>603</twelve_month_commit_count>
+        <total_commit_count>4561</total_commit_count>
+        <total_code_lines>78458</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsLow">
+Few source code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/virt-manager/analyses/25122198/languages.png">
+          <language percentage="41" color="555555" id="3">
+XML          </language>
+          <language percentage="57" color="4A246B" id="9">
+Python          </language>
+          <language percentage="2" color="D2C690" id="8">
+Perl          </language>
+        </languages>
+        <main_language_id>9</main_language_id>
+        <main_language_name>Python</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>60</value>
+        <description>High</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>
