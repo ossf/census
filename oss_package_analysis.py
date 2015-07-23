@@ -53,7 +53,7 @@ import calendar, time
 debian_data = {}
 debian_pop = {}
 popualrity_threshold = 0
-api_key = '' #openhub
+openhub_api_key = '' #openhub
 # Values to extract from debian apt for each project:
 debian_include = ['Source: ', 'Version: ', 'Description: ', 'Homepage: ']
 
@@ -73,7 +73,7 @@ def remove_non_ascii(text_list):
   for value in text_list:
     if value is not None:
       new_value = ''.join([i if ord(i) < 128 else ' ' for i in value])
-      text_list[text_list.index(value)] = new_value
+      text_list[text_list.index(value)] = new_value.strip()
 
   return text_list
 
@@ -108,13 +108,13 @@ def get_debian_pop():
 
 class Oss_Package(object):
 
-  def __init__(self,package_name,cve_keyword,openhub_key,direct_network_exposure, process_network_data, potential_privilege_escalation, comment_on_priority):
+  def __init__(self,package_name,cve_keyword,openhub_lookup_name,direct_network_exposure, process_network_data, potential_privilege_escalation, comment_on_priority):
     self.package_name = package_name
     self.cve_keyword = cve_keyword#CVE search keyword for MITRE database
-    self.openhub_key = openhub_key
-    self.direct_network_exposure = direct_network_exposure
-    self.process_network_data = process_network_data
-    self.potential_privilege_escalation = potential_privilege_escalation
+    self.openhub_lookup_name = openhub_lookup_name
+    self.direct_network_exposure = str(direct_network_exposure)
+    self.process_network_data = str(process_network_data)
+    self.potential_privilege_escalation = str(potential_privilege_escalation)
     self.comment_on_priority = comment_on_priority
 
     project_debian_data = debian_data[self.package_name]
@@ -148,13 +148,13 @@ class Oss_Package(object):
     self.implemented = ''
     self.role = ''
 
-    if self.openhub_key != '':
-      self.openhub_page = 'https://www.openhub.net/projects/'+self.openhub_key
+    if self.openhub_lookup_name != '':
+      self.openhub_page = 'https://www.openhub.net/projects/'+self.openhub_lookup_name
       
       # Results are saved. Store data if it's not in the cache
-      filename = "openhub_cache/"+self.openhub_key + '.xml'
+      filename = "openhub_cache/"+self.openhub_lookup_name + '.xml'
       if os.path.isfile(filename) == False:
-        url = 'https://www.openhub.net/projects/'+self.openhub_key+'.xml?api_key='+api_key
+        url = 'https://www.openhub.net/projects/'+self.openhub_lookup_name+'.xml?api_key='+openhub_api_key
         cache_data(url,filename)
 
       tree = ET.parse(filename)
@@ -178,23 +178,23 @@ class Oss_Package(object):
       #analysis tags
       tag = elem.find("result/project/analysis/twelve_month_contributor_count")
       if tag is not None:
-        self.twelve_month_contributor_count = str(tag.text)
+        self.twelve_month_contributor_count = str(tag.text).strip()
 
       tag = elem.find("result/project/analysis/total_contributor_count")
       if tag is not None:
-        self.total_contributor_count = tag.text
+        self.total_contributor_count = str(tag.text).strip()
 
       tag = elem.find("result/project/analysis/total_code_lines")
       if tag is not None:
-        self.total_code_lines = tag.text
+        self.total_code_lines = str(tag.text).strip()
 
       tag = elem.find("result/project/analysis/main_language_name")
       if tag is not None:
-        self.main_language = tag.text
+        self.main_language = str(tag.text).strip()
 
       for licence in elem.findall("result/project/licenses/license/name"):
         if licence is not None:
-          self.licenses+=licence.text+' '
+          self.licenses += str(licence.text).strip()+' '
 
       for factoid in elem.findall("result/project/analysis/factoids/factoid"):
         factoid_type = factoid.attrib.get('type')
@@ -247,31 +247,43 @@ class Oss_Package(object):
     soup = BeautifulSoup(open(filename))
     tag = soup.find(href = re.compile('#implemented-in'))
     if tag is not None:
-      self.implemented = tag.text
+      self.implemented = str(tag.text).strip()
     tag = soup.find(href = re.compile('#role'))
     if tag is not None:
-      self.role = tag.text    
+      self.role = str(tag.text).strip()
 
   def get_risk_index(self):
     ret = 0
     # If no homepage, add one
     if len(self.debian_home)==0 and len(self.openhub_home)==0:
       ret += 1
-    if self.main_language.upper() in ['C','C++'] or self.implemented in ['C','C++']: # if implemented in C/C++, add two
+    if self.main_language.upper() in ['C','C++'] or self.implemented.upper() in ['C','C++']: # if implemented in C/C++, add two
       ret += 2
-    ret += {0:0,1:1,2:2,3:2}.get(self.cve_since_2010,3) # Add points depending on number of CVEs
+    ret += {'0':0,'1':1,'2':2,'3':2}.get(self.cve_since_2010,3) # Add points depending on number of CVEs
     # Add points depending on number of recent contributors
-    ret += {0:5,1:4,2:4,3:4,'':2}.get(self.twelve_month_contributor_count,0)
-    if int(self.popularity) >= popularity_threshold: # if popular, add 1 point
+    ret += {'0':5,'1':4,'2':4,'3':4,'':2}.get(self.twelve_month_contributor_count,0)
+    if int(self.popularity) >= int(popularity_threshold): # if popular, add 1 point
       ret += 1
-    if  'Data' in self.role: # If this is not a program, subtract three
+    if  any(role in self.role.lower() for role in ['data','documentation']): # If this is data or documentation, deduct 3 points
       ret -= 3
-    ret += 2*int(self.direct_network_exposure) + int(self.process_network_data) + int(self.potential_privilege_escalation) # network exposure is weighted more
-    self.risk_index = str(ret)
+
+    if self.direct_network_exposure == '1':
+      ret += 2 # network exposure is weighted more
+    elif self.process_network_data == '1':
+      ret += 1
+    elif self.potential_privilege_escalation == '1':
+      ret += 1
+    else:
+      ret += 0
+
+    if ret < 0:
+      self.risk_index = '0'
+    else:
+      self.risk_index = str(ret)
 
 
 def main():
-  global api_key
+  global openhub_api_key
   global debian_data
   global debian_pop
   global popularity_threshold
@@ -281,8 +293,12 @@ def main():
 
   args = parser.parse_args()
 
-  f = open('openhub_key.txt','r') # API key must be stored in a text file, same directory
-  api_key = f.readline().strip()
+  if os.path.isfile('openhub_key.txt'):
+    f = open('openhub_key.txt','r') # API key must be stored in a text file, same directory
+    openhub_api_key = f.readline().strip()
+  else:
+    openhub_api_key = ''
+    print('[*] No Openhub API key was provided.  Will only use cached data (if available).')
 
   debian_data = get_debian() # dict instance with debian data(source, version, description,homepage)
   debian_pop = get_debian_pop() # dict instance with total installs per package
@@ -330,7 +346,7 @@ def main():
   # Add the headers row
   with open('results.csv','w') as csvfile:
     headerwriter = csv.writer(csvfile, delimiter = ',')
-    headerwriter.writerow(['project_name','debian_source','debian_version','debian_desc','debian_home','CVE_since_2010','CVE_page','openhub_page',     'openhub_name','openhub_desc','openhub_home','openhub_download','twelve_month_contributor_count','total_contributor_count','total_code_lines','main_language_name',     'licenses','fact_activity', 'fact_age', 'fact_comments', 'fact_team_size', 'package_popularity','implemented_in','role','direct_network_exposure','process_network_data','potential_privilege_escalation', 'risk_index(max = 16)', 'comment_on_priority'])
+    headerwriter.writerow(['project_name','debian_source','debian_version','debian_desc','debian_home','CVE_since_2010','CVE_page','openhub_page', 'openhub_name','openhub_desc','openhub_home','openhub_download','twelve_month_contributor_count','total_contributor_count','total_code_lines','main_language_name',     'licenses','fact_activity', 'fact_age', 'fact_comments', 'fact_team_size', 'package_popularity','implemented_in','role','direct_network_exposure','process_network_data','potential_privilege_escalation', 'risk_index(max = 16)', 'comment_on_priority'])
 
   csvfile = open('results.csv','a')
   resultwriter = csv.writer(csvfile, delimiter = ',')
@@ -341,4 +357,3 @@ def main():
   
 if __name__== "__main__":
   main()
-
