@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libxml2.xml</url>
       <html_url>https://www.openhub.net/p/libxml2</html_url>
       <created_at>2007-02-18T10:46:00Z</created_at>
-      <updated_at>2015-01-15T23:01:16Z</updated_at>
+      <updated_at>2015-07-12T18:32:26Z</updated_at>
       <description>Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform).
 
 Includes the xmllint tool for checking documents for well-formedness, validating documents against a DTD or XML Schema, and pretty printing XML input.</description>
@@ -21,7 +21,7 @@ Includes the xmllint tool for checking documents for well-formedness, validating
       <average_rating>3.92857</average_rating>
       <rating_count>42</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23691690</analysis_id>
+      <analysis_id>25114755</analysis_id>
       <tags>
         <tag>library</tag>
         <tag>development</tag>
@@ -39,18 +39,18 @@ Includes the xmllint tool for checking documents for well-formedness, validating
         <tag>gnome</tag>
       </tags>
       <analysis>
-        <id>23691690</id>
-        <url>https://www.openhub.net/analyses/23691690.xml</url>
+        <id>25114755</id>
+        <url>https://www.openhub.net/analyses/25114755.xml</url>
         <project_id>4471</project_id>
-        <updated_at>2015-01-24T09:46:27Z</updated_at>
-        <logged_at>2015-01-24T09:46:23Z</logged_at>
+        <updated_at>2015-07-19T22:16:48Z</updated_at>
+        <logged_at>2015-07-19T22:16:42Z</logged_at>
         <min_month>1998-07-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>26</twelve_month_contributor_count>
-        <total_contributor_count>215</total_contributor_count>
-        <twelve_month_commit_count>101</twelve_month_commit_count>
-        <total_commit_count>4343</total_commit_count>
-        <total_code_lines>501531</total_code_lines>
+        <total_contributor_count>220</total_contributor_count>
+        <twelve_month_commit_count>80</twelve_month_commit_count>
+        <total_commit_count>4365</total_commit_count>
+        <total_code_lines>501621</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
@@ -61,7 +61,7 @@ Average number of code comments          </factoid>
           <factoid type="FactoidActivityStable">
 Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libxml2/analyses/23691690/languages.png">
+        <languages graph_url="https://www.openhub.net/p/libxml2/analyses/25114755/languages.png">
           <language percentage="52" color="FF8F00" id="42">
 C          </language>
           <language percentage="31" color="555555" id="3">

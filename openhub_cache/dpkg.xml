@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/dpkg.xml</url>
       <html_url>https://www.openhub.net/p/dpkg</html_url>
       <created_at>2007-08-12T13:59:51Z</created_at>
-      <updated_at>2015-01-10T04:42:36Z</updated_at>
+      <updated_at>2015-07-04T12:55:01Z</updated_at>
       <description>Debian's PacKaGe manager</description>
       <homepage_url>http://wiki.debian.org/Teams/Dpkg/</homepage_url>
       <download_url>http://packages.debian.org/src:dpkg</download_url>
@@ -19,7 +19,7 @@
       <average_rating>4.45455</average_rating>
       <rating_count>77</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23768048</analysis_id>
+      <analysis_id>25096878</analysis_id>
       <tags>
         <tag>package</tag>
         <tag>deb</tag>
@@ -27,29 +27,29 @@
         <tag>debian</tag>
       </tags>
       <analysis>
-        <id>23768048</id>
-        <url>https://www.openhub.net/analyses/23768048.xml</url>
+        <id>25096878</id>
+        <url>https://www.openhub.net/analyses/25096878.xml</url>
         <project_id>7682</project_id>
-        <updated_at>2015-01-13T17:34:48Z</updated_at>
-        <logged_at>2015-01-13T17:32:40Z</logged_at>
+        <updated_at>2015-07-18T03:25:01Z</updated_at>
+        <logged_at>2015-07-18T03:24:17Z</logged_at>
         <min_month>1996-04-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>48</twelve_month_contributor_count>
-        <total_contributor_count>203</total_contributor_count>
-        <twelve_month_commit_count>796</twelve_month_commit_count>
-        <total_commit_count>8607</total_commit_count>
-        <total_code_lines>63613</total_code_lines>
+        <max_month>2015-05-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>43</twelve_month_contributor_count>
+        <total_contributor_count>205</total_contributor_count>
+        <twelve_month_commit_count>751</twelve_month_commit_count>
+        <total_commit_count>8934</total_commit_count>
+        <total_code_lines>64794</total_code_lines>
         <factoids>
-          <factoid type="FactoidTeamSizeVeryLarge">
-Very large, active development team          </factoid>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/dpkg/analyses/23768048/languages.png">
+        <languages graph_url="https://www.openhub.net/p/dpkg/analyses/25096878/languages.png">
           <language percentage="48" color="FF8F00" id="42">
 C          </language>
           <language percentage="32" color="D2C690" id="8">

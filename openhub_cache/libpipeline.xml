@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libpipeline.xml</url>
       <html_url>https://www.openhub.net/p/libpipeline</html_url>
       <created_at>2012-03-08T05:45:22Z</created_at>
-      <updated_at>2014-10-26T11:57:31Z</updated_at>
+      <updated_at>2015-07-03T12:46:57Z</updated_at>
       <description>libpipeline is a C library for setting up and running pipelines of processes, without needing to involve shell command-line parsing which is often error-prone and insecure.</description>
       <homepage_url>http://libpipeline.nongnu.org/</homepage_url>
       <download_url></download_url>
@@ -19,7 +19,7 @@
       <average_rating>5.0</average_rating>
       <rating_count>1</rating_count>
       <review_count>0</review_count>
-      <analysis_id>22983965</analysis_id>
+      <analysis_id>24962014</analysis_id>
       <tags>
         <tag>library</tag>
         <tag>process</tag>
@@ -27,29 +27,29 @@
         <tag>pipelines</tag>
       </tags>
       <analysis>
-        <id>22983965</id>
-        <url>https://www.openhub.net/analyses/22983965.xml</url>
+        <id>24962014</id>
+        <url>https://www.openhub.net/analyses/24962014.xml</url>
         <project_id>593440</project_id>
-        <updated_at>2014-11-12T23:37:01Z</updated_at>
-        <logged_at>2014-11-12T23:36:51Z</logged_at>
+        <updated_at>2015-07-21T13:21:01Z</updated_at>
+        <logged_at>2015-07-21T13:20:52Z</logged_at>
         <min_month>2003-08-01T00:00:00Z</min_month>
-        <max_month>2014-10-01T00:00:00Z</max_month>
+        <max_month>2015-06-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>1</twelve_month_contributor_count>
         <total_contributor_count>6</total_contributor_count>
-        <twelve_month_commit_count>31</twelve_month_commit_count>
-        <total_commit_count>236</total_commit_count>
-        <total_code_lines>87489</total_code_lines>
+        <twelve_month_commit_count>13</twelve_month_commit_count>
+        <total_commit_count>237</total_commit_count>
+        <total_code_lines>87488</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidCommentsHigh">
 Well-commented source code          </factoid>
           <factoid type="FactoidTeamSizeOne">
 Only a single active developer          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libpipeline/analyses/22983965/languages.png">
+        <languages graph_url="https://www.openhub.net/p/libpipeline/analyses/24962014/languages.png">
           <language percentage="46" color="EEE" id="51">
 Autoconf          </language>
           <language percentage="22" color="FF8F00" id="42">
@@ -69,8 +69,8 @@ shell script          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>30</value>
+        <description>Very Low</description>
       </project_activity_index>
     </project>
   </result>

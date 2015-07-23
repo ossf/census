@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/console-setup.xml</url>
       <html_url>https://www.openhub.net/p/console-setup</html_url>
       <created_at>2012-03-07T22:38:18Z</created_at>
-      <updated_at>2014-12-13T13:21:39Z</updated_at>
+      <updated_at>2015-07-08T22:42:13Z</updated_at>
       <description>console-setup provides the Linux console with the same versatile keyboard configuration that the X Window System uses. As a result there is no need to duplicate or change the keyboard files just to make simple customisations such as the use of dead keys, the key functioning as AltGr or Compose key, the key(s) to switch between Latin and non-Latin mode, etc.</description>
       <homepage_url></homepage_url>
       <download_url></download_url>
@@ -17,7 +17,7 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23544347</analysis_id>
+      <analysis_id>25102876</analysis_id>
       <tags>
         <tag>fonts</tag>
         <tag>console</tag>
@@ -25,29 +25,29 @@
         <tag>keyboardlayout</tag>
       </tags>
       <analysis>
-        <id>23544347</id>
-        <url>https://www.openhub.net/analyses/23544347.xml</url>
+        <id>25102876</id>
+        <url>https://www.openhub.net/analyses/25102876.xml</url>
         <project_id>591496</project_id>
-        <updated_at>2015-01-13T01:31:07Z</updated_at>
-        <logged_at>2015-01-13T01:31:03Z</logged_at>
+        <updated_at>2015-07-20T05:42:53Z</updated_at>
+        <logged_at>2015-07-20T05:42:42Z</logged_at>
         <min_month>2005-10-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>4</twelve_month_contributor_count>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>5</twelve_month_contributor_count>
         <total_contributor_count>26</total_contributor_count>
-        <twelve_month_commit_count>50</twelve_month_commit_count>
-        <total_commit_count>1197</total_commit_count>
-        <total_code_lines>27267</total_code_lines>
+        <twelve_month_commit_count>81</twelve_month_commit_count>
+        <total_commit_count>1243</total_commit_count>
+        <total_code_lines>27283</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidTeamSizeAverage">
 Average size development team          </factoid>
           <factoid type="FactoidCommentsLow">
 Few source code comments          </factoid>
-          <factoid type="FactoidActivityStable">
-Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/console-setup/analyses/23544347/languages.png">
+        <languages graph_url="https://www.openhub.net/p/console-setup/analyses/25102876/languages.png">
           <language percentage="38" color="555555" id="3">
 XML          </language>
           <language percentage="40" color="D2C690" id="8">
@@ -71,8 +71,8 @@ shell script          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>40</value>
-        <description>Low</description>
+        <value>50</value>
+        <description>Moderate</description>
       </project_activity_index>
     </project>
   </result>

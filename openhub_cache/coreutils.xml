@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/coreutils.xml</url>
       <html_url>https://www.openhub.net/p/coreutils</html_url>
       <created_at>2006-10-11T03:33:28Z</created_at>
-      <updated_at>2015-01-29T13:13:06Z</updated_at>
+      <updated_at>2015-07-22T17:25:16Z</updated_at>
       <description>The GNU Core Utilities are the basic file, shell and text manipulation utilities of the GNU Operating System.
 
 Specifically, this package includes:
@@ -25,11 +25,11 @@ Specifically, this package includes:
       <url_name>coreutils</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_med.png</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_small.png</small_logo_url>
-      <user_count>2442</user_count>
+      <user_count>2438</user_count>
       <average_rating>4.5228</average_rating>
       <rating_count>329</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23197040</analysis_id>
+      <analysis_id>25121195</analysis_id>
       <tags>
         <tag>unlink</tag>
         <tag>uniq</tag>
@@ -121,36 +121,36 @@ Specifically, this package includes:
         <tag>yes</tag>
       </tags>
       <analysis>
-        <id>23197040</id>
-        <url>https://www.openhub.net/analyses/23197040.xml</url>
+        <id>25121195</id>
+        <url>https://www.openhub.net/analyses/25121195.xml</url>
         <project_id>700</project_id>
-        <updated_at>2014-11-12T19:36:50Z</updated_at>
-        <logged_at>2014-11-12T19:36:46Z</logged_at>
+        <updated_at>2015-07-20T12:48:05Z</updated_at>
+        <logged_at>2015-07-20T12:48:01Z</logged_at>
         <min_month>1992-10-01T00:00:00Z</min_month>
-        <max_month>2014-10-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>39</twelve_month_contributor_count>
-        <total_contributor_count>166</total_contributor_count>
-        <twelve_month_commit_count>272</twelve_month_commit_count>
-        <total_commit_count>28029</total_commit_count>
-        <total_code_lines>84879</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>37</twelve_month_contributor_count>
+        <total_contributor_count>182</total_contributor_count>
+        <twelve_month_commit_count>265</twelve_month_commit_count>
+        <total_commit_count>28223</total_commit_count>
+        <total_code_lines>86268</total_code_lines>
         <factoids>
-          <factoid type="FactoidTeamSizeVeryLarge">
-Very large, active development team          </factoid>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/coreutils/analyses/23197040/languages.png">
-          <language percentage="66" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/coreutils/analyses/25121195/languages.png">
+          <language percentage="65" color="FF8F00" id="42">
 C          </language>
           <language percentage="23" color="777777" id="11">
 shell script          </language>
           <language percentage="8" color="D2C690" id="8">
 Perl          </language>
-          <language percentage="3" color="000000" id="">
+          <language percentage="4" color="000000" id="">
 4 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
@@ -163,8 +163,8 @@ Perl          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>50</value>
+        <description>Moderate</description>
       </project_activity_index>
     </project>
   </result>

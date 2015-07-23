@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/acpi-support.xml</url>
       <html_url>https://www.openhub.net/p/acpi-support</html_url>
       <created_at>2012-03-07T19:28:10Z</created_at>
-      <updated_at>2014-12-22T06:54:09Z</updated_at>
+      <updated_at>2015-07-03T22:11:07Z</updated_at>
       <description></description>
       <homepage_url></homepage_url>
       <download_url></download_url>
@@ -17,13 +17,13 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23656299</analysis_id>
+      <analysis_id>25029133</analysis_id>
       <analysis>
-        <id>23656299</id>
-        <url>https://www.openhub.net/analyses/23656299.xml</url>
+        <id>25029133</id>
+        <url>https://www.openhub.net/analyses/25029133.xml</url>
         <project_id>590603</project_id>
-        <updated_at>2015-01-19T22:00:02Z</updated_at>
-        <logged_at>2015-01-19T21:59:55Z</logged_at>
+        <updated_at>2015-07-17T12:17:38Z</updated_at>
+        <logged_at>2015-07-17T12:17:31Z</logged_at>
         <min_month>2009-01-01T00:00:00Z</min_month>
         <max_month>2013-04-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>0</twelve_month_contributor_count>
@@ -36,12 +36,12 @@
 Well-established codebase          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
-          <factoid type="FactoidActivityDecreasing">
-Decreasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
           <factoid type="FactoidTeamSizeZero">
 No recent development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/acpi-support/analyses/23656299/languages.png">
+        <languages graph_url="https://www.openhub.net/p/acpi-support/analyses/25029133/languages.png">
           <language percentage="86" color="777777" id="11">
 shell script          </language>
           <language percentage="14" color="EEE" id="52">
@@ -53,8 +53,8 @@ Make          </language>
       <licenses>
       </licenses>
       <project_activity_index>
-        <value>30</value>
-        <description>Very Low</description>
+        <value>20</value>
+        <description>Inactive</description>
       </project_activity_index>
     </project>
   </result>

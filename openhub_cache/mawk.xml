@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/mawk.xml</url>
       <html_url>https://www.openhub.net/p/mawk</html_url>
       <created_at>2009-10-14T11:45:59Z</created_at>
-      <updated_at>2015-01-02T00:24:31Z</updated_at>
+      <updated_at>2015-06-30T23:35:57Z</updated_at>
       <description>An interpreter for the AWK Programming Language. 
 
 Originally written by Mike Brennan when gawk was not widely known, it remains the fastest free and decent AWK implementation to date.</description>
@@ -21,7 +21,7 @@ Originally written by Mike Brennan when gawk was not widely known, it remains th
       <average_rating>5.0</average_rating>
       <rating_count>2</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23769276</analysis_id>
+      <analysis_id>24682859</analysis_id>
       <tags>
         <tag>programming</tag>
         <tag>awkstuff</tag>
@@ -31,16 +31,16 @@ Originally written by Mike Brennan when gawk was not widely known, it remains th
         <tag>awkly</tag>
       </tags>
       <analysis>
-        <id>23769276</id>
-        <url>https://www.openhub.net/analyses/23769276.xml</url>
+        <id>24682859</id>
+        <url>https://www.openhub.net/analyses/24682859.xml</url>
         <project_id>459878</project_id>
-        <updated_at>2015-01-31T12:57:33Z</updated_at>
-        <logged_at>2015-01-31T12:57:31Z</logged_at>
+        <updated_at>2015-07-18T02:34:09Z</updated_at>
+        <logged_at>2015-07-18T02:34:07Z</logged_at>
         <min_month>1993-07-01T00:00:00Z</min_month>
         <max_month>2014-09-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>2</twelve_month_contributor_count>
         <total_contributor_count>5</total_contributor_count>
-        <twelve_month_commit_count>186</twelve_month_commit_count>
+        <twelve_month_commit_count>171</twelve_month_commit_count>
         <total_commit_count>1483</total_commit_count>
         <total_code_lines>33481</total_code_lines>
         <factoids>
@@ -48,12 +48,12 @@ Originally written by Mike Brennan when gawk was not widely known, it remains th
 Mature, well-established codebase          </factoid>
           <factoid type="FactoidActivityIncreasing">
 Increasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidCommentsAverage">
-Average number of code comments          </factoid>
           <factoid type="FactoidTeamSizeSmall">
 Small development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/mawk/analyses/23769276/languages.png">
+        <languages graph_url="https://www.openhub.net/p/mawk/analyses/24682859/languages.png">
           <language percentage="56" color="FF8F00" id="42">
 C          </language>
           <language percentage="25" color="EEE" id="51">
@@ -73,8 +73,8 @@ shell script          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>50</value>
-        <description>Moderate</description>
+        <value>40</value>
+        <description>Low</description>
       </project_activity_index>
     </project>
   </result>

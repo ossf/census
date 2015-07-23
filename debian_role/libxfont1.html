@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="Author" content="Debian Webmaster, webmaster@debian.org">
 <meta name="Description" content="X11 font rasterisation library">
-<meta name="Keywords" content="Debian,  wheezy, us, main, libs, 1:1.4.5-4">
+<meta name="Keywords" content="Debian,  wheezy, security, main, x11, 1:1.4.5-5">
 
 
 <link href="/debpkg.css" rel="stylesheet" type="text/css" media="all">
@@ -40,9 +40,9 @@
 <div id="pnavbar">
  &nbsp;&#x2F; <a href="/" title="Debian Packages Homepage">Packages</a>
 
- &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (stable)</a> 
+ &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (oldstable)</a> 
 
- &#x2F; <a href="/wheezy/libs/" title="All packages in this section">libs</a> 
+ &#x2F; <a href="/wheezy/x11/" title="All packages in this section">x11</a> 
 
  &#x2F; libxfont1 
 
@@ -77,9 +77,11 @@ package names</option>
 
 
    <div id="pothers">       [&nbsp;    <a  href="/squeeze/libxfont1">squeeze</a>  &nbsp;]
+          [&nbsp;    <a  href="/squeeze-lts/libxfont1">squeeze-lts</a>  &nbsp;]
           [&nbsp;    <a  href="/squeeze-backports/libxfont1">squeeze-backports</a>  &nbsp;]
           [&nbsp;   <strong>wheezy</strong>  &nbsp;]
           [&nbsp;    <a  href="/jessie/libxfont1">jessie</a>  &nbsp;]
+          [&nbsp;    <a  href="/stretch/libxfont1">stretch</a>  &nbsp;]
           [&nbsp;    <a  href="/sid/libxfont1">sid</a>  &nbsp;]</div>
 
 
@@ -89,15 +91,15 @@ package names</option>
 
 <!-- messages.tmpl -->
 
-<h1>Package: libxfont1 (1:1.4.5-4)
-</h1>
+<h1>Package: libxfont1 (1:1.4.5-5)
+ [<strong class="pmarker" >security</strong>] </h1>
 
 
 <div id="pmoreinfo">
 <h2>Links for libxfont1</h2>
 
 <div class="screenshot">
-<a id="screenshot" href="//screenshots.debian.net/package/libxfont1"><img src="//screenshots.debian.net/thumbnail-with-version//libxfont1/1:1.4.5-4" alt="Screenshot" border="0"/></a>
+<a id="screenshot" href="//screenshots.debian.net/package/libxfont1"><img src="//screenshots.debian.net/thumbnail-with-version//libxfont1/1:1.4.5-5" alt="Screenshot" border="0"/></a>
 </div>
 
 <h3>Debian Resources:</h3>
@@ -108,8 +110,8 @@ package names</option>
 
 
 
-<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/libx/libxfont/libxfont_1.4.5-4_changelog">Debian Changelog</a></li>
-<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/libx/libxfont/libxfont_1.4.5-4_copyright">Copyright File</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/libx/libxfont/libxfont_1.4.5-5_changelog">Debian Changelog</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/libx/libxfont/libxfont_1.4.5-5_copyright">Copyright File</a></li>
 
 
 
@@ -118,7 +120,7 @@ package names</option>
       
       
     
-    <li><a href="http://patch-tracker.debian.org/package/libxfont/1:1.4.5-4">Debian Patch Tracker</a></li>
+    <li><a href="http://patch-tracker.debian.org/package/libxfont/1:1.4.5-5">Debian Patch Tracker</a></li>
       
 </ul>
 
@@ -126,15 +128,15 @@ package names</option>
   <h3>Download Source Package <a href="/source/wheezy/libxfont">libxfont</a>:</h3>
   
     <ul>
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/libx/libxfont/libxfont_1.4.5-4.dsc">[libxfont_1.4.5-4.dsc]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/libx/libxfont/libxfont_1.4.5-5.dsc">[libxfont_1.4.5-5.dsc]</a></li>
     
   
     
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/libx/libxfont/libxfont_1.4.5.orig.tar.gz">[libxfont_1.4.5.orig.tar.gz]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/libx/libxfont/libxfont_1.4.5.orig.tar.gz">[libxfont_1.4.5.orig.tar.gz]</a></li>
     
   
     
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/libx/libxfont/libxfont_1.4.5-4.diff.gz">[libxfont_1.4.5-4.diff.gz]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/libx/libxfont/libxfont_1.4.5-5.diff.gz">[libxfont_1.4.5-5.diff.gz]</a></li>
     </ul>
   
   
@@ -213,35 +215,6 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 
 </div> <!-- end pdesc -->
 
-
-      <div id="ptags"><p>
-    <a href="http://debtags.alioth.debian.org/edit.html?pkg=libxfont1">Tags</a>:
-  
-  Role: 
-  
-   <a href="/about/debtags#role::shared-lib">Shared Library</a>, 
-  
-  
-  
-
-  
-  
-  Works with: 
-  
-   <a href="/about/debtags#works-with::font">Fonts</a>, 
-  
-  
-  
-
-  
-  
-  X Window System: 
-  
-   <a href="/about/debtags#x11::library">Library</a>
-  
-  
-      </p>
-    </div> <!-- end ptags -->
 
 
 
@@ -424,7 +397,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/amd64/libxfont1/download">amd64</a></th>
 
 
-<td class="size">160.5&nbsp;kB</td><td class="size">319.0&nbsp;kB</td>
+<td class="size">160.9&nbsp;kB</td><td class="size">323.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/amd64/libxfont1/filelist">list of files</a>]
@@ -441,7 +414,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/armel/libxfont1/download">armel</a></th>
 
 
-<td class="size">148.5&nbsp;kB</td><td class="size">279.0&nbsp;kB</td>
+<td class="size">148.9&nbsp;kB</td><td class="size">280.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/armel/libxfont1/filelist">list of files</a>]
@@ -458,7 +431,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/armhf/libxfont1/download">armhf</a></th>
 
 
-<td class="size">135.1&nbsp;kB</td><td class="size">224.0&nbsp;kB</td>
+<td class="size">135.3&nbsp;kB</td><td class="size">224.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/armhf/libxfont1/filelist">list of files</a>]
@@ -475,7 +448,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/i386/libxfont1/download">i386</a></th>
 
 
-<td class="size">158.5&nbsp;kB</td><td class="size">312.0&nbsp;kB</td>
+<td class="size">158.5&nbsp;kB</td><td class="size">284.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/i386/libxfont1/filelist">list of files</a>]
@@ -492,7 +465,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/ia64/libxfont1/download">ia64</a></th>
 
 
-<td class="size">219.2&nbsp;kB</td><td class="size">550.0&nbsp;kB</td>
+<td class="size">219.5&nbsp;kB</td><td class="size">550.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/ia64/libxfont1/filelist">list of files</a>]
@@ -509,7 +482,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/kfreebsd-amd64/libxfont1/download">kfreebsd-amd64</a></th>
 
 
-<td class="size">160.2&nbsp;kB</td><td class="size">294.0&nbsp;kB</td>
+<td class="size">160.5&nbsp;kB</td><td class="size">299.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/kfreebsd-amd64/libxfont1/filelist">list of files</a>]
@@ -526,7 +499,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/kfreebsd-i386/libxfont1/download">kfreebsd-i386</a></th>
 
 
-<td class="size">158.2&nbsp;kB</td><td class="size">287.0&nbsp;kB</td>
+<td class="size">158.5&nbsp;kB</td><td class="size">287.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/kfreebsd-i386/libxfont1/filelist">list of files</a>]
@@ -543,7 +516,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/mips/libxfont1/download">mips</a></th>
 
 
-<td class="size">152.3&nbsp;kB</td><td class="size">312.0&nbsp;kB</td>
+<td class="size">152.2&nbsp;kB</td><td class="size">284.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/mips/libxfont1/filelist">list of files</a>]
@@ -560,7 +533,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/mipsel/libxfont1/download">mipsel</a></th>
 
 
-<td class="size">153.0&nbsp;kB</td><td class="size">312.0&nbsp;kB</td>
+<td class="size">152.7&nbsp;kB</td><td class="size">312.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/mipsel/libxfont1/filelist">list of files</a>]
@@ -577,7 +550,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/powerpc/libxfont1/download">powerpc</a></th>
 
 
-<td class="size">154.0&nbsp;kB</td><td class="size">307.0&nbsp;kB</td>
+<td class="size">154.0&nbsp;kB</td><td class="size">308.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/powerpc/libxfont1/filelist">list of files</a>]
@@ -594,7 +567,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/s390/libxfont1/download">s390</a></th>
 
 
-<td class="size">157.0&nbsp;kB</td><td class="size">311.0&nbsp;kB</td>
+<td class="size">157.1&nbsp;kB</td><td class="size">311.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/s390/libxfont1/filelist">list of files</a>]
@@ -611,7 +584,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/s390x/libxfont1/download">s390x</a></th>
 
 
-<td class="size">161.1&nbsp;kB</td><td class="size">343.0&nbsp;kB</td>
+<td class="size">161.4&nbsp;kB</td><td class="size">343.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/s390x/libxfont1/filelist">list of files</a>]
@@ -628,7 +601,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libXfont
 <th><a href="/wheezy/sparc/libxfont1/download">sparc</a></th>
 
 
-<td class="size">147.3&nbsp;kB</td><td class="size">286.0&nbsp;kB</td>
+<td class="size">147.4&nbsp;kB</td><td class="size">286.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/sparc/libxfont1/filelist">list of files</a>]
@@ -716,7 +689,7 @@ Content Copyright &copy; 1997 - 2015 <a href="http://www.spi-inc.org/">SPI Inc.<
 </div> <!-- end impressum -->
 
 <div id="sponsorfooter"><p>
-This service is sponsored by <a href="http://1und1.de/">1&1 Internet AG</a>.</p></div>
+This service is sponsored by <a href="http://www.hp.com/">Hewlett-Packard</a>.</p></div>
 
 </div> <!-- end fineprint -->
 </div> <!-- end footer -->

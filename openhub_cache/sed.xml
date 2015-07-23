@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/sed.xml</url>
       <html_url>https://www.openhub.net/p/sed</html_url>
       <created_at>2006-10-12T04:54:35Z</created_at>
-      <updated_at>2015-02-07T12:22:38Z</updated_at>
+      <updated_at>2015-07-22T17:24:55Z</updated_at>
       <description>Sed (streams editor) isn't really a true text editor or text processor. Instead, it is used to filter text, i.e., it takes text input and performs some operation (or set of operations) on it and outputs the modified text. 
 
 Sed is typically used for extracting part of a file using pattern matching or substituting multiple occurrences of a string within a file.</description>
@@ -17,11 +17,11 @@ Sed is typically used for extracting part of a file using pattern matching or su
       <url_name>sed</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_med.png</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_small.png</small_logo_url>
-      <user_count>1176</user_count>
+      <user_count>1174</user_count>
       <average_rating>4.31609</average_rating>
       <rating_count>174</rating_count>
       <review_count>1</review_count>
-      <analysis_id>22818651</analysis_id>
+      <analysis_id>25128926</analysis_id>
       <tags>
         <tag>gnu</tag>
         <tag>posix</tag>
@@ -33,35 +33,35 @@ Sed is typically used for extracting part of a file using pattern matching or su
         <tag>shell</tag>
       </tags>
       <analysis>
-        <id>22818651</id>
-        <url>https://www.openhub.net/analyses/22818651.xml</url>
+        <id>25128926</id>
+        <url>https://www.openhub.net/analyses/25128926.xml</url>
         <project_id>1984</project_id>
-        <updated_at>2014-11-09T18:43:34Z</updated_at>
-        <logged_at>2014-11-09T18:43:28Z</logged_at>
+        <updated_at>2015-07-21T19:50:58Z</updated_at>
+        <logged_at>2015-07-21T15:24:46Z</logged_at>
         <min_month>2004-10-01T00:00:00Z</min_month>
-        <max_month>2014-09-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>2</twelve_month_contributor_count>
-        <total_contributor_count>14</total_contributor_count>
-        <twelve_month_commit_count>5</twelve_month_commit_count>
-        <total_commit_count>383</total_commit_count>
-        <total_code_lines>23536</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>4</twelve_month_contributor_count>
+        <total_contributor_count>16</total_contributor_count>
+        <twelve_month_commit_count>79</twelve_month_commit_count>
+        <total_commit_count>458</total_commit_count>
+        <total_code_lines>23676</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeAverage">
+Average size development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
-          <factoid type="FactoidTeamSizeSmall">
-Small development team          </factoid>
-          <factoid type="FactoidActivityStable">
-Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/sed/analyses/22818651/languages.png">
-          <language percentage="79" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/sed/analyses/25128926/languages.png">
+          <language percentage="76" color="FF8F00" id="42">
 C          </language>
-          <language percentage="11" color="777777" id="11">
+          <language percentage="13" color="777777" id="11">
 shell script          </language>
-          <language percentage="10" color="000000" id="">
-5 Other          </language>
+          <language percentage="11" color="000000" id="">
+6 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
         <main_language_name>C</main_language_name>
@@ -73,8 +73,8 @@ shell script          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>40</value>
+        <description>Low</description>
       </project_activity_index>
     </project>
   </result>

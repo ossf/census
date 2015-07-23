@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/cwidget.xml</url>
       <html_url>https://www.openhub.net/p/cwidget</html_url>
       <created_at>2014-02-19T19:32:03Z</created_at>
-      <updated_at>2014-12-25T03:04:18Z</updated_at>
+      <updated_at>2015-05-11T09:02:13Z</updated_at>
       <description>cwidget is a C++-based user interface framework for terminal programs built on curses. Its design is based on that of modern user-interface libraries such as GTK+ and Qt, with pervasive late-binding through the signal/slot pattern.</description>
       <homepage_url>http://cwidget.alioth.debian.org/</homepage_url>
       <download_url></download_url>
@@ -17,16 +17,16 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23681700</analysis_id>
+      <analysis_id>24303518</analysis_id>
       <analysis>
-        <id>23681700</id>
-        <url>https://www.openhub.net/analyses/23681700.xml</url>
+        <id>24303518</id>
+        <url>https://www.openhub.net/analyses/24303518.xml</url>
         <project_id>714117</project_id>
-        <updated_at>2015-01-23T21:39:09Z</updated_at>
-        <logged_at>2015-01-23T21:39:06Z</logged_at>
+        <updated_at>2015-05-25T21:16:58Z</updated_at>
+        <logged_at>2015-05-25T21:16:55Z</logged_at>
         <min_month>2007-11-01T00:00:00Z</min_month>
         <max_month>2014-11-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>3</twelve_month_contributor_count>
+        <twelve_month_contributor_count>1</twelve_month_contributor_count>
         <total_contributor_count>4</total_contributor_count>
         <twelve_month_commit_count>46</twelve_month_commit_count>
         <total_commit_count>202</total_commit_count>
@@ -34,14 +34,14 @@
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
-          <factoid type="FactoidTeamSizeSmall">
-Small development team          </factoid>
+          <factoid type="FactoidTeamSizeOne">
+Only a single active developer          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/cwidget/analyses/23681700/languages.png">
+        <languages graph_url="https://www.openhub.net/p/cwidget/analyses/24303518/languages.png">
           <language percentage="85" color="F35F1F" id="44">
 C++          </language>
           <language percentage="9" color="EEE" id="51">
@@ -55,8 +55,8 @@ Autoconf          </language>
       <licenses>
       </licenses>
       <project_activity_index>
-        <value>40</value>
-        <description>Low</description>
+        <value>0</value>
+        <description>Not Available</description>
       </project_activity_index>
     </project>
   </result>

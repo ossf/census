@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libsigc.xml</url>
       <html_url>https://www.openhub.net/p/libsigc</html_url>
       <created_at>2007-10-11T16:39:55Z</created_at>
-      <updated_at>2014-12-12T05:06:22Z</updated_at>
+      <updated_at>2015-07-21T11:56:12Z</updated_at>
       <description>libsigc++ implements a typesafe callback system for standard C++. It allows you to define signals and to connect those signals to any callback function, either global or a member function, regardless of whether it is static or virtual.</description>
       <homepage_url>http://libsigc.sourceforge.net/</homepage_url>
       <download_url>http://libsigc.sourceforge.net/stable.shtml</download_url>
@@ -19,38 +19,38 @@
       <average_rating>5.0</average_rating>
       <rating_count>2</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23525130</analysis_id>
+      <analysis_id>25128342</analysis_id>
       <tags>
         <tag>signal</tag>
         <tag>c++</tag>
       </tags>
       <analysis>
-        <id>23525130</id>
-        <url>https://www.openhub.net/analyses/23525130.xml</url>
+        <id>25128342</id>
+        <url>https://www.openhub.net/analyses/25128342.xml</url>
         <project_id>9092</project_id>
-        <updated_at>2015-01-11T12:43:41Z</updated_at>
-        <logged_at>2015-01-11T12:43:38Z</logged_at>
+        <updated_at>2015-07-21T11:56:12Z</updated_at>
+        <logged_at>2015-07-21T11:55:48Z</logged_at>
         <min_month>2003-01-01T00:00:00Z</min_month>
-        <max_month>2014-10-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>4</twelve_month_contributor_count>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>5</twelve_month_contributor_count>
         <total_contributor_count>33</total_contributor_count>
-        <twelve_month_commit_count>22</twelve_month_commit_count>
-        <total_commit_count>414</total_commit_count>
-        <total_code_lines>25310</total_code_lines>
+        <twelve_month_commit_count>38</twelve_month_commit_count>
+        <total_commit_count>432</total_commit_count>
+        <total_code_lines>24107</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidCommentsHigh">
-Well-commented source code          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidTeamSizeAverage">
 Average size development team          </factoid>
-          <factoid type="FactoidActivityStable">
-Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libsigc/analyses/23525130/languages.png">
-          <language percentage="55" color="555555" id="3">
+        <languages graph_url="https://www.openhub.net/p/libsigc/analyses/25128342/languages.png">
+          <language percentage="58" color="555555" id="3">
 XML          </language>
-          <language percentage="21" color="EEE" id="51">
+          <language percentage="18" color="EEE" id="51">
 Autoconf          </language>
           <language percentage="22" color="F35F1F" id="44">
 C++          </language>
@@ -67,8 +67,8 @@ C++          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>30</value>
+        <description>Very Low</description>
       </project_activity_index>
     </project>
   </result>

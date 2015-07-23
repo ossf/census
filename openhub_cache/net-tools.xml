@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/net-tools.xml</url>
       <html_url>https://www.openhub.net/p/net-tools</html_url>
       <created_at>2009-01-24T19:09:14Z</created_at>
-      <updated_at>2014-10-19T13:12:59Z</updated_at>
+      <updated_at>2015-07-13T20:23:49Z</updated_at>
       <description>A collection of programs that form the base set of the NET-3 networking distribution for the Linux operating system. Includes: arp, hostname, ifconfig, netstat, rarp, route, plipconfig, slattach, mii-tool, iptunn
 
 Please keep in mind that most net-tools programs are obsolete now. See ethtool and iproute2 instead.</description>
@@ -19,36 +19,36 @@ Please keep in mind that most net-tools programs are obsolete now. See ethtool a
       <average_rating>5.0</average_rating>
       <rating_count>1</rating_count>
       <review_count>0</review_count>
-      <analysis_id>22847957</analysis_id>
+      <analysis_id>25117104</analysis_id>
       <tags>
         <tag>ethernet</tag>
         <tag>networking</tag>
         <tag>linux</tag>
       </tags>
       <analysis>
-        <id>22847957</id>
-        <url>https://www.openhub.net/analyses/22847957.xml</url>
+        <id>25117104</id>
+        <url>https://www.openhub.net/analyses/25117104.xml</url>
         <project_id>306860</project_id>
-        <updated_at>2014-11-19T00:32:01Z</updated_at>
-        <logged_at>2014-11-19T00:31:59Z</logged_at>
+        <updated_at>2015-07-14T20:25:16Z</updated_at>
+        <logged_at>2015-07-14T20:25:14Z</logged_at>
         <min_month>1998-01-01T00:00:00Z</min_month>
-        <max_month>2014-10-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>7</twelve_month_contributor_count>
-        <total_contributor_count>24</total_contributor_count>
+        <max_month>2015-06-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>5</twelve_month_contributor_count>
+        <total_contributor_count>25</total_contributor_count>
         <twelve_month_commit_count>19</twelve_month_commit_count>
-        <total_commit_count>534</total_commit_count>
-        <total_code_lines>14688</total_code_lines>
+        <total_commit_count>542</total_commit_count>
+        <total_code_lines>14709</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidTeamSizeLarge">
-Large, active development team          </factoid>
+          <factoid type="FactoidTeamSizeAverage">
+Average size development team          </factoid>
           <factoid type="FactoidCommentsLow">
 Few source code comments          </factoid>
-          <factoid type="FactoidActivityDecreasing">
-Decreasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/net-tools/analyses/22847957/languages.png">
+        <languages graph_url="https://www.openhub.net/p/net-tools/analyses/25117104/languages.png">
           <language percentage="97" color="FF8F00" id="42">
 C          </language>
           <language percentage="3" color="000000" id="">
@@ -64,8 +64,8 @@ C          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>40</value>
+        <description>Low</description>
       </project_activity_index>
       <links>
         <link>

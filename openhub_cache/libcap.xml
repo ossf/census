@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libcap.xml</url>
       <html_url>https://www.openhub.net/p/libcap</html_url>
       <created_at>2013-08-21T20:32:42Z</created_at>
-      <updated_at>2014-12-13T17:39:07Z</updated_at>
+      <updated_at>2015-06-30T23:07:19Z</updated_at>
       <description>libcap implements the user-space interfaces to the POSIX 1003.1e capabilities available in Linux kernels. These capabilities are a partitioning of the all powerful root privilege into a set of distinct privileges.</description>
       <homepage_url>https://sites.google.com/site/fullycapable/</homepage_url>
       <download_url></download_url>
@@ -19,36 +19,36 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23548224</analysis_id>
+      <analysis_id>24678606</analysis_id>
       <tags>
         <tag>privilege</tag>
         <tag>capabilities</tag>
         <tag>10031e</tag>
       </tags>
       <analysis>
-        <id>23548224</id>
-        <url>https://www.openhub.net/analyses/23548224.xml</url>
+        <id>24678606</id>
+        <url>https://www.openhub.net/analyses/24678606.xml</url>
         <project_id>649672</project_id>
-        <updated_at>2015-01-11T02:23:40Z</updated_at>
-        <logged_at>2015-01-11T02:23:38Z</logged_at>
+        <updated_at>2015-07-21T10:20:24Z</updated_at>
+        <logged_at>2015-07-21T10:20:21Z</logged_at>
         <min_month>2007-07-01T00:00:00Z</min_month>
         <max_month>2014-05-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>5</twelve_month_contributor_count>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
         <total_contributor_count>19</total_contributor_count>
-        <twelve_month_commit_count>17</twelve_month_commit_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
         <total_commit_count>163</total_commit_count>
         <total_code_lines>3461</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidTeamSizeAverage">
-Average size development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libcap/analyses/23548224/languages.png">
+        <languages graph_url="https://www.openhub.net/p/libcap/analyses/24678606/languages.png">
           <language percentage="77" color="FF8F00" id="42">
 C          </language>
           <language percentage="18" color="777777" id="11">
@@ -66,8 +66,8 @@ Make          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>30</value>
+        <description>Very Low</description>
       </project_activity_index>
     </project>
   </result>

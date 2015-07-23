@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/xz-utils.xml</url>
       <html_url>https://www.openhub.net/p/xz-utils</html_url>
       <created_at>2009-01-30T21:52:03Z</created_at>
-      <updated_at>2015-01-10T23:12:22Z</updated_at>
+      <updated_at>2015-07-14T10:37:03Z</updated_at>
       <description>XZ Utils is free general-purpose data compression software with high compression ratio. XZ Utils were written for POSIX-like systems, but also work on some not-so-POSIX systems. XZ Utils are the successor to LZMA Utils.</description>
       <homepage_url>http://tukaani.org/xz/</homepage_url>
       <download_url></download_url>
@@ -19,7 +19,7 @@
       <average_rating>5.0</average_rating>
       <rating_count>3</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23824744</analysis_id>
+      <analysis_id>25118325</analysis_id>
       <tags>
         <tag>tools</tag>
         <tag>xz</tag>
@@ -29,18 +29,18 @@
         <tag>library</tag>
       </tags>
       <analysis>
-        <id>23824744</id>
-        <url>https://www.openhub.net/analyses/23824744.xml</url>
+        <id>25118325</id>
+        <url>https://www.openhub.net/analyses/25118325.xml</url>
         <project_id>308958</project_id>
-        <updated_at>2015-01-10T23:12:22Z</updated_at>
-        <logged_at>2015-01-08T22:26:41Z</logged_at>
+        <updated_at>2015-07-21T14:20:15Z</updated_at>
+        <logged_at>2015-07-21T14:20:11Z</logged_at>
         <min_month>2007-12-01T00:00:00Z</min_month>
-        <max_month>2015-01-01T00:00:00Z</max_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>4</twelve_month_contributor_count>
         <total_contributor_count>13</total_contributor_count>
-        <twelve_month_commit_count>107</twelve_month_commit_count>
-        <total_commit_count>1033</total_commit_count>
-        <total_code_lines>27105</total_code_lines>
+        <twelve_month_commit_count>118</twelve_month_commit_count>
+        <total_commit_count>1075</total_commit_count>
+        <total_code_lines>28089</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
@@ -51,11 +51,11 @@ Very well-commented source code          </factoid>
           <factoid type="FactoidTeamSizeAverage">
 Average size development team          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/xz-utils/analyses/23824744/languages.png">
-          <language percentage="90" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/xz-utils/analyses/25118325/languages.png">
+          <language percentage="88" color="FF8F00" id="42">
 C          </language>
-          <language percentage="10" color="000000" id="">
-6 Other          </language>
+          <language percentage="12" color="000000" id="">
+7 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
         <main_language_name>C</main_language_name>
@@ -71,8 +71,8 @@ C          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>50</value>
+        <description>Moderate</description>
       </project_activity_index>
       <links>
         <link>

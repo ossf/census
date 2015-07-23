@@ -8,18 +8,18 @@
       <url>https://www.openhub.net/p/nano.xml</url>
       <html_url>https://www.openhub.net/p/nano</html_url>
       <created_at>2007-04-21T20:19:48Z</created_at>
-      <updated_at>2015-01-30T21:12:07Z</updated_at>
+      <updated_at>2015-07-19T21:14:31Z</updated_at>
       <description>GNU nano is designed to be a free replacement for the Pico text editor, part of the Pine email suite from The University of Washington. It aims to "emulate Pico as closely as possible and perhaps include extra functionality".</description>
       <homepage_url>http://www.nano-editor.org/</homepage_url>
       <download_url></download_url>
       <url_name>nano</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/5129/nano_med.png</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/5129/nano_small.png</small_logo_url>
-      <user_count>257</user_count>
+      <user_count>256</user_count>
       <average_rating>4.08065</average_rating>
       <rating_count>62</rating_count>
       <review_count>1</review_count>
-      <analysis_id>23793702</analysis_id>
+      <analysis_id>25125453</analysis_id>
       <tags>
         <tag>gnu</tag>
         <tag>text</tag>
@@ -29,29 +29,29 @@
         <tag>syntax_highlighting</tag>
       </tags>
       <analysis>
-        <id>23793702</id>
-        <url>https://www.openhub.net/analyses/23793702.xml</url>
+        <id>25125453</id>
+        <url>https://www.openhub.net/analyses/25125453.xml</url>
         <project_id>4956</project_id>
-        <updated_at>2015-01-05T04:51:10Z</updated_at>
-        <logged_at>2015-01-05T04:51:07Z</logged_at>
+        <updated_at>2015-07-19T21:14:31Z</updated_at>
+        <logged_at>2015-07-19T21:13:43Z</logged_at>
         <min_month>2000-06-01T00:00:00Z</min_month>
-        <max_month>2015-01-01T00:00:00Z</max_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>3</twelve_month_contributor_count>
         <total_contributor_count>10</total_contributor_count>
-        <twelve_month_commit_count>513</twelve_month_commit_count>
-        <total_commit_count>4775</total_commit_count>
-        <total_code_lines>20101</total_code_lines>
+        <twelve_month_commit_count>231</twelve_month_commit_count>
+        <total_commit_count>4981</total_commit_count>
+        <total_code_lines>20032</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidCommentsAverage">
-Average number of code comments          </factoid>
           <factoid type="FactoidTeamSizeSmall">
 Small development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/nano/analyses/23793702/languages.png">
+        <languages graph_url="https://www.openhub.net/p/nano/analyses/25125453/languages.png">
           <language percentage="87" color="FF8F00" id="42">
 C          </language>
           <language percentage="10" color="EEE" id="51">
@@ -69,8 +69,8 @@ Autoconf          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>50</value>
+        <description>Moderate</description>
       </project_activity_index>
     </project>
   </result>

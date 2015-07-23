@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libusb.xml</url>
       <html_url>https://www.openhub.net/p/libusb</html_url>
       <created_at>2007-10-17T22:20:07Z</created_at>
-      <updated_at>2015-01-15T23:01:29Z</updated_at>
+      <updated_at>2015-06-30T23:25:32Z</updated_at>
       <description>libusb aims at creating a library for use by user level applications to access USB devices regardless of OS</description>
       <homepage_url>http://libusb.sourceforge.net/</homepage_url>
       <download_url>http://libusb.sourceforge.net/download.html#stable</download_url>
@@ -19,7 +19,7 @@
       <average_rating>4.2</average_rating>
       <rating_count>5</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23824423</analysis_id>
+      <analysis_id>24681242</analysis_id>
       <tags>
         <tag>osx</tag>
         <tag>linux</tag>
@@ -31,18 +31,18 @@
         <tag>libusb</tag>
       </tags>
       <analysis>
-        <id>23824423</id>
-        <url>https://www.openhub.net/analyses/23824423.xml</url>
+        <id>24681242</id>
+        <url>https://www.openhub.net/analyses/24681242.xml</url>
         <project_id>9186</project_id>
-        <updated_at>2015-01-10T22:31:52Z</updated_at>
-        <logged_at>2015-01-08T20:29:24Z</logged_at>
+        <updated_at>2015-07-13T18:54:00Z</updated_at>
+        <logged_at>2015-07-13T18:53:24Z</logged_at>
         <min_month>2000-01-01T00:00:00Z</min_month>
-        <max_month>2015-01-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>16</twelve_month_contributor_count>
-        <total_contributor_count>88</total_contributor_count>
-        <twelve_month_commit_count>81</twelve_month_commit_count>
-        <total_commit_count>1425</total_commit_count>
-        <total_code_lines>36020</total_code_lines>
+        <max_month>2015-05-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>13</twelve_month_contributor_count>
+        <total_contributor_count>94</total_contributor_count>
+        <twelve_month_commit_count>78</twelve_month_commit_count>
+        <total_commit_count>1466</total_commit_count>
+        <total_code_lines>35845</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
@@ -53,14 +53,14 @@ Well-commented source code          </factoid>
           <factoid type="FactoidActivityDecreasing">
 Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libusb/analyses/23824423/languages.png">
+        <languages graph_url="https://www.openhub.net/p/libusb/analyses/24681242/languages.png">
           <language percentage="70" color="FF8F00" id="42">
 C          </language>
-          <language percentage="15" color="555555" id="3">
+          <language percentage="16" color="555555" id="3">
 XML          </language>
           <language percentage="11" color="F35F1F" id="44">
 C++          </language>
-          <language percentage="4" color="000000" id="">
+          <language percentage="3" color="000000" id="">
 5 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
@@ -73,8 +73,8 @@ C++          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>50</value>
+        <description>Moderate</description>
       </project_activity_index>
       <links>
         <link>

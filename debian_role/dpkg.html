@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="Author" content="Debian Webmaster, webmaster@debian.org">
 <meta name="Description" content="Debian package management system">
-<meta name="Keywords" content="Debian,  wheezy, us, main, admin, 1.16.15">
+<meta name="Keywords" content="Debian,  wheezy, security, main, admin, 1.16.16">
 
 
 <link href="/debpkg.css" rel="stylesheet" type="text/css" media="all">
@@ -40,7 +40,7 @@
 <div id="pnavbar">
  &nbsp;&#x2F; <a href="/" title="Debian Packages Homepage">Packages</a>
 
- &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (stable)</a> 
+ &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (oldstable)</a> 
 
  &#x2F; <a href="/wheezy/admin/" title="All packages in this section">admin</a> 
 
@@ -76,9 +76,11 @@ package names</option>
 <!-- show.tmpl -->
 
 
-   <div id="pothers">       [&nbsp;    <a  href="/squeeze/dpkg">squeeze</a>  &nbsp;]
+   <div id="pothers">       [&nbsp;    <a  href="/squeeze-lts/dpkg">squeeze-lts</a>  &nbsp;]
+          [&nbsp;    <a  href="/squeeze/dpkg">squeeze</a>  &nbsp;]
           [&nbsp;   <strong>wheezy</strong>  &nbsp;]
           [&nbsp;    <a  href="/jessie/dpkg">jessie</a>  &nbsp;]
+          [&nbsp;    <a  href="/stretch/dpkg">stretch</a>  &nbsp;]
           [&nbsp;    <a  href="/sid/dpkg">sid</a>  &nbsp;]</div>
 
 
@@ -88,15 +90,15 @@ package names</option>
 
 <!-- messages.tmpl -->
 
-<h1>Package: dpkg (1.16.15)
- [<a href="http://www.debian.org/doc/debian-policy/ch-binary.html#s3.8"><strong class="pmarker" title="package manager will refuse to remove this package by default">essential</strong></a>] </h1>
+<h1>Package: dpkg (1.16.16)
+ [<strong class="pmarker" >security</strong>]  [<a href="http://www.debian.org/doc/debian-policy/ch-binary.html#s3.8"><strong class="pmarker" title="package manager will refuse to remove this package by default">essential</strong></a>] </h1>
 
 
 <div id="pmoreinfo">
 <h2>Links for dpkg</h2>
 
 <div class="screenshot">
-<a id="screenshot" href="//screenshots.debian.net/package/dpkg"><img src="//screenshots.debian.net/thumbnail-with-version//dpkg/1.16.15" alt="Screenshot" border="0"/></a>
+<a id="screenshot" href="//screenshots.debian.net/package/dpkg"><img src="//screenshots.debian.net/thumbnail-with-version//dpkg/1.16.16" alt="Screenshot" border="0"/></a>
 </div>
 
 <h3>Debian Resources:</h3>
@@ -107,8 +109,8 @@ package names</option>
 
 
 
-<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/d/dpkg/dpkg_1.16.15_changelog">Debian Changelog</a></li>
-<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/d/dpkg/dpkg_1.16.15_copyright">Copyright File</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/d/dpkg/dpkg_1.16.16_changelog">Debian Changelog</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/d/dpkg/dpkg_1.16.16_copyright">Copyright File</a></li>
 
 
 
@@ -122,11 +124,11 @@ package names</option>
   <h3>Download Source Package <a href="/source/wheezy/dpkg">dpkg</a>:</h3>
   
     <ul>
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/d/dpkg/dpkg_1.16.15.dsc">[dpkg_1.16.15.dsc]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/d/dpkg/dpkg_1.16.16.dsc">[dpkg_1.16.16.dsc]</a></li>
     
   
     
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/d/dpkg/dpkg_1.16.15.tar.xz">[dpkg_1.16.15.tar.xz]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/d/dpkg/dpkg_1.16.16.tar.xz">[dpkg_1.16.16.tar.xz]</a></li>
     </ul>
   
   
@@ -136,8 +138,6 @@ package names</option>
 	(<a href="http://qa.debian.org/developer.php?login=debian-dpkg%40lists.debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>, <a href="http://lists.debian.org/debian-dpkg/" title="Archive of the Maintainer Mailinglist">Mail&nbsp;Archive</a>)
 	</li>	<li><a href="mailto:guillem@debian.org">Guillem Jover</a>
 	(<a href="http://qa.debian.org/developer.php?login=guillem%40debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>)
-	</li>	<li><a href="mailto:hertzog@debian.org">Raphaël Hertzog</a>
-	(<a href="http://qa.debian.org/developer.php?login=hertzog%40debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>)
 	</li></ul>
 
 <h3>External Resources:</h3>
@@ -184,10 +184,6 @@ package names</option>
 
 	
 	<li><a href="/epm">epm</a></li>
-	
-
-	
-	<li><a href="/libopenms-dev">libopenms-dev</a></li>
 	</ul>
 
 
@@ -214,73 +210,6 @@ For Debian package development tools, install dpkg-dev.
 
 </div> <!-- end pdesc -->
 
-
-      <div id="ptags"><p>
-    <a href="http://debtags.alioth.debian.org/edit.html?pkg=dpkg">Tags</a>:
-  
-  System Administration: 
-  
-   <a href="/about/debtags#admin::package-management">Package Management</a>, 
-  
-  
-  
-
-  
-  
-  Implemented in: 
-  
-   <a href="/about/debtags#implemented-in::c">C</a>, 
-  
-  
-  
-
-  
-  
-  
-  
-  implemented-in::perl,
- interface::commandline, 
-  
-  
-  
-
-  
-  
-  Role: 
-  
-   <a href="/about/debtags#role::program">Program</a>, 
-  
-  
-  
-
-  
-  
-  Scope: 
-  
-   <a href="/about/debtags#scope::utility">Utility</a>, 
-  
-  
-  
-
-  
-  
-  Application Suite: 
-  
-  suite::debian,
- use::configuring, 
-  
-  
-  
-
-  
-  
-  Works with: 
-  
-   <a href="/about/debtags#works-with::software:package">Packaged Software</a>
-  
-  
-      </p>
-    </div> <!-- end ptags -->
 
 
 
@@ -487,7 +416,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/amd64/dpkg/download">amd64</a></th>
 
 
-<td class="size">2,594.4&nbsp;kB</td><td class="size">6,545.0&nbsp;kB</td>
+<td class="size">2,599.5&nbsp;kB</td><td class="size">6,558.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/amd64/dpkg/filelist">list of files</a>]
@@ -504,7 +433,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/armel/dpkg/download">armel</a></th>
 
 
-<td class="size">2,533.9&nbsp;kB</td><td class="size">6,378.0&nbsp;kB</td>
+<td class="size">2,538.7&nbsp;kB</td><td class="size">6,384.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/armel/dpkg/filelist">list of files</a>]
@@ -521,7 +450,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/armhf/dpkg/download">armhf</a></th>
 
 
-<td class="size">2,510.4&nbsp;kB</td><td class="size">6,226.0&nbsp;kB</td>
+<td class="size">2,518.6&nbsp;kB</td><td class="size">6,232.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/armhf/dpkg/filelist">list of files</a>]
@@ -538,7 +467,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/i386/dpkg/download">i386</a></th>
 
 
-<td class="size">2,575.3&nbsp;kB</td><td class="size">5,969.0&nbsp;kB</td>
+<td class="size">2,583.0&nbsp;kB</td><td class="size">6,527.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/i386/dpkg/filelist">list of files</a>]
@@ -555,7 +484,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/ia64/dpkg/download">ia64</a></th>
 
 
-<td class="size">2,768.1&nbsp;kB</td><td class="size">7,311.0&nbsp;kB</td>
+<td class="size">2,774.4&nbsp;kB</td><td class="size">7,319.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/ia64/dpkg/filelist">list of files</a>]
@@ -572,7 +501,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/kfreebsd-amd64/dpkg/download">kfreebsd-amd64</a></th>
 
 
-<td class="size">2,589.7&nbsp;kB</td><td class="size">6,052.0&nbsp;kB</td>
+<td class="size">2,594.7&nbsp;kB</td><td class="size">6,061.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/kfreebsd-amd64/dpkg/filelist">list of files</a>]
@@ -589,7 +518,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/kfreebsd-i386/dpkg/download">kfreebsd-i386</a></th>
 
 
-<td class="size">2,573.2&nbsp;kB</td><td class="size">6,020.0&nbsp;kB</td>
+<td class="size">2,578.5&nbsp;kB</td><td class="size">6,030.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/kfreebsd-i386/dpkg/filelist">list of files</a>]
@@ -606,7 +535,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/mips/dpkg/download">mips</a></th>
 
 
-<td class="size">2,545.9&nbsp;kB</td><td class="size">6,519.0&nbsp;kB</td>
+<td class="size">2,550.2&nbsp;kB</td><td class="size">5,980.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/mips/dpkg/filelist">list of files</a>]
@@ -623,7 +552,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/mipsel/dpkg/download">mipsel</a></th>
 
 
-<td class="size">2,549.3&nbsp;kB</td><td class="size">6,519.0&nbsp;kB</td>
+<td class="size">2,553.5&nbsp;kB</td><td class="size">5,980.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/mipsel/dpkg/filelist">list of files</a>]
@@ -640,7 +569,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/powerpc/dpkg/download">powerpc</a></th>
 
 
-<td class="size">2,559.6&nbsp;kB</td><td class="size">6,491.0&nbsp;kB</td>
+<td class="size">2,565.5&nbsp;kB</td><td class="size">6,500.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/powerpc/dpkg/filelist">list of files</a>]
@@ -657,7 +586,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/s390/dpkg/download">s390</a></th>
 
 
-<td class="size">2,608.7&nbsp;kB</td><td class="size">6,561.0&nbsp;kB</td>
+<td class="size">2,613.0&nbsp;kB</td><td class="size">6,574.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/s390/dpkg/filelist">list of files</a>]
@@ -674,7 +603,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/s390x/dpkg/download">s390x</a></th>
 
 
-<td class="size">2,607.4&nbsp;kB</td><td class="size">6,664.0&nbsp;kB</td>
+<td class="size">2,610.6&nbsp;kB</td><td class="size">6,669.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/s390x/dpkg/filelist">list of files</a>]
@@ -691,7 +620,7 @@ For Debian package development tools, install dpkg-dev.
 <th><a href="/wheezy/sparc/dpkg/download">sparc</a></th>
 
 
-<td class="size">2,539.0&nbsp;kB</td><td class="size">6,457.0&nbsp;kB</td>
+<td class="size">2,545.4&nbsp;kB</td><td class="size">6,462.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/sparc/dpkg/filelist">list of files</a>]

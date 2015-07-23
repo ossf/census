@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libdrm.xml</url>
       <html_url>https://www.openhub.net/p/libdrm</html_url>
       <created_at>2012-12-30T01:34:16Z</created_at>
-      <updated_at>2015-01-06T00:44:58Z</updated_at>
+      <updated_at>2015-07-17T03:34:59Z</updated_at>
       <description>libdrm provides core library routines for the X Window System to directly interface with video hardware using the Linux kernel's Direct Rendering Manager (DRM).</description>
       <homepage_url>http://www.mesa3d.org/</homepage_url>
       <download_url>http://cgit.freedesktop.org/mesa/drm/</download_url>
@@ -19,7 +19,7 @@
       <average_rating>5.0</average_rating>
       <rating_count>1</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23817355</analysis_id>
+      <analysis_id>25121802</analysis_id>
       <tags>
         <tag>video</tag>
         <tag>interface</tag>
@@ -30,29 +30,29 @@
         <tag>hardware</tag>
       </tags>
       <analysis>
-        <id>23817355</id>
-        <url>https://www.openhub.net/analyses/23817355.xml</url>
+        <id>25121802</id>
+        <url>https://www.openhub.net/analyses/25121802.xml</url>
         <project_id>623210</project_id>
-        <updated_at>2015-01-06T00:44:58Z</updated_at>
-        <logged_at>2015-01-05T20:12:34Z</logged_at>
+        <updated_at>2015-07-17T03:34:59Z</updated_at>
+        <logged_at>2015-07-16T14:47:24Z</logged_at>
         <min_month>1999-12-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>30</twelve_month_contributor_count>
-        <total_contributor_count>192</total_contributor_count>
-        <twelve_month_commit_count>117</twelve_month_commit_count>
-        <total_commit_count>5347</total_commit_count>
-        <total_code_lines>36960</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>50</twelve_month_contributor_count>
+        <total_contributor_count>206</total_contributor_count>
+        <twelve_month_commit_count>246</twelve_month_commit_count>
+        <total_commit_count>5535</total_commit_count>
+        <total_code_lines>37930</total_code_lines>
         <factoids>
-          <factoid type="FactoidTeamSizeVeryLarge">
-Very large, active development team          </factoid>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
-          <factoid type="FactoidActivityStable">
-Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libdrm/analyses/23817355/languages.png">
+        <languages graph_url="https://www.openhub.net/p/libdrm/analyses/25121802/languages.png">
           <language percentage="94" color="FF8F00" id="42">
 C          </language>
           <language percentage="6" color="000000" id="">
@@ -68,8 +68,8 @@ C          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>50</value>
+        <description>Moderate</description>
       </project_activity_index>
       <links>
         <link>

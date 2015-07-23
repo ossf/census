@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libidn.xml</url>
       <html_url>https://www.openhub.net/p/libidn</html_url>
       <created_at>2007-06-01T06:43:33Z</created_at>
-      <updated_at>2014-10-19T04:59:27Z</updated_at>
+      <updated_at>2015-07-10T11:28:29Z</updated_at>
       <description>GNU Libidn is an implementation of the Stringprep, Punycode and IDNA specifications defined by the IETF Internationalized Domain Names (IDN) working group, used for internationalized domain names. The C library is available under the GNU Lesser General Public License.
 
 The library contains a generic Stringprep implementation that does Unicode 3.2 NFKC normalization, mapping and prohibitation of characters, and bidirectional character handling. Profiles for iSCSI, Kerberos 5, Nameprep, SASL and XMPP are included. Punycode and ASCII Compatible Encoding (ACE) via IDNA are supported.</description>
@@ -21,7 +21,7 @@ The library contains a generic Stringprep implementation that does Unicode 3.2 N
       <average_rating>4.25</average_rating>
       <rating_count>4</rating_count>
       <review_count>0</review_count>
-      <analysis_id>22843299</analysis_id>
+      <analysis_id>25106309</analysis_id>
       <tags>
         <tag>idn</tag>
         <tag>networking</tag>
@@ -30,29 +30,29 @@ The library contains a generic Stringprep implementation that does Unicode 3.2 N
         <tag>network</tag>
       </tags>
       <analysis>
-        <id>22843299</id>
-        <url>https://www.openhub.net/analyses/22843299.xml</url>
+        <id>25106309</id>
+        <url>https://www.openhub.net/analyses/25106309.xml</url>
         <project_id>5730</project_id>
-        <updated_at>2014-11-10T14:08:13Z</updated_at>
-        <logged_at>2014-11-10T14:08:11Z</logged_at>
+        <updated_at>2015-07-20T22:49:47Z</updated_at>
+        <logged_at>2015-07-20T22:49:45Z</logged_at>
         <min_month>2002-11-01T00:00:00Z</min_month>
-        <max_month>2014-08-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>1</twelve_month_contributor_count>
-        <total_contributor_count>4</total_contributor_count>
-        <twelve_month_commit_count>9</twelve_month_commit_count>
-        <total_commit_count>3027</total_commit_count>
-        <total_code_lines>101881</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
+        <total_contributor_count>5</total_contributor_count>
+        <twelve_month_commit_count>33</twelve_month_commit_count>
+        <total_commit_count>3051</total_commit_count>
+        <total_code_lines>103506</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
-          <factoid type="FactoidActivityDecreasing">
-Decreasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidTeamSizeOne">
-Only a single active developer          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libidn/analyses/22843299/languages.png">
+        <languages graph_url="https://www.openhub.net/p/libidn/analyses/25106309/languages.png">
           <language percentage="50" color="FF8F00" id="42">
 C          </language>
           <language percentage="12" color="9A63AD" id="5">
@@ -76,8 +76,8 @@ Autoconf          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>40</value>
+        <description>Low</description>
       </project_activity_index>
     </project>
   </result>

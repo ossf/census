@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/mlocate.xml</url>
       <html_url>https://www.openhub.net/p/mlocate</html_url>
       <created_at>2010-12-19T09:08:36Z</created_at>
-      <updated_at>2014-12-27T05:29:01Z</updated_at>
+      <updated_at>2015-07-03T09:38:23Z</updated_at>
       <description>mlocate is a new locate implementation. The &#8216;m&#8217; stands for &#8220;merging&#8221;: updatedb reuses the existing database to avoid rereading most of the file system, which makes updatedb faster and does not trash the system caches as much.
 
 The locate(1) utility is intended to be completely compatible to slocate. It also attempts to be compatible to GNU locate, when it does not conflict with slocate compatibility.</description>
@@ -19,7 +19,7 @@ The locate(1) utility is intended to be completely compatible to slocate. It als
       <average_rating>4.5</average_rating>
       <rating_count>2</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23754730</analysis_id>
+      <analysis_id>24935553</analysis_id>
       <tags>
         <tag>locate</tag>
         <tag>updatedb</tag>
@@ -28,33 +28,33 @@ The locate(1) utility is intended to be completely compatible to slocate. It als
         <tag>filesystem</tag>
       </tags>
       <analysis>
-        <id>23754730</id>
-        <url>https://www.openhub.net/analyses/23754730.xml</url>
+        <id>24935553</id>
+        <url>https://www.openhub.net/analyses/24935553.xml</url>
         <project_id>487108</project_id>
-        <updated_at>2015-01-27T02:39:43Z</updated_at>
-        <logged_at>2015-01-27T02:39:39Z</logged_at>
+        <updated_at>2015-07-20T12:35:55Z</updated_at>
+        <logged_at>2015-07-20T12:35:51Z</logged_at>
         <min_month>2005-07-01T00:00:00Z</min_month>
-        <max_month>2013-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>0</twelve_month_contributor_count>
+        <max_month>2015-05-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>1</twelve_month_contributor_count>
         <total_contributor_count>51</total_contributor_count>
-        <twelve_month_commit_count>0</twelve_month_commit_count>
-        <total_commit_count>243</total_commit_count>
-        <total_code_lines>3286</total_code_lines>
+        <twelve_month_commit_count>6</twelve_month_commit_count>
+        <total_commit_count>249</total_commit_count>
+        <total_code_lines>3392</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
-          <factoid type="FactoidActivityDecreasing">
-Decreasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidTeamSizeZero">
-No recent development activity          </factoid>
+          <factoid type="FactoidTeamSizeOne">
+Only a single active developer          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/mlocate/analyses/23754730/languages.png">
-          <language percentage="94" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/mlocate/analyses/24935553/languages.png">
+          <language percentage="92" color="FF8F00" id="42">
 C          </language>
-          <language percentage="6" color="000000" id="">
-2 Other          </language>
+          <language percentage="8" color="000000" id="">
+3 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
         <main_language_name>C</main_language_name>

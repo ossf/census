@@ -31,8 +31,8 @@ As with most encrypted filesystems, Encfs is meant to provide security against o
         <id>25094327</id>
         <url>https://www.openhub.net/analyses/25094327.xml</url>
         <project_id>6347</project_id>
-        <updated_at>2015-07-15T18:29:01Z</updated_at>
-        <logged_at>2015-07-15T18:28:58Z</logged_at>
+        <updated_at>2015-07-20T12:31:55Z</updated_at>
+        <logged_at>2015-07-20T12:31:52Z</logged_at>
         <min_month>2008-01-01T00:00:00Z</min_month>
         <max_month>2015-06-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>9</twelve_month_contributor_count>

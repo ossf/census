@@ -8,18 +8,18 @@
       <url>https://www.openhub.net/p/openssl.xml</url>
       <html_url>https://www.openhub.net/p/openssl</html_url>
       <created_at>2006-12-04T19:07:54Z</created_at>
-      <updated_at>2015-02-10T16:27:32Z</updated_at>
+      <updated_at>2015-07-21T05:49:01Z</updated_at>
       <description>The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, full-featured, and Open Source toolkit implementing the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well as a full-strength general purpose cryptography library. The project is managed by a worldwide community of volunteers that use the Internet to communicate, plan, and dev</description>
       <homepage_url>http://www.openssl.org/</homepage_url>
       <download_url>http://www.openssl.org//source/</download_url>
       <url_name>openssl</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1671/openssl_button_med.gif</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1671/openssl_button_small.gif</small_logo_url>
-      <user_count>1862</user_count>
+      <user_count>1863</user_count>
       <average_rating>4.40541</average_rating>
       <rating_count>259</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23825536</analysis_id>
+      <analysis_id>25127234</analysis_id>
       <tags>
         <tag>encryption</tag>
         <tag>x509</tag>
@@ -35,18 +35,18 @@
         <tag>privacy</tag>
       </tags>
       <analysis>
-        <id>23825536</id>
-        <url>https://www.openhub.net/analyses/23825536.xml</url>
+        <id>25127234</id>
+        <url>https://www.openhub.net/analyses/25127234.xml</url>
         <project_id>3728</project_id>
-        <updated_at>2015-01-11T00:05:33Z</updated_at>
-        <logged_at>2015-01-09T04:18:56Z</logged_at>
+        <updated_at>2015-07-21T05:49:01Z</updated_at>
+        <logged_at>2015-07-21T05:47:32Z</logged_at>
         <min_month>1998-12-01T00:00:00Z</min_month>
-        <max_month>2015-01-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>117</twelve_month_contributor_count>
-        <total_contributor_count>145</total_contributor_count>
-        <twelve_month_commit_count>938</twelve_month_commit_count>
-        <total_commit_count>12712</total_commit_count>
-        <total_code_lines>447247</total_code_lines>
+        <max_month>2015-04-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>107</twelve_month_contributor_count>
+        <total_contributor_count>177</total_contributor_count>
+        <twelve_month_commit_count>1382</twelve_month_commit_count>
+        <total_commit_count>13654</total_commit_count>
+        <total_code_lines>437855</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
@@ -54,13 +54,13 @@ Mature, well-established codebase          </factoid>
 Very large, active development team          </factoid>
           <factoid type="FactoidActivityIncreasing">
 Increasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidCommentsAverage">
-Average number of code comments          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/openssl/analyses/23825536/languages.png">
-          <language percentage="64" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/openssl/analyses/25127234/languages.png">
+          <language percentage="62" color="FF8F00" id="42">
 C          </language>
-          <language percentage="27" color="D2C690" id="8">
+          <language percentage="29" color="D2C690" id="8">
 Perl          </language>
           <language percentage="9" color="000000" id="">
 12 Other          </language>
@@ -70,13 +70,13 @@ Perl          </language>
       </analysis>
       <licenses>
         <license>
-          <name>BSD-3-Clause</name>
-          <nice_name>BSD 3-clause "New" or "Revised" License</nice_name>
+          <name>OpenSSL_License</name>
+          <nice_name>OpenSSL License</nice_name>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>70</value>
+        <description>Very High</description>
       </project_activity_index>
       <links>
         <link>

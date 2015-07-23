@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libXrender.xml</url>
       <html_url>https://www.openhub.net/p/libXrender</html_url>
       <created_at>2010-04-06T16:08:55Z</created_at>
-      <updated_at>2014-12-21T17:57:48Z</updated_at>
+      <updated_at>2015-07-03T20:44:48Z</updated_at>
       <description></description>
       <homepage_url>http://cgit.freedesktop.org/xorg/lib/libXrender</homepage_url>
       <download_url>http://cgit.freedesktop.org/xorg/lib/libXrender</download_url>
@@ -17,31 +17,31 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23648495</analysis_id>
+      <analysis_id>25018554</analysis_id>
       <analysis>
-        <id>23648495</id>
-        <url>https://www.openhub.net/analyses/23648495.xml</url>
+        <id>25018554</id>
+        <url>https://www.openhub.net/analyses/25018554.xml</url>
         <project_id>482285</project_id>
-        <updated_at>2015-01-19T17:39:45Z</updated_at>
-        <logged_at>2015-01-19T17:39:43Z</logged_at>
+        <updated_at>2015-07-17T07:25:59Z</updated_at>
+        <logged_at>2015-07-17T07:25:56Z</logged_at>
         <min_month>2003-11-01T00:00:00Z</min_month>
-        <max_month>2013-11-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>0</twelve_month_contributor_count>
-        <total_contributor_count>30</total_contributor_count>
-        <twelve_month_commit_count>0</twelve_month_commit_count>
-        <total_commit_count>74</total_commit_count>
+        <max_month>2015-05-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
+        <total_contributor_count>31</total_contributor_count>
+        <twelve_month_commit_count>2</twelve_month_commit_count>
+        <total_commit_count>76</total_commit_count>
         <total_code_lines>2995</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
           <factoid type="FactoidActivityDecreasing">
 Decreasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidTeamSizeZero">
-No recent development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libXrender/analyses/23648495/languages.png">
+        <languages graph_url="https://www.openhub.net/p/libXrender/analyses/25018554/languages.png">
           <language percentage="96" color="FF8F00" id="42">
 C          </language>
           <language percentage="4" color="000000" id="">

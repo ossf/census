@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="Author" content="Debian Webmaster, webmaster@debian.org">
 <meta name="Description" content="GNU privacy guard - a free PGP replacement">
-<meta name="Keywords" content="Debian,  wheezy, us, main, utils, 1.4.12-7+deb7u6">
+<meta name="Keywords" content="Debian,  wheezy, security, main, utils, 1.4.12-7+deb7u7">
 
 
 <link href="/debpkg.css" rel="stylesheet" type="text/css" media="all">
@@ -40,7 +40,7 @@
 <div id="pnavbar">
  &nbsp;&#x2F; <a href="/" title="Debian Packages Homepage">Packages</a>
 
- &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (stable)</a> 
+ &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (oldstable)</a> 
 
  &#x2F; <a href="/wheezy/utils/" title="All packages in this section">utils</a> 
 
@@ -80,6 +80,7 @@ package names</option>
           [&nbsp;    <a  href="/squeeze-lts/gnupg">squeeze-lts</a>  &nbsp;]
           [&nbsp;   <strong>wheezy</strong>  &nbsp;]
           [&nbsp;    <a  href="/jessie/gnupg">jessie</a>  &nbsp;]
+          [&nbsp;    <a  href="/stretch/gnupg">stretch</a>  &nbsp;]
           [&nbsp;    <a  href="/sid/gnupg">sid</a>  &nbsp;]</div>
 
 
@@ -89,15 +90,15 @@ package names</option>
 
 <!-- messages.tmpl -->
 
-<h1>Package: gnupg (1.4.12-7+deb7u6)
-</h1>
+<h1>Package: gnupg (1.4.12-7+deb7u7)
+ [<strong class="pmarker" >security</strong>] </h1>
 
 
 <div id="pmoreinfo">
 <h2>Links for gnupg</h2>
 
 <div class="screenshot">
-<a id="screenshot" href="//screenshots.debian.net/package/gnupg"><img src="//screenshots.debian.net/thumbnail-with-version//gnupg/1.4.12-7+deb7u6" alt="Screenshot" border="0"/></a>
+<a id="screenshot" href="//screenshots.debian.net/package/gnupg"><img src="//screenshots.debian.net/thumbnail-with-version//gnupg/1.4.12-7+deb7u7" alt="Screenshot" border="0"/></a>
 </div>
 
 <h3>Debian Resources:</h3>
@@ -108,8 +109,8 @@ package names</option>
 
 
 
-<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/g/gnupg/gnupg_1.4.12-7+deb7u6_changelog">Debian Changelog</a></li>
-<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/g/gnupg/gnupg_1.4.12-7+deb7u6_copyright">Copyright File</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/g/gnupg/gnupg_1.4.12-7+deb7u7_changelog">Debian Changelog</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/g/gnupg/gnupg_1.4.12-7+deb7u7_copyright">Copyright File</a></li>
 
 
 
@@ -118,7 +119,7 @@ package names</option>
       
       
     
-    <li><a href="http://patch-tracker.debian.org/package/gnupg/1.4.12-7+deb7u6">Debian Patch Tracker</a></li>
+    <li><a href="http://patch-tracker.debian.org/package/gnupg/1.4.12-7+deb7u7">Debian Patch Tracker</a></li>
       
 </ul>
 
@@ -126,15 +127,15 @@ package names</option>
   <h3>Download Source Package <a href="/source/wheezy/gnupg">gnupg</a>:</h3>
   
     <ul>
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/g/gnupg/gnupg_1.4.12-7+deb7u6.dsc">[gnupg_1.4.12-7+deb7u6.dsc]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/g/gnupg/gnupg_1.4.12-7+deb7u7.dsc">[gnupg_1.4.12-7+deb7u7.dsc]</a></li>
     
   
     
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/g/gnupg/gnupg_1.4.12.orig.tar.gz">[gnupg_1.4.12.orig.tar.gz]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/g/gnupg/gnupg_1.4.12.orig.tar.gz">[gnupg_1.4.12.orig.tar.gz]</a></li>
     
   
     
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/g/gnupg/gnupg_1.4.12-7+deb7u6.debian.tar.gz">[gnupg_1.4.12-7+deb7u6.debian.tar.gz]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/g/gnupg/gnupg_1.4.12-7+deb7u7.debian.tar.gz">[gnupg_1.4.12-7+deb7u7.debian.tar.gz]</a></li>
     </ul>
   
   
@@ -173,15 +174,11 @@ package names</option>
 	
 
 	
-	<li><a href="/gpgsm">gpgsm</a></li>
-	
-
-	
-	<li><a href="/scdaemon">scdaemon</a></li>
-	
-
-	
 	<li><a href="/gnupg-agent">gnupg-agent</a></li>
+	
+
+	
+	<li><a href="/gpgsm">gpgsm</a></li>
 	</ul>
 
 
@@ -221,83 +218,6 @@ a number of countries).
 
 </div> <!-- end pdesc -->
 
-
-      <div id="ptags"><p>
-    <a href="http://debtags.alioth.debian.org/edit.html?pkg=gnupg">Tags</a>:
-  
-  Implemented in: 
-  
-   <a href="/about/debtags#implemented-in::c">C</a>, 
-  
-  
-  
-
-  
-  
-  User Interface: 
-  
-   <a href="/about/debtags#interface::commandline">Command Line</a>, 
-  
-  
-  
-
-  
-  
-  Role: 
-  
-  role::program,
- scope::utility, 
-  
-  
-  
-
-  
-  
-  Security: 
-  
-   <a href="/about/debtags#security::authentication">Authentication</a>, 
-  
-  
-  
-
-  
-  
-  
-  
-  security::cryptography,
- security::privacy, 
-  
-  
-  
-
-  
-  
-  Application Suite: 
-  
-   <a href="/about/debtags#suite::gnu">GNU</a>, 
-  
-  
-  
-
-  
-  
-  Purpose: 
-  
-   <a href="/about/debtags#use::checking">Checking</a>, 
-  
-  
-  
-
-  
-  
-  Works with: 
-  
-  works-with::file,
- works-with::text
-  
-  
-      </p>
-    </div> <!-- end ptags -->
 
 
 
@@ -613,7 +533,7 @@ a number of countries).
 <th><a href="/wheezy/amd64/gnupg/download">amd64</a></th>
 
 
-<td class="size">1,909.2&nbsp;kB</td><td class="size">4,962.0&nbsp;kB</td>
+<td class="size">1,910.3&nbsp;kB</td><td class="size">4,962.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/amd64/gnupg/filelist">list of files</a>]
@@ -630,7 +550,7 @@ a number of countries).
 <th><a href="/wheezy/armel/gnupg/download">armel</a></th>
 
 
-<td class="size">1,858.1&nbsp;kB</td><td class="size">4,823.0&nbsp;kB</td>
+<td class="size">1,859.6&nbsp;kB</td><td class="size">4,823.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/armel/gnupg/filelist">list of files</a>]
@@ -647,7 +567,7 @@ a number of countries).
 <th><a href="/wheezy/armhf/gnupg/download">armhf</a></th>
 
 
-<td class="size">1,823.9&nbsp;kB</td><td class="size">4,547.0&nbsp;kB</td>
+<td class="size">1,824.3&nbsp;kB</td><td class="size">4,551.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/armhf/gnupg/filelist">list of files</a>]
@@ -664,7 +584,7 @@ a number of countries).
 <th><a href="/wheezy/i386/gnupg/download">i386</a></th>
 
 
-<td class="size">1,891.4&nbsp;kB</td><td class="size">4,946.0&nbsp;kB</td>
+<td class="size">1,893.3&nbsp;kB</td><td class="size">4,613.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/i386/gnupg/filelist">list of files</a>]
@@ -681,7 +601,7 @@ a number of countries).
 <th><a href="/wheezy/ia64/gnupg/download">ia64</a></th>
 
 
-<td class="size">2,253.7&nbsp;kB</td><td class="size">6,264.0&nbsp;kB</td>
+<td class="size">2,257.6&nbsp;kB</td><td class="size">6,266.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/ia64/gnupg/filelist">list of files</a>]
@@ -698,7 +618,7 @@ a number of countries).
 <th><a href="/wheezy/kfreebsd-amd64/gnupg/download">kfreebsd-amd64</a></th>
 
 
-<td class="size">1,909.0&nbsp;kB</td><td class="size">4,664.0&nbsp;kB</td>
+<td class="size">1,909.7&nbsp;kB</td><td class="size">4,665.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/kfreebsd-amd64/gnupg/filelist">list of files</a>]
@@ -715,7 +635,7 @@ a number of countries).
 <th><a href="/wheezy/kfreebsd-i386/gnupg/download">kfreebsd-i386</a></th>
 
 
-<td class="size">1,890.7&nbsp;kB</td><td class="size">4,649.0&nbsp;kB</td>
+<td class="size">1,891.3&nbsp;kB</td><td class="size">4,649.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/kfreebsd-i386/gnupg/filelist">list of files</a>]
@@ -732,7 +652,7 @@ a number of countries).
 <th><a href="/wheezy/mips/gnupg/download">mips</a></th>
 
 
-<td class="size">1,873.9&nbsp;kB</td><td class="size">4,992.0&nbsp;kB</td>
+<td class="size">1,872.2&nbsp;kB</td><td class="size">4,658.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/mips/gnupg/filelist">list of files</a>]
@@ -749,7 +669,7 @@ a number of countries).
 <th><a href="/wheezy/mipsel/gnupg/download">mipsel</a></th>
 
 
-<td class="size">1,873.9&nbsp;kB</td><td class="size">4,658.0&nbsp;kB</td>
+<td class="size">1,874.4&nbsp;kB</td><td class="size">4,658.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/mipsel/gnupg/filelist">list of files</a>]
@@ -766,7 +686,7 @@ a number of countries).
 <th><a href="/wheezy/powerpc/gnupg/download">powerpc</a></th>
 
 
-<td class="size">1,890.7&nbsp;kB</td><td class="size">4,923.0&nbsp;kB</td>
+<td class="size">1,891.6&nbsp;kB</td><td class="size">4,923.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/powerpc/gnupg/filelist">list of files</a>]
@@ -783,7 +703,7 @@ a number of countries).
 <th><a href="/wheezy/s390/gnupg/download">s390</a></th>
 
 
-<td class="size">1,926.0&nbsp;kB</td><td class="size">4,990.0&nbsp;kB</td>
+<td class="size">1,923.6&nbsp;kB</td><td class="size">4,660.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/s390/gnupg/filelist">list of files</a>]
@@ -800,7 +720,7 @@ a number of countries).
 <th><a href="/wheezy/s390x/gnupg/download">s390x</a></th>
 
 
-<td class="size">1,935.9&nbsp;kB</td><td class="size">5,121.0&nbsp;kB</td>
+<td class="size">1,935.3&nbsp;kB</td><td class="size">5,121.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/s390x/gnupg/filelist">list of files</a>]
@@ -817,7 +737,7 @@ a number of countries).
 <th><a href="/wheezy/sparc/gnupg/download">sparc</a></th>
 
 
-<td class="size">1,871.9&nbsp;kB</td><td class="size">4,903.0&nbsp;kB</td>
+<td class="size">1,871.4&nbsp;kB</td><td class="size">4,904.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/sparc/gnupg/filelist">list of files</a>]
@@ -903,7 +823,7 @@ Content Copyright &copy; 1997 - 2015 <a href="http://www.spi-inc.org/">SPI Inc.<
 </div> <!-- end impressum -->
 
 <div id="sponsorfooter"><p>
-This service is sponsored by <a href="http://1und1.de/">1&1 Internet AG</a>.</p></div>
+This service is sponsored by <a href="http://www.hp.com/">Hewlett-Packard</a>.</p></div>
 
 </div> <!-- end fineprint -->
 </div> <!-- end footer -->

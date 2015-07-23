@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/initramfs-tools.xml</url>
       <html_url>https://www.openhub.net/p/initramfs-tools</html_url>
       <created_at>2007-08-26T13:49:36Z</created_at>
-      <updated_at>2014-12-27T05:19:51Z</updated_at>
+      <updated_at>2015-05-10T22:30:08Z</updated_at>
       <description>initramfs-tools generates an initramfs for 2.6 kernel. The mounting of the real root file system occurs in early user space. klibc provides utilities to setup root. Having the root on MD, LVM2,  LUKS or NFS is also supported.</description>
       <homepage_url></homepage_url>
       <download_url>http://packages.debian.org/unstable/utils/initramfs-tools</download_url>
@@ -17,24 +17,24 @@
       <average_rating>5.0</average_rating>
       <rating_count>1</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23752818</analysis_id>
+      <analysis_id>24277134</analysis_id>
       <tags>
         <tag>linux</tag>
         <tag>boot</tag>
         <tag>initramfs</tag>
       </tags>
       <analysis>
-        <id>23752818</id>
-        <url>https://www.openhub.net/analyses/23752818.xml</url>
+        <id>24277134</id>
+        <url>https://www.openhub.net/analyses/24277134.xml</url>
         <project_id>7976</project_id>
-        <updated_at>2015-01-18T12:15:01Z</updated_at>
-        <logged_at>2015-01-18T12:14:58Z</logged_at>
+        <updated_at>2015-05-10T22:30:07Z</updated_at>
+        <logged_at>2015-01-21T13:37:06Z</logged_at>
         <min_month>2005-06-01T00:00:00Z</min_month>
-        <max_month>2014-10-01T00:00:00Z</max_month>
+        <max_month>2015-01-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>6</twelve_month_contributor_count>
-        <total_contributor_count>77</total_contributor_count>
-        <twelve_month_commit_count>60</twelve_month_commit_count>
-        <total_commit_count>989</total_commit_count>
+        <total_contributor_count>78</total_contributor_count>
+        <twelve_month_commit_count>61</twelve_month_commit_count>
+        <total_commit_count>990</total_commit_count>
         <total_code_lines>1936</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
@@ -46,7 +46,7 @@ Average size development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/initramfs-tools/analyses/23752818/languages.png">
+        <languages graph_url="https://www.openhub.net/p/initramfs-tools/analyses/24277134/languages.png">
           <language percentage="86" color="777777" id="11">
 shell script          </language>
           <language percentage="14" color="47A400" id="1">
@@ -64,8 +64,8 @@ HTML          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>50</value>
-        <description>Moderate</description>
+        <value>0</value>
+        <description>Not Available</description>
       </project_activity_index>
     </project>
   </result>

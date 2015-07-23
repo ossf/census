@@ -8,18 +8,18 @@
       <url>https://www.openhub.net/p/findutils.xml</url>
       <html_url>https://www.openhub.net/p/findutils</html_url>
       <created_at>2006-10-10T15:51:31Z</created_at>
-      <updated_at>2015-01-15T23:02:20Z</updated_at>
+      <updated_at>2015-07-03T04:24:57Z</updated_at>
       <description>GNU findutils includes find, xargs, locate and updatedb.  These tools proivide ways to search for files on your system by specifying what kind of file you're looking for.</description>
       <homepage_url>http://savannah.gnu.org/projects/findutils/</homepage_url>
       <download_url></download_url>
       <url_name>findutils</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_med.png</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_small.png</small_logo_url>
-      <user_count>1455</user_count>
+      <user_count>1453</user_count>
       <average_rating>4.3237</average_rating>
       <rating_count>173</rating_count>
       <review_count>1</review_count>
-      <analysis_id>23624293</analysis_id>
+      <analysis_id>24903366</analysis_id>
       <tags>
         <tag>gnu_project</tag>
         <tag>c</tag>
@@ -33,32 +33,32 @@
         <tag>xargs</tag>
       </tags>
       <analysis>
-        <id>23624293</id>
-        <url>https://www.openhub.net/analyses/23624293.xml</url>
+        <id>24903366</id>
+        <url>https://www.openhub.net/analyses/24903366.xml</url>
         <project_id>606</project_id>
-        <updated_at>2015-01-16T23:48:00Z</updated_at>
-        <logged_at>2015-01-16T23:47:57Z</logged_at>
+        <updated_at>2015-07-19T11:32:50Z</updated_at>
+        <logged_at>2015-07-19T11:32:43Z</logged_at>
         <min_month>1996-02-01T00:00:00Z</min_month>
-        <max_month>2014-10-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>6</twelve_month_contributor_count>
-        <total_contributor_count>27</total_contributor_count>
+        <max_month>2015-05-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>7</twelve_month_contributor_count>
+        <total_contributor_count>30</total_contributor_count>
         <twelve_month_commit_count>40</twelve_month_commit_count>
-        <total_commit_count>2068</total_commit_count>
-        <total_code_lines>18120</total_code_lines>
+        <total_commit_count>2086</total_commit_count>
+        <total_code_lines>18425</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidTeamSizeAverage">
-Average size development team          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
-          <factoid type="FactoidActivityDecreasing">
-Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/findutils/analyses/23624293/languages.png">
-          <language percentage="84" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/findutils/analyses/24903366/languages.png">
+          <language percentage="82" color="FF8F00" id="42">
 C          </language>
-          <language percentage="6" color="777777" id="11">
+          <language percentage="8" color="777777" id="11">
 shell script          </language>
           <language percentage="10" color="000000" id="">
 5 Other          </language>

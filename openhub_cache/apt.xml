@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/apt.xml</url>
       <html_url>https://www.openhub.net/p/apt</html_url>
       <created_at>2008-03-06T02:18:58Z</created_at>
-      <updated_at>2014-12-26T21:25:13Z</updated_at>
+      <updated_at>2015-07-04T03:44:36Z</updated_at>
       <description>Debian's next generation front-end for the dpkg package manager. It provides the apt-get utility and APT dselect method that provides a simpler, safer way to install and upgrade packages.
 
 APT features complete installation ordering, multiple source capability
@@ -18,11 +18,11 @@ and several other unique features.</description>
       <url_name>apt</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_med.png</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_small.png</small_logo_url>
-      <user_count>49</user_count>
-      <average_rating>4.64286</average_rating>
-      <rating_count>14</rating_count>
+      <user_count>51</user_count>
+      <average_rating>4.66667</average_rating>
+      <rating_count>15</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23704882</analysis_id>
+      <analysis_id>25059560</analysis_id>
       <tags>
         <tag>packaging</tag>
         <tag>debian</tag>
@@ -32,36 +32,36 @@ and several other unique features.</description>
         <tag>package</tag>
       </tags>
       <analysis>
-        <id>23704882</id>
-        <url>https://www.openhub.net/analyses/23704882.xml</url>
+        <id>25059560</id>
+        <url>https://www.openhub.net/analyses/25059560.xml</url>
         <project_id>12554</project_id>
-        <updated_at>2015-01-04T19:27:52Z</updated_at>
-        <logged_at>2015-01-04T19:27:46Z</logged_at>
+        <updated_at>2015-07-19T21:41:39Z</updated_at>
+        <logged_at>2015-07-19T21:41:36Z</logged_at>
         <min_month>2003-04-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>43</twelve_month_contributor_count>
-        <total_contributor_count>117</total_contributor_count>
-        <twelve_month_commit_count>548</twelve_month_commit_count>
-        <total_commit_count>6797</total_commit_count>
-        <total_code_lines>66370</total_code_lines>
+        <max_month>2015-06-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>30</twelve_month_contributor_count>
+        <total_contributor_count>120</total_contributor_count>
+        <twelve_month_commit_count>162</twelve_month_commit_count>
+        <total_commit_count>6838</total_commit_count>
+        <total_code_lines>71636</total_code_lines>
         <factoids>
-          <factoid type="FactoidTeamSizeVeryLarge">
-Very large, active development team          </factoid>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/apt/analyses/23704882/languages.png">
-          <language percentage="74" color="F35F1F" id="44">
+        <languages graph_url="https://www.openhub.net/p/apt/analyses/25059560/languages.png">
+          <language percentage="71" color="F35F1F" id="44">
 C++          </language>
-          <language percentage="15" color="777777" id="11">
+          <language percentage="16" color="777777" id="11">
 shell script          </language>
-          <language percentage="8" color="555555" id="3">
+          <language percentage="11" color="555555" id="3">
 XML          </language>
-          <language percentage="3" color="000000" id="">
+          <language percentage="2" color="000000" id="">
 5 Other          </language>
         </languages>
         <main_language_id>44</main_language_id>
@@ -74,8 +74,8 @@ XML          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>50</value>
+        <description>Moderate</description>
       </project_activity_index>
       <links>
         <link>

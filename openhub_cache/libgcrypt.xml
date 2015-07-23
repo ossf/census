@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libgcrypt.xml</url>
       <html_url>https://www.openhub.net/p/libgcrypt</html_url>
       <created_at>2007-04-21T22:21:10Z</created_at>
-      <updated_at>2015-01-05T01:15:07Z</updated_at>
+      <updated_at>2015-07-17T02:30:16Z</updated_at>
       <description>Libgcrypt is a general purpose crypto library based on the code used in GnuPG.</description>
       <homepage_url>http://www.gnupg.org</homepage_url>
       <download_url>http://www.gnupg.org/download/index.html#libgcrypt</download_url>
@@ -17,7 +17,7 @@
       <average_rating>3.5</average_rating>
       <rating_count>4</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23813572</analysis_id>
+      <analysis_id>25121505</analysis_id>
       <tags>
         <tag>cryptography</tag>
         <tag>library</tag>
@@ -28,18 +28,18 @@
         <tag>libgcrypt</tag>
       </tags>
       <analysis>
-        <id>23813572</id>
-        <url>https://www.openhub.net/analyses/23813572.xml</url>
+        <id>25121505</id>
+        <url>https://www.openhub.net/analyses/25121505.xml</url>
         <project_id>4961</project_id>
-        <updated_at>2015-01-05T09:20:08Z</updated_at>
-        <logged_at>2015-01-05T09:20:04Z</logged_at>
+        <updated_at>2015-07-17T02:30:16Z</updated_at>
+        <logged_at>2015-07-16T14:27:04Z</logged_at>
         <min_month>1997-11-01T00:00:00Z</min_month>
-        <max_month>2015-01-01T00:00:00Z</max_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>8</twelve_month_contributor_count>
         <total_contributor_count>28</total_contributor_count>
-        <twelve_month_commit_count>124</twelve_month_commit_count>
-        <total_commit_count>1763</total_commit_count>
-        <total_code_lines>150704</total_code_lines>
+        <twelve_month_commit_count>139</twelve_month_commit_count>
+        <total_commit_count>1851</total_commit_count>
+        <total_code_lines>155486</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
@@ -50,10 +50,10 @@ Few source code comments          </factoid>
           <factoid type="FactoidActivityDecreasing">
 Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libgcrypt/analyses/23813572/languages.png">
-          <language percentage="61" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/libgcrypt/analyses/25121505/languages.png">
+          <language percentage="62" color="FF8F00" id="42">
 C          </language>
-          <language percentage="19" color="333333" id="19">
+          <language percentage="18" color="333333" id="19">
 Assembly          </language>
           <language percentage="9" color="777777" id="11">
 shell script          </language>
@@ -74,8 +74,8 @@ shell script          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>50</value>
+        <description>Moderate</description>
       </project_activity_index>
     </project>
   </result>

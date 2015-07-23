@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/PolarSSL.xml</url>
       <html_url>https://www.openhub.net/p/PolarSSL</html_url>
       <created_at>2009-01-31T10:39:55Z</created_at>
-      <updated_at>2014-12-22T21:28:17Z</updated_at>
+      <updated_at>2015-07-16T02:13:59Z</updated_at>
       <description>PolarSSL is a light-weight open-source cryptographic library for embedded systems.
 
 Its designed to be:
@@ -30,7 +30,7 @@ PolarSSL has been ported on a number of architectures, including ARM, PowerPC, M
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23672917</analysis_id>
+      <analysis_id>25120267</analysis_id>
       <tags>
         <tag>base64</tag>
         <tag>security</tag>
@@ -61,18 +61,18 @@ PolarSSL has been ported on a number of architectures, including ARM, PowerPC, M
         <tag>embedded</tag>
       </tags>
       <analysis>
-        <id>23672917</id>
-        <url>https://www.openhub.net/analyses/23672917.xml</url>
+        <id>25120267</id>
+        <url>https://www.openhub.net/analyses/25120267.xml</url>
         <project_id>308964</project_id>
-        <updated_at>2015-01-20T07:28:47Z</updated_at>
-        <logged_at>2015-01-20T07:28:44Z</logged_at>
+        <updated_at>2015-07-20T00:56:06Z</updated_at>
+        <logged_at>2015-07-20T00:56:04Z</logged_at>
         <min_month>2009-01-01T00:00:00Z</min_month>
-        <max_month>2014-10-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>13</twelve_month_contributor_count>
-        <total_contributor_count>14</total_contributor_count>
-        <twelve_month_commit_count>961</twelve_month_commit_count>
-        <total_commit_count>2597</total_commit_count>
-        <total_code_lines>61060</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>17</twelve_month_contributor_count>
+        <total_contributor_count>27</total_contributor_count>
+        <twelve_month_commit_count>1236</twelve_month_commit_count>
+        <total_commit_count>3807</total_commit_count>
+        <total_code_lines>78084</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
@@ -83,11 +83,15 @@ Well-commented source code          </factoid>
           <factoid type="FactoidActivityStable">
 Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/PolarSSL/analyses/23672917/languages.png">
-          <language percentage="94" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/PolarSSL/analyses/25120267/languages.png">
+          <language percentage="85" color="FF8F00" id="42">
 C          </language>
-          <language percentage="6" color="000000" id="">
-5 Other          </language>
+          <language percentage="8" color="555555" id="3">
+XML          </language>
+          <language percentage="5" color="777777" id="11">
+shell script          </language>
+          <language percentage="2" color="000000" id="">
+4 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
         <main_language_name>C</main_language_name>
@@ -103,8 +107,8 @@ C          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>50</value>
-        <description>Moderate</description>
+        <value>70</value>
+        <description>Very High</description>
       </project_activity_index>
       <links>
         <link>

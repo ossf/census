@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/kbd.xml</url>
       <html_url>https://www.openhub.net/p/kbd</html_url>
       <created_at>2011-06-15T22:16:29Z</created_at>
-      <updated_at>2014-10-20T05:34:46Z</updated_at>
+      <updated_at>2015-07-21T09:55:06Z</updated_at>
       <description>This package contains tools for managing the Linux console (Linux console, virtual terminals on it, keyboard, etc.). Mainly, what they do is loading console fonts and keyboard maps. Also this package contains a set of various fonts and keyboard maps.</description>
       <homepage_url>http://www.kbd-project.org</homepage_url>
       <download_url>http://www.kbd-project.org/download/</download_url>
@@ -17,7 +17,7 @@
       <average_rating>5.0</average_rating>
       <rating_count>1</rating_count>
       <review_count>0</review_count>
-      <analysis_id>22902339</analysis_id>
+      <analysis_id>25128073</analysis_id>
       <tags>
         <tag>linux</tag>
         <tag>fonts</tag>
@@ -28,18 +28,18 @@
         <tag>vlock</tag>
       </tags>
       <analysis>
-        <id>22902339</id>
-        <url>https://www.openhub.net/analyses/22902339.xml</url>
+        <id>25128073</id>
+        <url>https://www.openhub.net/analyses/25128073.xml</url>
         <project_id>584559</project_id>
-        <updated_at>2014-11-13T06:25:15Z</updated_at>
-        <logged_at>2014-11-13T06:24:51Z</logged_at>
+        <updated_at>2015-07-21T09:55:06Z</updated_at>
+        <logged_at>2015-07-21T09:46:25Z</logged_at>
         <min_month>2007-01-01T00:00:00Z</min_month>
-        <max_month>2014-07-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>7</twelve_month_contributor_count>
-        <total_contributor_count>29</total_contributor_count>
-        <twelve_month_commit_count>34</twelve_month_commit_count>
-        <total_commit_count>868</total_commit_count>
-        <total_code_lines>56671</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>8</twelve_month_contributor_count>
+        <total_contributor_count>33</total_contributor_count>
+        <twelve_month_commit_count>33</twelve_month_commit_count>
+        <total_commit_count>901</total_commit_count>
+        <total_code_lines>56653</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
@@ -50,7 +50,7 @@ Few source code comments          </factoid>
           <factoid type="FactoidActivityDecreasing">
 Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/kbd/analyses/22902339/languages.png">
+        <languages graph_url="https://www.openhub.net/p/kbd/analyses/25128073/languages.png">
           <language percentage="47" color="FF8F00" id="42">
 C          </language>
           <language percentage="35" color="EEE" id="51">
@@ -70,8 +70,8 @@ HTML          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>40</value>
+        <description>Low</description>
       </project_activity_index>
     </project>
   </result>

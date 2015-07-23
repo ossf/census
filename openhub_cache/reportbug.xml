@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/reportbug.xml</url>
       <html_url>https://www.openhub.net/p/reportbug</html_url>
       <created_at>2009-05-04T07:54:06Z</created_at>
-      <updated_at>2014-11-12T06:50:00Z</updated_at>
+      <updated_at>2015-07-02T22:20:19Z</updated_at>
       <description></description>
       <homepage_url>http://alioth.debian.org/projects/reportbug</homepage_url>
       <download_url></download_url>
@@ -17,20 +17,20 @@
       <average_rating>5.0</average_rating>
       <rating_count>1</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23221053</analysis_id>
+      <analysis_id>24877123</analysis_id>
       <analysis>
-        <id>23221053</id>
-        <url>https://www.openhub.net/analyses/23221053.xml</url>
+        <id>24877123</id>
+        <url>https://www.openhub.net/analyses/24877123.xml</url>
         <project_id>339061</project_id>
-        <updated_at>2014-11-12T06:50:00Z</updated_at>
-        <logged_at>2014-11-12T06:49:44Z</logged_at>
+        <updated_at>2015-07-19T21:03:45Z</updated_at>
+        <logged_at>2015-07-19T21:03:42Z</logged_at>
         <min_month>2004-02-01T00:00:00Z</min_month>
-        <max_month>2014-11-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>2</twelve_month_contributor_count>
+        <max_month>2015-05-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>1</twelve_month_contributor_count>
         <total_contributor_count>23</total_contributor_count>
-        <twelve_month_commit_count>33</twelve_month_commit_count>
-        <total_commit_count>1514</total_commit_count>
-        <total_code_lines>8534</total_code_lines>
+        <twelve_month_commit_count>37</twelve_month_commit_count>
+        <total_commit_count>1537</total_commit_count>
+        <total_code_lines>8566</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
@@ -38,10 +38,10 @@ Mature, well-established codebase          </factoid>
 Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidCommentsLow">
 Few source code comments          </factoid>
-          <factoid type="FactoidTeamSizeSmall">
-Small development team          </factoid>
+          <factoid type="FactoidTeamSizeOne">
+Only a single active developer          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/reportbug/analyses/23221053/languages.png">
+        <languages graph_url="https://www.openhub.net/p/reportbug/analyses/24877123/languages.png">
           <language percentage="98" color="4A246B" id="9">
 Python          </language>
           <language percentage="2" color="000000" id="">
@@ -57,8 +57,8 @@ Python          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>30</value>
+        <description>Very Low</description>
       </project_activity_index>
     </project>
   </result>

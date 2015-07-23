@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="Author" content="Debian Webmaster, webmaster@debian.org">
 <meta name="Description" content="X11 client-side library">
-<meta name="Keywords" content="Debian,  wheezy, us, main, x11, 2:1.5.0-1+deb7u1">
+<meta name="Keywords" content="Debian,  wheezy, security, main, x11, 2:1.5.0-1+deb7u2">
 
 
 <link href="/debpkg.css" rel="stylesheet" type="text/css" media="all">
@@ -40,7 +40,7 @@
 <div id="pnavbar">
  &nbsp;&#x2F; <a href="/" title="Debian Packages Homepage">Packages</a>
 
- &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (stable)</a> 
+ &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (oldstable)</a> 
 
  &#x2F; <a href="/wheezy/x11/" title="All packages in this section">x11</a> 
 
@@ -76,9 +76,11 @@ package names</option>
 <!-- show.tmpl -->
 
 
-   <div id="pothers">       [&nbsp;    <a  href="/squeeze/libx11-data">squeeze</a>  &nbsp;]
+   <div id="pothers">       [&nbsp;    <a  href="/squeeze-lts/libx11-data">squeeze-lts</a>  &nbsp;]
+          [&nbsp;    <a  href="/squeeze/libx11-data">squeeze</a>  &nbsp;]
           [&nbsp;   <strong>wheezy</strong>  &nbsp;]
           [&nbsp;    <a  href="/jessie/libx11-data">jessie</a>  &nbsp;]
+          [&nbsp;    <a  href="/stretch/libx11-data">stretch</a>  &nbsp;]
           [&nbsp;    <a  href="/sid/libx11-data">sid</a>  &nbsp;]</div>
 
 
@@ -88,15 +90,15 @@ package names</option>
 
 <!-- messages.tmpl -->
 
-<h1>Package: libx11-data (2:1.5.0-1+deb7u1)
-</h1>
+<h1>Package: libx11-data (2:1.5.0-1+deb7u2)
+ [<strong class="pmarker" >security</strong>] </h1>
 
 
 <div id="pmoreinfo">
 <h2>Links for libx11-data</h2>
 
 <div class="screenshot">
-<a id="screenshot" href="//screenshots.debian.net/package/libx11-data"><img src="//screenshots.debian.net/thumbnail-with-version//libx11-data/2:1.5.0-1+deb7u1" alt="Screenshot" border="0"/></a>
+<a id="screenshot" href="//screenshots.debian.net/package/libx11-data"><img src="//screenshots.debian.net/thumbnail-with-version//libx11-data/2:1.5.0-1+deb7u2" alt="Screenshot" border="0"/></a>
 </div>
 
 <h3>Debian Resources:</h3>
@@ -107,8 +109,8 @@ package names</option>
 
 
 
-<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/libx/libx11/libx11_1.5.0-1+deb7u1_changelog">Debian Changelog</a></li>
-<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/libx/libx11/libx11_1.5.0-1+deb7u1_copyright">Copyright File</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/libx/libx11/libx11_1.5.0-1+deb7u2_changelog">Debian Changelog</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/libx/libx11/libx11_1.5.0-1+deb7u2_copyright">Copyright File</a></li>
 
 
 
@@ -117,7 +119,7 @@ package names</option>
       
       
     
-    <li><a href="http://patch-tracker.debian.org/package/libx11/2:1.5.0-1+deb7u1">Debian Patch Tracker</a></li>
+    <li><a href="http://patch-tracker.debian.org/package/libx11/2:1.5.0-1+deb7u2">Debian Patch Tracker</a></li>
       
 </ul>
 
@@ -125,15 +127,15 @@ package names</option>
   <h3>Download Source Package <a href="/source/wheezy/libx11">libx11</a>:</h3>
   
     <ul>
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/libx/libx11/libx11_1.5.0-1+deb7u1.dsc">[libx11_1.5.0-1+deb7u1.dsc]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/libx/libx11/libx11_1.5.0-1+deb7u2.dsc">[libx11_1.5.0-1+deb7u2.dsc]</a></li>
     
   
     
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/libx/libx11/libx11_1.5.0.orig.tar.gz">[libx11_1.5.0.orig.tar.gz]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/libx/libx11/libx11_1.5.0.orig.tar.gz">[libx11_1.5.0.orig.tar.gz]</a></li>
     
   
     
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/libx/libx11/libx11_1.5.0-1+deb7u1.diff.gz">[libx11_1.5.0-1+deb7u1.diff.gz]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/libx/libx11/libx11_1.5.0-1+deb7u2.diff.gz">[libx11_1.5.0-1+deb7u2.diff.gz]</a></li>
     </ul>
   
   
@@ -206,17 +208,6 @@ git://anongit.freedesktop.org/git/xorg/lib/libX11
 </div> <!-- end pdesc -->
 
 
-      <div id="ptags"><p>
-    <a href="http://debtags.alioth.debian.org/edit.html?pkg=libx11-data">Tags</a>:
-  
-  Role: 
-  
-   <a href="/about/debtags#role::app-data">Application Data</a>
-  
-  
-      </p>
-    </div> <!-- end ptags -->
-
 
 
 </div> <!-- pdesctab -->
@@ -244,7 +235,7 @@ git://anongit.freedesktop.org/git/xorg/lib/libX11
 <th><a href="/wheezy/all/libx11-data/download">all</a></th>
 
 
-<td class="size">184.7&nbsp;kB</td><td class="size">1,574.0&nbsp;kB</td>
+<td class="size">189.5&nbsp;kB</td><td class="size">1,574.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/all/libx11-data/filelist">list of files</a>]
@@ -332,7 +323,7 @@ Content Copyright &copy; 1997 - 2015 <a href="http://www.spi-inc.org/">SPI Inc.<
 </div> <!-- end impressum -->
 
 <div id="sponsorfooter"><p>
-This service is sponsored by <a href="http://www.csail.mit.edu/">MIT Computer Science & Artificial Intelligence Lab</a>.</p></div>
+This service is sponsored by <a href="http://cs.helsinki.fi/index.en.html">University of Helsinki - Department of Computer Science</a>.</p></div>
 
 </div> <!-- end fineprint -->
 </div> <!-- end footer -->

@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/installation-report.xml</url>
       <html_url>https://www.openhub.net/p/installation-report</html_url>
       <created_at>2012-03-08T03:40:20Z</created_at>
-      <updated_at>2014-12-13T00:37:37Z</updated_at>
+      <updated_at>2015-07-04T05:17:44Z</updated_at>
       <description></description>
       <homepage_url></homepage_url>
       <download_url></download_url>
@@ -17,31 +17,31 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23539216</analysis_id>
+      <analysis_id>25068827</analysis_id>
       <analysis>
-        <id>23539216</id>
-        <url>https://www.openhub.net/analyses/23539216.xml</url>
+        <id>25068827</id>
+        <url>https://www.openhub.net/analyses/25068827.xml</url>
         <project_id>592992</project_id>
-        <updated_at>2015-01-12T05:03:56Z</updated_at>
-        <logged_at>2015-01-12T05:03:47Z</logged_at>
+        <updated_at>2015-07-19T23:15:17Z</updated_at>
+        <logged_at>2015-07-19T23:15:05Z</logged_at>
         <min_month>2003-09-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>3</twelve_month_contributor_count>
+        <max_month>2015-06-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
         <total_contributor_count>66</total_contributor_count>
-        <twelve_month_commit_count>14</twelve_month_commit_count>
-        <total_commit_count>1268</total_commit_count>
+        <twelve_month_commit_count>13</twelve_month_commit_count>
+        <total_commit_count>1275</total_commit_count>
         <total_code_lines>468</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidCommentsAverage">
-Average number of code comments          </factoid>
           <factoid type="FactoidTeamSizeSmall">
 Small development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/installation-report/analyses/23539216/languages.png">
+        <languages graph_url="https://www.openhub.net/p/installation-report/analyses/25068827/languages.png">
           <language percentage="100" color="777777" id="11">
 shell script          </language>
           <language percentage="&lt;1" color="EEE" id="52">

@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="Author" content="Debian Webmaster, webmaster@debian.org">
 <meta name="Description" content="GNU privacy guard - signature verification tool">
-<meta name="Keywords" content="Debian,  wheezy, us, main, utils, 1.4.12-7+deb7u6">
+<meta name="Keywords" content="Debian,  wheezy, security, main, utils, 1.4.12-7+deb7u7">
 
 
 <link href="/debpkg.css" rel="stylesheet" type="text/css" media="all">
@@ -40,7 +40,7 @@
 <div id="pnavbar">
  &nbsp;&#x2F; <a href="/" title="Debian Packages Homepage">Packages</a>
 
- &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (stable)</a> 
+ &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (oldstable)</a> 
 
  &#x2F; <a href="/wheezy/utils/" title="All packages in this section">utils</a> 
 
@@ -76,10 +76,11 @@ package names</option>
 <!-- show.tmpl -->
 
 
-   <div id="pothers">       [&nbsp;    <a  href="/squeeze/gpgv">squeeze</a>  &nbsp;]
-          [&nbsp;    <a  href="/squeeze-lts/gpgv">squeeze-lts</a>  &nbsp;]
+   <div id="pothers">       [&nbsp;    <a  href="/squeeze-lts/gpgv">squeeze-lts</a>  &nbsp;]
+          [&nbsp;    <a  href="/squeeze/gpgv">squeeze</a>  &nbsp;]
           [&nbsp;   <strong>wheezy</strong>  &nbsp;]
           [&nbsp;    <a  href="/jessie/gpgv">jessie</a>  &nbsp;]
+          [&nbsp;    <a  href="/stretch/gpgv">stretch</a>  &nbsp;]
           [&nbsp;    <a  href="/sid/gpgv">sid</a>  &nbsp;]</div>
 
 
@@ -89,15 +90,15 @@ package names</option>
 
 <!-- messages.tmpl -->
 
-<h1>Package: gpgv (1.4.12-7+deb7u6)
-</h1>
+<h1>Package: gpgv (1.4.12-7+deb7u7)
+ [<strong class="pmarker" >security</strong>] </h1>
 
 
 <div id="pmoreinfo">
 <h2>Links for gpgv</h2>
 
 <div class="screenshot">
-<a id="screenshot" href="//screenshots.debian.net/package/gpgv"><img src="//screenshots.debian.net/thumbnail-with-version//gpgv/1.4.12-7+deb7u6" alt="Screenshot" border="0"/></a>
+<a id="screenshot" href="//screenshots.debian.net/package/gpgv"><img src="//screenshots.debian.net/thumbnail-with-version//gpgv/1.4.12-7+deb7u7" alt="Screenshot" border="0"/></a>
 </div>
 
 <h3>Debian Resources:</h3>
@@ -108,8 +109,8 @@ package names</option>
 
 
 
-<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/g/gnupg/gnupg_1.4.12-7+deb7u6_changelog">Debian Changelog</a></li>
-<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/g/gnupg/gnupg_1.4.12-7+deb7u6_copyright">Copyright File</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/g/gnupg/gnupg_1.4.12-7+deb7u7_changelog">Debian Changelog</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/g/gnupg/gnupg_1.4.12-7+deb7u7_copyright">Copyright File</a></li>
 
 
 
@@ -118,7 +119,7 @@ package names</option>
       
       
     
-    <li><a href="http://patch-tracker.debian.org/package/gnupg/1.4.12-7+deb7u6">Debian Patch Tracker</a></li>
+    <li><a href="http://patch-tracker.debian.org/package/gnupg/1.4.12-7+deb7u7">Debian Patch Tracker</a></li>
       
 </ul>
 
@@ -126,15 +127,15 @@ package names</option>
   <h3>Download Source Package <a href="/source/wheezy/gnupg">gnupg</a>:</h3>
   
     <ul>
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/g/gnupg/gnupg_1.4.12-7+deb7u6.dsc">[gnupg_1.4.12-7+deb7u6.dsc]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/g/gnupg/gnupg_1.4.12-7+deb7u7.dsc">[gnupg_1.4.12-7+deb7u7.dsc]</a></li>
     
   
     
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/g/gnupg/gnupg_1.4.12.orig.tar.gz">[gnupg_1.4.12.orig.tar.gz]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/g/gnupg/gnupg_1.4.12.orig.tar.gz">[gnupg_1.4.12.orig.tar.gz]</a></li>
     
   
     
-    <li><a href="http://ftp.de.debian.org/debian/pool/main/g/gnupg/gnupg_1.4.12-7+deb7u6.debian.tar.gz">[gnupg_1.4.12-7+deb7u6.debian.tar.gz]</a></li>
+    <li><a href="http://security.debian.org/debian-security/pool/updates/main/g/gnupg/gnupg_1.4.12-7+deb7u7.debian.tar.gz">[gnupg_1.4.12-7+deb7u7.debian.tar.gz]</a></li>
     </ul>
   
   
@@ -186,14 +187,6 @@ package names</option>
 
 	
 	<li><a href="/scdaemon">scdaemon</a></li>
-	
-
-	
-	<li><a href="/gnupg-curl">gnupg-curl</a></li>
-	
-
-	
-	<li><a href="/gpgsm">gpgsm</a></li>
 	</ul>
 
 
@@ -222,63 +215,6 @@ make the signature are trustworthy.
 
 </div> <!-- end pdesc -->
 
-
-      <div id="ptags"><p>
-    <a href="http://debtags.alioth.debian.org/edit.html?pkg=gpgv">Tags</a>:
-  
-  Implemented in: 
-  
-   <a href="/about/debtags#implemented-in::c">C</a>, 
-  
-  
-  
-
-  
-  
-  User Interface: 
-  
-   <a href="/about/debtags#interface::commandline">Command Line</a>, 
-  
-  
-  
-
-  
-  
-  Role: 
-  
-  role::program,
- scope::utility, 
-  
-  
-  
-
-  
-  
-  Security: 
-  
-   <a href="/about/debtags#security::cryptography">Cryptography</a>, 
-  
-  
-  
-
-  
-  
-  Application Suite: 
-  
-   <a href="/about/debtags#suite::gnu">GNU</a>, 
-  
-  
-  
-
-  
-  
-  Purpose: 
-  
-   <a href="/about/debtags#use::checking">Checking</a>
-  
-  
-      </p>
-    </div> <!-- end ptags -->
 
 
 
@@ -469,7 +405,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/amd64/gpgv/download">amd64</a></th>
 
 
-<td class="size">222.4&nbsp;kB</td><td class="size">438.0&nbsp;kB</td>
+<td class="size">222.9&nbsp;kB</td><td class="size">438.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/amd64/gpgv/filelist">list of files</a>]
@@ -486,7 +422,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/armel/gpgv/download">armel</a></th>
 
 
-<td class="size">202.0&nbsp;kB</td><td class="size">384.0&nbsp;kB</td>
+<td class="size">202.7&nbsp;kB</td><td class="size">388.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/armel/gpgv/filelist">list of files</a>]
@@ -503,7 +439,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/armhf/gpgv/download">armhf</a></th>
 
 
-<td class="size">190.9&nbsp;kB</td><td class="size">300.0&nbsp;kB</td>
+<td class="size">191.4&nbsp;kB</td><td class="size">304.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/armhf/gpgv/filelist">list of files</a>]
@@ -520,7 +456,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/i386/gpgv/download">i386</a></th>
 
 
-<td class="size">216.2&nbsp;kB</td><td class="size">432.0&nbsp;kB</td>
+<td class="size">216.5&nbsp;kB</td><td class="size">401.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/i386/gpgv/filelist">list of files</a>]
@@ -537,7 +473,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/ia64/gpgv/download">ia64</a></th>
 
 
-<td class="size">321.9&nbsp;kB</td><td class="size">838.0&nbsp;kB</td>
+<td class="size">322.9&nbsp;kB</td><td class="size">840.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/ia64/gpgv/filelist">list of files</a>]
@@ -554,7 +490,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/kfreebsd-amd64/gpgv/download">kfreebsd-amd64</a></th>
 
 
-<td class="size">222.4&nbsp;kB</td><td class="size">406.0&nbsp;kB</td>
+<td class="size">223.1&nbsp;kB</td><td class="size">406.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/kfreebsd-amd64/gpgv/filelist">list of files</a>]
@@ -571,7 +507,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/kfreebsd-i386/gpgv/download">kfreebsd-i386</a></th>
 
 
-<td class="size">215.8&nbsp;kB</td><td class="size">401.0&nbsp;kB</td>
+<td class="size">216.4&nbsp;kB</td><td class="size">405.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/kfreebsd-i386/gpgv/filelist">list of files</a>]
@@ -588,7 +524,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/mips/gpgv/download">mips</a></th>
 
 
-<td class="size">210.2&nbsp;kB</td><td class="size">450.0&nbsp;kB</td>
+<td class="size">210.5&nbsp;kB</td><td class="size">415.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/mips/gpgv/filelist">list of files</a>]
@@ -605,7 +541,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/mipsel/gpgv/download">mipsel</a></th>
 
 
-<td class="size">212.0&nbsp;kB</td><td class="size">415.0&nbsp;kB</td>
+<td class="size">212.6&nbsp;kB</td><td class="size">415.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/mipsel/gpgv/filelist">list of files</a>]
@@ -622,7 +558,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/powerpc/gpgv/download">powerpc</a></th>
 
 
-<td class="size">211.4&nbsp;kB</td><td class="size">424.0&nbsp;kB</td>
+<td class="size">212.3&nbsp;kB</td><td class="size">428.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/powerpc/gpgv/filelist">list of files</a>]
@@ -639,7 +575,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/s390/gpgv/download">s390</a></th>
 
 
-<td class="size">225.9&nbsp;kB</td><td class="size">448.0&nbsp;kB</td>
+<td class="size">226.6&nbsp;kB</td><td class="size">413.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/s390/gpgv/filelist">list of files</a>]
@@ -656,7 +592,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/s390x/gpgv/download">s390x</a></th>
 
 
-<td class="size">226.6&nbsp;kB</td><td class="size">477.0&nbsp;kB</td>
+<td class="size">227.4&nbsp;kB</td><td class="size">482.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/s390x/gpgv/filelist">list of files</a>]
@@ -673,7 +609,7 @@ make the signature are trustworthy.
 <th><a href="/wheezy/sparc/gpgv/download">sparc</a></th>
 
 
-<td class="size">206.2&nbsp;kB</td><td class="size">421.0&nbsp;kB</td>
+<td class="size">206.8&nbsp;kB</td><td class="size">422.0&nbsp;kB</td>
 <td>
 
   [<a href="/wheezy/sparc/gpgv/filelist">list of files</a>]
@@ -763,7 +699,7 @@ Content Copyright &copy; 1997 - 2015 <a href="http://www.spi-inc.org/">SPI Inc.<
 </div> <!-- end impressum -->
 
 <div id="sponsorfooter"><p>
-This service is sponsored by <a href="http://www.hp.com/">Hewlett-Packard</a>.</p></div>
+This service is sponsored by <a href="http://cs.helsinki.fi/index.en.html">University of Helsinki - Department of Computer Science</a>.</p></div>
 
 </div> <!-- end fineprint -->
 </div> <!-- end footer -->

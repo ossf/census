@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/ncurses.xml</url>
       <html_url>https://www.openhub.net/p/ncurses</html_url>
       <created_at>2009-11-26T00:08:12Z</created_at>
-      <updated_at>2015-01-11T17:55:56Z</updated_at>
+      <updated_at>2015-07-13T01:18:46Z</updated_at>
       <description>The Ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses Terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD Curses.
 
 The ncurses code was developed under GNU/Linux. It has been in use for some time with OpenBSD as the system curses library, and on FreeBSD and NetBSD as an external package. It should port easily to any ANSI/POSIX-conforming UNIX. It has even been ported to OS/2 Warp!
@@ -25,7 +25,7 @@ The Ncurses distribution is available via anonymous FTP at the GNU distribution 
       <average_rating>4.0</average_rating>
       <rating_count>3</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23829370</analysis_id>
+      <analysis_id>25115507</analysis_id>
       <tags>
         <tag>c</tag>
         <tag>curses</tag>
@@ -36,18 +36,18 @@ The Ncurses distribution is available via anonymous FTP at the GNU distribution 
         <tag>tty</tag>
       </tags>
       <analysis>
-        <id>23829370</id>
-        <url>https://www.openhub.net/analyses/23829370.xml</url>
+        <id>25115507</id>
+        <url>https://www.openhub.net/analyses/25115507.xml</url>
         <project_id>479574</project_id>
-        <updated_at>2015-01-17T06:53:11Z</updated_at>
-        <logged_at>2015-01-17T06:53:06Z</logged_at>
+        <updated_at>2015-07-19T02:54:39Z</updated_at>
+        <logged_at>2015-07-19T02:54:34Z</logged_at>
         <min_month>1997-05-01T00:00:00Z</min_month>
-        <max_month>2015-01-01T00:00:00Z</max_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>1</twelve_month_contributor_count>
         <total_contributor_count>2</total_contributor_count>
-        <twelve_month_commit_count>49</twelve_month_commit_count>
-        <total_commit_count>410</total_commit_count>
-        <total_code_lines>214388</total_code_lines>
+        <twelve_month_commit_count>47</twelve_month_commit_count>
+        <total_commit_count>433</total_commit_count>
+        <total_code_lines>219912</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
@@ -58,14 +58,14 @@ Only a single active developer          </factoid>
           <factoid type="FactoidActivityStable">
 Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/ncurses/analyses/23829370/languages.png">
+        <languages graph_url="https://www.openhub.net/p/ncurses/analyses/25115507/languages.png">
           <language percentage="39" color="FF8F00" id="42">
 C          </language>
-          <language percentage="25" color="EEE" id="51">
+          <language percentage="26" color="EEE" id="51">
 Autoconf          </language>
-          <language percentage="19" color="47A400" id="1">
+          <language percentage="20" color="47A400" id="1">
 HTML          </language>
-          <language percentage="17" color="000000" id="">
+          <language percentage="15" color="000000" id="">
 8 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>

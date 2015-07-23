@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/geoip.xml</url>
       <html_url>https://www.openhub.net/p/geoip</html_url>
       <created_at>2008-12-14T01:53:34Z</created_at>
-      <updated_at>2014-12-11T21:55:20Z</updated_at>
+      <updated_at>2015-07-01T00:23:02Z</updated_at>
       <description>MaxMind GeoIP is a set of APIs for looking up the location of an IP address, including the country, region, city, latitude, and longitude. Free GeoLite databases are available at http://www.maxmind.com/app/geolitecity</description>
       <homepage_url>http://sourceforge.net/projects/geoip</homepage_url>
       <download_url></download_url>
@@ -17,7 +17,7 @@
       <average_rating>4.0</average_rating>
       <rating_count>2</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23516268</analysis_id>
+      <analysis_id>24689919</analysis_id>
       <tags>
         <tag>ip2country</tag>
         <tag>geolocation</tag>
@@ -31,11 +31,11 @@
         <tag>geoip</tag>
       </tags>
       <analysis>
-        <id>23516268</id>
-        <url>https://www.openhub.net/analyses/23516268.xml</url>
+        <id>24689919</id>
+        <url>https://www.openhub.net/analyses/24689919.xml</url>
         <project_id>39873</project_id>
-        <updated_at>2015-01-09T04:55:07Z</updated_at>
-        <logged_at>2015-01-09T04:52:53Z</logged_at>
+        <updated_at>2015-07-17T20:28:13Z</updated_at>
+        <logged_at>2015-07-17T20:27:31Z</logged_at>
         <min_month>2002-11-01T00:00:00Z</min_month>
         <max_month>2011-08-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>0</twelve_month_contributor_count>
@@ -46,14 +46,14 @@
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidCommentsVeryLow">
-Very few source code comments          </factoid>
           <factoid type="FactoidActivityStable">
 Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsVeryLow">
+Very few source code comments          </factoid>
           <factoid type="FactoidTeamSizeZero">
 No recent development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/geoip/analyses/23516268/languages.png">
+        <languages graph_url="https://www.openhub.net/p/geoip/analyses/24689919/languages.png">
           <language percentage="26" color="FF8F00" id="42">
 C          </language>
           <language percentage="17" color="9A63AD" id="5">
@@ -69,8 +69,8 @@ Autoconf          </language>
       <licenses>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>20</value>
+        <description>Inactive</description>
       </project_activity_index>
     </project>
   </result>

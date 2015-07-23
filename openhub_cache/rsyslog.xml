@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/rsyslog.xml</url>
       <html_url>https://www.openhub.net/p/rsyslog</html_url>
       <created_at>2008-04-01T18:42:48Z</created_at>
-      <updated_at>2015-01-22T03:38:41Z</updated_at>
+      <updated_at>2015-07-17T04:12:09Z</updated_at>
       <description>Rsyslog is an enhanced multi-threaded syslogd supporting, among others, MySQL, syslog/tcp, RFC 3195, permitted sender lists, filtering on any message part, and fine grain output format control. It is quite compatible to stock sysklogd and can be used as a drop-in replacement. Its advanced features make it suitable for enterprise-class, encryption protected syslog relay chains while at the same time being very easy to setup for the novice user. 
 
 Over time, rsyslog has become the default syslogd for the many distributions.</description>
@@ -21,7 +21,7 @@ Over time, rsyslog has become the default syslogd for the many distributions.</d
       <average_rating>4.33333</average_rating>
       <rating_count>3</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23825371</analysis_id>
+      <analysis_id>25122088</analysis_id>
       <tags>
         <tag>system_administration</tag>
         <tag>syslog</tag>
@@ -29,18 +29,18 @@ Over time, rsyslog has become the default syslogd for the many distributions.</d
         <tag>logging</tag>
       </tags>
       <analysis>
-        <id>23825371</id>
-        <url>https://www.openhub.net/analyses/23825371.xml</url>
+        <id>25122088</id>
+        <url>https://www.openhub.net/analyses/25122088.xml</url>
         <project_id>13117</project_id>
-        <updated_at>2015-01-10T23:56:16Z</updated_at>
-        <logged_at>2015-01-10T01:03:15Z</logged_at>
+        <updated_at>2015-07-17T04:12:09Z</updated_at>
+        <logged_at>2015-07-16T16:02:55Z</logged_at>
         <min_month>2004-11-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>49</twelve_month_contributor_count>
-        <total_contributor_count>142</total_contributor_count>
-        <twelve_month_commit_count>1143</twelve_month_commit_count>
-        <total_commit_count>8103</total_commit_count>
-        <total_code_lines>189297</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>52</twelve_month_contributor_count>
+        <total_contributor_count>160</total_contributor_count>
+        <twelve_month_commit_count>991</twelve_month_commit_count>
+        <total_commit_count>8574</total_commit_count>
+        <total_code_lines>196201</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
@@ -51,12 +51,12 @@ Average number of code comments          </factoid>
           <factoid type="FactoidActivityStable">
 Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/rsyslog/analyses/23825371/languages.png">
-          <language percentage="78" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/rsyslog/analyses/25122088/languages.png">
+          <language percentage="79" color="FF8F00" id="42">
 C          </language>
           <language percentage="7" color="47A400" id="1">
 HTML          </language>
-          <language percentage="15" color="000000" id="">
+          <language percentage="14" color="000000" id="">
 13 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
@@ -69,8 +69,8 @@ HTML          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>60</value>
+        <description>High</description>
       </project_activity_index>
       <links>
         <link>

@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/attr.xml</url>
       <html_url>https://www.openhub.net/p/attr</html_url>
       <created_at>2009-06-09T18:51:46Z</created_at>
-      <updated_at>2014-10-24T06:51:50Z</updated_at>
+      <updated_at>2015-07-02T21:56:19Z</updated_at>
       <description>A set of tools for manipulating extended attributes on filesystem objects, in particular getfattr(1) and setfattr(1).
 An attr(1) command is also provided which is largely compatible with the SGI IRIX tool of the same name.</description>
       <homepage_url>http://savannah.nongnu.org/projects/attr</homepage_url>
@@ -18,38 +18,38 @@ An attr(1) command is also provided which is largely compatible with the SGI IRI
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>22951863</analysis_id>
+      <analysis_id>24870793</analysis_id>
       <analysis>
-        <id>22951863</id>
-        <url>https://www.openhub.net/analyses/22951863.xml</url>
+        <id>24870793</id>
+        <url>https://www.openhub.net/analyses/24870793.xml</url>
         <project_id>346324</project_id>
-        <updated_at>2014-11-22T10:02:00Z</updated_at>
-        <logged_at>2014-11-22T10:01:58Z</logged_at>
+        <updated_at>2015-07-20T05:03:21Z</updated_at>
+        <logged_at>2015-07-20T05:03:18Z</logged_at>
         <min_month>2001-01-01T00:00:00Z</min_month>
-        <max_month>2014-10-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>6</twelve_month_contributor_count>
+        <max_month>2015-04-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
         <total_contributor_count>27</total_contributor_count>
-        <twelve_month_commit_count>21</twelve_month_commit_count>
-        <total_commit_count>314</total_commit_count>
-        <total_code_lines>2797</total_code_lines>
+        <twelve_month_commit_count>11</twelve_month_commit_count>
+        <total_commit_count>322</total_commit_count>
+        <total_code_lines>2691</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidTeamSizeAverage">
-Average size development team          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/attr/analyses/22951863/languages.png">
-          <language percentage="82" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/attr/analyses/24870793/languages.png">
+          <language percentage="81" color="FF8F00" id="42">
 C          </language>
           <language percentage="10" color="D2C690" id="8">
 Perl          </language>
           <language percentage="5" color="F35F1F" id="44">
 C++          </language>
-          <language percentage="3" color="000000" id="">
+          <language percentage="4" color="000000" id="">
 4 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
@@ -62,8 +62,8 @@ C++          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>30</value>
+        <description>Very Low</description>
       </project_activity_index>
     </project>
   </result>

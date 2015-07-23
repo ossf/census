@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/mesa.xml</url>
       <html_url>https://www.openhub.net/p/mesa</html_url>
       <created_at>2007-04-07T11:42:52Z</created_at>
-      <updated_at>2015-01-15T22:32:23Z</updated_at>
+      <updated_at>2015-07-19T10:57:40Z</updated_at>
       <description>Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.
 
 A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs.
@@ -19,11 +19,11 @@ Mesa ties into several other open-source projects: the Direct Rendering Infrastr
       <url_name>mesa</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/5834/gears_med.png</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/5834/gears_small.png</small_logo_url>
-      <user_count>186</user_count>
+      <user_count>185</user_count>
       <average_rating>4.42105</average_rating>
       <rating_count>38</rating_count>
       <review_count>1</review_count>
-      <analysis_id>23816987</analysis_id>
+      <analysis_id>25124434</analysis_id>
       <tags>
         <tag>software_development</tag>
         <tag>3d_rendering</tag>
@@ -40,34 +40,34 @@ Mesa ties into several other open-source projects: the Direct Rendering Infrastr
         <tag>development</tag>
       </tags>
       <analysis>
-        <id>23816987</id>
-        <url>https://www.openhub.net/analyses/23816987.xml</url>
+        <id>25124434</id>
+        <url>https://www.openhub.net/analyses/25124434.xml</url>
         <project_id>4835</project_id>
-        <updated_at>2015-01-05T19:05:16Z</updated_at>
-        <logged_at>2015-01-05T18:56:45Z</logged_at>
+        <updated_at>2015-07-19T10:57:39Z</updated_at>
+        <logged_at>2015-07-19T10:54:32Z</logged_at>
         <min_month>1998-02-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>167</twelve_month_contributor_count>
-        <total_contributor_count>646</total_contributor_count>
-        <twelve_month_commit_count>6380</twelve_month_commit_count>
-        <total_commit_count>67154</total_commit_count>
-        <total_code_lines>1024011</total_code_lines>
+        <total_contributor_count>682</total_contributor_count>
+        <twelve_month_commit_count>6702</twelve_month_commit_count>
+        <total_commit_count>71203</total_commit_count>
+        <total_code_lines>1037410</total_code_lines>
         <factoids>
-          <factoid type="FactoidTeamSizeVeryLarge">
-Very large, active development team          </factoid>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
           <factoid type="FactoidActivityStable">
 Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/mesa/analyses/23816987/languages.png">
-          <language percentage="77" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/mesa/analyses/25124434/languages.png">
+          <language percentage="76" color="FF8F00" id="42">
 C          </language>
           <language percentage="17" color="F35F1F" id="44">
 C++          </language>
-          <language percentage="6" color="000000" id="">
+          <language percentage="7" color="000000" id="">
 12 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
@@ -80,8 +80,8 @@ C++          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>70</value>
+        <description>Very High</description>
       </project_activity_index>
     </project>
   </result>

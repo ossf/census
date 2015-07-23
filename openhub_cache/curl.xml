@@ -8,18 +8,18 @@
       <url>https://www.openhub.net/p/curl.xml</url>
       <html_url>https://www.openhub.net/p/curl</html_url>
       <created_at>2006-11-26T23:21:35Z</created_at>
-      <updated_at>2015-02-08T19:39:53Z</updated_at>
+      <updated_at>2015-07-19T21:13:48Z</updated_at>
       <description>curl is a command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMTP, SMTPS, Telnet and TFTP. curl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form based upload, proxies, HTTP/2, cookies, user+password authentication (Basic, Plain, Digest, CRAM-MD5, NTLM, Negotiate and Kerberos), file transfer resume, proxy tunneling and more.</description>
       <homepage_url>http://curl.haxx.se/</homepage_url>
       <download_url>http://curl.haxx.se/download.html</download_url>
       <url_name>curl</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1320/ds-curlicon_med.png</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1320/ds-curlicon_small.png</small_logo_url>
-      <user_count>1079</user_count>
-      <average_rating>4.40957</average_rating>
-      <rating_count>188</rating_count>
+      <user_count>1080</user_count>
+      <average_rating>4.41053</average_rating>
+      <rating_count>190</rating_count>
       <review_count>2</review_count>
-      <analysis_id>23813667</analysis_id>
+      <analysis_id>25125443</analysis_id>
       <tags>
         <tag>ftpclient</tag>
         <tag>development</tag>
@@ -57,36 +57,36 @@
         <tag>httpclient</tag>
       </tags>
       <analysis>
-        <id>23813667</id>
-        <url>https://www.openhub.net/analyses/23813667.xml</url>
+        <id>25125443</id>
+        <url>https://www.openhub.net/analyses/25125443.xml</url>
         <project_id>3676</project_id>
-        <updated_at>2015-01-05T01:58:49Z</updated_at>
-        <logged_at>2015-01-05T01:57:56Z</logged_at>
+        <updated_at>2015-07-19T21:13:48Z</updated_at>
+        <logged_at>2015-07-19T21:12:44Z</logged_at>
         <min_month>1989-12-01T00:00:00Z</min_month>
-        <max_month>2015-01-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>92</twelve_month_contributor_count>
-        <total_contributor_count>306</total_contributor_count>
-        <twelve_month_commit_count>2021</twelve_month_commit_count>
-        <total_commit_count>22864</total_commit_count>
-        <total_code_lines>221111</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>100</twelve_month_contributor_count>
+        <total_contributor_count>345</total_contributor_count>
+        <twelve_month_commit_count>1966</twelve_month_commit_count>
+        <total_commit_count>23797</total_commit_count>
+        <total_code_lines>216504</total_code_lines>
         <factoids>
-          <factoid type="FactoidTeamSizeVeryLarge">
-Very large, active development team          </factoid>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidCommentsHigh">
 Well-commented source code          </factoid>
-          <factoid type="FactoidActivityStable">
-Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/curl/analyses/23813667/languages.png">
-          <language percentage="53" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/curl/analyses/25125443/languages.png">
+          <language percentage="55" color="FF8F00" id="42">
 C          </language>
-          <language percentage="12" color="555555" id="3">
+          <language percentage="11" color="555555" id="3">
 XML          </language>
           <language percentage="11" color="47A400" id="1">
 HTML          </language>
-          <language percentage="24" color="000000" id="">
+          <language percentage="23" color="000000" id="">
 15 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
@@ -99,8 +99,8 @@ HTML          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>70</value>
+        <description>Very High</description>
       </project_activity_index>
       <links>
         <link>

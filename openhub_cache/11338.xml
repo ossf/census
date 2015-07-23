@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/11338.xml</url>
       <html_url>https://www.openhub.net/p/11338</html_url>
       <created_at>2008-01-29T13:22:46Z</created_at>
-      <updated_at>2014-12-25T01:02:11Z</updated_at>
+      <updated_at>2015-07-02T09:04:20Z</updated_at>
       <description>Compilers for high level languages generate code that follows certain conventions. These conventions are necessary, in part, for separate compilation to work. One such convention is the "calling convention". The "calling convention" is a set of assumptions made by the compiler about where function arguments will be found on entry to a function. A "calling convention" also specifies where the return value for a function is found.
 
 The libffi library provides a portable, high level programming interface to various calling conventions. This allows a programmer to call any function specified by a call interface description at run-time.</description>
@@ -21,7 +21,7 @@ The libffi library provides a portable, high level programming interface to vari
       <average_rating>5.0</average_rating>
       <rating_count>2</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23679624</analysis_id>
+      <analysis_id>24828751</analysis_id>
       <tags>
         <tag>interface</tag>
         <tag>gcc</tag>
@@ -33,36 +33,36 @@ The libffi library provides a portable, high level programming interface to vari
         <tag>library</tag>
       </tags>
       <analysis>
-        <id>23679624</id>
-        <url>https://www.openhub.net/analyses/23679624.xml</url>
+        <id>24828751</id>
+        <url>https://www.openhub.net/analyses/24828751.xml</url>
         <project_id>11338</project_id>
-        <updated_at>2015-01-04T13:09:26Z</updated_at>
-        <logged_at>2015-01-04T13:09:08Z</logged_at>
+        <updated_at>2015-07-21T15:19:52Z</updated_at>
+        <logged_at>2015-07-21T15:19:40Z</logged_at>
         <min_month>2009-10-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>28</twelve_month_contributor_count>
-        <total_contributor_count>56</total_contributor_count>
-        <twelve_month_commit_count>281</twelve_month_commit_count>
-        <total_commit_count>843</total_commit_count>
-        <total_code_lines>45759</total_code_lines>
+        <max_month>2015-03-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>23</twelve_month_contributor_count>
+        <total_contributor_count>63</total_contributor_count>
+        <twelve_month_commit_count>170</twelve_month_commit_count>
+        <total_commit_count>889</total_commit_count>
+        <total_code_lines>45983</total_code_lines>
         <factoids>
-          <factoid type="FactoidTeamSizeVeryLarge">
-Very large, active development team          </factoid>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/11338/analyses/23679624/languages.png">
-          <language percentage="60" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/11338/analyses/24828751/languages.png">
+          <language percentage="61" color="FF8F00" id="42">
 C          </language>
           <language percentage="21" color="333333" id="19">
 Assembly          </language>
           <language percentage="15" color="000080" id="37">
 TeX/LaTeX          </language>
-          <language percentage="4" color="000000" id="">
+          <language percentage="3" color="000000" id="">
 6 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
@@ -75,8 +75,8 @@ TeX/LaTeX          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>40</value>
+        <description>Low</description>
       </project_activity_index>
     </project>
   </result>

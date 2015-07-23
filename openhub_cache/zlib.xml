@@ -8,18 +8,18 @@
       <url>https://www.openhub.net/p/zlib.xml</url>
       <html_url>https://www.openhub.net/p/zlib</html_url>
       <created_at>2008-05-09T10:03:59Z</created_at>
-      <updated_at>2015-01-15T23:03:56Z</updated_at>
+      <updated_at>2015-07-03T18:36:46Z</updated_at>
       <description>zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system. The zlib data format is itself portable across platforms. Unlike the LZW compression method used in Unix compress(1) and in the GIF image format, the compression method currently used in zlib essentially never expands the data. (LZW can double or triple the file size in extreme cases.) zlib's memory footprint is also independent of the input data and can be reduced, if necessary, at some cost in compression.</description>
       <homepage_url>http://www.zlib.net/</homepage_url>
       <download_url>http://www.zlib.net/</download_url>
       <url_name>zlib</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/60606/zlib64_med.png</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/60606/zlib64_small.png</small_logo_url>
-      <user_count>153</user_count>
+      <user_count>154</user_count>
       <average_rating>4.27586</average_rating>
       <rating_count>29</rating_count>
       <review_count>0</review_count>
-      <analysis_id>22876537</analysis_id>
+      <analysis_id>25005294</analysis_id>
       <tags>
         <tag>gzip</tag>
         <tag>decompression</tag>
@@ -36,11 +36,11 @@
         <tag>decompressor</tag>
       </tags>
       <analysis>
-        <id>22876537</id>
-        <url>https://www.openhub.net/analyses/22876537.xml</url>
+        <id>25005294</id>
+        <url>https://www.openhub.net/analyses/25005294.xml</url>
         <project_id>13883</project_id>
-        <updated_at>2014-11-17T21:49:27Z</updated_at>
-        <logged_at>2014-11-17T21:49:25Z</logged_at>
+        <updated_at>2015-07-16T23:13:02Z</updated_at>
+        <logged_at>2015-07-16T23:13:00Z</logged_at>
         <min_month>2010-07-01T00:00:00Z</min_month>
         <max_month>2013-04-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>0</twelve_month_contributor_count>
@@ -53,12 +53,12 @@
 Well-commented source code          </factoid>
           <factoid type="FactoidAgeEstablished">
 Young, but established codebase          </factoid>
-          <factoid type="FactoidActivityDecreasing">
-Decreasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
           <factoid type="FactoidTeamSizeZero">
 No recent development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/zlib/analyses/22876537/languages.png">
+        <languages graph_url="https://www.openhub.net/p/zlib/analyses/25005294/languages.png">
           <language percentage="60" color="FF8F00" id="42">
 C          </language>
           <language percentage="9" color="555555" id="3">
@@ -78,8 +78,8 @@ Assembly          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>20</value>
+        <description>Inactive</description>
       </project_activity_index>
     </project>
   </result>

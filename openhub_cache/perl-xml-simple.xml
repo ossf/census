@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/perl-xml-simple.xml</url>
       <html_url>https://www.openhub.net/p/perl-xml-simple</html_url>
       <created_at>2007-01-18T23:24:45Z</created_at>
-      <updated_at>2014-10-30T00:54:40Z</updated_at>
+      <updated_at>2015-07-01T03:11:40Z</updated_at>
       <description>XML::Simple is a Perl module that makes it really easy to read and write XML files. It was originally developed for the purpose of reading and writing config files in XML format, many people find it useful for other purposes.</description>
       <homepage_url>http://search.cpan.org/dist/XML-Simple/</homepage_url>
       <download_url></download_url>
@@ -19,7 +19,7 @@
       <average_rating>4.7</average_rating>
       <rating_count>10</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23092135</analysis_id>
+      <analysis_id>24708850</analysis_id>
       <tags>
         <tag>perl</tag>
         <tag>cpan</tag>
@@ -27,11 +27,11 @@
         <tag>perl-module</tag>
       </tags>
       <analysis>
-        <id>23092135</id>
-        <url>https://www.openhub.net/analyses/23092135.xml</url>
+        <id>24708850</id>
+        <url>https://www.openhub.net/analyses/24708850.xml</url>
         <project_id>4062</project_id>
-        <updated_at>2014-11-13T06:00:17Z</updated_at>
-        <logged_at>2014-11-13T06:00:14Z</logged_at>
+        <updated_at>2015-07-21T05:50:37Z</updated_at>
+        <logged_at>2015-07-21T05:50:35Z</logged_at>
         <min_month>2001-12-01T00:00:00Z</min_month>
         <max_month>2012-06-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>0</twelve_month_contributor_count>
@@ -49,7 +49,7 @@ Stable Y-O-Y development activity          </factoid>
           <factoid type="FactoidTeamSizeZero">
 No recent development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/perl-xml-simple/analyses/23092135/languages.png">
+        <languages graph_url="https://www.openhub.net/p/perl-xml-simple/analyses/24708850/languages.png">
           <language percentage="99" color="D2C690" id="8">
 Perl          </language>
           <language percentage="1" color="000000" id="">
@@ -69,8 +69,8 @@ Perl          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>20</value>
+        <description>Inactive</description>
       </project_activity_index>
     </project>
   </result>

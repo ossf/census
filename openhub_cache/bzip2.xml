@@ -8,14 +8,14 @@
       <url>https://www.openhub.net/p/bzip2.xml</url>
       <html_url>https://www.openhub.net/p/bzip2</html_url>
       <created_at>2007-06-05T04:51:29Z</created_at>
-      <updated_at>2015-01-23T07:52:47Z</updated_at>
+      <updated_at>2015-04-21T12:13:13Z</updated_at>
       <description>bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.</description>
       <homepage_url>http://bzip.org/</homepage_url>
       <download_url>http://www.bzip.org/downloads.html</download_url>
       <url_name>bzip2</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1323/bzip2-logo_med.png</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1323/bzip2-logo_small.png</small_logo_url>
-      <user_count>1391</user_count>
+      <user_count>1386</user_count>
       <average_rating>4.48131</average_rating>
       <rating_count>214</rating_count>
       <review_count>0</review_count>

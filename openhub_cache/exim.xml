@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/exim.xml</url>
       <html_url>https://www.openhub.net/p/exim</html_url>
       <created_at>2007-02-01T21:14:15Z</created_at>
-      <updated_at>2014-11-13T04:18:52Z</updated_at>
+      <updated_at>2015-07-19T21:52:03Z</updated_at>
       <description>Exim is a message transfer agent (MTA) developed for Unix systems connected to the Internet. It is similar to Smail 3, but expands on Smail features.</description>
       <homepage_url>http://www.exim.org/</homepage_url>
       <download_url>http://www.exim.org/mirrors.html</download_url>
@@ -19,39 +19,40 @@
       <average_rating>4.36364</average_rating>
       <rating_count>22</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23224663</analysis_id>
+      <analysis_id>25125710</analysis_id>
       <tags>
-        <tag>server</tag>
-        <tag>mail</tag>
-        <tag>email</tag>
-        <tag>mta</tag>
-        <tag>mail_transport_agents</tag>
+        <tag>smtp</tag>
         <tag>tarpit</tag>
+        <tag>mail_transport_agents</tag>
+        <tag>mta</tag>
+        <tag>email</tag>
+        <tag>mail</tag>
+        <tag>server</tag>
       </tags>
       <analysis>
-        <id>23224663</id>
-        <url>https://www.openhub.net/analyses/23224663.xml</url>
+        <id>25125710</id>
+        <url>https://www.openhub.net/analyses/25125710.xml</url>
         <project_id>4227</project_id>
-        <updated_at>2014-11-13T04:18:52Z</updated_at>
-        <logged_at>2014-11-13T04:18:15Z</logged_at>
+        <updated_at>2015-07-19T21:52:03Z</updated_at>
+        <logged_at>2015-07-19T21:51:39Z</logged_at>
         <min_month>2004-10-01T00:00:00Z</min_month>
-        <max_month>2014-11-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>15</twelve_month_contributor_count>
-        <total_contributor_count>31</total_contributor_count>
-        <twelve_month_commit_count>328</twelve_month_commit_count>
-        <total_commit_count>2191</total_commit_count>
-        <total_code_lines>112788</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>19</twelve_month_contributor_count>
+        <total_contributor_count>40</total_contributor_count>
+        <twelve_month_commit_count>456</twelve_month_commit_count>
+        <total_commit_count>2494</total_commit_count>
+        <total_code_lines>115583</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidTeamSizeLarge">
-Large, active development team          </factoid>
           <factoid type="FactoidActivityIncreasing">
 Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
           <factoid type="FactoidCommentsHigh">
 Well-commented source code          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/exim/analyses/23224663/languages.png">
+        <languages graph_url="https://www.openhub.net/p/exim/analyses/25125710/languages.png">
           <language percentage="89" color="FF8F00" id="42">
 C          </language>
           <language percentage="8" color="D2C690" id="8">
@@ -69,8 +70,8 @@ Perl          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>60</value>
+        <description>High</description>
       </project_activity_index>
     </project>
   </result>

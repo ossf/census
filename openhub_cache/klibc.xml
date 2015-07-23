@@ -8,16 +8,16 @@
       <url>https://www.openhub.net/p/klibc.xml</url>
       <html_url>https://www.openhub.net/p/klibc</html_url>
       <created_at>2007-08-26T13:39:54Z</created_at>
-      <updated_at>2014-12-27T02:17:53Z</updated_at>
+      <updated_at>2015-07-03T11:18:39Z</updated_at>
       <description>klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entanglement, and portability, not speed.  It is definitely a work in progress, and a lot of things are still missing.</description>
       <homepage_url>http://en.wikipedia.org/wiki/Klibc</homepage_url>
       <download_url>http://www.kernel.org/pub/linux/libs/klibc/</download_url>
       <url_name>klibc</url_name>
-      <user_count>0</user_count>
+      <user_count>1</user_count>
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23720589</analysis_id>
+      <analysis_id>24948415</analysis_id>
       <tags>
         <tag>library</tag>
         <tag>linux</tag>
@@ -26,29 +26,29 @@
         <tag>boot</tag>
       </tags>
       <analysis>
-        <id>23720589</id>
-        <url>https://www.openhub.net/analyses/23720589.xml</url>
+        <id>24948415</id>
+        <url>https://www.openhub.net/analyses/24948415.xml</url>
         <project_id>7975</project_id>
-        <updated_at>2015-01-24T04:59:50Z</updated_at>
-        <logged_at>2015-01-24T04:59:47Z</logged_at>
+        <updated_at>2015-07-16T12:20:52Z</updated_at>
+        <logged_at>2015-07-16T12:20:48Z</logged_at>
         <min_month>2002-07-01T00:00:00Z</min_month>
-        <max_month>2014-07-01T00:00:00Z</max_month>
+        <max_month>2015-03-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>2</twelve_month_contributor_count>
-        <total_contributor_count>94</total_contributor_count>
-        <twelve_month_commit_count>12</twelve_month_commit_count>
-        <total_commit_count>2252</total_commit_count>
-        <total_code_lines>52971</total_code_lines>
+        <total_contributor_count>95</total_contributor_count>
+        <twelve_month_commit_count>4</twelve_month_commit_count>
+        <total_commit_count>2255</total_commit_count>
+        <total_code_lines>53134</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidCommentsAverage">
-Average number of code comments          </factoid>
           <factoid type="FactoidTeamSizeSmall">
 Small development team          </factoid>
-          <factoid type="FactoidActivityStable">
-Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/klibc/analyses/23720589/languages.png">
+        <languages graph_url="https://www.openhub.net/p/klibc/analyses/24948415/languages.png">
           <language percentage="92" color="FF8F00" id="42">
 C          </language>
           <language percentage="5" color="333333" id="19">

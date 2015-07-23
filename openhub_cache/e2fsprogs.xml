@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/e2fsprogs.xml</url>
       <html_url>https://www.openhub.net/p/e2fsprogs</html_url>
       <created_at>2008-04-28T06:39:13Z</created_at>
-      <updated_at>2014-12-19T21:14:56Z</updated_at>
+      <updated_at>2015-07-15T01:55:55Z</updated_at>
       <description>The e2fsprogs package contains the utilities for handling the ext2 file system. It also supports the ext3 and ext4 journaling file systems.</description>
       <homepage_url>http://ext4.wiki.kernel.org/</homepage_url>
       <download_url>http://e2fsprogs.sourceforge.net/</download_url>
@@ -17,7 +17,7 @@
       <average_rating>4.66667</average_rating>
       <rating_count>3</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23621091</analysis_id>
+      <analysis_id>25119877</analysis_id>
       <tags>
         <tag>ext4</tag>
         <tag>ext2</tag>
@@ -26,32 +26,32 @@
         <tag>ext3</tag>
       </tags>
       <analysis>
-        <id>23621091</id>
-        <url>https://www.openhub.net/analyses/23621091.xml</url>
+        <id>25119877</id>
+        <url>https://www.openhub.net/analyses/25119877.xml</url>
         <project_id>13608</project_id>
-        <updated_at>2015-01-18T00:15:23Z</updated_at>
-        <logged_at>2015-01-18T00:15:18Z</logged_at>
+        <updated_at>2015-07-19T19:53:01Z</updated_at>
+        <logged_at>2015-07-19T19:52:55Z</logged_at>
         <min_month>1997-04-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>45</twelve_month_contributor_count>
-        <total_contributor_count>133</total_contributor_count>
-        <twelve_month_commit_count>677</twelve_month_commit_count>
-        <total_commit_count>5100</total_commit_count>
-        <total_code_lines>147254</total_code_lines>
+        <max_month>2015-06-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>30</twelve_month_contributor_count>
+        <total_contributor_count>139</total_contributor_count>
+        <twelve_month_commit_count>451</twelve_month_commit_count>
+        <total_commit_count>5253</total_commit_count>
+        <total_code_lines>159294</total_code_lines>
         <factoids>
-          <factoid type="FactoidTeamSizeVeryLarge">
-Very large, active development team          </factoid>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/e2fsprogs/analyses/23621091/languages.png">
-          <language percentage="74" color="FF8F00" id="42">
+        <languages graph_url="https://www.openhub.net/p/e2fsprogs/analyses/25119877/languages.png">
+          <language percentage="75" color="FF8F00" id="42">
 C          </language>
-          <language percentage="11" color="EEE" id="51">
+          <language percentage="10" color="EEE" id="51">
 Autoconf          </language>
           <language percentage="7" color="000080" id="37">
 TeX/LaTeX          </language>
@@ -80,8 +80,8 @@ TeX/LaTeX          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>60</value>
-        <description>High</description>
+        <value>50</value>
+        <description>Moderate</description>
       </project_activity_index>
     </project>
   </result>

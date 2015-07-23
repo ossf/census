@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/shadow-tool-suite.xml</url>
       <html_url>https://www.openhub.net/p/shadow-tool-suite</html_url>
       <created_at>2010-11-28T10:34:11Z</created_at>
-      <updated_at>2014-10-27T02:19:14Z</updated_at>
+      <updated_at>2015-07-04T01:50:27Z</updated_at>
       <description>The shadow tool suite contains the following commands among others: login, passwd, useradd, groupadd.</description>
       <homepage_url>http://pkg-shadow.alioth.debian.org/</homepage_url>
       <download_url>http://pkg-shadow.alioth.debian.org/download.php</download_url>
@@ -19,31 +19,31 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23006121</analysis_id>
+      <analysis_id>25051295</analysis_id>
       <analysis>
-        <id>23006121</id>
-        <url>https://www.openhub.net/analyses/23006121.xml</url>
+        <id>25051295</id>
+        <url>https://www.openhub.net/analyses/25051295.xml</url>
         <project_id>486758</project_id>
-        <updated_at>2014-11-16T16:55:36Z</updated_at>
-        <logged_at>2014-11-16T16:48:22Z</logged_at>
+        <updated_at>2015-07-21T15:15:22Z</updated_at>
+        <logged_at>2015-07-21T15:14:14Z</logged_at>
         <min_month>2007-10-01T00:00:00Z</min_month>
-        <max_month>2014-09-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>4</twelve_month_contributor_count>
-        <total_contributor_count>17</total_contributor_count>
-        <twelve_month_commit_count>22</twelve_month_commit_count>
-        <total_commit_count>3571</total_commit_count>
-        <total_code_lines>127116</total_code_lines>
+        <max_month>2015-06-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>7</twelve_month_contributor_count>
+        <total_contributor_count>20</total_contributor_count>
+        <twelve_month_commit_count>25</twelve_month_commit_count>
+        <total_commit_count>3577</total_commit_count>
+        <total_code_lines>127125</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
           <factoid type="FactoidCommentsHigh">
 Well-commented source code          </factoid>
-          <factoid type="FactoidTeamSizeAverage">
-Average size development team          </factoid>
           <factoid type="FactoidActivityDecreasing">
 Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/shadow-tool-suite/analyses/23006121/languages.png">
+        <languages graph_url="https://www.openhub.net/p/shadow-tool-suite/analyses/25051295/languages.png">
           <language percentage="49" color="FF8F00" id="42">
 C          </language>
           <language percentage="33" color="777777" id="11">
@@ -63,8 +63,8 @@ XML          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>40</value>
+        <description>Low</description>
       </project_activity_index>
     </project>
   </result>

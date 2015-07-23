@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/nail.xml</url>
       <html_url>https://www.openhub.net/p/nail</html_url>
       <created_at>2007-05-10T19:15:11Z</created_at>
-      <updated_at>2014-12-27T04:16:27Z</updated_at>
+      <updated_at>2015-07-02T06:35:41Z</updated_at>
       <description>Heirloom mailx (previously known as nail) is a mail user agent (MUA) for Unix systems. 
 
 Highlights are:
@@ -23,7 +23,7 @@ Highlights are:
       <average_rating>5.0</average_rating>
       <rating_count>1</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23740126</analysis_id>
+      <analysis_id>24807798</analysis_id>
       <tags>
         <tag>service</tag>
         <tag>mua</tag>
@@ -36,11 +36,11 @@ Highlights are:
         <tag>daemon</tag>
       </tags>
       <analysis>
-        <id>23740126</id>
-        <url>https://www.openhub.net/analyses/23740126.xml</url>
+        <id>24807798</id>
+        <url>https://www.openhub.net/analyses/24807798.xml</url>
         <project_id>5252</project_id>
-        <updated_at>2015-01-25T00:48:02Z</updated_at>
-        <logged_at>2015-01-25T00:48:00Z</logged_at>
+        <updated_at>2015-07-19T21:31:34Z</updated_at>
+        <logged_at>2015-07-19T21:31:33Z</logged_at>
         <min_month>2004-09-01T00:00:00Z</min_month>
         <max_month>2010-10-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>0</twelve_month_contributor_count>
@@ -58,7 +58,7 @@ Stable Y-O-Y development activity          </factoid>
           <factoid type="FactoidTeamSizeZero">
 No recent development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/nail/analyses/23740126/languages.png">
+        <languages graph_url="https://www.openhub.net/p/nail/analyses/24807798/languages.png">
           <language percentage="98" color="FF8F00" id="42">
 C          </language>
           <language percentage="2" color="000000" id="">

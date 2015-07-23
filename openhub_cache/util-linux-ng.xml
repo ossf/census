@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/util-linux-ng.xml</url>
       <html_url>https://www.openhub.net/p/util-linux-ng</html_url>
       <created_at>2007-08-21T22:05:02Z</created_at>
-      <updated_at>2015-02-09T14:03:01Z</updated_at>
+      <updated_at>2015-07-20T04:01:04Z</updated_at>
       <description>util-linux is a random collection of Linux utilities</description>
       <homepage_url>https://raw.githubusercontent.com/karelzak/util-linux/master/README</homepage_url>
       <download_url>http://ftp.kernel.org/pub/linux/utils/util-linux-ng/</download_url>
@@ -19,40 +19,40 @@
       <average_rating>4.375</average_rating>
       <rating_count>8</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23769223</analysis_id>
+      <analysis_id>25126392</analysis_id>
       <tags>
         <tag>util</tag>
         <tag>linux</tag>
       </tags>
       <analysis>
-        <id>23769223</id>
-        <url>https://www.openhub.net/analyses/23769223.xml</url>
+        <id>25126392</id>
+        <url>https://www.openhub.net/analyses/25126392.xml</url>
         <project_id>7866</project_id>
-        <updated_at>2015-01-05T05:26:08Z</updated_at>
-        <logged_at>2015-01-05T05:25:58Z</logged_at>
+        <updated_at>2015-07-20T04:01:04Z</updated_at>
+        <logged_at>2015-07-20T03:41:47Z</logged_at>
         <min_month>2006-12-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>86</twelve_month_contributor_count>
-        <total_contributor_count>384</total_contributor_count>
-        <twelve_month_commit_count>1541</twelve_month_commit_count>
-        <total_commit_count>8883</total_commit_count>
-        <total_code_lines>116273</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>81</twelve_month_contributor_count>
+        <total_contributor_count>405</total_contributor_count>
+        <twelve_month_commit_count>1321</twelve_month_commit_count>
+        <total_commit_count>9613</total_commit_count>
+        <total_code_lines>120553</total_code_lines>
         <factoids>
-          <factoid type="FactoidTeamSizeVeryLarge">
-Very large, active development team          </factoid>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
           <factoid type="FactoidActivityStable">
 Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/util-linux-ng/analyses/23769223/languages.png">
+        <languages graph_url="https://www.openhub.net/p/util-linux-ng/analyses/25126392/languages.png">
           <language percentage="90" color="FF8F00" id="42">
 C          </language>
-          <language percentage="7" color="777777" id="11">
+          <language percentage="8" color="777777" id="11">
 shell script          </language>
-          <language percentage="3" color="000000" id="">
+          <language percentage="2" color="000000" id="">
 6 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
@@ -77,8 +77,8 @@ shell script          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>60</value>
+        <description>High</description>
       </project_activity_index>
       <links>
         <link>

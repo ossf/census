@@ -8,18 +8,18 @@
       <url>https://www.openhub.net/p/gnupg.xml</url>
       <html_url>https://www.openhub.net/p/gnupg</html_url>
       <created_at>2007-05-11T18:06:52Z</created_at>
-      <updated_at>2015-02-07T12:04:02Z</updated_at>
+      <updated_at>2015-07-20T03:31:36Z</updated_at>
       <description>GnuPG is the GNU project's complete and free implementation of the OpenPGP standard as defined by RFC2440 . GnuPG allows to encrypt and sign your data and communication, features a versatile key managment system as well as access modules for all kind of public key directories.</description>
       <homepage_url>http://www.gnupg.org/</homepage_url>
       <download_url>http://www.gnupg.org/download/index.html</download_url>
       <url_name>gnupg</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1361/thomas_wittek-logo-2_med.png</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1361/thomas_wittek-logo-2_small.png</small_logo_url>
-      <user_count>1228</user_count>
+      <user_count>1227</user_count>
       <average_rating>4.40708</average_rating>
       <rating_count>226</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23813707</analysis_id>
+      <analysis_id>25126309</analysis_id>
       <tags>
         <tag>gpg4win</tag>
         <tag>sysadmin</tag>
@@ -33,35 +33,35 @@
         <tag>security</tag>
       </tags>
       <analysis>
-        <id>23813707</id>
-        <url>https://www.openhub.net/analyses/23813707.xml</url>
+        <id>25126309</id>
+        <url>https://www.openhub.net/analyses/25126309.xml</url>
         <project_id>5270</project_id>
-        <updated_at>2015-01-05T10:46:55Z</updated_at>
-        <logged_at>2015-01-05T10:46:49Z</logged_at>
+        <updated_at>2015-07-20T03:31:36Z</updated_at>
+        <logged_at>2015-07-20T03:31:08Z</logged_at>
         <min_month>1997-11-01T00:00:00Z</min_month>
-        <max_month>2015-01-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>14</twelve_month_contributor_count>
-        <total_contributor_count>32</total_contributor_count>
-        <twelve_month_commit_count>482</twelve_month_commit_count>
-        <total_commit_count>4770</total_commit_count>
-        <total_code_lines>203017</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>16</twelve_month_contributor_count>
+        <total_contributor_count>33</total_contributor_count>
+        <twelve_month_commit_count>563</twelve_month_commit_count>
+        <total_commit_count>5056</total_commit_count>
+        <total_code_lines>200829</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidTeamSizeLarge">
-Large, active development team          </factoid>
           <factoid type="FactoidActivityIncreasing">
 Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/gnupg/analyses/23813707/languages.png">
+        <languages graph_url="https://www.openhub.net/p/gnupg/analyses/25126309/languages.png">
           <language percentage="87" color="FF8F00" id="42">
 C          </language>
           <language percentage="5" color="777777" id="11">
 shell script          </language>
           <language percentage="8" color="000000" id="">
-9 Other          </language>
+10 Other          </language>
         </languages>
         <main_language_id>42</main_language_id>
         <main_language_name>C</main_language_name>
@@ -73,8 +73,8 @@ shell script          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>60</value>
+        <description>High</description>
       </project_activity_index>
       <links>
         <link>

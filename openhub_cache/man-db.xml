@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/man-db.xml</url>
       <html_url>https://www.openhub.net/p/man-db</html_url>
       <created_at>2008-12-15T18:39:35Z</created_at>
-      <updated_at>2014-12-18T00:03:50Z</updated_at>
+      <updated_at>2015-07-03T11:46:58Z</updated_at>
       <description>man-db is an implementation of the standard Unix documentation system accessed using the man command. It is used by several popular GNU/Linux distributions, including Debian, Fedora, SuSE and Ubuntu.</description>
       <homepage_url>http://man-db.nongnu.org/</homepage_url>
       <download_url>http://savannah.nongnu.org/files/?group=man-db</download_url>
@@ -19,7 +19,7 @@
       <average_rating>5.0</average_rating>
       <rating_count>1</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23594433</analysis_id>
+      <analysis_id>24952687</analysis_id>
       <tags>
         <tag>manual</tag>
         <tag>apropos</tag>
@@ -32,29 +32,29 @@
         <tag>whatis</tag>
       </tags>
       <analysis>
-        <id>23594433</id>
-        <url>https://www.openhub.net/analyses/23594433.xml</url>
+        <id>24952687</id>
+        <url>https://www.openhub.net/analyses/24952687.xml</url>
         <project_id>44104</project_id>
-        <updated_at>2015-01-15T08:52:53Z</updated_at>
-        <logged_at>2015-01-15T08:52:48Z</logged_at>
+        <updated_at>2015-07-19T23:59:42Z</updated_at>
+        <logged_at>2015-07-19T23:59:30Z</logged_at>
         <min_month>2001-04-01T00:00:00Z</min_month>
-        <max_month>2014-11-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>13</twelve_month_contributor_count>
+        <max_month>2015-04-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>8</twelve_month_contributor_count>
         <total_contributor_count>40</total_contributor_count>
-        <twelve_month_commit_count>103</twelve_month_commit_count>
-        <total_commit_count>1743</total_commit_count>
-        <total_code_lines>188641</total_code_lines>
+        <twelve_month_commit_count>64</twelve_month_commit_count>
+        <total_commit_count>1747</total_commit_count>
+        <total_code_lines>188734</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
           <factoid type="FactoidTeamSizeLarge">
 Large, active development team          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidCommentsHigh">
 Well-commented source code          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/man-db/analyses/23594433/languages.png">
+        <languages graph_url="https://www.openhub.net/p/man-db/analyses/24952687/languages.png">
           <language percentage="34" color="EEE" id="51">
 Autoconf          </language>
           <language percentage="31" color="FF8F00" id="42">
@@ -74,8 +74,8 @@ Make          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>50</value>
-        <description>Moderate</description>
+        <value>40</value>
+        <description>Low</description>
       </project_activity_index>
     </project>
   </result>

@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/infozip.xml</url>
       <html_url>https://www.openhub.net/p/infozip</html_url>
       <created_at>2007-08-11T05:00:49Z</created_at>
-      <updated_at>2015-01-15T23:01:36Z</updated_at>
+      <updated_at>2015-07-01T05:33:14Z</updated_at>
       <description></description>
       <homepage_url>http://www.info-zip.org/</homepage_url>
       <download_url></download_url>
@@ -19,7 +19,7 @@
       <average_rating>3.46154</average_rating>
       <rating_count>13</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23541575</analysis_id>
+      <analysis_id>24719814</analysis_id>
       <tags>
         <tag>zip</tag>
         <tag>archive</tag>
@@ -27,11 +27,11 @@
         <tag>compress</tag>
       </tags>
       <analysis>
-        <id>23541575</id>
-        <url>https://www.openhub.net/analyses/23541575.xml</url>
+        <id>24719814</id>
+        <url>https://www.openhub.net/analyses/24719814.xml</url>
         <project_id>7650</project_id>
-        <updated_at>2015-01-11T08:59:09Z</updated_at>
-        <logged_at>2015-01-11T08:59:06Z</logged_at>
+        <updated_at>2015-07-18T19:30:03Z</updated_at>
+        <logged_at>2015-07-18T19:30:01Z</logged_at>
         <min_month>2008-07-01T00:00:00Z</min_month>
         <max_month>2010-11-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>0</twelve_month_contributor_count>
@@ -49,7 +49,7 @@ Stable Y-O-Y development activity          </factoid>
           <factoid type="FactoidTeamSizeZero">
 No recent development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/infozip/analyses/23541575/languages.png">
+        <languages graph_url="https://www.openhub.net/p/infozip/analyses/24719814/languages.png">
           <language percentage="42" color="FF8F00" id="42">
 C          </language>
           <language percentage="28" color="777777" id="11">
@@ -69,8 +69,8 @@ XML          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>20</value>
+        <description>Inactive</description>
       </project_activity_index>
     </project>
   </result>

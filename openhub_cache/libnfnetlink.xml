@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libnfnetlink.xml</url>
       <html_url>https://www.openhub.net/p/libnfnetlink</html_url>
       <created_at>2013-07-19T20:17:12Z</created_at>
-      <updated_at>2014-10-24T04:28:11Z</updated_at>
+      <updated_at>2015-07-03T21:16:16Z</updated_at>
       <description>libnfnetlink is the low-level library for netfilter related kernel/userspace communication.</description>
       <homepage_url>http://www.netfilter.org/projects/libnfnetlink/index.html</homepage_url>
       <download_url>http://www.netfilter.org/projects/libnfnetlink/downloads.html</download_url>
@@ -17,36 +17,36 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>22950376</analysis_id>
+      <analysis_id>25022975</analysis_id>
       <tags>
         <tag>iptables</tag>
         <tag>netfilter</tag>
         <tag>nfnetlink</tag>
       </tags>
       <analysis>
-        <id>22950376</id>
-        <url>https://www.openhub.net/analyses/22950376.xml</url>
+        <id>25022975</id>
+        <url>https://www.openhub.net/analyses/25022975.xml</url>
         <project_id>642848</project_id>
-        <updated_at>2014-11-16T18:20:06Z</updated_at>
-        <logged_at>2014-11-16T18:20:03Z</logged_at>
+        <updated_at>2015-07-19T21:51:21Z</updated_at>
+        <logged_at>2015-07-19T21:51:18Z</logged_at>
         <min_month>2002-01-01T00:00:00Z</min_month>
-        <max_month>2014-02-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>1</twelve_month_contributor_count>
-        <total_contributor_count>13</total_contributor_count>
-        <twelve_month_commit_count>1</twelve_month_commit_count>
-        <total_commit_count>214</total_commit_count>
-        <total_code_lines>2058</total_code_lines>
+        <max_month>2015-05-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
+        <total_contributor_count>14</total_contributor_count>
+        <twelve_month_commit_count>3</twelve_month_commit_count>
+        <total_commit_count>217</total_commit_count>
+        <total_code_lines>2030</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidCommentsVeryHigh">
 Very well-commented source code          </factoid>
-          <factoid type="FactoidActivityDecreasing">
-Decreasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidTeamSizeOne">
-Only a single active developer          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libnfnetlink/analyses/22950376/languages.png">
+        <languages graph_url="https://www.openhub.net/p/libnfnetlink/analyses/25022975/languages.png">
           <language percentage="97" color="FF8F00" id="42">
 C          </language>
           <language percentage="3" color="000000" id="">
@@ -62,8 +62,8 @@ C          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>30</value>
+        <description>Very Low</description>
       </project_activity_index>
     </project>
   </result>

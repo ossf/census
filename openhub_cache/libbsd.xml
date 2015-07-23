@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libbsd.xml</url>
       <html_url>https://www.openhub.net/p/libbsd</html_url>
       <created_at>2008-07-12T14:57:46Z</created_at>
-      <updated_at>2014-12-11T02:19:35Z</updated_at>
+      <updated_at>2015-07-04T00:40:09Z</updated_at>
       <description>Utility functions from BSD systems</description>
       <homepage_url>http://libbsd.freedesktop.org/</homepage_url>
       <download_url>http://libbsd.freedesktop.org/releases/</download_url>
@@ -19,7 +19,7 @@
       <average_rating>5.0</average_rating>
       <rating_count>1</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23505636</analysis_id>
+      <analysis_id>25045097</analysis_id>
       <tags>
         <tag>library</tag>
         <tag>development</tag>
@@ -28,16 +28,16 @@
         <tag>porting</tag>
       </tags>
       <analysis>
-        <id>23505636</id>
-        <url>https://www.openhub.net/analyses/23505636.xml</url>
+        <id>25045097</id>
+        <url>https://www.openhub.net/analyses/25045097.xml</url>
         <project_id>15500</project_id>
-        <updated_at>2015-01-07T05:40:39Z</updated_at>
-        <logged_at>2015-01-07T05:40:37Z</logged_at>
+        <updated_at>2015-07-21T09:49:10Z</updated_at>
+        <logged_at>2015-07-21T09:49:07Z</logged_at>
         <min_month>2005-07-01T00:00:00Z</min_month>
         <max_month>2014-07-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>3</twelve_month_contributor_count>
+        <twelve_month_contributor_count>1</twelve_month_contributor_count>
         <total_contributor_count>16</total_contributor_count>
-        <twelve_month_commit_count>6</twelve_month_commit_count>
+        <twelve_month_commit_count>2</twelve_month_commit_count>
         <total_commit_count>304</total_commit_count>
         <total_code_lines>7011</total_code_lines>
         <factoids>
@@ -45,12 +45,12 @@
 Mature, well-established codebase          </factoid>
           <factoid type="FactoidCommentsHigh">
 Well-commented source code          </factoid>
-          <factoid type="FactoidTeamSizeSmall">
-Small development team          </factoid>
+          <factoid type="FactoidTeamSizeOne">
+Only a single active developer          </factoid>
           <factoid type="FactoidActivityDecreasing">
 Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libbsd/analyses/23505636/languages.png">
+        <languages graph_url="https://www.openhub.net/p/libbsd/analyses/25045097/languages.png">
           <language percentage="94" color="FF8F00" id="42">
 C          </language>
           <language percentage="6" color="000000" id="">
@@ -74,8 +74,8 @@ C          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>30</value>
+        <description>Very Low</description>
       </project_activity_index>
       <links>
         <link>

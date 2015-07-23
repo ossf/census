@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/freetype.xml</url>
       <html_url>https://www.openhub.net/p/freetype</html_url>
       <created_at>2006-10-11T07:08:46Z</created_at>
-      <updated_at>2015-01-15T23:01:14Z</updated_at>
+      <updated_at>2015-07-12T06:20:00Z</updated_at>
       <description>FreeType 2 is a software font engine that is designed to be small,
 efficient, highly customizable and portable while capable of
 producing high-quality output (glyph images). It can be used in
@@ -22,16 +22,16 @@ easy to use and uniform interface to access the content of font
 files.
 FreeType 2 is released under two open-source licenses: our own
 BSD-like FreeType License and the GPL.</description>
-      <homepage_url>http://savannah.nongnu.org/projects/freetype/</homepage_url>
+      <homepage_url>http://www.freetype.org/</homepage_url>
       <download_url>http://sourceforge.net/projects/freetype/files/latest/download</download_url>
       <url_name>freetype</url_name>
       <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_med.png</medium_logo_url>
       <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_small.png</small_logo_url>
-      <user_count>250</user_count>
+      <user_count>249</user_count>
       <average_rating>4.34286</average_rating>
       <rating_count>35</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23776032</analysis_id>
+      <analysis_id>25114014</analysis_id>
       <tags>
         <tag>library</tag>
         <tag>unicode</tag>
@@ -46,29 +46,29 @@ BSD-like FreeType License and the GPL.</description>
         <tag>font</tag>
       </tags>
       <analysis>
-        <id>23776032</id>
-        <url>https://www.openhub.net/analyses/23776032.xml</url>
+        <id>25114014</id>
+        <url>https://www.openhub.net/analyses/25114014.xml</url>
         <project_id>846</project_id>
-        <updated_at>2015-01-09T00:09:23Z</updated_at>
-        <logged_at>2015-01-08T23:57:09Z</logged_at>
+        <updated_at>2015-07-20T22:18:02Z</updated_at>
+        <logged_at>2015-07-20T22:15:40Z</logged_at>
         <min_month>1997-09-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>16</twelve_month_contributor_count>
-        <total_contributor_count>109</total_contributor_count>
-        <twelve_month_commit_count>317</twelve_month_commit_count>
-        <total_commit_count>6105</total_commit_count>
-        <total_code_lines>301821</total_code_lines>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>11</twelve_month_contributor_count>
+        <total_contributor_count>111</total_contributor_count>
+        <twelve_month_commit_count>416</twelve_month_commit_count>
+        <total_commit_count>6313</total_commit_count>
+        <total_code_lines>302226</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidTeamSizeLarge">
 Large, active development team          </factoid>
           <factoid type="FactoidCommentsHigh">
 Well-commented source code          </factoid>
-          <factoid type="FactoidActivityStable">
-Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/freetype/analyses/23776032/languages.png">
+        <languages graph_url="https://www.openhub.net/p/freetype/analyses/25114014/languages.png">
           <language percentage="71" color="FF8F00" id="42">
 C          </language>
           <language percentage="8" color="555555" id="3">
@@ -92,9 +92,26 @@ Pascal          </language>
         </license>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>50</value>
+        <description>Moderate</description>
       </project_activity_index>
+      <links>
+        <link>
+          <title>FreeType on Savannah</title>
+          <url>http://savannah.nongnu.org/projects/freetype/</url>
+          <category>Community</category>
+        </link>
+        <link>
+          <title>FreeType bug tracker</title>
+          <url>http://savannah.nongnu.org/bugs/?group=freetype</url>
+          <category>Issue Trackers</category>
+        </link>
+        <link>
+          <title>FreeType mailing lists</title>
+          <url>http://savannah.nongnu.org/mail/?group=freetype</url>
+          <category>Mailing Lists</category>
+        </link>
+      </links>
     </project>
   </result>
 </response>

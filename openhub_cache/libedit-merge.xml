@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libedit-merge.xml</url>
       <html_url>https://www.openhub.net/p/libedit-merge</html_url>
       <created_at>2011-05-09T14:52:20Z</created_at>
-      <updated_at>2014-10-31T04:05:53Z</updated_at>
+      <updated_at>2015-07-02T21:40:13Z</updated_at>
       <description></description>
       <homepage_url>http://github.com/alloy/libedit-merge</homepage_url>
       <download_url></download_url>
@@ -17,13 +17,13 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23112333</analysis_id>
+      <analysis_id>24866530</analysis_id>
       <analysis>
-        <id>23112333</id>
-        <url>https://www.openhub.net/analyses/23112333.xml</url>
+        <id>24866530</id>
+        <url>https://www.openhub.net/analyses/24866530.xml</url>
         <project_id>573401</project_id>
-        <updated_at>2014-11-28T22:09:56Z</updated_at>
-        <logged_at>2014-11-28T22:09:54Z</logged_at>
+        <updated_at>2015-07-20T00:13:28Z</updated_at>
+        <logged_at>2015-07-20T00:13:25Z</logged_at>
         <min_month>2010-06-01T00:00:00Z</min_month>
         <max_month>2010-06-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>0</twelve_month_contributor_count>
@@ -32,16 +32,16 @@
         <total_commit_count>7</total_commit_count>
         <total_code_lines>32187</total_code_lines>
         <factoids>
-          <factoid type="FactoidCommentsAverage">
-Average number of code comments          </factoid>
           <factoid type="FactoidAgeYoung">
 Short source control history          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
           <factoid type="FactoidActivityStable">
 Stable Y-O-Y development activity          </factoid>
           <factoid type="FactoidTeamSizeZero">
 No recent development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libedit-merge/analyses/23112333/languages.png">
+        <languages graph_url="https://www.openhub.net/p/libedit-merge/analyses/24866530/languages.png">
           <language percentage="94" color="FF8F00" id="42">
 C          </language>
           <language percentage="6" color="777777" id="11">
@@ -55,8 +55,8 @@ Make          </language>
       <licenses>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>20</value>
+        <description>Inactive</description>
       </project_activity_index>
     </project>
   </result>

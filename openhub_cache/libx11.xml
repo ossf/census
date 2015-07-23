@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/libx11.xml</url>
       <html_url>https://www.openhub.net/p/libx11</html_url>
       <created_at>2013-08-28T17:35:19Z</created_at>
-      <updated_at>2014-12-17T06:45:51Z</updated_at>
+      <updated_at>2015-05-12T01:07:57Z</updated_at>
       <description>git://anongit.freedesktop.org/xorg/lib/libX11</description>
       <homepage_url>https://github.com/mirror/libX11</homepage_url>
       <download_url>https://github.com/mirror/libX11/downloads</download_url>
@@ -17,18 +17,18 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23585454</analysis_id>
+      <analysis_id>24355416</analysis_id>
       <analysis>
-        <id>23585454</id>
-        <url>https://www.openhub.net/analyses/23585454.xml</url>
+        <id>24355416</id>
+        <url>https://www.openhub.net/analyses/24355416.xml</url>
         <project_id>653500</project_id>
-        <updated_at>2015-01-14T12:22:14Z</updated_at>
-        <logged_at>2015-01-14T12:22:11Z</logged_at>
+        <updated_at>2015-05-12T01:07:56Z</updated_at>
+        <logged_at>2015-01-17T19:03:36Z</logged_at>
         <min_month>1999-08-01T00:00:00Z</min_month>
         <max_month>2014-12-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>13</twelve_month_contributor_count>
+        <twelve_month_contributor_count>7</twelve_month_contributor_count>
         <total_contributor_count>136</total_contributor_count>
-        <twelve_month_commit_count>96</twelve_month_commit_count>
+        <twelve_month_commit_count>92</twelve_month_commit_count>
         <total_commit_count>1257</total_commit_count>
         <total_code_lines>221808</total_code_lines>
         <factoids>
@@ -38,10 +38,10 @@ Mature, well-established codebase          </factoid>
 Large, active development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
-          <factoid type="FactoidActivityDecreasing">
-Decreasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/libx11/analyses/23585454/languages.png">
+        <languages graph_url="https://www.openhub.net/p/libx11/analyses/24355416/languages.png">
           <language percentage="53" color="FF8F00" id="42">
 C          </language>
           <language percentage="43" color="555555" id="3">
@@ -55,8 +55,8 @@ XML          </language>
       <licenses>
       </licenses>
       <project_activity_index>
-        <value>40</value>
-        <description>Low</description>
+        <value>0</value>
+        <description>Not Available</description>
       </project_activity_index>
     </project>
   </result>

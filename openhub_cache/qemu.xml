@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/qemu.xml</url>
       <html_url>https://www.openhub.net/p/qemu</html_url>
       <created_at>2006-10-11T04:56:29Z</created_at>
-      <updated_at>2015-07-16T19:55:29Z</updated_at>
+      <updated_at>2015-07-21T08:15:06Z</updated_at>
       <description>QEMU is a generic and open source machine emulator and virtualizer.
 
 When used as a machine emulator, QEMU can run OSes and programs made for one machine on a different machine. By using dynamic translation, it achieves very good performance.
@@ -23,7 +23,7 @@ When used as a virtualizer, QEMU achieves near native performances by executing 
       <average_rating>4.32787</average_rating>
       <rating_count>61</rating_count>
       <review_count>0</review_count>
-      <analysis_id>25120976</analysis_id>
+      <analysis_id>25127780</analysis_id>
       <tags>
         <tag>dynamic_translation</tag>
         <tag>virtualization</tag>
@@ -32,18 +32,18 @@ When used as a virtualizer, QEMU achieves near native performances by executing 
         <tag>emulation</tag>
       </tags>
       <analysis>
-        <id>25120976</id>
-        <url>https://www.openhub.net/analyses/25120976.xml</url>
+        <id>25127780</id>
+        <url>https://www.openhub.net/analyses/25127780.xml</url>
         <project_id>761</project_id>
-        <updated_at>2015-07-16T19:55:29Z</updated_at>
-        <logged_at>2015-07-16T13:53:00Z</logged_at>
+        <updated_at>2015-07-21T08:15:06Z</updated_at>
+        <logged_at>2015-07-21T08:12:03Z</logged_at>
         <min_month>2003-02-01T00:00:00Z</min_month>
         <max_month>2015-07-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>321</twelve_month_contributor_count>
+        <twelve_month_contributor_count>319</twelve_month_contributor_count>
         <total_contributor_count>937</total_contributor_count>
-        <twelve_month_commit_count>5554</twelve_month_commit_count>
-        <total_commit_count>40194</total_commit_count>
-        <total_code_lines>939877</total_code_lines>
+        <twelve_month_commit_count>5561</twelve_month_commit_count>
+        <total_commit_count>40227</total_commit_count>
+        <total_code_lines>939991</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
@@ -54,7 +54,7 @@ Few source code comments          </factoid>
           <factoid type="FactoidActivityStable">
 Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/qemu/analyses/25120976/languages.png">
+        <languages graph_url="https://www.openhub.net/p/qemu/analyses/25127780/languages.png">
           <language percentage="92" color="FF8F00" id="42">
 C          </language>
           <language percentage="8" color="000000" id="">

@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/gnu-mpfr.xml</url>
       <html_url>https://www.openhub.net/p/gnu-mpfr</html_url>
       <created_at>2012-11-12T15:12:21Z</created_at>
-      <updated_at>2014-12-19T17:07:53Z</updated_at>
+      <updated_at>2015-07-20T22:40:15Z</updated_at>
       <description>Provides a library for multiple-precision floating-point computation with correct rounding. The computation is both efficient and has a well-defined semantics. It copies the good ideas from the ANSI/IEEE-754 standard for double-precision floating-point arithmetic.</description>
       <homepage_url>http://www.mpfr.org/</homepage_url>
       <download_url>http://www.mpfr.org/mpfr-current/</download_url>
@@ -19,7 +19,7 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23614516</analysis_id>
+      <analysis_id>25127035</analysis_id>
       <tags>
         <tag>multiprecision</tag>
         <tag>gmp</tag>
@@ -28,29 +28,29 @@
         <tag>numerical</tag>
       </tags>
       <analysis>
-        <id>23614516</id>
-        <url>https://www.openhub.net/analyses/23614516.xml</url>
+        <id>25127035</id>
+        <url>https://www.openhub.net/analyses/25127035.xml</url>
         <project_id>616815</project_id>
-        <updated_at>2015-01-18T01:59:12Z</updated_at>
-        <logged_at>2015-01-18T01:59:08Z</logged_at>
+        <updated_at>2015-07-20T22:40:15Z</updated_at>
+        <logged_at>2015-07-20T22:37:53Z</logged_at>
         <min_month>1999-06-01T00:00:00Z</min_month>
-        <max_month>2014-12-01T00:00:00Z</max_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>2</twelve_month_contributor_count>
         <total_contributor_count>17</total_contributor_count>
-        <twelve_month_commit_count>385</twelve_month_commit_count>
-        <total_commit_count>7576</total_commit_count>
-        <total_code_lines>89457</total_code_lines>
+        <twelve_month_commit_count>198</twelve_month_commit_count>
+        <total_commit_count>7728</total_commit_count>
+        <total_code_lines>91557</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidCommentsAverage">
-Average number of code comments          </factoid>
           <factoid type="FactoidTeamSizeSmall">
 Small development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/gnu-mpfr/analyses/23614516/languages.png">
+        <languages graph_url="https://www.openhub.net/p/gnu-mpfr/analyses/25127035/languages.png">
           <language percentage="88" color="FF8F00" id="42">
 C          </language>
           <language percentage="6" color="000080" id="37">

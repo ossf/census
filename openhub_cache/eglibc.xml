@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/eglibc.xml</url>
       <html_url>https://www.openhub.net/p/eglibc</html_url>
       <created_at>2009-05-06T10:21:23Z</created_at>
-      <updated_at>2015-01-03T09:20:27Z</updated_at>
+      <updated_at>2015-07-04T01:08:59Z</updated_at>
       <description>Embedded GLIBC (EGLIBC) is a variant of the GNU C Library (GLIBC)  that is designed to work well on embedded systems. EGLIBC strives to be source and binary compatible with GLIBC. EGLIBC's goals include reduced footprint, configurable components, better support for cross-compilation and cross-testing.</description>
       <homepage_url>http://www.eglibc.org/</homepage_url>
       <download_url></download_url>
@@ -19,7 +19,7 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23782543</analysis_id>
+      <analysis_id>25048093</analysis_id>
       <tags>
         <tag>glibc</tag>
         <tag>library</tag>
@@ -27,16 +27,16 @@
         <tag>c</tag>
       </tags>
       <analysis>
-        <id>23782543</id>
-        <url>https://www.openhub.net/analyses/23782543.xml</url>
+        <id>25048093</id>
+        <url>https://www.openhub.net/analyses/25048093.xml</url>
         <project_id>339119</project_id>
-        <updated_at>2015-02-01T11:19:28Z</updated_at>
-        <logged_at>2015-02-01T11:19:24Z</logged_at>
+        <updated_at>2015-07-17T14:28:11Z</updated_at>
+        <logged_at>2015-07-17T14:28:05Z</logged_at>
         <min_month>2006-08-01T00:00:00Z</min_month>
         <max_month>2014-02-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>1</twelve_month_contributor_count>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
         <total_contributor_count>12</total_contributor_count>
-        <twelve_month_commit_count>3</twelve_month_commit_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
         <total_commit_count>483</total_commit_count>
         <total_code_lines>1239262</total_code_lines>
         <factoids>
@@ -46,10 +46,10 @@ Mature, well-established codebase          </factoid>
 Average number of code comments          </factoid>
           <factoid type="FactoidActivityDecreasing">
 Decreasing Y-O-Y development activity          </factoid>
-          <factoid type="FactoidTeamSizeOne">
-Only a single active developer          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/eglibc/analyses/23782543/languages.png">
+        <languages graph_url="https://www.openhub.net/p/eglibc/analyses/25048093/languages.png">
           <language percentage="74" color="FF8F00" id="42">
 C          </language>
           <language percentage="20" color="333333" id="19">

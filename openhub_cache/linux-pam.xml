@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/linux-pam.xml</url>
       <html_url>https://www.openhub.net/p/linux-pam</html_url>
       <created_at>2007-11-29T21:17:17Z</created_at>
-      <updated_at>2015-01-10T23:42:51Z</updated_at>
+      <updated_at>2015-07-02T14:02:22Z</updated_at>
       <description>Linux-PAM (Pluggable Authentication Modules for Linux) project.</description>
       <homepage_url>http://www.linux-pam.org</homepage_url>
       <download_url>https://fedorahosted.org/releases/l/i/linux-pam/</download_url>
@@ -17,7 +17,7 @@
       <average_rating>3.70588</average_rating>
       <rating_count>17</rating_count>
       <review_count>0</review_count>
-      <analysis_id>23825144</analysis_id>
+      <analysis_id>24840594</analysis_id>
       <tags>
         <tag>authentication</tag>
         <tag>security</tag>
@@ -27,29 +27,29 @@
         <tag>library</tag>
       </tags>
       <analysis>
-        <id>23825144</id>
-        <url>https://www.openhub.net/analyses/23825144.xml</url>
+        <id>24840594</id>
+        <url>https://www.openhub.net/analyses/24840594.xml</url>
         <project_id>9962</project_id>
-        <updated_at>2015-01-21T14:49:39Z</updated_at>
-        <logged_at>2015-01-21T14:49:35Z</logged_at>
+        <updated_at>2015-07-19T23:47:26Z</updated_at>
+        <logged_at>2015-07-19T23:47:23Z</logged_at>
         <min_month>2000-06-01T00:00:00Z</min_month>
-        <max_month>2015-01-01T00:00:00Z</max_month>
-        <twelve_month_contributor_count>8</twelve_month_contributor_count>
+        <max_month>2015-06-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>7</twelve_month_contributor_count>
         <total_contributor_count>20</total_contributor_count>
-        <twelve_month_commit_count>46</twelve_month_commit_count>
-        <total_commit_count>1213</total_commit_count>
-        <total_code_lines>56988</total_code_lines>
+        <twelve_month_commit_count>37</twelve_month_commit_count>
+        <total_commit_count>1230</total_commit_count>
+        <total_code_lines>57169</total_code_lines>
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidActivityIncreasing">
-Increasing Y-O-Y development activity          </factoid>
           <factoid type="FactoidTeamSizeLarge">
 Large, active development team          </factoid>
           <factoid type="FactoidCommentsAverage">
 Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/linux-pam/analyses/23825144/languages.png">
+        <languages graph_url="https://www.openhub.net/p/linux-pam/analyses/24840594/languages.png">
           <language percentage="62" color="FF8F00" id="42">
 C          </language>
           <language percentage="32" color="555555" id="3">

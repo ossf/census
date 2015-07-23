@@ -8,7 +8,7 @@
       <url>https://www.openhub.net/p/iproute-mptcp.xml</url>
       <html_url>https://www.openhub.net/p/iproute-mptcp</html_url>
       <created_at>2013-09-01T13:41:20Z</created_at>
-      <updated_at>2014-10-21T02:40:36Z</updated_at>
+      <updated_at>2015-06-30T22:51:43Z</updated_at>
       <description>IP-Route extensions for MultiPath TCP</description>
       <homepage_url>https://github.com/multipath-tcp/iproute-mptcp</homepage_url>
       <download_url>https://github.com/multipath-tcp/iproute-mptcp/downloads</download_url>
@@ -17,13 +17,13 @@
       <average_rating></average_rating>
       <rating_count>0</rating_count>
       <review_count>0</review_count>
-      <analysis_id>22930564</analysis_id>
+      <analysis_id>24676325</analysis_id>
       <analysis>
-        <id>22930564</id>
-        <url>https://www.openhub.net/analyses/22930564.xml</url>
+        <id>24676325</id>
+        <url>https://www.openhub.net/analyses/24676325.xml</url>
         <project_id>687906</project_id>
-        <updated_at>2014-11-18T23:41:24Z</updated_at>
-        <logged_at>2014-11-18T23:41:20Z</logged_at>
+        <updated_at>2015-07-17T20:44:08Z</updated_at>
+        <logged_at>2015-07-17T20:44:05Z</logged_at>
         <min_month>2004-04-01T00:00:00Z</min_month>
         <max_month>2013-07-01T00:00:00Z</max_month>
         <twelve_month_contributor_count>0</twelve_month_contributor_count>
@@ -34,14 +34,14 @@
         <factoids>
           <factoid type="FactoidAgeVeryOld">
 Mature, well-established codebase          </factoid>
-          <factoid type="FactoidCommentsVeryLow">
-Very few source code comments          </factoid>
           <factoid type="FactoidActivityDecreasing">
 Decreasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsVeryLow">
+Very few source code comments          </factoid>
           <factoid type="FactoidTeamSizeZero">
 No recent development activity          </factoid>
         </factoids>
-        <languages graph_url="https://www.openhub.net/p/iproute-mptcp/analyses/22930564/languages.png">
+        <languages graph_url="https://www.openhub.net/p/iproute-mptcp/analyses/24676325/languages.png">
           <language percentage="85" color="FF8F00" id="42">
 C          </language>
           <language percentage="6" color="000080" id="37">
@@ -55,8 +55,8 @@ TeX/LaTeX          </language>
       <licenses>
       </licenses>
       <project_activity_index>
-        <value>0</value>
-        <description>Not Available</description>
+        <value>20</value>
+        <description>Inactive</description>
       </project_activity_index>
     </project>
   </result>
