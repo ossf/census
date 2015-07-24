@@ -148,6 +148,14 @@ class Oss_Package(object):
     self.implemented = ''
     self.role = ''
 
+    self.website_points = 0
+    self.CVE_points = 0
+    self.recent_contributor_points = 0
+    self.popularity_points = 0
+    self.language_points = 0
+    self.exposure_points = 0
+    self.data_only_points = 0
+
     if self.openhub_lookup_name != '':
       self.openhub_page = 'https://www.openhub.net/projects/'+self.openhub_lookup_name
       
@@ -256,25 +264,27 @@ class Oss_Package(object):
     ret = 0
     # If no homepage, add one
     if len(self.debian_home)==0 and len(self.openhub_home)==0:
-      ret += 1
+      self.website_points = 1
     if self.main_language.upper() in ['C','C++'] or self.implemented.upper() in ['C','C++']: # if implemented in C/C++, add two
-      ret += 2
-    ret += {'0':0,'1':1,'2':2,'3':2}.get(self.cve_since_2010,3) # Add points depending on number of CVEs
+      self.language_points = 2
+    self.CVE_points = {'0':0,'1':1,'2':2,'3':2}.get(self.cve_since_2010,3) # Add points depending on number of CVEs
     # Add points depending on number of recent contributors
-    ret += {'0':5,'1':4,'2':4,'3':4,'':2}.get(self.twelve_month_contributor_count,0)
+    self.recent_contributor_points = {'0':5,'1':4,'2':4,'3':4,'':2}.get(self.twelve_month_contributor_count,0)
     if int(self.popularity) >= int(popularity_threshold): # if popular, add 1 point
-      ret += 1
+      self.popularity_points = 1
     if  any(role in self.role.lower() for role in ['data','documentation']): # If this is data or documentation, deduct 3 points
-      ret -= 3
+      self.data_only_points = -3
 
     if self.direct_network_exposure == '1':
-      ret += 2 # network exposure is weighted more
+      self.exposure_points = 2 # network exposure is weighted more
     elif self.process_network_data == '1':
-      ret += 1
+      self.exposure_points = 1
     elif self.potential_privilege_escalation == '1':
-      ret += 1
+      self.exposure_points = 1
     else:
-      ret += 0
+      self.exposure_points = 0
+
+    ret = self.website_points + self.language_points + self.CVE_points + self.recent_contributor_points + self.popularity_points + self.data_only_points + self.exposure_points
 
     if ret < 0:
       self.risk_index = '0'
@@ -346,13 +356,21 @@ def main():
   # Add the headers row
   with open('results.csv','w') as csvfile:
     headerwriter = csv.writer(csvfile, delimiter = ',')
-    headerwriter.writerow(['project_name','debian_source','debian_version','debian_desc','debian_home','CVE_since_2010','CVE_page','openhub_page', 'openhub_name','openhub_desc','openhub_home','openhub_download','twelve_month_contributor_count','total_contributor_count','total_code_lines','main_language_name',     'licenses','fact_activity', 'fact_age', 'fact_comments', 'fact_team_size', 'package_popularity','implemented_in','role','direct_network_exposure','process_network_data','potential_privilege_escalation', 'risk_index(max = 16)', 'comment_on_priority'])
+    headerwriter.writerow(['project_name','debian_source','debian_version','debian_desc','debian_home','CVE_since_2010','CVE_page','openhub_page', 'openhub_name','openhub_desc',
+    'openhub_home','openhub_download','twelve_month_contributor_count','total_contributor_count','total_code_lines','main_language_name',     'licenses','fact_activity',
+    'fact_age', 'fact_comments', 'fact_team_size', 'package_popularity','implemented_in','role','direct_network_exposure','process_network_data','potential_privilege_escalation',
+    'risk_index(max = 16)', 'risk_index components','comment_on_priority'])
 
   csvfile = open('results.csv','a')
   resultwriter = csv.writer(csvfile, delimiter = ',')
   # Write each package results into csv
   for p in package_list:
-    row = [p.package_name, p.debian_source, p.debian_version, p.debian_desc, p.debian_home, p.cve_since_2010, p.cve_page,  p.openhub_page, p.openhub_name, p.openhub_desc, p.openhub_home, p.openhub_download, p.twelve_month_contributor_count, p.total_contributor_count, p.total_code_lines, p.main_language, p.licenses, p.fact_activity, p.fact_age, p.fact_comments, p.fact_team_size, p.popularity, p.implemented,p.role,p.direct_network_exposure, p.process_network_data, p.potential_privilege_escalation, p.risk_index, p.comment_on_priority]
+    row = [p.package_name, p.debian_source, p.debian_version, p.debian_desc, p.debian_home, p.cve_since_2010, p.cve_page,  p.openhub_page, p.openhub_name, p.openhub_desc,
+    p.openhub_home, p.openhub_download, p.twelve_month_contributor_count, p.total_contributor_count, p.total_code_lines, p.main_language, p.licenses, p.fact_activity,
+    p.fact_age, p.fact_comments, p.fact_team_size, p.popularity, p.implemented,p.role,p.direct_network_exposure, p.process_network_data, p.potential_privilege_escalation, p.risk_index,
+    'Website points: ' + str(p.website_points) + ', CVE: ' + str(p.CVE_points) + ', 12-month contributor: ' + str(p.recent_contributor_points) + ', Popularity: ' +
+    str(p.popularity_points) + ', Language: ' + str(p.language_points) + ', Exposure: ' + str(p.exposure_points) + ' , Data only: ' + str(p.data_only_points),
+    p.comment_on_priority]
     resultwriter.writerow(remove_non_ascii(row))
   
 if __name__== "__main__":
