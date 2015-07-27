@@ -1,0 +1,13 @@
+2015-11-15   Version 1.1.0
+
+* Issue #29: Included breakdown of risk index score into the result
+* Added original cached data from Openhub and Debian, put in original_cache folder
+* Included latest cached data and results put in latest_cache folder
+* Added projects suggested by pull requests (fail2ban, glib-networking, openvpn, clamav, dnsmasq, encfs,
+  ffmpeg,owncloud, qemu, rsync, samba, virt-manager, git, subversion, mercurial, bzr, parted, vlc)
+* Fixed string and integer comparison bugs for CVE and 12-month contributor counts
+* Issue #22: get language and role for each project from apt_cache_dumpavail.txt, not through web scraping
+* Issue #28: only the 'worst' score is obtained from exposure values, 
+  making the code input processing more robust 
+* General Code clean up
+* Added script to load results.csv into a SQLite database (thanks to Florian Weimer)
