@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>4018</id>
+      <name>OpenSSH</name>
+      <url>https://www.openhub.net/p/openssh.xml</url>
+      <html_url>https://www.openhub.net/p/openssh</html_url>
+      <created_at>2007-01-15T22:51:22Z</created_at>
+      <updated_at>2015-07-22T17:25:37Z</updated_at>
+      <description>OpenSSH is a free SSH/SecSH protocol suite providing encryption for network services like remote login or remote file transfer.
+
+The following is a list of OpenSSH features:
+    * Open Source Project
+    * Free Licensing
+    * Strong Encryption (3DES, Blowfish, AES, Arcfour)
+    * X11 Forwarding (encrypt X Window System traffic)
+    * Port Forwarding (encrypted channels for legacy protocols)
+    * Strong Authentication (Public Key, One-Time Password and Kerberos Authentication)
+    * Agent Forwarding (Single-Sign-On)
+    * Interoperability (Compliance with SSH 1.3, 1.5, and 2.0 protocol Standards)
+    * SFTP client and server support in both SSH1 and SSH2 protocols.
+    * Kerberos and AFS Ticket Passing
+    * Data Compression</description>
+      <homepage_url>http://www.openssh.com/</homepage_url>
+      <download_url>http://www.openssh.com/portable.html</download_url>
+      <url_name>openssh</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1343/OpenSSH_logo_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1343/OpenSSH_logo_small.png</small_logo_url>
+      <user_count>3001</user_count>
+      <average_rating>4.73007</average_rating>
+      <rating_count>552</rating_count>
+      <review_count>1</review_count>
+      <analysis_id>25128157</analysis_id>
+      <tags>
+        <tag>bsd</tag>
+        <tag>client</tag>
+        <tag>ssh</tag>
+        <tag>shell</tag>
+        <tag>server</tag>
+        <tag>security</tag>
+        <tag>openssh</tag>
+        <tag>networking</tag>
+        <tag>sftp</tag>
+        <tag>rsh</tag>
+        <tag>portable</tag>
+        <tag>protocol</tag>
+        <tag>secureshell</tag>
+        <tag>scp</tag>
+        <tag>java</tag>
+      </tags>
+      <analysis>
+        <id>25128157</id>
+        <url>https://www.openhub.net/analyses/25128157.xml</url>
+        <project_id>4018</project_id>
+        <updated_at>2015-07-21T10:27:49Z</updated_at>
+        <logged_at>2015-07-21T10:26:23Z</logged_at>
+        <min_month>1999-09-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>23</twelve_month_contributor_count>
+        <total_contributor_count>92</total_contributor_count>
+        <twelve_month_commit_count>303</twelve_month_commit_count>
+        <total_commit_count>4753</total_commit_count>
+        <total_code_lines>69047</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/openssh/analyses/25128157/languages.png">
+          <language percentage="99" color="FF8F00" id="42">
+C          </language>
+          <language percentage="1" color="000000" id="">
+3 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>BSD-3-Clause</name>
+          <nice_name>BSD 3-clause "New" or "Revised" License</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

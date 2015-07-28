@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>15558</id>
+      <name>Device Mapper</name>
+      <url>https://www.openhub.net/p/device-mapper.xml</url>
+      <html_url>https://www.openhub.net/p/device-mapper</html_url>
+      <created_at>2008-07-16T05:27:44Z</created_at>
+      <updated_at>2015-07-03T10:08:35Z</updated_at>
+      <description>The userspace portion of device mapper, a generic framework to map one block device into another with sector granularity. Device mapper forms the foundation of LVM2 and EVMS, software RAIDs, dm-crypt disk encryption, and offers additional features such as file-system snapshots.</description>
+      <homepage_url>http://sources.redhat.com/dm</homepage_url>
+      <download_url>http://sources.redhat.com/dm</download_url>
+      <url_name>device-mapper</url_name>
+      <user_count>3</user_count>
+      <average_rating>5.0</average_rating>
+      <rating_count>1</rating_count>
+      <review_count>1</review_count>
+      <analysis_id>24940332</analysis_id>
+      <tags>
+        <tag>storage</tag>
+        <tag>filesystems</tag>
+        <tag>partition</tag>
+        <tag>drive</tag>
+        <tag>management</tag>
+        <tag>device_mapper</tag>
+        <tag>disk</tag>
+        <tag>volume</tag>
+        <tag>filesystem</tag>
+      </tags>
+      <analysis>
+        <id>24940332</id>
+        <url>https://www.openhub.net/analyses/24940332.xml</url>
+        <project_id>15558</project_id>
+        <updated_at>2015-07-19T23:38:34Z</updated_at>
+        <logged_at>2015-07-19T23:36:25Z</logged_at>
+        <min_month>2001-11-01T00:00:00Z</min_month>
+        <max_month>2009-05-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
+        <total_contributor_count>15</total_contributor_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
+        <total_commit_count>785</total_commit_count>
+        <total_code_lines>34138</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/device-mapper/analyses/24940332/languages.png">
+          <language percentage="67" color="FF8F00" id="42">
+C          </language>
+          <language percentage="23" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="8" color="777777" id="11">
+shell script          </language>
+          <language percentage="2" color="000000" id="">
+3 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>20</value>
+        <description>Inactive</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

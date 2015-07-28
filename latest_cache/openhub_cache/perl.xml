@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>4515</id>
+      <name>Perl</name>
+      <url>https://www.openhub.net/p/perl.xml</url>
+      <html_url>https://www.openhub.net/p/perl</html_url>
+      <created_at>2007-02-20T21:56:51Z</created_at>
+      <updated_at>2015-07-22T17:58:59Z</updated_at>
+      <description>Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more. Its major features include support for multiple programming paradigms (procedural, object-oriented, and functional styles), automatic memory management, built-in support for text processing, and a large collection of third-party modules.</description>
+      <homepage_url>http://www.perl.org/</homepage_url>
+      <download_url>http://www.perl.org/get.html</download_url>
+      <url_name>perl</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/12939/onion_64x64_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/12939/onion_64x64_small.png</small_logo_url>
+      <user_count>1407</user_count>
+      <average_rating>4.47107</average_rating>
+      <rating_count>363</rating_count>
+      <review_count>5</review_count>
+      <analysis_id>25124909</analysis_id>
+      <tags>
+        <tag>script</tag>
+        <tag>tools</tag>
+        <tag>coding</tag>
+        <tag>interpreter</tag>
+        <tag>dynamic</tag>
+        <tag>programming_language</tag>
+        <tag>object_oriented</tag>
+        <tag>perl</tag>
+        <tag>programming</tag>
+        <tag>development</tag>
+        <tag>scripting</tag>
+        <tag>language</tag>
+      </tags>
+      <analysis>
+        <id>25124909</id>
+        <url>https://www.openhub.net/analyses/25124909.xml</url>
+        <project_id>4515</project_id>
+        <updated_at>2015-07-19T19:47:35Z</updated_at>
+        <logged_at>2015-07-19T19:45:30Z</logged_at>
+        <min_month>1987-12-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>87</twelve_month_contributor_count>
+        <total_contributor_count>1211</total_contributor_count>
+        <twelve_month_commit_count>4494</twelve_month_commit_count>
+        <total_commit_count>60619</total_commit_count>
+        <total_code_lines>1048297</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/perl/analyses/25124909/languages.png">
+          <language percentage="69" color="D2C690" id="8">
+Perl          </language>
+          <language percentage="25" color="FF8F00" id="42">
+C          </language>
+          <language percentage="6" color="000000" id="">
+10 Other          </language>
+        </languages>
+        <main_language_id>8</main_language_id>
+        <main_language_name>Perl</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>artistic</name>
+          <nice_name>Artistic License</nice_name>
+        </license>
+        <license>
+          <name>GNU_General_Public_License_1_0</name>
+          <nice_name>GNU General Public License 1.0</nice_name>
+        </license>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>70</value>
+        <description>Very High</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>CPAN</title>
+          <url>http://search.cpan.org/</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>Perlmonks</title>
+          <url>http://perlmonks.org</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>Perl Documentaton</title>
+          <url>http://perldoc.perl.org</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>Perl 5 Wiki</title>
+          <url>http://www.perlfoundation.org/perl5/index.cgi</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>Perl.com</title>
+          <url>http://www.perl.com/</url>
+          <category>Documentation</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

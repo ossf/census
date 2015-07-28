@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>7947</id>
+      <name>Wget</name>
+      <url>https://www.openhub.net/p/wget.xml</url>
+      <html_url>https://www.openhub.net/p/wget</html_url>
+      <created_at>2007-08-25T08:40:22Z</created_at>
+      <updated_at>2015-07-22T17:26:00Z</updated_at>
+      <description>GNU Wget is a free software package for retrieving files using HTTP, HTTPS and FTP, the most widely-used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc.</description>
+      <homepage_url>http://www.gnu.org/software/wget/</homepage_url>
+      <download_url>http://ftp.gnu.org/pub/gnu/wget/</download_url>
+      <url_name>wget</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1674/wget_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1674/wget_small.png</small_logo_url>
+      <user_count>2374</user_count>
+      <average_rating>4.48469</average_rating>
+      <rating_count>392</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25127261</analysis_id>
+      <tags>
+        <tag>download</tag>
+        <tag>gnu</tag>
+        <tag>ftp</tag>
+        <tag>networking</tag>
+        <tag>http</tag>
+        <tag>ssl</tag>
+        <tag>web</tag>
+        <tag>cli</tag>
+        <tag>https</tag>
+      </tags>
+      <analysis>
+        <id>25127261</id>
+        <url>https://www.openhub.net/analyses/25127261.xml</url>
+        <project_id>7947</project_id>
+        <updated_at>2015-07-21T05:55:03Z</updated_at>
+        <logged_at>2015-07-21T05:54:13Z</logged_at>
+        <min_month>1999-12-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>35</twelve_month_contributor_count>
+        <total_contributor_count>119</total_contributor_count>
+        <twelve_month_commit_count>296</twelve_month_commit_count>
+        <total_commit_count>3424</total_commit_count>
+        <total_code_lines>41658</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/wget/analyses/25127261/languages.png">
+          <language percentage="74" color="FF8F00" id="42">
+C          </language>
+          <language percentage="14" color="D2C690" id="8">
+Perl          </language>
+          <language percentage="6" color="4A246B" id="9">
+Python          </language>
+          <language percentage="6" color="000000" id="">
+6 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

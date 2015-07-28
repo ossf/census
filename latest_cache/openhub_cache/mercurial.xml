@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>4974</id>
+      <name>Mercurial</name>
+      <url>https://www.openhub.net/p/mercurial.xml</url>
+      <html_url>https://www.openhub.net/p/mercurial</html_url>
+      <created_at>2007-04-22T08:14:01Z</created_at>
+      <updated_at>2015-07-19T10:18:42Z</updated_at>
+      <description>Mercurial is a fast, lightweight Source Control Management system designed for efficient handling of very large distributed projects.</description>
+      <homepage_url>http://mercurial.selenic.com/</homepage_url>
+      <download_url>http://mercurial.selenic.com/wiki/Download</download_url>
+      <url_name>mercurial</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/292/logo-droplets-150_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/292/logo-droplets-150_small.png</small_logo_url>
+      <user_count>980</user_count>
+      <average_rating>4.63298</average_rating>
+      <rating_count>376</rating_count>
+      <review_count>6</review_count>
+      <analysis_id>25124306</analysis_id>
+      <tags>
+        <tag>distributed</tag>
+        <tag>collaboration</tag>
+        <tag>windows</tag>
+        <tag>tools</tag>
+        <tag>code</tag>
+        <tag>synchronization</tag>
+        <tag>source_control</tag>
+        <tag>python</tag>
+        <tag>programming</tag>
+        <tag>dscm</tag>
+        <tag>development</tag>
+        <tag>dvcs</tag>
+        <tag>scm</tag>
+        <tag>hg</tag>
+        <tag>mercurial</tag>
+        <tag>version_control</tag>
+      </tags>
+      <analysis>
+        <id>25124306</id>
+        <url>https://www.openhub.net/analyses/25124306.xml</url>
+        <project_id>4974</project_id>
+        <updated_at>2015-07-19T10:18:42Z</updated_at>
+        <logged_at>2015-07-19T10:17:18Z</logged_at>
+        <min_month>2005-05-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>73</twelve_month_contributor_count>
+        <total_contributor_count>588</total_contributor_count>
+        <twelve_month_commit_count>3846</twelve_month_commit_count>
+        <total_commit_count>25858</total_commit_count>
+        <total_code_lines>260298</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsVeryLow">
+Very few source code comments          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/mercurial/analyses/25124306/languages.png">
+          <language percentage="53" color="D2C690" id="8">
+Perl          </language>
+          <language percentage="41" color="4A246B" id="9">
+Python          </language>
+          <language percentage="6" color="000000" id="">
+11 Other          </language>
+        </languages>
+        <main_language_id>8</main_language_id>
+        <main_language_name>Perl</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>70</value>
+        <description>Very High</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>Mercurial: The Definitive Guide</title>
+          <url>http://hgbook.red-bean.com/</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>TortoiseHg</title>
+          <url>http://bitbucket.org/tortoisehg/stable/</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>MercurialEclipse</title>
+          <url>http://bitbucket.org/mercurialeclipse/main/overview/</url>
+          <category>Forums</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

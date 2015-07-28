@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>5252</id>
+      <name>mailx</name>
+      <url>https://www.openhub.net/p/nail.xml</url>
+      <html_url>https://www.openhub.net/p/nail</html_url>
+      <created_at>2007-05-10T19:15:11Z</created_at>
+      <updated_at>2015-07-02T06:35:41Z</updated_at>
+      <description>Heirloom mailx (previously known as nail) is a mail user agent (MUA) for Unix systems. 
+
+Highlights are:
+
+    * Derived from Berkeley Mail 8.1. An interface like the original Berkeley one is still optionally available.
+
+    * Is a free implementation of the System V mailx command and features an interface like that by default.</description>
+      <homepage_url>http://heirloom.sourceforge.net/mailx.html</homepage_url>
+      <download_url>http://sourceforge.net/project/showfiles.php?group_id=106236&amp;package_id=182246</download_url>
+      <url_name>nail</url_name>
+      <user_count>7</user_count>
+      <average_rating>5.0</average_rating>
+      <rating_count>1</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>24807798</analysis_id>
+      <tags>
+        <tag>service</tag>
+        <tag>mua</tag>
+        <tag>mail</tag>
+        <tag>email</tag>
+        <tag>smtp</tag>
+        <tag>server</tag>
+        <tag>mta</tag>
+        <tag>mail_transport_agent</tag>
+        <tag>daemon</tag>
+      </tags>
+      <analysis>
+        <id>24807798</id>
+        <url>https://www.openhub.net/analyses/24807798.xml</url>
+        <project_id>5252</project_id>
+        <updated_at>2015-07-19T21:31:34Z</updated_at>
+        <logged_at>2015-07-19T21:31:33Z</logged_at>
+        <min_month>2004-09-01T00:00:00Z</min_month>
+        <max_month>2010-10-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
+        <total_contributor_count>1</total_contributor_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
+        <total_commit_count>307</total_commit_count>
+        <total_code_lines>29957</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/nail/analyses/24807798/languages.png">
+          <language percentage="98" color="FF8F00" id="42">
+C          </language>
+          <language percentage="2" color="000000" id="">
+2 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>BSD-3-Clause</name>
+          <nice_name>BSD 3-clause "New" or "Revised" License</nice_name>
+        </license>
+        <license>
+          <name>common_development_and_distribution</name>
+          <nice_name>Common Development and Distribution License 1.0</nice_name>
+        </license>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+        <license>
+          <name>lgpl</name>
+          <nice_name>GNU Library or "Lesser" GPL (LGPL)</nice_name>
+        </license>
+        <license>
+          <name>zlib_libpng</name>
+          <nice_name>zlib License (aka zlib/libpng)</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>20</value>
+        <description>Inactive</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

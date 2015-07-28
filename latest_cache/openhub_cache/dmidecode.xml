@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>1072</id>
+      <name>dmidecode</name>
+      <url>https://www.openhub.net/p/dmidecode.xml</url>
+      <html_url>https://www.openhub.net/p/dmidecode</html_url>
+      <created_at>2006-10-11T20:06:34Z</created_at>
+      <updated_at>2015-07-03T22:16:16Z</updated_at>
+      <description>Dmidecode reports information about your system's hardware as described in your system BIOS according to the SMBIOS/DMI standard. This information typically includes system manufacturer, model name, serial number, BIOS version, asset tag as well as a lot of other details of varying level of interest and reliability depending on the manufacturer. This will often include usage status for the CPU sockets, expansion slots (e.g. AGP, PCI, ISA) and memory module slots, and the list of I/O ports (e.g. serial, parallel, USB).</description>
+      <homepage_url>http://www.nongnu.org/dmidecode/</homepage_url>
+      <download_url>http://download.savannah.gnu.org/releases/dmidecode/</download_url>
+      <url_name>dmidecode</url_name>
+      <user_count>6</user_count>
+      <average_rating></average_rating>
+      <rating_count>0</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25029607</analysis_id>
+      <tags>
+        <tag>sysadmin</tag>
+        <tag>hardware</tag>
+      </tags>
+      <analysis>
+        <id>25029607</id>
+        <url>https://www.openhub.net/analyses/25029607.xml</url>
+        <project_id>1072</project_id>
+        <updated_at>2015-07-17T07:45:27Z</updated_at>
+        <logged_at>2015-07-17T07:45:21Z</logged_at>
+        <min_month>2003-01-01T00:00:00Z</min_month>
+        <max_month>2015-05-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>1</twelve_month_contributor_count>
+        <total_contributor_count>4</total_contributor_count>
+        <twelve_month_commit_count>35</twelve_month_commit_count>
+        <total_commit_count>512</total_commit_count>
+        <total_code_lines>5697</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidTeamSizeOne">
+Only a single active developer          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/dmidecode/analyses/25029607/languages.png">
+          <language percentage="98" color="FF8F00" id="42">
+C          </language>
+          <language percentage="2" color="EEE" id="52">
+Make          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>30</value>
+        <description>Very Low</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

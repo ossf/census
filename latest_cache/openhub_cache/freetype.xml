@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>846</id>
+      <name>The FreeType Project</name>
+      <url>https://www.openhub.net/p/freetype.xml</url>
+      <html_url>https://www.openhub.net/p/freetype</html_url>
+      <created_at>2006-10-11T07:08:46Z</created_at>
+      <updated_at>2015-07-12T06:20:00Z</updated_at>
+      <description>FreeType 2 is a software font engine that is designed to be small,
+efficient, highly customizable and portable while capable of
+producing high-quality output (glyph images). It can be used in
+graphics libraries, display servers, font conversion tools, text
+image generation tools, and many other products as well.
+Note that FreeType 2 is a font service and doesn't provide APIs to
+perform higher-level features, like text layout or graphics
+processing (e.g., colored text rendering, "hollowing", etc.).
+However, it greatly simplifies these tasks by providing a simple,
+easy to use and uniform interface to access the content of font
+files.
+FreeType 2 is released under two open-source licenses: our own
+BSD-like FreeType License and the GPL.</description>
+      <homepage_url>http://www.freetype.org/</homepage_url>
+      <download_url>http://sourceforge.net/projects/freetype/files/latest/download</download_url>
+      <url_name>freetype</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_small.png</small_logo_url>
+      <user_count>249</user_count>
+      <average_rating>4.34286</average_rating>
+      <rating_count>35</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25114014</analysis_id>
+      <tags>
+        <tag>library</tag>
+        <tag>unicode</tag>
+        <tag>typesetting</tag>
+        <tag>c++</tag>
+        <tag>rendering</tag>
+        <tag>truetype</tag>
+        <tag>opentype</tag>
+        <tag>fonts</tag>
+        <tag>ttf</tag>
+        <tag>typography</tag>
+        <tag>font</tag>
+      </tags>
+      <analysis>
+        <id>25114014</id>
+        <url>https://www.openhub.net/analyses/25114014.xml</url>
+        <project_id>846</project_id>
+        <updated_at>2015-07-20T22:18:02Z</updated_at>
+        <logged_at>2015-07-20T22:15:40Z</logged_at>
+        <min_month>1997-09-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>11</twelve_month_contributor_count>
+        <total_contributor_count>111</total_contributor_count>
+        <twelve_month_commit_count>416</twelve_month_commit_count>
+        <total_commit_count>6313</total_commit_count>
+        <total_code_lines>302226</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/freetype/analyses/25114014/languages.png">
+          <language percentage="71" color="FF8F00" id="42">
+C          </language>
+          <language percentage="8" color="555555" id="3">
+XML          </language>
+          <language percentage="5" color="D15600" id="14">
+Pascal          </language>
+          <language percentage="16" color="000000" id="">
+13 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>ftl</name>
+          <nice_name>FreeType Project License</nice_name>
+        </license>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>FreeType on Savannah</title>
+          <url>http://savannah.nongnu.org/projects/freetype/</url>
+          <category>Community</category>
+        </link>
+        <link>
+          <title>FreeType bug tracker</title>
+          <url>http://savannah.nongnu.org/bugs/?group=freetype</url>
+          <category>Issue Trackers</category>
+        </link>
+        <link>
+          <title>FreeType mailing lists</title>
+          <url>http://savannah.nongnu.org/mail/?group=freetype</url>
+          <category>Mailing Lists</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

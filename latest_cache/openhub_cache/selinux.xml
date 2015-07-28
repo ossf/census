@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>29458</id>
+      <name>Security-enhanced Linux</name>
+      <url>https://www.openhub.net/p/selinux.xml</url>
+      <html_url>https://www.openhub.net/p/selinux</html_url>
+      <created_at>2008-12-05T16:08:13Z</created_at>
+      <updated_at>2015-07-17T04:18:57Z</updated_at>
+      <description>This is a public forum for the NSA Security-Enhanced Linux project. This is not intended to replace NSA's work or official website but rather to allow broader participation in extending and adapting SELinux for distributions.
+
+SELinux normally comes with your Linux distribution. It is unusual for an ordinary user to install it manually.
+
+The proposed logo is not the official SELinux logo.</description>
+      <homepage_url>http://userspace.selinuxproject.org/</homepage_url>
+      <download_url></download_url>
+      <url_name>selinux</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/87713/selinux-penguin-125a_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/87713/selinux-penguin-125a_small.png</small_logo_url>
+      <user_count>6</user_count>
+      <average_rating>4.0</average_rating>
+      <rating_count>1</rating_count>
+      <review_count>1</review_count>
+      <analysis_id>25122160</analysis_id>
+      <analysis>
+        <id>25122160</id>
+        <url>https://www.openhub.net/analyses/25122160.xml</url>
+        <project_id>29458</project_id>
+        <updated_at>2015-07-21T11:27:36Z</updated_at>
+        <logged_at>2015-07-21T11:27:32Z</logged_at>
+        <min_month>2008-08-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>27</twelve_month_contributor_count>
+        <total_contributor_count>77</total_contributor_count>
+        <twelve_month_commit_count>254</twelve_month_commit_count>
+        <total_commit_count>1311</total_commit_count>
+        <total_code_lines>167185</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsLow">
+Few source code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/selinux/analyses/25122160/languages.png">
+          <language percentage="75" color="FF8F00" id="42">
+C          </language>
+          <language percentage="13" color="4A246B" id="9">
+Python          </language>
+          <language percentage="8" color="555555" id="3">
+XML          </language>
+          <language percentage="4" color="000000" id="">
+3 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl3_or_later</name>
+          <nice_name>GNU General Public License v3.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

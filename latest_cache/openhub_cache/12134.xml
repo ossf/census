@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>12134</id>
+      <name>Cyrus SASL</name>
+      <url>https://www.openhub.net/p/cyrus-sasl.xml</url>
+      <html_url>https://www.openhub.net/p/cyrus-sasl</html_url>
+      <created_at>2008-02-22T13:04:11Z</created_at>
+      <updated_at>2015-07-01T19:37:16Z</updated_at>
+      <description>SASL is the Simple Authentication and Security Layer, a method for adding authentication support to connection-based protocols. To use SASL, a protocol includes a command for identifying and authenticating a user to a server and for optionally negotiating protection of subsequent protocol interactions. If its use is negotiated, a security layer is inserted between the protocol and the connection.
+
+Cyrus SASL is the reference implementation of SASL.</description>
+      <homepage_url>http://asg.web.cmu.edu/sasl/</homepage_url>
+      <download_url>http://ftp.andrew.cmu.edu/pub/cyrus-mail/</download_url>
+      <url_name>cyrus-sasl</url_name>
+      <user_count>16</user_count>
+      <average_rating>4.0</average_rating>
+      <rating_count>5</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>24756406</analysis_id>
+      <tags>
+        <tag>authentication</tag>
+        <tag>sasl</tag>
+      </tags>
+      <analysis>
+        <id>24756406</id>
+        <url>https://www.openhub.net/analyses/24756406.xml</url>
+        <project_id>12134</project_id>
+        <updated_at>2015-07-19T21:47:10Z</updated_at>
+        <logged_at>2015-07-19T21:47:06Z</logged_at>
+        <min_month>1998-11-01T00:00:00Z</min_month>
+        <max_month>2015-05-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>1</twelve_month_contributor_count>
+        <total_contributor_count>20</total_contributor_count>
+        <twelve_month_commit_count>3</twelve_month_commit_count>
+        <total_commit_count>2262</total_commit_count>
+        <total_code_lines>72049</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidTeamSizeOne">
+Only a single active developer          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/cyrus-sasl/analyses/24756406/languages.png">
+          <language percentage="86" color="FF8F00" id="42">
+C          </language>
+          <language percentage="5" color="47A400" id="1">
+HTML          </language>
+          <language percentage="9" color="000000" id="">
+13 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>Carnegie_Mellon_Licence</name>
+          <nice_name>Carnegie Mellon Licence</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>30</value>
+        <description>Very Low</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

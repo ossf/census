@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>96576</id>
+      <name>eject utility for removable media</name>
+      <url>https://www.openhub.net/p/eject.xml</url>
+      <html_url>https://www.openhub.net/p/eject</html_url>
+      <created_at>2008-12-23T06:35:57Z</created_at>
+      <updated_at>2015-07-04T07:55:26Z</updated_at>
+      <description>Eject allows  removable media (typically a CD-ROM, floppy disk, tape, or JAZ or ZIP disk) to be ejected under  software control. The command can also control some multi-disc CD-ROM changers, the auto-eject feature supported by  some devices, and more.</description>
+      <homepage_url>http://sourceforge.net/projects/eject</homepage_url>
+      <download_url></download_url>
+      <url_name>eject</url_name>
+      <user_count>0</user_count>
+      <average_rating></average_rating>
+      <rating_count>0</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25079671</analysis_id>
+      <analysis>
+        <id>25079671</id>
+        <url>https://www.openhub.net/analyses/25079671.xml</url>
+        <project_id>96576</project_id>
+        <updated_at>2015-07-17T22:28:39Z</updated_at>
+        <logged_at>2015-07-17T22:28:37Z</logged_at>
+        <min_month>2005-07-01T00:00:00Z</min_month>
+        <max_month>2014-04-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
+        <total_contributor_count>1</total_contributor_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
+        <total_commit_count>39</total_commit_count>
+        <total_code_lines>1247</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/eject/analyses/25079671/languages.png">
+          <language percentage="94" color="FF8F00" id="42">
+C          </language>
+          <language percentage="6" color="000000" id="">
+4 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+      </licenses>
+      <project_activity_index>
+        <value>30</value>
+        <description>Very Low</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

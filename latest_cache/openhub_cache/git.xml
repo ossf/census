@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>278</id>
+      <name>Git</name>
+      <url>https://www.openhub.net/p/git.xml</url>
+      <html_url>https://www.openhub.net/p/git</html_url>
+      <created_at>2006-10-10T15:51:31Z</created_at>
+      <updated_at>2015-07-22T17:34:47Z</updated_at>
+      <description>Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.</description>
+      <homepage_url>http://git-scm.com/</homepage_url>
+      <download_url>http://git-scm.com/downloads</download_url>
+      <url_name>git</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/72402/Git-Icon-1788C_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/72402/Git-Icon-1788C_small.png</small_logo_url>
+      <user_count>4632</user_count>
+      <average_rating>4.70211</average_rating>
+      <rating_count>1091</rating_count>
+      <review_count>6</review_count>
+      <analysis_id>25127464</analysis_id>
+      <tags>
+        <tag>repository</tag>
+        <tag>console</tag>
+        <tag>gui</tag>
+        <tag>vcs</tag>
+        <tag>git</tag>
+        <tag>version_control</tag>
+        <tag>code</tag>
+        <tag>scm</tag>
+        <tag>dvcs</tag>
+        <tag>development</tag>
+        <tag>dscm</tag>
+        <tag>revision_control</tag>
+        <tag>programming</tag>
+        <tag>collaboration</tag>
+        <tag>distributed</tag>
+        <tag>source_control</tag>
+        <tag>tools</tag>
+      </tags>
+      <analysis>
+        <id>25127464</id>
+        <url>https://www.openhub.net/analyses/25127464.xml</url>
+        <project_id>278</project_id>
+        <updated_at>2015-07-21T06:49:33Z</updated_at>
+        <logged_at>2015-07-21T06:46:14Z</logged_at>
+        <min_month>2005-04-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>173</twelve_month_contributor_count>
+        <total_contributor_count>1345</total_contributor_count>
+        <twelve_month_commit_count>2790</twelve_month_commit_count>
+        <total_commit_count>40729</total_commit_count>
+        <total_code_lines>366634</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/git/analyses/25127464/languages.png">
+          <language percentage="44" color="FF8F00" id="42">
+C          </language>
+          <language percentage="35" color="777777" id="11">
+shell script          </language>
+          <language percentage="8" color="D290A8" id="25">
+Tcl          </language>
+          <language percentage="13" color="000000" id="">
+14 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>70</value>
+        <description>Very High</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>Current documentation</title>
+          <url>http://git-scm.com/docs</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>Channel log for #git</title>
+          <url>http://colabti.de/irclogger/irclogger_log/git</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>Git Mailing List Archive (MARC)</title>
+          <url>http://marc.info/?l=git</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>Git Mailing List Archive (GMane)</title>
+          <url>http://news.gmane.org/gmane.comp.version-control.git</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>Git Wiki</title>
+          <url>http://git.wiki.kernel.org</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>Git Manual Page</title>
+          <url>http://www.kernel.org/pub/software/scm/git/docs/</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>Original Git Homepage (before moving to git-scm.com)</title>
+          <url>http://git.or.cz/index.html</url>
+          <category>Documentation</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>
