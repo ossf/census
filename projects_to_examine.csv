@@ -1,4 +1,4 @@
-Debian_Package,Debian_Source,openhub_name,cve_keyword,bug_tracker,Debian_Description,Debian_Install,direct_network_exposure,process_network_data,potential_privilege_escalation,comment_on_priority,comments
+Debian_Package,Debian_Source,openhub_lookup_name,cve_keyword,bug_tracker,Debian_Description,Debian_Install,direct_network_exposure,process_network_data,potential_privilege_escalation,comment_on_priority,comments
 acpi,,acpi,acpi,, displays information on ACPI devices,Standard System Utilities,0,0,1,Provides data on local hardware. Conceivably might allow local raise in privilege.,
 acpi-support-base,acpi-support,acpi-support,acpi-support,, scripts for handling base ACPI events such as the power button,Standard System Utilities,0,0,1,,
 acpid,,acpid,acpid,, Advanced Configuration and Power Interface event daemon,Standard System Utilities,0,0,1,Provides data on local hardware. Conceivably might allow local raise in privilege.,
@@ -18,7 +18,7 @@ bind9-host,bind9,bind,bind9,, Version of 'host' bundled with BIND 9.X,Standard S
 binutils,,binutils,binutils,," GNU assembler, linker and binary utilities",Standard System Utilities,0,0,1,"Vital software for a running system.  Active maintenance.  Includes many subcomponents; some components might need review, but hard to tell because they're managed as a group.",Used to process data from network
 bsd-mailx,,nail,bsd-mailx,, simple mail user agent,Standard System Utilities,1,0,0,"This does take data from untrusted sources, but many systems won't actively use it (there are many mail clients).",In some cases contacts network and processes data from it
 bsdmainutils,,freebsd,bsdmainutils,, collection of more utilities from FreeBSD,Standard System Utilities,0,0,0,,
-bsdutils,util-linux (2.20.1-5.3),Util-linux-ng,bsdutils,, Basic utilities from 4.4BSD-Lite,Standard System Utilities,0,0,0,,
+bsdutils,util-linux (2.20.1-5.3),util-linux-ng,bsdutils,, Basic utilities from 4.4BSD-Lite,Standard System Utilities,0,0,0,,
 busybox,,busybox,busybox,, Tiny utilities for small and embedded systems,Standard System Utilities,0,0,0,,
 bzip2,,bzip2,bzip2,, high-quality block-sorting file compressor - utilities,Standard System Utilities,0,1,0,"Bzip2 is widely used for decompression of network-supplied data. No code repo, only released code source tarballs. This is the reference implementation, many alternate implementations shown on https://en.wikipedia.org/wiki/Bzip2. Last release in 2010, v1.0.6, in response to CVE-2010-0405. No forums found. At least one HTTP server supports bzip2 for compression.  +++","Used to process data from network; web site exists but last release in 2010, no public repo."
 ca-certificates,,,,, Common CA certificates,Standard System Utilities,0,1,0,,

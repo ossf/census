@@ -150,11 +150,9 @@ class Oss_Package(object):
   '''
   Class that represents an OSS package and corresponding attributes
   '''
-  def __init__(self, package_name, openhub_lookup_name,
-               direct_network_exposure, process_network_data,
+  def __init__(self, package_name, direct_network_exposure, process_network_data,
                potential_privilege_escalation, comment_on_priority):
     self.package_name = package_name
-    self.openhub_lookup_name = openhub_lookup_name
     self.direct_network_exposure = str(direct_network_exposure)
     self.process_network_data = str(process_network_data)
     self.potential_privilege_escalation = str(potential_privilege_escalation)
@@ -177,7 +175,7 @@ class Oss_Package(object):
     self.exposure_points = 0
     self.data_only_points = 0
 
-  def get_openhub(self):
+  def get_openhub(self, openhub_lookup_name):
     '''Get project's details from https://www.openhub.net/'''
     project_tags = ['name', 'description', 'homepage_url', 'download_url']
     analysis_tags = ['twelve_month_contributor_count', 'total_contributor_count',
@@ -200,13 +198,13 @@ class Oss_Package(object):
     self.fact_team_size = ''
     self.openhub_page = ''
 
-    if self.openhub_lookup_name != '':
-      self.openhub_page = 'https://www.openhub.net/projects/' + self.openhub_lookup_name
+    if openhub_lookup_name != '':
+      self.openhub_page = 'https://www.openhub.net/projects/' + openhub_lookup_name
 
       # Results are saved. Store data if it's not in the cache
-      filename = 'openhub_cache/'+self.openhub_lookup_name + '.xml'
+      filename = 'openhub_cache/'+openhub_lookup_name + '.xml'
       if os.path.isfile(filename) == False:
-        url = 'https://www.openhub.net/projects/' + self.openhub_lookup_name +\
+        url = 'https://www.openhub.net/projects/' + openhub_lookup_name +\
               '.xml?api_key=' + openhub_api_key
         cache_data(url, filename)
 
@@ -373,18 +371,17 @@ def main():
       project_name = project_info[headers.index('Debian_Package')].strip()
       if project_name == '':
         continue
-      openhub_name = project_info[headers.index('openhub_name')].strip()
+      openhub_lookup_name = project_info[headers.index('openhub_lookup_name')].strip().lower()
       direct_network_exposure = project_info[headers.index('direct_network_exposure')]
       process_network_data = project_info[headers.index('process_network_data')]
       potential_privilege_escalation = project_info[headers.index('potential_privilege_escalation')]
       comment_on_priority = project_info[headers.index('comment_on_priority')]
       print(project_name)
 
-      Package = Oss_Package(project_name, openhub_name,
-                            direct_network_exposure, process_network_data,
+      Package = Oss_Package(project_name, direct_network_exposure, process_network_data,
                             potential_privilege_escalation, comment_on_priority)
 
-      Package.get_openhub()
+      Package.get_openhub(openhub_lookup_name)
       Package.get_cve_debian()
       Package.get_risk_index()
       package_list.append(Package)
