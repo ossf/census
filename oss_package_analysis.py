@@ -206,7 +206,11 @@ class Oss_Package(object):
       if os.path.isfile(filename) == False:
         url = 'https://www.openhub.net/projects/' + openhub_lookup_name +\
               '.xml?api_key=' + openhub_api_key
-        cache_data(url, filename)
+        try:
+          cache_data(url, filename)
+        except:
+          print('Could not get OpenHub data for' + self.package_name)
+          return 1
 
       tree = ET.parse(filename)
       elem = tree.getroot()
@@ -268,7 +272,12 @@ class Oss_Package(object):
     filename = 'debian_cve/' + lookup + '.html'
     url = 'https://security-tracker.debian.org/tracker/source-package/'+lookup
     if os.path.isfile(filename) == False:
-      cache_data(url, filename)
+      try:
+        cache_data(url, filename)
+      except:
+        print('Could not get CVE data for' + self.package_name)
+        return 1
+
     soup = BeautifulSoup(open(filename))
     cve_numbers = soup.find_all(href=re.compile('CVE-201'))
     self.cve_since_2010 = str(len(cve_numbers))
