@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>92</id>
+      <name>Clam AntiVirus</name>
+      <url>https://www.openhub.net/p/clamav.xml</url>
+      <html_url>https://www.openhub.net/p/clamav</html_url>
+      <created_at>2006-10-10T15:51:31Z</created_at>
+      <updated_at>2015-07-17T01:44:47Z</updated_at>
+      <description>Clam AntiVirus (ClamAV) is an anti-virus toolkit for Unix. The main purpose of this software is the integration with mail servers (attachment scanning). The package provides a flexible and scalable multi-threaded daemon, a commandline scanner, and a tool for automatic updating via Internet. The programs are based on a shared library distributed with the Clam AntiVirus package, which you can use in your own software.</description>
+      <homepage_url>https://github.com/vrtadmin/clamav-devel</homepage_url>
+      <download_url>https://github.com/vrtadmin/clamav-devel/downloads</download_url>
+      <url_name>clamav</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/3917/clamav_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/3917/clamav_small.png</small_logo_url>
+      <user_count>446</user_count>
+      <average_rating>3.94898</average_rating>
+      <rating_count>98</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25121297</analysis_id>
+      <tags>
+        <tag>scan</tag>
+        <tag>email</tag>
+        <tag>osx</tag>
+        <tag>linux</tag>
+        <tag>security</tag>
+        <tag>server</tag>
+        <tag>tools</tag>
+        <tag>unix</tag>
+        <tag>clamav</tag>
+        <tag>mac</tag>
+        <tag>clam</tag>
+        <tag>virus</tag>
+        <tag>scanner</tag>
+        <tag>windows</tag>
+        <tag>mailscanner</tag>
+        <tag>sysadmin</tag>
+        <tag>mailwatch</tag>
+        <tag>file</tag>
+        <tag>av</tag>
+      </tags>
+      <analysis>
+        <id>25121297</id>
+        <url>https://www.openhub.net/analyses/25121297.xml</url>
+        <project_id>92</project_id>
+        <updated_at>2015-07-21T07:14:26Z</updated_at>
+        <logged_at>2015-07-21T07:14:10Z</logged_at>
+        <min_month>2003-07-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>8</twelve_month_contributor_count>
+        <total_contributor_count>163</total_contributor_count>
+        <twelve_month_commit_count>657</twelve_month_commit_count>
+        <total_commit_count>53981</total_commit_count>
+        <total_code_lines>2910592</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/clamav/analyses/25121297/languages.png">
+          <language percentage="62" color="F35F1F" id="44">
+C++          </language>
+          <language percentage="16" color="FF8F00" id="42">
+C          </language>
+          <language percentage="7" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="15" color="000000" id="">
+25 Other          </language>
+        </languages>
+        <main_language_id>44</main_language_id>
+        <main_language_name>C++</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>60</value>
+        <description>High</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>Mailing Lists</title>
+          <url>http://www.clamav.net/support/ml/</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>Documentation</title>
+          <url>http://www.clamav.net/doc/latest/</url>
+          <category>Documentation</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

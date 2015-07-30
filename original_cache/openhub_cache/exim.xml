@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>4227</id>
+      <name>Exim</name>
+      <url>https://www.openhub.net/p/exim.xml</url>
+      <html_url>https://www.openhub.net/p/exim</html_url>
+      <created_at>2007-02-01T21:14:15Z</created_at>
+      <updated_at>2014-11-13T04:18:52Z</updated_at>
+      <description>Exim is a message transfer agent (MTA) developed for Unix systems connected to the Internet. It is similar to Smail 3, but expands on Smail features.</description>
+      <homepage_url>http://www.exim.org/</homepage_url>
+      <download_url>http://www.exim.org/mirrors.html</download_url>
+      <url_name>exim</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/372/exim-blue-ld_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/372/exim-blue-ld_small.png</small_logo_url>
+      <user_count>105</user_count>
+      <average_rating>4.36364</average_rating>
+      <rating_count>22</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>23224663</analysis_id>
+      <tags>
+        <tag>server</tag>
+        <tag>mail</tag>
+        <tag>email</tag>
+        <tag>mta</tag>
+        <tag>mail_transport_agents</tag>
+        <tag>tarpit</tag>
+      </tags>
+      <analysis>
+        <id>23224663</id>
+        <url>https://www.openhub.net/analyses/23224663.xml</url>
+        <project_id>4227</project_id>
+        <updated_at>2014-11-13T04:18:52Z</updated_at>
+        <logged_at>2014-11-13T04:18:15Z</logged_at>
+        <min_month>2004-10-01T00:00:00Z</min_month>
+        <max_month>2014-11-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>15</twelve_month_contributor_count>
+        <total_contributor_count>31</total_contributor_count>
+        <twelve_month_commit_count>328</twelve_month_commit_count>
+        <total_commit_count>2191</total_commit_count>
+        <total_code_lines>112788</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/exim/analyses/23224663/languages.png">
+          <language percentage="89" color="FF8F00" id="42">
+C          </language>
+          <language percentage="8" color="D2C690" id="8">
+Perl          </language>
+          <language percentage="3" color="000000" id="">
+11 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>0</value>
+        <description>Not Available</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

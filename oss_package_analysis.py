@@ -30,7 +30,7 @@
 # OTHER DEALINGS IN THE SOFTWARE.
 
 # Enable Python 3 capabilities/syntax in Python 2.
-from __future__ import print_function#, unicode_literals
+from __future__ import print_function
 from __future__ import absolute_import, division
 try:
    xrange = xrange
@@ -40,25 +40,25 @@ except:
    # We have Python 3
 # From here on use "xrange", not "range".
 
-import sys, urllib, re
+import urllib
+import re
 import xml.etree.ElementTree as ET
 import csv
 import argparse
 import os
+import sys
 from bs4 import BeautifulSoup
-import json
-from datetime import datetime
-import calendar, time
 
 debian_data = {}
 debian_pop = {}
 popualrity_threshold = 0
-api_key = '' #openhub
-# Values to extract from debian apt for each project:
-debian_include = ['Source: ', 'Version: ', 'Description: ', 'Homepage: ']
+openhub_api_key = ''
+# Values to extract from debian apt-cache for each project
+debian_include = ['Source:', 'Version:', 'Description:', 'Homepage:']
 
-#save web results locally for caching purposes
+
 def cache_data(url, destination):
+  '''Save web results locally for caching purposes'''
   folder = destination.split('/')[0] + '/'
   if not os.path.exists(folder):
     os.makedirs(folder)
@@ -68,68 +68,120 @@ def cache_data(url, destination):
   cache_file.write(contents)
   cache_file.close()
 
-# Remove non-ascii chars from a list of strings
+
 def remove_non_ascii(text_list):
+  '''Remove non-ascii chars from a list of strings'''
   for value in text_list:
     if value is not None:
       new_value = ''.join([i if ord(i) < 128 else ' ' for i in value])
-      text_list[text_list.index(value)] = new_value
-
+      text_list[text_list.index(value)] = new_value.strip()
   return text_list
 
+
 def get_debian():
-  package_data = ['']*len(debian_include)
-  ret = {}
+  '''
+  Convert information from apt-cache dumpavail output to
+  dictionary form with indicated fields
+  '''
+  try:
+    file = open('apt_cache_dumpavail.txt', 'r')
+  except IOError:
+    print('Please include apt_cache_dumpavail.txt into the working directory.')
+    sys.exit(1)
+
+  package_data = {}
+  all_packages = {}
   for line in open('apt_cache_dumpavail.txt'):
-    if line.startswith('Package: '):
+    if line.startswith('Package:'):
       package_name = line[len('Package:'):].strip()
       continue
     for value in debian_include:
       if line.startswith(value):
-        package_data[debian_include.index(value)] = line[len(value):].strip()
+        package_data[value.strip(':')] = line[len(value):].strip()
         continue
-    # if line is blank, that means there is no more information for a package
+    if 'implemented-in::' in line:
+      first_index = line.index('implemented-in::')
+      try:
+        last_index = line.index(',', first_index)
+      except ValueError:
+        last_index = line.index('\n', first_index)
+      package_data['implemented-in'] = line[first_index+len('implemented-in::'):last_index]
+    if 'role::' in line:
+      first_index = line.index('role::')
+      try:
+        last_index = line.index(',', first_index)
+      except ValueError:
+        last_index = line.index('\n', first_index)
+      package_data['role'] = line[first_index+len('role::'):last_index]
+    # If line is blank, that means there is no more information for a package
     if not line.strip():
-      ret[package_name] = package_data
-      package_data = ['']*len(debian_include)
+      all_packages[package_name] = package_data
+      package_data = {}
 
-  return ret
+  return all_packages
 
 
 def get_debian_pop():
-  ret = {}
+  '''Obtain Debian popularity vote for each project'''
+  try:
+    file = open('by_inst', 'r')
+  except IOError:
+    print('Please include by_inst file with popularities into the working \
+    directory. \nSee http://popcon.debian.org/by_inst')
+    sys.exit(1)
+
+  pop_dict = {}
   for line in open('by_inst'):
     if not line.startswith('#') and not line.startswith('---'):
       data = line.split()
       # Keys are project names and values are popularities
-      ret[data[1]] = int(data[2])
+      pop_dict[data[1]] = int(data[2])
+  return pop_dict
 
-  return ret
+
+def get_pop_threshold(debian_pop):
+  pop_values = sorted(debian_pop.values())
+  tenth_percentile = int(0.1*len(pop_values))
+  threshold = pop_values[tenth_percentile]
+  return threshold
+
 
 class Oss_Package(object):
-
-  def __init__(self,package_name,cve_keyword,openhub_key,direct_network_exposure, process_network_data, potential_privilege_escalation, comment_on_priority):
+  '''
+  Class that represents an OSS package and corresponding attributes
+  '''
+  def __init__(self, package_name, direct_network_exposure, process_network_data,
+               potential_privilege_escalation, comment_on_priority):
     self.package_name = package_name
-    self.cve_keyword = cve_keyword#CVE search keyword for MITRE database
-    self.openhub_key = openhub_key
-    self.direct_network_exposure = direct_network_exposure
-    self.process_network_data = process_network_data
-    self.potential_privilege_escalation = potential_privilege_escalation
+    self.direct_network_exposure = str(direct_network_exposure)
+    self.process_network_data = str(process_network_data)
+    self.potential_privilege_escalation = str(potential_privilege_escalation)
     self.comment_on_priority = comment_on_priority
 
-    project_debian_data = debian_data[self.package_name]
-    self.debian_source = project_debian_data[0]
-    self.debian_version = project_debian_data[1]
-    self.debian_desc = project_debian_data[2]
-    self.debian_home = project_debian_data[3]
+    self.debian_source = debian_data[package_name].get('Source', '')
+    self.debian_version = debian_data[package_name].get('Version', '')
+    self.debian_desc = debian_data[package_name].get('Description', '')
+    self.debian_home = debian_data[package_name].get('Homepage', '')
+    self.implemented = debian_data[package_name].get('implemented-in', '')
+    self.role = debian_data[package_name].get('role', '')
 
-    self.popularity = str(debian_pop[self.package_name])
-    
-  #get project's details from https://www.openhub.net/
-  def get_openhub(self):
-    project_tags = ['name', 'description', 'homepage_url', 'download_url'] #from https://www.openhub.net/
-    analysis_tags = ['twelve_month_contributor_count', 'total_contributor_count','total_code_lines', 'main_language_name'] # from https://www.openhub.net/
-    factoid_types = ['FactoidActivity', 'FactoidAge', 'FactoidComments', 'FactoidTeamSize'] # from https://www.openhub.net/
+    self.popularity = str(debian_pop[package_name])
+
+    self.website_points = 0
+    self.CVE_points = 0
+    self.recent_contributor_points = 0
+    self.popularity_points = 0
+    self.language_points = 0
+    self.exposure_points = 0
+    self.data_only_points = 0
+
+  def get_openhub(self, openhub_lookup_name):
+    '''Get project's details from https://www.openhub.net/'''
+    project_tags = ['name', 'description', 'homepage_url', 'download_url']
+    analysis_tags = ['twelve_month_contributor_count', 'total_contributor_count',
+                     'total_code_lines', 'main_language_name']
+    factoid_types = ['FactoidActivity', 'FactoidAge', 'FactoidComments',
+                     'FactoidTeamSize']
 
     self.openhub_name = ''
     self.openhub_desc = ''
@@ -145,58 +197,61 @@ class Oss_Package(object):
     self.fact_comments = ''
     self.fact_team_size = ''
     self.openhub_page = ''
-    self.implemented = ''
-    self.role = ''
 
-    if self.openhub_key != '':
-      self.openhub_page = 'https://www.openhub.net/projects/'+self.openhub_key
-      
+    if openhub_lookup_name != '':
+      self.openhub_page = 'https://www.openhub.net/projects/' + openhub_lookup_name
+
       # Results are saved. Store data if it's not in the cache
-      filename = "openhub_cache/"+self.openhub_key + '.xml'
+      filename = 'openhub_cache/'+openhub_lookup_name + '.xml'
       if os.path.isfile(filename) == False:
-        url = 'https://www.openhub.net/projects/'+self.openhub_key+'.xml?api_key='+api_key
-        cache_data(url,filename)
+        url = 'https://www.openhub.net/projects/' + openhub_lookup_name +\
+              '.xml?api_key=' + openhub_api_key
+        try:
+          cache_data(url, filename)
+        except:
+          print('Could not get OpenHub data for' + self.package_name)
+          return 1
 
       tree = ET.parse(filename)
       elem = tree.getroot()
-      #project tags
-      tag = elem.find("result/project/name")
+      # Project tags
+      tag = elem.find('result/project/name')
       if tag is not None:
         self.openhub_name = tag.text
 
-      tag = elem.find("result/project/description")
+      tag = elem.find('result/project/description')
       if tag is not None:
         self.openhub_desc = tag.text
 
-      tag = elem.find("result/project/homepage_url")
+      tag = elem.find('result/project/homepage_url')
       if tag is not None and tag.text is not None:
         self.openhub_home = tag.text
 
-      tag = elem.find("result/project/download_url")
+      tag = elem.find('result/project/download_url')
       if tag is not None:
         self.openhub_download = tag.text
-      #analysis tags
-      tag = elem.find("result/project/analysis/twelve_month_contributor_count")
+      # Analysis tags
+      tag = elem.find('result/project/analysis/twelve_month_contributor_count')
       if tag is not None:
-        self.twelve_month_contributor_count = str(tag.text)
+        self.twelve_month_contributor_count = str(tag.text).strip()
 
-      tag = elem.find("result/project/analysis/total_contributor_count")
+      tag = elem.find('result/project/analysis/total_contributor_count')
       if tag is not None:
-        self.total_contributor_count = tag.text
+        self.total_contributor_count = str(tag.text).strip()
 
-      tag = elem.find("result/project/analysis/total_code_lines")
+      tag = elem.find('result/project/analysis/total_code_lines')
       if tag is not None:
-        self.total_code_lines = tag.text
+        self.total_code_lines = str(tag.text).strip()
 
-      tag = elem.find("result/project/analysis/main_language_name")
+      tag = elem.find('result/project/analysis/main_language_name')
       if tag is not None:
-        self.main_language = tag.text
+        self.main_language = str(tag.text).strip()
 
-      for licence in elem.findall("result/project/licenses/license/name"):
+      for licence in elem.findall('result/project/licenses/license/name'):
         if licence is not None:
-          self.licenses+=licence.text+' '
+          self.licenses += str(licence.text).strip()+' '
 
-      for factoid in elem.findall("result/project/analysis/factoids/factoid"):
+      for factoid in elem.findall('result/project/analysis/factoids/factoid'):
         factoid_type = factoid.attrib.get('type')
         if 'FactoidActivity' in factoid_type:
           self.fact_activity = factoid.text.strip()
@@ -207,90 +262,101 @@ class Oss_Package(object):
         elif 'FactoidTeamSize' in factoid_type:
           self.fact_team_size = factoid.text.strip()
 
-
-  # Get CVE info from https://cve.mitre.org (currently this function is not called)
-  def get_cve_data_mitre(self):
-    self.mitre_cve_since_2010 = ''
-    self.mitre_cve_page = ''
-    if self.cve_keyword != '':
-      filename = "cve_cache/"+self.cve_keyword + '.html'
-      url = 'https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword='+self.cve_keyword
-      if os.path.isfile(filename) == False:
-        cache_data(url, filename)
-
-      soup = BeautifulSoup(open("cve_cache/"+self.cve_keyword + '.html'))
-      # Find all href references containing CVE within a page (only looks for 2010 and after)
-      cve_numbers = soup.find_all(href=re.compile('CVE-201'))
-      self.mitre_cve_since_2010 = str(len(cve_numbers))
-      self.mitre_cve_page = url
-
   def get_cve_debian(self):
+    '''Package specific CVE info from https://security-tracker.debian.org '''
     if self.debian_source != '':
-      lookup = self.debian_source.split()[0] # use only the first word of a source for lookup
+      # Use only the first word of a source for lookup
+      lookup = self.debian_source.split()[0]
     else:
       lookup = self.package_name
-    filename = 'debian_cve/'+lookup +'.html'
-    url = 'https://security-tracker.debian.org/tracker/source-package/'+lookup 
+    filename = 'debian_cve/' + lookup + '.html'
+    url = 'https://security-tracker.debian.org/tracker/source-package/'+lookup
     if os.path.isfile(filename) == False:
-      cache_data(url, filename)
+      try:
+        cache_data(url, filename)
+      except:
+        print('Could not get CVE data for' + self.package_name)
+        return 1
 
     soup = BeautifulSoup(open(filename))
     cve_numbers = soup.find_all(href=re.compile('CVE-201'))
     self.cve_since_2010 = str(len(cve_numbers))
     self.cve_page = url
 
-  def get_role_debian(self): # Identify if a package is data or info
-    filename = 'debian_role/' + self.package_name + '.html'
-    url = 'https://packages.debian.org/wheezy/' + self.package_name
-    if os.path.isfile(filename) == False:
-      cache_data(url,filename)
-    soup = BeautifulSoup(open(filename))
-    tag = soup.find(href = re.compile('#implemented-in'))
-    if tag is not None:
-      self.implemented = tag.text
-    tag = soup.find(href = re.compile('#role'))
-    if tag is not None:
-      self.role = tag.text    
-
   def get_risk_index(self):
     ret = 0
-    # If no homepage, add one
-    if len(self.debian_home)==0 and len(self.openhub_home)==0:
-      ret += 1
-    if self.main_language.upper() in ['C','C++'] or self.implemented in ['C','C++']: # if implemented in C/C++, add two
-      ret += 2
-    ret += {0:0,1:1,2:2,3:2}.get(self.cve_since_2010,3) # Add points depending on number of CVEs
+    # If no homepage, add a point
+    if len(self.debian_home) == 0 and len(self.openhub_home) == 0:
+      self.website_points = 1
+    # If implemented in C/C++, add two points
+    if self.main_language.upper() in ['C', 'C++'] or self.implemented.upper() in ['C', 'C++']:
+      self.language_points = 2
+    # Add points depending on number of CVEs
+    self.CVE_points = {'0': 0, '1': 1, '2': 2, '3': 2}.get(self.cve_since_2010, 3)
     # Add points depending on number of recent contributors
-    ret += {0:5,1:4,2:4,3:4,'':2}.get(self.twelve_month_contributor_count,0)
-    if int(self.popularity) >= popularity_threshold: # if popular, add 1 point
-      ret += 1
-    if  'Data' in self.role: # If this is not a program, subtract three
-      ret -= 3
-    ret += 2*int(self.direct_network_exposure) + int(self.process_network_data) + int(self.potential_privilege_escalation) # network exposure is weighted more
-    self.risk_index = str(ret)
+    self.recent_contributor_points = {'0': 5, '1': 4, '2': 4, '3': 4, '': 2}.\
+        get(self.twelve_month_contributor_count, 0)
+    # If popular, add 1 point
+    if int(self.popularity) >= int(popularity_threshold):
+      self.popularity_points = 1
+    # If this is data or documentation, deduct 3 points
+    if any(role in self.role.lower() for role in ['data', 'documentation']):
+      self.data_only_points = -3
+
+    if self.direct_network_exposure == '1':
+      self.exposure_points = 2  # Network exposure is weighted more
+    elif self.process_network_data == '1':
+      self.exposure_points = 1
+    elif self.potential_privilege_escalation == '1':
+      self.exposure_points = 1
+    else:
+      self.exposure_points = 0
+
+    ret = self.website_points + self.language_points + self.CVE_points + \
+        self.recent_contributor_points + self.popularity_points + \
+        self.data_only_points + self.exposure_points
+
+    if ret < 0:
+      self.risk_index = '0'
+    else:
+      self.risk_index = str(ret)
 
 
 def main():
-  global api_key
+  global openhub_api_key
   global debian_data
   global debian_pop
   global popularity_threshold
 
-  parser = argparse.ArgumentParser(description = 'OSS Metrics', usage ='python program.py -p projects_to_examine.csv')
-  parser.add_argument('-p','--project_file', help='path to csv file with project list', required = True)
-
+  parser = argparse.ArgumentParser(description='OSS Metrics',
+           usage='python program.py -p projects_to_examine.csv')
+  parser.add_argument('-p', '--project_file',
+                      help='path to csv file with project list', required=True)
   args = parser.parse_args()
 
-  f = open('openhub_key.txt','r') # API key must be stored in a text file, same directory
-  api_key = f.readline().strip()
+  try:
+    file = open(args.project_file, 'r')
+  except IOError:
+    print('Invalid file. Please provide a csv file with projects to examine.')
+    sys.exit(1)
 
-  debian_data = get_debian() # dict instance with debian data(source, version, description,homepage)
-  debian_pop = get_debian_pop() # dict instance with total installs per package
+  try:
+    file = open('openhub_key.txt', 'r')
+    openhub_api_key = f.readline().strip()
+  except IOError:
+    openhub_api_key = ''
+    print('[*] No Openhub API key was provided. \
+    Will only use cached data (if available).')
+
+  # dict instance with debian data(source, version, description,homepage)
+  debian_data = get_debian()
+  # dict instance with total installs per package
+  debian_pop = get_debian_pop()
   project_name_list = []
   package_list = []
 
   project_file = open(args.project_file)
-  project_reader = csv.reader(project_file, delimiter = ',')
+  project_reader = csv.reader(project_file, delimiter=',')
   headers = project_reader.next()
   for project_info in project_reader:
     project_name = project_info[headers.index('Debian_Package')].strip()
@@ -298,47 +364,70 @@ def main():
       continue
     project_name_list.append(project_name)
 
-  debian_pop = {project_name: debian_pop.get(project_name, 0) for project_name in project_name_list}
-  debian_data = {project_name: debian_data.get(project_name, ['']*len(debian_include)) for project_name in project_name_list}
-  popularity_threshold = sorted(debian_pop.values())[int(0.1*len(debian_pop.values()))] # popularity of lowest 10%th percentile
+  # Filter out projects that are not being analyzed from popularity dictionary
+  debian_pop = {project_name: debian_pop.get(project_name, 0)
+                for project_name in project_name_list}
+  # Filter out projects that are not being analyzed from debian dictionary
+  debian_data = {project_name: debian_data.get(project_name, {})
+                 for project_name in project_name_list}
+
+  popularity_threshold = get_pop_threshold(debian_pop)
 
   with open(args.project_file) as project_file:
-    project_reader = csv.reader(project_file, delimiter = ',')
+    project_reader = csv.reader(project_file, delimiter=',')
     headers = project_reader.next()
     for project_info in project_reader:
       project_name = project_info[headers.index('Debian_Package')].strip()
       if project_name == '':
         continue
-      print(project_name)
-      openhub_name = project_info[headers.index('openhub_name')].strip()
-      cve_keyword = project_info[headers.index('cve_keyword')].strip()
+      openhub_lookup_name = project_info[headers.index('openhub_lookup_name')].strip().lower()
       direct_network_exposure = project_info[headers.index('direct_network_exposure')]
       process_network_data = project_info[headers.index('process_network_data')]
       potential_privilege_escalation = project_info[headers.index('potential_privilege_escalation')]
       comment_on_priority = project_info[headers.index('comment_on_priority')]
+      print(project_name)
 
-      Package = Oss_Package(project_name, cve_keyword, openhub_name,direct_network_exposure,process_network_data,potential_privilege_escalation, comment_on_priority)
-      Package.get_openhub()
+      Package = Oss_Package(project_name, direct_network_exposure, process_network_data,
+                            potential_privilege_escalation, comment_on_priority)
+
+      Package.get_openhub(openhub_lookup_name)
       Package.get_cve_debian()
-      Package.get_role_debian()
       Package.get_risk_index()
       package_list.append(Package)
- 
+
   # Sort by risk index
-  package_list.sort(key = lambda package: int(package.risk_index), reverse = True)
+  package_list.sort(key=lambda package: int(package.risk_index), reverse=True)
 
   # Add the headers row
-  with open('results.csv','w') as csvfile:
-    headerwriter = csv.writer(csvfile, delimiter = ',')
-    headerwriter.writerow(['project_name','debian_source','debian_version','debian_desc','debian_home','CVE_since_2010','CVE_page','openhub_page',     'openhub_name','openhub_desc','openhub_home','openhub_download','twelve_month_contributor_count','total_contributor_count','total_code_lines','main_language_name',     'licenses','fact_activity', 'fact_age', 'fact_comments', 'fact_team_size', 'package_popularity','implemented_in','role','direct_network_exposure','process_network_data','potential_privilege_escalation', 'risk_index(max = 16)', 'comment_on_priority'])
+  with open('results.csv', 'w') as csvfile:
+    headerwriter = csv.writer(csvfile, delimiter=',')
+    headerwriter.writerow(['project_name', 'debian_source', 'debian_version',
+          'debian_desc', 'debian_home', 'CVE_since_2010', 'CVE_page', 'openhub_page',
+          'openhub_name', 'openhub_desc', 'openhub_home', 'openhub_download',
+          'twelve_month_contributor_count', 'total_contributor_count', 'total_code_lines',
+          'main_language_name', 'licenses', 'fact_activity', 'fact_age', 'fact_comments',
+          'fact_team_size', 'package_popularity', 'implemented_in', 'role',
+          'direct_network_exposure', 'process_network_data', 'potential_privilege_escalation',
+          'risk_index(max = 16)', 'risk_index components', 'comment_on_priority'])
 
-  csvfile = open('results.csv','a')
-  resultwriter = csv.writer(csvfile, delimiter = ',')
+  csvfile = open('results.csv', 'a')
+  resultwriter = csv.writer(csvfile, delimiter=',')
   # Write each package results into csv
   for p in package_list:
-    row = [p.package_name, p.debian_source, p.debian_version, p.debian_desc, p.debian_home, p.cve_since_2010, p.cve_page,  p.openhub_page, p.openhub_name, p.openhub_desc, p.openhub_home, p.openhub_download, p.twelve_month_contributor_count, p.total_contributor_count, p.total_code_lines, p.main_language, p.licenses, p.fact_activity, p.fact_age, p.fact_comments, p.fact_team_size, p.popularity, p.implemented,p.role,p.direct_network_exposure, p.process_network_data, p.potential_privilege_escalation, p.risk_index, p.comment_on_priority]
-    resultwriter.writerow(remove_non_ascii(row))
-  
-if __name__== "__main__":
-  main()
+    row = [p.package_name, p.debian_source, p.debian_version,
+           p.debian_desc, p.debian_home, p.cve_since_2010, p.cve_page,  p.openhub_page,
+           p.openhub_name, p.openhub_desc, p.openhub_home, p.openhub_download,
+           p.twelve_month_contributor_count, p.total_contributor_count, p.total_code_lines,
+           p.main_language, p.licenses, p.fact_activity, p.fact_age, p.fact_comments,
+           p.fact_team_size, p.popularity, p.implemented,p.role,
+           p.direct_network_exposure, p.process_network_data, p.potential_privilege_escalation,
+           p.risk_index, 'Website points: ' + str(p.website_points) +
+           ', CVE: ' + str(p.CVE_points) + ', 12-month contributor: ' +
+           str(p.recent_contributor_points) + ', Popularity: ' + str(p.popularity_points) +
+           ', Language: ' + str(p.language_points) + ', Exposure: ' + str(p.exposure_points) +
+           ' , Data only: ' + str(p.data_only_points), p.comment_on_priority]
 
+    resultwriter.writerow(remove_non_ascii(row))
+
+if __name__ == "__main__":
+  main()

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>3743</id>
+      <name>PCRE</name>
+      <url>https://www.openhub.net/p/pcre.xml</url>
+      <html_url>https://www.openhub.net/p/pcre</html_url>
+      <created_at>2006-12-06T00:00:01Z</created_at>
+      <updated_at>2015-07-20T16:30:14Z</updated_at>
+      <description>The PCRE (Perl Compatible Regular Expressions) library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5. PCRE has its own native API, as well as a set of wrapper functions that correspond to the POSIX regular expression API. The PCRE library is free, even for building commercial software.</description>
+      <homepage_url>http://www.pcre.org/</homepage_url>
+      <download_url></download_url>
+      <url_name>pcre</url_name>
+      <user_count>272</user_count>
+      <average_rating>4.43636</average_rating>
+      <rating_count>55</rating_count>
+      <review_count>2</review_count>
+      <analysis_id>25126906</analysis_id>
+      <tags>
+        <tag>perl</tag>
+        <tag>pcre</tag>
+        <tag>regexp</tag>
+        <tag>regular_expressions</tag>
+        <tag>library</tag>
+      </tags>
+      <analysis>
+        <id>25126906</id>
+        <url>https://www.openhub.net/analyses/25126906.xml</url>
+        <project_id>3743</project_id>
+        <updated_at>2015-07-20T16:30:14Z</updated_at>
+        <logged_at>2015-07-20T16:28:57Z</logged_at>
+        <min_month>2007-02-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
+        <total_contributor_count>4</total_contributor_count>
+        <twelve_month_commit_count>80</twelve_month_commit_count>
+        <total_commit_count>1447</total_commit_count>
+        <total_code_lines>96755</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/pcre/analyses/25126906/languages.png">
+          <language percentage="75" color="FF8F00" id="42">
+C          </language>
+          <language percentage="13" color="47A400" id="1">
+HTML          </language>
+          <language percentage="6" color="F35F1F" id="44">
+C++          </language>
+          <language percentage="6" color="000000" id="">
+9 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>BSD-3-Clause</name>
+          <nice_name>BSD 3-clause "New" or "Revised" License</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

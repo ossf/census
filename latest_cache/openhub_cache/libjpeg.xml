@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>6215</id>
+      <name>libjpeg</name>
+      <url>https://www.openhub.net/p/libjpeg.xml</url>
+      <html_url>https://www.openhub.net/p/libjpeg</html_url>
+      <created_at>2007-06-24T03:26:41Z</created_at>
+      <updated_at>2015-07-03T12:06:18Z</updated_at>
+      <description>A widely used free library for JPEG image compression.</description>
+      <homepage_url>http://www.ijg.org</homepage_url>
+      <download_url>http://www.ijg.org</download_url>
+      <url_name>libjpeg</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_small.png</small_logo_url>
+      <user_count>223</user_count>
+      <average_rating>4.17241</average_rating>
+      <rating_count>29</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>24955795</analysis_id>
+      <tags>
+        <tag>library</tag>
+        <tag>graphics</tag>
+        <tag>raster</tag>
+        <tag>jpeg</tag>
+        <tag>lossy</tag>
+        <tag>image</tag>
+        <tag>compression</tag>
+      </tags>
+      <analysis>
+        <id>24955795</id>
+        <url>https://www.openhub.net/analyses/24955795.xml</url>
+        <project_id>6215</project_id>
+        <updated_at>2015-07-21T07:30:54Z</updated_at>
+        <logged_at>2015-07-21T07:30:51Z</logged_at>
+        <min_month>2006-02-01T00:00:00Z</min_month>
+        <max_month>2009-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
+        <total_contributor_count>5</total_contributor_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
+        <total_commit_count>18</total_commit_count>
+        <total_code_lines>58006</total_code_lines>
+        <factoids>
+          <factoid type="FactoidCommentsVeryHigh">
+Very well-commented source code          </factoid>
+          <factoid type="FactoidAgeOld">
+Well-established codebase          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/libjpeg/analyses/24955795/languages.png">
+          <language percentage="38" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="45" color="FF8F00" id="42">
+C          </language>
+          <language percentage="15" color="777777" id="11">
+shell script          </language>
+          <language percentage="2" color="000000" id="">
+4 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>IJG</name>
+          <nice_name>Independent JPEG Group License</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>20</value>
+        <description>Inactive</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

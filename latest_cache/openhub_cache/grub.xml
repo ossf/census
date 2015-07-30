@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>613</id>
+      <name>GNU GRUB</name>
+      <url>https://www.openhub.net/p/grub.xml</url>
+      <html_url>https://www.openhub.net/p/grub</html_url>
+      <created_at>2006-10-10T15:51:31Z</created_at>
+      <updated_at>2015-07-18T02:35:01Z</updated_at>
+      <description>GRUB is the GRand Unified Bootloader.</description>
+      <homepage_url>http://savannah.gnu.org/projects/grub/</homepage_url>
+      <download_url></download_url>
+      <url_name>grub</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/73895/topicgnu_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/73895/topicgnu_small.png</small_logo_url>
+      <user_count>2108</user_count>
+      <average_rating>4.23511</average_rating>
+      <rating_count>319</rating_count>
+      <review_count>1</review_count>
+      <analysis_id>25123479</analysis_id>
+      <tags>
+        <tag>boot</tag>
+        <tag>multiboot</tag>
+        <tag>grub</tag>
+        <tag>gui</tag>
+        <tag>bootloader</tag>
+      </tags>
+      <analysis>
+        <id>25123479</id>
+        <url>https://www.openhub.net/analyses/25123479.xml</url>
+        <project_id>613</project_id>
+        <updated_at>2015-07-18T19:31:51Z</updated_at>
+        <logged_at>2015-07-18T19:31:43Z</logged_at>
+        <min_month>2002-12-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>30</twelve_month_contributor_count>
+        <total_contributor_count>185</total_contributor_count>
+        <twelve_month_commit_count>378</twelve_month_commit_count>
+        <total_commit_count>9111</total_commit_count>
+        <total_code_lines>313200</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/grub/analyses/25123479/languages.png">
+          <language percentage="83" color="FF8F00" id="42">
+C          </language>
+          <language percentage="17" color="000000" id="">
+11 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl3_or_later</name>
+          <nice_name>GNU General Public License v3.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>60</value>
+        <description>High</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

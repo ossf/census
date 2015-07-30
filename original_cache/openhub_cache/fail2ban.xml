@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>10336</id>
+      <name>fail2ban</name>
+      <url>https://www.openhub.net/p/fail2ban.xml</url>
+      <html_url>https://www.openhub.net/p/fail2ban</html_url>
+      <created_at>2007-12-16T22:25:58Z</created_at>
+      <updated_at>2015-07-17T11:45:41Z</updated_at>
+      <description>Fail2ban scans log files like /var/log/pwdfail or /var/log/apache/error_log and bans IP that makes too many password failures. It updates firewall rules to reject the IP address.</description>
+      <homepage_url>http://www.fail2ban.org/wiki/index.php/Main_Page</homepage_url>
+      <download_url>http://www.fail2ban.org/wiki/index.php/Downloads</download_url>
+      <url_name>fail2ban</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/8143/fail2ban_logo_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/8143/fail2ban_logo_small.png</small_logo_url>
+      <user_count>33</user_count>
+      <average_rating>4.09091</average_rating>
+      <rating_count>11</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25122474</analysis_id>
+      <tags>
+        <tag>sysadmin</tag>
+        <tag>ssh</tag>
+        <tag>security</tag>
+        <tag>apache</tag>
+        <tag>networking</tag>
+        <tag>tcp_wrappers</tag>
+        <tag>banned_ip</tag>
+        <tag>iptables</tag>
+        <tag>python</tag>
+        <tag>log_analysis</tag>
+        <tag>netfilter</tag>
+      </tags>
+      <analysis>
+        <id>25122474</id>
+        <url>https://www.openhub.net/analyses/25122474.xml</url>
+        <project_id>10336</project_id>
+        <updated_at>2015-07-17T11:45:41Z</updated_at>
+        <logged_at>2015-07-17T07:38:53Z</logged_at>
+        <min_month>2004-10-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>38</twelve_month_contributor_count>
+        <total_contributor_count>103</total_contributor_count>
+        <twelve_month_commit_count>458</twelve_month_commit_count>
+        <total_commit_count>3140</total_commit_count>
+        <total_code_lines>11081</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/fail2ban/analyses/25122474/languages.png">
+          <language percentage="89" color="4A246B" id="9">
+Python          </language>
+          <language percentage="11" color="000000" id="">
+5 Other          </language>
+        </languages>
+        <main_language_id>9</main_language_id>
+        <main_language_name>Python</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

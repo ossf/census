@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>15877</id>
+      <name>popt</name>
+      <url>https://www.openhub.net/p/popt.xml</url>
+      <html_url>https://www.openhub.net/p/popt</html_url>
+      <created_at>2008-08-02T13:29:27Z</created_at>
+      <updated_at>2014-12-27T04:55:03Z</updated_at>
+      <description>popt is a command line option parsing library. While it is similiar
+to getopt, it contains a number of enhancements, including:
+
+1) popt is fully reentrant
+2) popt can parse arbitrary argv[] style arrays while getopt(3) makes this quite difficult
+3) popt allows users to alias command line arguments
+4) popt provides convience functions for parsing strings into argv[] style arrays</description>
+      <homepage_url>http://rpm5.org</homepage_url>
+      <download_url>http://rpm5.org/files/popt/</download_url>
+      <url_name>popt</url_name>
+      <user_count>8</user_count>
+      <average_rating>3.66667</average_rating>
+      <rating_count>3</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>23748030</analysis_id>
+      <tags>
+        <tag>parser</tag>
+        <tag>command_line</tag>
+        <tag>parsing</tag>
+        <tag>c</tag>
+        <tag>library</tag>
+      </tags>
+      <analysis>
+        <id>23748030</id>
+        <url>https://www.openhub.net/analyses/23748030.xml</url>
+        <project_id>15877</project_id>
+        <updated_at>2015-01-24T14:25:22Z</updated_at>
+        <logged_at>2015-01-24T14:25:19Z</logged_at>
+        <min_month>1997-01-01T00:00:00Z</min_month>
+        <max_month>2014-11-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
+        <total_contributor_count>15</total_contributor_count>
+        <twelve_month_commit_count>14</twelve_month_commit_count>
+        <total_commit_count>755</total_commit_count>
+        <total_code_lines>6139</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/popt/analyses/23748030/languages.png">
+          <language percentage="81" color="FF8F00" id="42">
+C          </language>
+          <language percentage="9" color="777777" id="11">
+shell script          </language>
+          <language percentage="6" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="4" color="000000" id="">
+3 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>mit</name>
+          <nice_name>MIT License</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>30</value>
+        <description>Very Low</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

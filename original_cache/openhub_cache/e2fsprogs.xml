@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>13608</id>
+      <name>e2fsprogs</name>
+      <url>https://www.openhub.net/p/e2fsprogs.xml</url>
+      <html_url>https://www.openhub.net/p/e2fsprogs</html_url>
+      <created_at>2008-04-28T06:39:13Z</created_at>
+      <updated_at>2014-12-19T21:14:56Z</updated_at>
+      <description>The e2fsprogs package contains the utilities for handling the ext2 file system. It also supports the ext3 and ext4 journaling file systems.</description>
+      <homepage_url>http://ext4.wiki.kernel.org/</homepage_url>
+      <download_url>http://e2fsprogs.sourceforge.net/</download_url>
+      <url_name>e2fsprogs</url_name>
+      <user_count>17</user_count>
+      <average_rating>4.66667</average_rating>
+      <rating_count>3</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>23621091</analysis_id>
+      <tags>
+        <tag>ext4</tag>
+        <tag>ext2</tag>
+        <tag>filesystem</tag>
+        <tag>file_system</tag>
+        <tag>ext3</tag>
+      </tags>
+      <analysis>
+        <id>23621091</id>
+        <url>https://www.openhub.net/analyses/23621091.xml</url>
+        <project_id>13608</project_id>
+        <updated_at>2015-01-18T00:15:23Z</updated_at>
+        <logged_at>2015-01-18T00:15:18Z</logged_at>
+        <min_month>1997-04-01T00:00:00Z</min_month>
+        <max_month>2014-12-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>45</twelve_month_contributor_count>
+        <total_contributor_count>133</total_contributor_count>
+        <twelve_month_commit_count>677</twelve_month_commit_count>
+        <total_commit_count>5100</total_commit_count>
+        <total_code_lines>147254</total_code_lines>
+        <factoids>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/e2fsprogs/analyses/23621091/languages.png">
+          <language percentage="74" color="FF8F00" id="42">
+C          </language>
+          <language percentage="11" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="7" color="000080" id="37">
+TeX/LaTeX          </language>
+          <language percentage="8" color="000000" id="">
+6 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>BSD-3-Clause</name>
+          <nice_name>BSD 3-clause "New" or "Revised" License</nice_name>
+        </license>
+        <license>
+          <name>GNU_General_Public_License_v2_0_only</name>
+          <nice_name>GNU General Public License v2.0 only</nice_name>
+        </license>
+        <license>
+          <name>lgpl-2_0</name>
+          <nice_name>GNU Library General Public License v2 only</nice_name>
+        </license>
+        <license>
+          <name>mit</name>
+          <nice_name>MIT License</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>60</value>
+        <description>High</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

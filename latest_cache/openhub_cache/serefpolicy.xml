@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>31919</id>
+      <name>SELinux reference policy</name>
+      <url>https://www.openhub.net/p/serefpolicy.xml</url>
+      <html_url>https://www.openhub.net/p/serefpolicy</html_url>
+      <created_at>2008-12-06T20:07:07Z</created_at>
+      <updated_at>2014-09-18T01:15:38Z</updated_at>
+      <description>SELinux reference policy</description>
+      <homepage_url>http://oss.tresys.com/projects/refpolicy</homepage_url>
+      <download_url>http://oss.tresys.com/projects/refpolicy/wiki/DownloadRelease</download_url>
+      <url_name>serefpolicy</url_name>
+      <user_count>1</user_count>
+      <average_rating></average_rating>
+      <rating_count>0</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>22328206</analysis_id>
+      <tags>
+        <tag>selinux</tag>
+      </tags>
+      <analysis>
+        <id>22328206</id>
+        <url>https://www.openhub.net/analyses/22328206.xml</url>
+        <project_id>31919</project_id>
+        <updated_at>2014-09-18T01:15:38Z</updated_at>
+        <logged_at>2013-03-13T23:11:22Z</logged_at>
+        <min_month>2005-04-01T00:00:00Z</min_month>
+        <max_month>2014-01-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>6</twelve_month_contributor_count>
+        <total_contributor_count>41</total_contributor_count>
+        <twelve_month_commit_count>1522</twelve_month_commit_count>
+        <total_commit_count>7075</total_commit_count>
+        <total_code_lines>8552</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeAverage">
+Average size development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/serefpolicy/analyses/22328206/languages.png">
+          <language percentage="52" color="4A246B" id="9">
+Python          </language>
+          <language percentage="16" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="12" color="EEE" id="52">
+Make          </language>
+          <language percentage="20" color="000000" id="">
+5 Other          </language>
+        </languages>
+        <main_language_id>9</main_language_id>
+        <main_language_name>Python</main_language_name>
+      </analysis>
+      <licenses>
+      </licenses>
+      <project_activity_index>
+        <value>0</value>
+        <description>Not Available</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

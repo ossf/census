@@ -1,0 +1,934 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>Debian -- Details of package apt in wheezy</title>
+<link rev="made" href="mailto:webmaster@debian.org">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="Debian Webmaster, webmaster@debian.org">
+<meta name="Description" content="commandline package manager">
+<meta name="Keywords" content="Debian,  wheezy, us, main, admin, 0.9.7.9+deb7u7">
+
+
+<link href="/debpkg.css" rel="stylesheet" type="text/css" media="all">
+
+<script src="/packages.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="header">
+   <div id="upperheader">
+
+   <div id="logo">
+  <!-- very Debian specific use of the logo stuff -->
+<a href="http://www.debian.org/"><img src="/Pics/openlogo-50.png" alt="Debian" with="50" height="61"></a>
+</div> <!-- end logo -->
+<p class="hidecss"><a href="#inner">skip the navigation</a></p>
+<p class="section"><a href="/">Packages</a></p>
+</div> <!-- end upperheader -->
+<!-- navbar -->
+<div id="navbar">
+<ul>
+   <li><a href="http://www.debian.org/intro/about">About Debian</a></li>
+   <li><a href="http://www.debian.org/distrib/">Getting Debian</a></li>
+   <li><a href="http://www.debian.org/support">Support</a></li>
+   <li><a href="http://www.debian.org/devel/">Developers'&nbsp;Corner</a></li>
+</ul>
+</div> <!-- end navbar -->
+
+<div id="pnavbar">
+ &nbsp;&#x2F; <a href="/" title="Debian Packages Homepage">Packages</a>
+
+ &#x2F; <a href="/wheezy/" title="Overview over this suite">wheezy (stable)</a> 
+
+ &#x2F; <a href="/wheezy/admin/" title="All packages in this section">admin</a> 
+
+ &#x2F; apt 
+
+</div> <!-- end navbar -->
+
+</div> <!-- end header -->
+<div id="content">
+
+
+<form method="GET" action="/search">
+<div id="hpacketsearch">
+
+
+
+
+
+
+<input type="submit" value="Search">
+<select size="1" name="searchon">
+<option value="names" selected="selected">
+package names</option>
+<option value="all" >descriptions</option>
+<option value="sourcenames" >source package names</option>
+<option value="contents" >package contents</option>
+</select>
+<input type="text" size="30" name="keywords" value="" id="kw">
+<span style="font-size: 60%"><a href="/">all options</a></span>
+</div> <!-- end hpacketsearch -->
+</form>
+
+<!-- show.tmpl -->
+
+
+   <div id="pothers">       [&nbsp;    <a  href="/squeeze/apt">squeeze</a>  &nbsp;]
+          [&nbsp;    <a  href="/squeeze-lts/apt">squeeze-lts</a>  &nbsp;]
+          [&nbsp;   <strong>wheezy</strong>  &nbsp;]
+          [&nbsp;    <a  href="/jessie/apt">jessie</a>  &nbsp;]
+          [&nbsp;    <a  href="/sid/apt">sid</a>  &nbsp;]
+          [&nbsp;    <a  href="/experimental/apt">experimental</a>  &nbsp;]</div>
+
+
+<div id="psource">
+  [&nbsp;Source:    <a title="Source package building this package" href="/source/wheezy/apt">apt</a>  &nbsp;]
+</div>
+
+<!-- messages.tmpl -->
+
+<h1>Package: apt (0.9.7.9+deb7u7)
+</h1>
+
+
+<div id="pmoreinfo">
+<h2>Links for apt</h2>
+
+<div class="screenshot">
+<a id="screenshot" href="//screenshots.debian.net/package/apt"><img src="//screenshots.debian.net/thumbnail-with-version//apt/0.9.7.9+deb7u7" alt="Screenshot" border="0"/></a>
+</div>
+
+<h3>Debian Resources:</h3>
+<ul>
+<li><a href="http://bugs.debian.org/apt">Bug Reports</a></li>
+
+<li><a href="http://packages.qa.debian.org/apt">Developer Information (PTS)</a></li>
+
+
+
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/a/apt/apt_0.9.7.9+deb7u7_changelog">Debian Changelog</a></li>
+<li><a href="http://ftp-master.metadata.debian.org/changelogs//main/a/apt/apt_0.9.7.9+deb7u7_copyright">Copyright File</a></li>
+
+
+
+
+  
+      
+      
+</ul>
+
+
+  <h3>Download Source Package <a href="/source/wheezy/apt">apt</a>:</h3>
+  
+    <ul>
+    <li><a href="http://ftp.de.debian.org/debian/pool/main/a/apt/apt_0.9.7.9+deb7u7.dsc">[apt_0.9.7.9+deb7u7.dsc]</a></li>
+    
+  
+    
+    <li><a href="http://ftp.de.debian.org/debian/pool/main/a/apt/apt_0.9.7.9+deb7u7.tar.gz">[apt_0.9.7.9+deb7u7.tar.gz]</a></li>
+    </ul>
+  
+  
+
+
+  <h3>Maintainers:</h3><ul>	<li><a href="mailto:deity@lists.debian.org">APT Development Team</a>
+	(<a href="http://qa.debian.org/developer.php?login=deity%40lists.debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>, <a href="http://lists.debian.org/deity/" title="Archive of the Maintainer Mailinglist">Mail&nbsp;Archive</a>)
+	</li>	<li><a href="mailto:mvo@debian.org">Michael Vogt</a>
+	(<a href="http://qa.debian.org/developer.php?login=mvo%40debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>)
+	</li>	<li><a href="mailto:otavio@debian.org">Otavio Salvador</a>
+	(<a href="http://qa.debian.org/developer.php?login=otavio%40debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>)
+	</li>	<li><a href="mailto:bubulle@debian.org">Christian Perrier</a>
+	(<a href="http://qa.debian.org/developer.php?login=bubulle%40debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>)
+	</li>	<li><a href="mailto:dburrows@debian.org">Daniel Burrows</a>
+	(<a href="http://qa.debian.org/developer.php?login=dburrows%40debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>)
+	</li>	<li><a href="mailto:jak@debian.org">Julian Andres Klode</a>
+	(<a href="http://qa.debian.org/developer.php?login=jak%40debian.org" title="An overview over the maintainer's packages and uploads">QA&nbsp;Page</a>)
+	</li></ul>
+
+
+
+	
+	<h3>Similar packages:</h3>
+	<ul>
+	
+	<li><a href="/apt-src">apt-src</a></li>
+	
+
+	
+	<li><a href="/apt-zip">apt-zip</a></li>
+	
+
+	
+	<li><a href="/dselect">dselect</a></li>
+	
+
+	
+	<li><a href="/apt-listbugs">apt-listbugs</a></li>
+	
+
+	
+	<li><a href="/cupt">cupt</a></li>
+	
+
+	
+	<li><a href="/wajig">wajig</a></li>
+	
+
+	
+	<li><a href="/unattended-upgrades">unattended-upgrades</a></li>
+	
+
+	
+	<li><a href="/apt-mirror">apt-mirror</a></li>
+	
+
+	
+	<li><a href="/apt-cacher">apt-cacher</a></li>
+	
+
+	
+	<li><a href="/apt-file">apt-file</a></li>
+	
+
+	
+	<li><a href="/synaptic">synaptic</a></li>
+	</ul>
+
+
+</div> <!-- end pmoreinfo -->
+
+
+
+
+<div id="ptablist">
+</div>
+
+
+<div id="pdesctab">
+
+<div id="pdesc" >
+	
+	<h2>commandline package manager</h2>
+	<p>
+This package provides commandline tools for searching and
+managing as well as querying information about packages
+as a low-level access to all features of the libapt-pkg library.
+<p>
+These include:
+<pre>
+ * apt-get for retrieval of packages and information about them
+   from authenticated sources and for installation, upgrade and
+   removal of packages together with their dependencies
+ * apt-cache for querying available information about installed
+   as well as installable packages
+ * apt-cdrom to use removable media as a source for packages
+ * apt-config as an interface to the configuration settings
+ * apt-key as an interface to manage authentication keys
+</pre>
+	
+
+</div> <!-- end pdesc -->
+
+
+      <div id="ptags"><p>
+    <a href="http://debtags.alioth.debian.org/edit.html?pkg=apt">Tags</a>:
+  
+  System Administration: 
+  
+   <a href="/about/debtags#admin::package-management">Package Management</a>, 
+  
+  
+  
+
+  
+  
+  Hardware Enablement: 
+  
+   <a href="/about/debtags#hardware::storage">Storage</a>, 
+  
+  
+  
+
+  
+  
+  
+  
+  hardware::storage:cd,
+ implemented-in::c++, 
+  
+  
+  
+
+  
+  
+  User Interface: 
+  
+   <a href="/about/debtags#interface::commandline">Command Line</a>, 
+  
+  
+  
+
+  
+  
+  Networking: 
+  
+  network::client,
+ protocol::ftp, 
+  
+  
+  
+
+  
+  
+  Network Protocol: 
+  
+   <a href="/about/debtags#protocol::http">HTTP</a>, 
+  
+  
+  
+
+  
+  
+  
+  
+   <a href="/about/debtags#protocol::ipv6">IPv6</a>, 
+  
+  
+  
+
+  
+  
+  Role: 
+  
+  role::program,
+ suite::debian, 
+  
+  
+  
+
+  
+  
+  Purpose: 
+  
+   <a href="/about/debtags#use::downloading">Downloading</a>, 
+  
+  
+  
+
+  
+  
+  
+  
+  use::searching,
+ works-with::software:package
+  
+  
+      </p>
+    </div> <!-- end ptags -->
+
+
+
+</div> <!-- pdesctab -->
+
+
+
+
+
+      <div id="pdeps">
+    <h2>Other Packages Related to apt</h2>
+
+    <table id="pdeplegend" class="visual" summary="legend"><tr>
+    
+    <td><ul class="uldep"><li>depends</li></ul></td>
+    <td><ul class="ulrec"><li>recommends</li></ul></td>
+    <td><ul class="ulsug"><li>suggests</li></ul></td>
+    <td><ul class="ulenh"><li>enhances</li></ul></td>
+    
+    </tr></table>
+
+  <ul class="uldep">
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/debian-archive-keyring">debian-archive-keyring</a>
+	
+        </dt>        <dd lang="en">GnuPG archive keys of the Debian archive
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/gnupg">gnupg</a>
+	
+        </dt>        <dd lang="en">GNU privacy guard - a free PGP replacement
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libapt-pkg4.12">libapt-pkg4.12</a>
+	 (>= 0.9.7.9+deb7u7)
+        </dt>        <dd lang="en">package managment runtime library
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc0.1">libc0.1</a>
+	 (>= 2.4)
+         [kfreebsd-amd64, kfreebsd-i386]</dt>        <dd lang="en">Embedded GNU C Library: Shared libraries	  <br>also a virtual package provided by
+	  
+	    <span id="js_libc0.1" class="p_js_elem"></span> <span id="html_libc0.1"><a href="/wheezy/libc0.1-udeb">libc0.1-udeb</a></span>
+	
+        
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.13)
+         [s390x]</dt>        <dd lang="en">Embedded GNU C Library: Shared libraries	  <br>also a virtual package provided by
+	  
+	    <span id="js_libc6" class="p_js_elem"></span> <span id="html_libc6"><a href="/wheezy/libc6-udeb">libc6-udeb</a></span>
+	
+        
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.13-28)
+         [armhf]</dt>
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.3.4)
+         [mips, mipsel]</dt>
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.4)
+         [amd64, armel, i386, powerpc, s390]</dt>
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6">libc6</a>
+	 (>= 2.6)
+         [sparc]</dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libc6.1">libc6.1</a>
+	 (>= 2.3.4)
+         [ia64]</dt>        <dd lang="en">Embedded GNU C Library: Shared libraries	  <br>also a virtual package provided by
+	  
+	    <span id="js_libc6.1" class="p_js_elem"></span> <span id="html_libc6.1"><a href="/wheezy/libc6.1-udeb">libc6.1-udeb</a></span>
+	
+        
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libgcc1">libgcc1</a>
+	 (>= 1:4.1.1)
+         [not armel, armhf, mips, mipsel, powerpc, s390]</dt>        <dd lang="en">GCC support library
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libgcc1">libgcc1</a>
+	 (>= 1:4.2.1)
+         [mips, mipsel, powerpc, s390]</dt>
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libgcc1">libgcc1</a>
+	 (>= 1:4.4.0)
+         [armel, armhf]</dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libstdc++6">libstdc++6</a>
+	 (>= 4.6)
+        </dt>        <dd lang="en">GNU Standard C++ Library v3
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/wheezy/libunwind7">libunwind7</a>
+	
+         [ia64]</dt>        <dd lang="en">A library to determine the call-chain of a program - runtime
+        </dd>
+      
+      </dl>
+    
+  
+  </ul>
+
+  
+
+  
+
+  <ul class="ulsug">
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/apt-doc">apt-doc</a>
+	
+        </dt>        <dd lang="en">documentation for APT
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/aptitude">aptitude</a>
+	
+        </dt>        <dd lang="en">terminal-based package manager
+        </dd>
+      
+      
+    
+      
+      <dt>or 
+	<a href="/wheezy/synaptic">synaptic</a>
+	
+        </dt>        <dd lang="en">Graphical package manager
+        </dd>
+      
+      
+    
+      
+      <dt>or 
+	<a href="/wheezy/wajig">wajig</a>
+	
+        </dt>        <dd lang="en">simple and unified package management for Debian
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/dpkg-dev">dpkg-dev</a>
+	
+        </dt>        <dd lang="en">Debian package development tools
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/python-apt">python-apt</a>
+	
+        </dt>        <dd lang="en">Python interface to libapt-pkg
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/wheezy/xz-utils">xz-utils</a>
+	
+        </dt>        <dd lang="en">XZ-format compression utilities
+        </dd>
+      
+      </dl>
+    
+  
+  </ul>
+
+      </div> <!-- end pdeps -->
+
+
+
+      <div id="pdownload">
+    <h2>Download apt</h2>
+    
+    <table summary="The download table links to the download of the package and a file overview. In addition it gives information about the package size and the installed size.">
+    <caption class="hidecss">Download for all available architectures</caption>
+    <tr><th>Architecture</th>
+	
+	<th>Package Size</th>
+	<th>Installed Size</th>
+	<th>Files</th>
+    </tr>
+
+<tr>
+
+<th><a href="/wheezy/amd64/apt/download">amd64</a></th>
+
+
+<td class="size">1,232.6&nbsp;kB</td><td class="size">3,271.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/amd64/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/armel/apt/download">armel</a></th>
+
+
+<td class="size">1,220.1&nbsp;kB</td><td class="size">3,216.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/armel/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/armhf/apt/download">armhf</a></th>
+
+
+<td class="size">1,197.4&nbsp;kB</td><td class="size">3,056.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/armhf/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/i386/apt/download">i386</a></th>
+
+
+<td class="size">1,224.3&nbsp;kB</td><td class="size">3,211.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/i386/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/ia64/apt/download">ia64</a></th>
+
+
+<td class="size">1,365.6&nbsp;kB</td><td class="size">3,886.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/ia64/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/kfreebsd-amd64/apt/download">kfreebsd-amd64</a></th>
+
+
+<td class="size">1,230.2&nbsp;kB</td><td class="size">2,764.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/kfreebsd-amd64/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/kfreebsd-i386/apt/download">kfreebsd-i386</a></th>
+
+
+<td class="size">1,228.0&nbsp;kB</td><td class="size">2,704.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/kfreebsd-i386/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/mips/apt/download">mips</a></th>
+
+
+<td class="size">1,219.4&nbsp;kB</td><td class="size">3,246.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/mips/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/mipsel/apt/download">mipsel</a></th>
+
+
+<td class="size">1,211.3&nbsp;kB</td><td class="size">3,246.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/mipsel/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/powerpc/apt/download">powerpc</a></th>
+
+
+<td class="size">1,237.0&nbsp;kB</td><td class="size">2,686.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/powerpc/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/s390/apt/download">s390</a></th>
+
+
+<td class="size">1,255.4&nbsp;kB</td><td class="size">3,263.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/s390/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/s390x/apt/download">s390x</a></th>
+
+
+<td class="size">1,266.8&nbsp;kB</td><td class="size">3,383.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/s390x/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+  
+
+  
+
+<tr>
+
+<th><a href="/wheezy/sparc/apt/download">sparc</a></th>
+
+
+<td class="size">1,211.1&nbsp;kB</td><td class="size">3,228.0&nbsp;kB</td>
+<td>
+
+  [<a href="/wheezy/sparc/apt/filelist">list of files</a>]
+
+</td>
+</tr>
+
+      </table>
+
+    </div> <!-- end pdownload -->
+
+
+
+
+
+</div> <!-- end inner -->
+
+<div id="footer">
+
+
+<hr class="hidecss">
+<!--UdmComment-->
+<div id="pageLang">
+<div id="langSelector">
+<p>This page is also available in the following languages (How to set <a href="http://www.debian.org/intro/cn">the default document language</a>):</p>
+<div id="langContainer">
+
+<a href="/bg/wheezy/apt" title="Bulgarian" hreflang="bg" lang="bg" rel="alternate">&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080; (B&#601;lgarski)</a>
+
+<a href="/da/wheezy/apt" title="Danish" hreflang="da" lang="da" rel="alternate">dansk</a>
+
+<a href="/de/wheezy/apt" title="German" hreflang="de" lang="de" rel="alternate">Deutsch</a>
+
+<a href="/fi/wheezy/apt" title="Finnish" hreflang="fi" lang="fi" rel="alternate">suomi</a>
+
+<a href="/fr/wheezy/apt" title="French" hreflang="fr" lang="fr" rel="alternate">fran&ccedil;ais</a>
+
+<a href="/hu/wheezy/apt" title="Hungarian" hreflang="hu" lang="hu" rel="alternate">magyar</a>
+
+<a href="/it/wheezy/apt" title="Italian" hreflang="it" lang="it" rel="alternate">Italiano</a>
+
+<a href="/ja/wheezy/apt" title="Japanese" hreflang="ja" lang="ja" rel="alternate">&#26085;&#26412;&#35486; (Nihongo)</a>
+
+<a href="/nl/wheezy/apt" title="Dutch" hreflang="nl" lang="nl" rel="alternate">Nederlands</a>
+
+<a href="/pl/wheezy/apt" title="Polish" hreflang="pl" lang="pl" rel="alternate">polski</a>
+
+<a href="/pt-br/wheezy/apt" title="Portuguese (Brasilia)" hreflang="pt-br" lang="pt-br" rel="alternate">Portugu&ecirc;s (br)</a>
+
+<a href="/ru/wheezy/apt" title="Russian" hreflang="ru" lang="ru" rel="alternate">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russkij)</a>
+
+<a href="/sk/wheezy/apt" title="Slovak" hreflang="sk" lang="sk" rel="alternate">slovensky</a>
+
+<a href="/sv/wheezy/apt" title="Swedish" hreflang="sv" lang="sv" rel="alternate">svenska</a>
+
+<a href="/tr/wheezy/apt" title="Turkish" hreflang="tr" lang="tr" rel="alternate">T&uuml;rk&ccedil;e</a>
+
+<a href="/uk/wheezy/apt" title="Ukrainian" hreflang="uk" lang="uk" rel="alternate">&#1091;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072; (ukrajins'ka)</a>
+
+<a href="/zh-cn/wheezy/apt" title="Chinese (China)" hreflang="zh-cn" lang="zh-cn" rel="alternate">&#20013;&#25991; (Zhongwen,&#31616;)</a>
+
+<a href="/zh-tw/wheezy/apt" title="Chinese (Taiwan)" hreflang="zh-tw" lang="zh-tw" rel="alternate">&#20013;&#25991; (Zhongwen,&#32321;)</a>
+
+</div>
+</div>
+</div>
+<!--/UdmComment-->
+
+
+<hr class="hidecss">
+<div id="fineprint" class="bordertop">
+<div id="impressum">
+<p>To report a problem with the web site, e-mail <a href="mailto:debian-www@lists.debian.org">debian-www@lists.debian.org</a>. For other contact information, see the Debian <a href="http://www.debian.org/contact">contact page</a>.</p>
+
+<p>
+Content Copyright &copy; 1997 - 2015 <a href="http://www.spi-inc.org/">SPI Inc.</a>; See <a href="http://www.debian.org/license">license terms</a>. Debian is a <a href="http://www.debian.org/trademark">trademark</a> of SPI Inc.
+ <a href="/about/">Learn more about this site</a>.</p>
+
+</div> <!-- end impressum -->
+
+<div id="sponsorfooter"><p>
+This service is sponsored by <a href="http://www.hp.com/">Hewlett-Packard</a>.</p></div>
+
+</div> <!-- end fineprint -->
+</div> <!-- end footer -->
+</body>
+</html>

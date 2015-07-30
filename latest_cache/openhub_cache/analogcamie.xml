@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>715835</id>
+      <name>Analog C:Amie Edition</name>
+      <url>https://www.openhub.net/p/AnalogCAmie.xml</url>
+      <html_url>https://www.openhub.net/p/AnalogCAmie</html_url>
+      <created_at>2014-04-22T21:37:10Z</created_at>
+      <updated_at>2014-04-22T21:37:10Z</updated_at>
+      <description>Analog was created by Stephen Turner in 1995 as a multi-purpose, multi-platform log file analyser. He maintained the project until 2004, at which point he ceased to update the project. In 2007, as a long-term user of Analog and in light of the release of Windows Vista that could not be identified by Analog, C:Amie has undertaken to maintain Analog and to keep its detection current.</description>
+      <homepage_url>http://camie.dyndns.org/analog/</homepage_url>
+      <download_url>http://camie.dyndns.org/analog/download/</download_url>
+      <url_name>AnalogCAmie</url_name>
+      <user_count>0</user_count>
+      <average_rating></average_rating>
+      <rating_count>0</rating_count>
+      <review_count>0</review_count>
+      <analysis_id></analysis_id>
+      <licenses>
+      </licenses>
+      <project_activity_index>
+        <value>0</value>
+        <description>Not Available</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

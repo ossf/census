@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>9962</id>
+      <name>Linux-PAM</name>
+      <url>https://www.openhub.net/p/linux-pam.xml</url>
+      <html_url>https://www.openhub.net/p/linux-pam</html_url>
+      <created_at>2007-11-29T21:17:17Z</created_at>
+      <updated_at>2015-01-10T23:42:51Z</updated_at>
+      <description>Linux-PAM (Pluggable Authentication Modules for Linux) project.</description>
+      <homepage_url>http://www.linux-pam.org</homepage_url>
+      <download_url>https://fedorahosted.org/releases/l/i/linux-pam/</download_url>
+      <url_name>linux-pam</url_name>
+      <user_count>63</user_count>
+      <average_rating>3.70588</average_rating>
+      <rating_count>17</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>23825144</analysis_id>
+      <tags>
+        <tag>authentication</tag>
+        <tag>security</tag>
+        <tag>pam</tag>
+        <tag>linux</tag>
+        <tag>module</tag>
+        <tag>library</tag>
+      </tags>
+      <analysis>
+        <id>23825144</id>
+        <url>https://www.openhub.net/analyses/23825144.xml</url>
+        <project_id>9962</project_id>
+        <updated_at>2015-01-21T14:49:39Z</updated_at>
+        <logged_at>2015-01-21T14:49:35Z</logged_at>
+        <min_month>2000-06-01T00:00:00Z</min_month>
+        <max_month>2015-01-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>8</twelve_month_contributor_count>
+        <total_contributor_count>20</total_contributor_count>
+        <twelve_month_commit_count>46</twelve_month_commit_count>
+        <total_commit_count>1213</total_commit_count>
+        <total_code_lines>56988</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/linux-pam/analyses/23825144/languages.png">
+          <language percentage="62" color="FF8F00" id="42">
+C          </language>
+          <language percentage="32" color="555555" id="3">
+XML          </language>
+          <language percentage="6" color="000000" id="">
+7 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>BSD-3-Clause</name>
+          <nice_name>BSD 3-clause "New" or "Revised" License</nice_name>
+        </license>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+        <license>
+          <name>gpl3</name>
+          <nice_name>GNU General Public License v3.0 only</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>40</value>
+        <description>Low</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>Browse Linux-PAM git repository</title>
+          <url>https://git.fedorahosted.org/cgit/linux-pam.git/</url>
+          <category>Other</category>
+        </link>
+        <link>
+          <title>&#8203;Linux-PAM developers mailing list</title>
+          <url>https://lists.fedorahosted.org/mailman/listinfo/pam-developers</url>
+          <category>Mailing Lists</category>
+        </link>
+        <link>
+          <title>Linux-PAM git repository commit messages</title>
+          <url>https://lists.fedorahosted.org/mailman/listinfo/linux-pam-commits</url>
+          <category>Mailing Lists</category>
+        </link>
+        <link>
+          <title>Linux-PAM issue tracking system</title>
+          <url>https://fedorahosted.org/linux-pam/report</url>
+          <category>Issue Trackers</category>
+        </link>
+        <link>
+          <title>Documentation of the current Linux-PAM release</title>
+          <url>http://www.linux-pam.org/Linux-PAM-html/</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>Users Mailing List</title>
+          <url>https://www.redhat.com/mailman/listinfo/pam-list</url>
+          <category>Mailing Lists</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

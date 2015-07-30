@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>479574</id>
+      <name>GNU Ncurses</name>
+      <url>https://www.openhub.net/p/ncurses.xml</url>
+      <html_url>https://www.openhub.net/p/ncurses</html_url>
+      <created_at>2009-11-26T00:08:12Z</created_at>
+      <updated_at>2015-07-13T01:18:46Z</updated_at>
+      <description>The Ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses Terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD Curses.
+
+The ncurses code was developed under GNU/Linux. It has been in use for some time with OpenBSD as the system curses library, and on FreeBSD and NetBSD as an external package. It should port easily to any ANSI/POSIX-conforming UNIX. It has even been ported to OS/2 Warp!
+
+The distribution includes the library and support utilities, including a terminfo compiler tic, a decompiler infocmp, clear, tput, tset, and a termcap conversion tool captoinfo. Full manual pages are provided for the library and tools.
+
+The Ncurses distribution is available via anonymous FTP at the GNU distribution site</description>
+      <homepage_url>http://www.gnu.org/software/ncurses/</homepage_url>
+      <download_url>http://ftp.gnu.org/pub/gnu/ncurses</download_url>
+      <url_name>ncurses</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_small.png</small_logo_url>
+      <user_count>11</user_count>
+      <average_rating>4.0</average_rating>
+      <rating_count>3</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25115507</analysis_id>
+      <tags>
+        <tag>c</tag>
+        <tag>curses</tag>
+        <tag>console</tag>
+        <tag>ncurses</tag>
+        <tag>terminal</tag>
+        <tag>library</tag>
+        <tag>tty</tag>
+      </tags>
+      <analysis>
+        <id>25115507</id>
+        <url>https://www.openhub.net/analyses/25115507.xml</url>
+        <project_id>479574</project_id>
+        <updated_at>2015-07-19T02:54:39Z</updated_at>
+        <logged_at>2015-07-19T02:54:34Z</logged_at>
+        <min_month>1997-05-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>1</twelve_month_contributor_count>
+        <total_contributor_count>2</total_contributor_count>
+        <twelve_month_commit_count>47</twelve_month_commit_count>
+        <total_commit_count>433</total_commit_count>
+        <total_code_lines>219912</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+          <factoid type="FactoidTeamSizeOne">
+Only a single active developer          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/ncurses/analyses/25115507/languages.png">
+          <language percentage="39" color="FF8F00" id="42">
+C          </language>
+          <language percentage="26" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="20" color="47A400" id="1">
+HTML          </language>
+          <language percentage="15" color="000000" id="">
+8 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>mit</name>
+          <nice_name>MIT License</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>30</value>
+        <description>Very Low</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

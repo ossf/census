@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>15</id>
+      <name>GNU Compiler Collection</name>
+      <url>https://www.openhub.net/p/gcc.xml</url>
+      <html_url>https://www.openhub.net/p/gcc</html_url>
+      <created_at>2006-10-10T15:51:31Z</created_at>
+      <updated_at>2015-02-08T23:55:36Z</updated_at>
+      <description>The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Java, and Ada, as well as libraries for these languages (libstdc++, libgcj,...).</description>
+      <homepage_url>http://gcc.gnu.org/</homepage_url>
+      <download_url>http://gcc.gnu.org/install/binaries.html</download_url>
+      <url_name>gcc</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/48/gcc_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/48/gcc_small.png</small_logo_url>
+      <user_count>4209</user_count>
+      <average_rating>4.58137</average_rating>
+      <rating_count>805</rating_count>
+      <review_count>6</review_count>
+      <analysis_id>23817536</analysis_id>
+      <tags>
+        <tag>gnu</tag>
+        <tag>java</tag>
+        <tag>objective_c</tag>
+        <tag>ajax</tag>
+        <tag>development</tag>
+        <tag>programming</tag>
+        <tag>language</tag>
+        <tag>fortran</tag>
+        <tag>tools</tag>
+        <tag>gcc</tag>
+        <tag>compiler</tag>
+        <tag>ada</tag>
+        <tag>source</tag>
+        <tag>cpp</tag>
+      </tags>
+      <analysis>
+        <id>23817536</id>
+        <url>https://www.openhub.net/analyses/23817536.xml</url>
+        <project_id>15</project_id>
+        <updated_at>2015-01-06T01:29:03Z</updated_at>
+        <logged_at>2015-01-05T20:31:18Z</logged_at>
+        <min_month>1988-11-01T00:00:00Z</min_month>
+        <max_month>2015-01-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>205</twelve_month_contributor_count>
+        <total_contributor_count>538</total_contributor_count>
+        <twelve_month_commit_count>7919</twelve_month_commit_count>
+        <total_commit_count>135702</total_commit_count>
+        <total_code_lines>6946142</total_code_lines>
+        <factoids>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/gcc/analyses/23817536/languages.png">
+          <language percentage="36" color="FF8F00" id="42">
+C          </language>
+          <language percentage="18" color="F35F1F" id="44">
+C++          </language>
+          <language percentage="13" color="FAE028" id="21">
+Ada          </language>
+          <language percentage="33" color="000000" id="">
+31 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl3_or_later</name>
+          <nice_name>GNU General Public License v3.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>0</value>
+        <description>Not Available</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>gcc-patches</title>
+          <url>https://gcc.gnu.org/ml/gcc-patches/</url>
+          <category>Mailing Lists</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

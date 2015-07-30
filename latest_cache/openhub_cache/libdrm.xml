@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>623210</id>
+      <name>libdrm</name>
+      <url>https://www.openhub.net/p/libdrm.xml</url>
+      <html_url>https://www.openhub.net/p/libdrm</html_url>
+      <created_at>2012-12-30T01:34:16Z</created_at>
+      <updated_at>2015-07-17T03:34:59Z</updated_at>
+      <description>libdrm provides core library routines for the X Window System to directly interface with video hardware using the Linux kernel's Direct Rendering Manager (DRM).</description>
+      <homepage_url>http://www.mesa3d.org/</homepage_url>
+      <download_url>http://cgit.freedesktop.org/mesa/drm/</download_url>
+      <url_name>libdrm</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1231/c_library_small.png</small_logo_url>
+      <user_count>3</user_count>
+      <average_rating>5.0</average_rating>
+      <rating_count>1</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25121802</analysis_id>
+      <tags>
+        <tag>video</tag>
+        <tag>interface</tag>
+        <tag>rendering</tag>
+        <tag>drm</tag>
+        <tag>manager</tag>
+        <tag>kernel</tag>
+        <tag>hardware</tag>
+      </tags>
+      <analysis>
+        <id>25121802</id>
+        <url>https://www.openhub.net/analyses/25121802.xml</url>
+        <project_id>623210</project_id>
+        <updated_at>2015-07-17T03:34:59Z</updated_at>
+        <logged_at>2015-07-16T14:47:24Z</logged_at>
+        <min_month>1999-12-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>50</twelve_month_contributor_count>
+        <total_contributor_count>206</total_contributor_count>
+        <twelve_month_commit_count>246</twelve_month_commit_count>
+        <total_commit_count>5535</total_commit_count>
+        <total_code_lines>37930</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/libdrm/analyses/25121802/languages.png">
+          <language percentage="94" color="FF8F00" id="42">
+C          </language>
+          <language percentage="6" color="000000" id="">
+6 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>mit</name>
+          <nice_name>MIT License</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>Wiki</title>
+          <url>http://dri.freedesktop.org/wiki/</url>
+          <category>Other</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

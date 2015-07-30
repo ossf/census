@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>8853</id>
+      <name>procmail</name>
+      <url>https://www.openhub.net/p/8853.xml</url>
+      <html_url>https://www.openhub.net/p/8853</html_url>
+      <created_at>2007-09-30T13:31:34Z</created_at>
+      <updated_at>2015-07-01T19:55:09Z</updated_at>
+      <description>Procmail can be used to create mail-servers, mailing lists, sort your incoming mail into separate folders/files (real convenient when subscribing to one or more mailing lists or for prioritising your mail), preprocess your mail, start any programs upon mail arrival (e.g. to generate different chimes on your workstation for different types of mail) or selectively forward certain incoming mail automatically to someone.</description>
+      <homepage_url>http://www.procmail.org/</homepage_url>
+      <download_url>http://www.procmail.org/</download_url>
+      <url_name></url_name>
+      <user_count>67</user_count>
+      <average_rating>4.0</average_rating>
+      <rating_count>18</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>24758401</analysis_id>
+      <tags>
+        <tag>mda</tag>
+        <tag>email</tag>
+        <tag>filter</tag>
+        <tag>mbox</tag>
+        <tag>maildir</tag>
+      </tags>
+      <analysis>
+        <id>24758401</id>
+        <url>https://www.openhub.net/analyses/24758401.xml</url>
+        <project_id>8853</project_id>
+        <updated_at>2015-07-19T21:05:45Z</updated_at>
+        <logged_at>2015-07-19T21:05:43Z</logged_at>
+        <min_month>1992-09-01T00:00:00Z</min_month>
+        <max_month>2005-11-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
+        <total_contributor_count>4</total_contributor_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
+        <total_commit_count>799</total_commit_count>
+        <total_code_lines>15536</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsVeryLow">
+Very few source code comments          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/8853/analyses/24758401/languages.png">
+          <language percentage="67" color="FF8F00" id="42">
+C          </language>
+          <language percentage="32" color="777777" id="11">
+shell script          </language>
+          <language percentage="1" color="000000" id="">
+2 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>artistic</name>
+          <nice_name>Artistic License</nice_name>
+        </license>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>20</value>
+        <description>Inactive</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

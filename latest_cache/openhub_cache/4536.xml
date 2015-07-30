@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>4536</id>
+      <name>Sendmail</name>
+      <url>https://www.openhub.net/p/4536.xml</url>
+      <html_url>https://www.openhub.net/p/4536</html_url>
+      <created_at>2007-02-21T18:15:10Z</created_at>
+      <updated_at>2015-04-09T11:41:31Z</updated_at>
+      <description>Sendmail is a remarkably flexible program, supporting many kinds of mail transfer and delivery including the overwhelmingly popular SMTP.</description>
+      <homepage_url>http://www.sendmail.org/</homepage_url>
+      <download_url>http://www.sendmail.com/sm/open_source/download/</download_url>
+      <url_name></url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/5226/sendmail_logo_med.gif</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/5226/sendmail_logo_small.gif</small_logo_url>
+      <user_count>96</user_count>
+      <average_rating>3.58621</average_rating>
+      <rating_count>29</rating_count>
+      <review_count>0</review_count>
+      <analysis_id></analysis_id>
+      <tags>
+        <tag>server</tag>
+        <tag>mta</tag>
+        <tag>smtp</tag>
+        <tag>email</tag>
+        <tag>mail</tag>
+        <tag>mail_transport_agents</tag>
+      </tags>
+      <licenses>
+        <license>
+          <name>sendmail</name>
+          <nice_name>Sendmail License</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>0</value>
+        <description>Not Available</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>616815</id>
+      <name>GNU MPFR</name>
+      <url>https://www.openhub.net/p/gnu-mpfr.xml</url>
+      <html_url>https://www.openhub.net/p/gnu-mpfr</html_url>
+      <created_at>2012-11-12T15:12:21Z</created_at>
+      <updated_at>2014-12-19T17:07:53Z</updated_at>
+      <description>Provides a library for multiple-precision floating-point computation with correct rounding. The computation is both efficient and has a well-defined semantics. It copies the good ideas from the ANSI/IEEE-754 standard for double-precision floating-point arithmetic.</description>
+      <homepage_url>http://www.mpfr.org/</homepage_url>
+      <download_url>http://www.mpfr.org/mpfr-current/</download_url>
+      <url_name>gnu-mpfr</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/59074/mpfr500_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/59074/mpfr500_small.png</small_logo_url>
+      <user_count>1</user_count>
+      <average_rating></average_rating>
+      <rating_count>0</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>23614516</analysis_id>
+      <tags>
+        <tag>multiprecision</tag>
+        <tag>gmp</tag>
+        <tag>mpfr</tag>
+        <tag>floatingpoint</tag>
+        <tag>numerical</tag>
+      </tags>
+      <analysis>
+        <id>23614516</id>
+        <url>https://www.openhub.net/analyses/23614516.xml</url>
+        <project_id>616815</project_id>
+        <updated_at>2015-01-18T01:59:12Z</updated_at>
+        <logged_at>2015-01-18T01:59:08Z</logged_at>
+        <min_month>1999-06-01T00:00:00Z</min_month>
+        <max_month>2014-12-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
+        <total_contributor_count>17</total_contributor_count>
+        <twelve_month_commit_count>385</twelve_month_commit_count>
+        <total_commit_count>7576</total_commit_count>
+        <total_code_lines>89457</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidActivityIncreasing">
+Increasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/gnu-mpfr/analyses/23614516/languages.png">
+          <language percentage="88" color="FF8F00" id="42">
+C          </language>
+          <language percentage="6" color="000080" id="37">
+TeX/LaTeX          </language>
+          <language percentage="6" color="000000" id="">
+9 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>lgpv3_or_later</name>
+          <nice_name>GNU Lesser General Public License v3.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>Issue Tracker</title>
+          <url>https://gforge.inria.fr/tracker/?group_id=136</url>
+          <category>Issue Trackers</category>
+        </link>
+        <link>
+          <title>Main mailing-list</title>
+          <url>https://sympa.inria.fr/sympa/arc/mpfr</url>
+          <category>Mailing Lists</category>
+        </link>
+        <link>
+          <title>Announce mailing-list (moderated)</title>
+          <url>https://sympa.inria.fr/sympa/arc/mpfr-announce</url>
+          <category>Mailing Lists</category>
+        </link>
+        <link>
+          <title>Inria Forge</title>
+          <url>https://gforge.inria.fr/projects/mpfr/</url>
+          <category>Other</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

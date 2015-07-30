@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>68040</id>
+      <name>libice</name>
+      <url>https://www.openhub.net/p/libice.xml</url>
+      <html_url>https://www.openhub.net/p/libice</html_url>
+      <created_at>2008-12-19T03:44:39Z</created_at>
+      <updated_at>2015-07-01T23:16:24Z</updated_at>
+      <description>ICE - Is a generic module for Interactive Connectivity Establishment to make better flow of data between the endpoints in the internet. This is mostly used to intiate the media session between the endpoints. It is written in Purely ANSI C so that it can be compiled to embedded platforms.</description>
+      <homepage_url>http://code.google.com/p/libice</homepage_url>
+      <download_url></download_url>
+      <url_name>libice</url_name>
+      <user_count>0</user_count>
+      <average_rating></average_rating>
+      <rating_count>0</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>24770599</analysis_id>
+      <tags>
+        <tag>ice-ansi</tag>
+        <tag>rtsp-ice</tag>
+        <tag>ice</tag>
+        <tag>sip</tag>
+        <tag>sip-ice</tag>
+      </tags>
+      <analysis>
+        <id>24770599</id>
+        <url>https://www.openhub.net/analyses/24770599.xml</url>
+        <project_id>68040</project_id>
+        <updated_at>2015-07-18T03:01:49Z</updated_at>
+        <logged_at>2015-07-18T03:01:47Z</logged_at>
+        <min_month>2006-09-01T00:00:00Z</min_month>
+        <max_month>2006-09-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
+        <total_contributor_count>1</total_contributor_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
+        <total_commit_count>1</total_commit_count>
+        <total_code_lines>0</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeYoung">
+Short source control history          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/libice/analyses/24770599/languages.png">
+        </languages>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>0</value>
+        <description>Not Available</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

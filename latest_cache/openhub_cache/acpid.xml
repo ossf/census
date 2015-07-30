@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>329565</id>
+      <name>ACPI Daemon</name>
+      <url>https://www.openhub.net/p/acpid.xml</url>
+      <html_url>https://www.openhub.net/p/acpid</html_url>
+      <created_at>2009-04-28T06:21:24Z</created_at>
+      <updated_at>2015-07-03T12:41:47Z</updated_at>
+      <description>ACPID is a completely flexible, totally extensible daemon for delivering ACPI events. It listens on netlink interface (or on the deprecated file /proc/acpi/event), and when an event occurs, executes programs to handle the event.</description>
+      <homepage_url>http://sourceforge.net/projects/acpid2/</homepage_url>
+      <download_url></download_url>
+      <url_name>acpid</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/65146/acpid64_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/65146/acpid64_small.png</small_logo_url>
+      <user_count>1</user_count>
+      <average_rating>5.0</average_rating>
+      <rating_count>1</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>24961146</analysis_id>
+      <tags>
+        <tag>netlink</tag>
+        <tag>acpi</tag>
+        <tag>power</tag>
+      </tags>
+      <analysis>
+        <id>24961146</id>
+        <url>https://www.openhub.net/analyses/24961146.xml</url>
+        <project_id>329565</project_id>
+        <updated_at>2015-07-16T12:37:12Z</updated_at>
+        <logged_at>2015-07-16T12:37:09Z</logged_at>
+        <min_month>2011-12-01T00:00:00Z</min_month>
+        <max_month>2015-04-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
+        <total_contributor_count>6</total_contributor_count>
+        <twelve_month_commit_count>5</twelve_month_commit_count>
+        <total_commit_count>97</total_commit_count>
+        <total_code_lines>4787</total_code_lines>
+        <factoids>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+          <factoid type="FactoidAgeOld">
+Well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/acpid/analyses/24961146/languages.png">
+          <language percentage="91" color="FF8F00" id="42">
+C          </language>
+          <language percentage="5" color="D2C690" id="8">
+Perl          </language>
+          <language percentage="4" color="000000" id="">
+3 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>GNU_General_Public_License_v2_0_only</name>
+          <nice_name>GNU General Public License v2.0 only</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>30</value>
+        <description>Very Low</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

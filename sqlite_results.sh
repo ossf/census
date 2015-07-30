@@ -47,6 +47,7 @@ CREATE TABLE results (
     process_network_data,
     potential_privilege_escalation,
     risk_index INTEGER,
+    risk_index_components,
     comment_on_priority
 );
 .mode csv

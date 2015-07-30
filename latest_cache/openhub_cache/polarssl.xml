@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>308964</id>
+      <name>PolarSSL</name>
+      <url>https://www.openhub.net/p/PolarSSL.xml</url>
+      <html_url>https://www.openhub.net/p/PolarSSL</html_url>
+      <created_at>2009-01-31T10:39:55Z</created_at>
+      <updated_at>2015-07-16T02:13:59Z</updated_at>
+      <description>PolarSSL is a light-weight open-source cryptographic library for embedded systems.
+
+Its designed to be:
+ -    Low profile
+ -   Self contained
+ -   Easy to implement
+ -   Very modular
+ -   Easily expandable
+
+It provides standard crypto blocks for: AES, Camellia, SHA-1, SHA-256, SHA512, X.509 certificates, etc. as well as higher lever protocols: SSL v3, TLS v1.0, TLS v1.1 and TLS v1.2.
+
+PolarSSL has been ported on a number of architectures, including ARM, PowerPC, MIPS, and Motorola 68000. Its already small memory footprint can be easily reduced to 50k for a basic SSL client or server, by modifying a single .h configuration file. PolarSSL is currently used in several open-source (GPL) and closed-source projects, such as Adobe's flash player.</description>
+      <homepage_url>https://polarssl.org</homepage_url>
+      <download_url>https://polarssl.org/download</download_url>
+      <url_name>PolarSSL</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/66378/logo_schild_heel_klein_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/66378/logo_schild_heel_klein_small.png</small_logo_url>
+      <user_count>1</user_count>
+      <average_rating></average_rating>
+      <rating_count>0</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25120267</analysis_id>
+      <tags>
+        <tag>base64</tag>
+        <tag>security</tag>
+        <tag>xyssl</tag>
+        <tag>gpl</tag>
+        <tag>cross-platform</tag>
+        <tag>sha-1</tag>
+        <tag>authentication</tag>
+        <tag>sha-2</tag>
+        <tag>cryptography</tag>
+        <tag>bsd</tag>
+        <tag>crypto</tag>
+        <tag>library</tag>
+        <tag>3des</tag>
+        <tag>ssl</tag>
+        <tag>aes</tag>
+        <tag>privacy</tag>
+        <tag>rsa</tag>
+        <tag>xtea</tag>
+        <tag>sha-512</tag>
+        <tag>md5</tag>
+        <tag>x509</tag>
+        <tag>camellia</tag>
+        <tag>des</tag>
+        <tag>sha-256</tag>
+        <tag>portable</tag>
+        <tag>tls</tag>
+        <tag>embedded</tag>
+      </tags>
+      <analysis>
+        <id>25120267</id>
+        <url>https://www.openhub.net/analyses/25120267.xml</url>
+        <project_id>308964</project_id>
+        <updated_at>2015-07-20T00:56:06Z</updated_at>
+        <logged_at>2015-07-20T00:56:04Z</logged_at>
+        <min_month>2009-01-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>17</twelve_month_contributor_count>
+        <total_contributor_count>27</total_contributor_count>
+        <twelve_month_commit_count>1236</twelve_month_commit_count>
+        <total_commit_count>3807</total_commit_count>
+        <total_code_lines>78084</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/PolarSSL/analyses/25120267/languages.png">
+          <language percentage="85" color="FF8F00" id="42">
+C          </language>
+          <language percentage="8" color="555555" id="3">
+XML          </language>
+          <language percentage="5" color="777777" id="11">
+shell script          </language>
+          <language percentage="2" color="000000" id="">
+4 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>commercial_license</name>
+          <nice_name>Commercial License</nice_name>
+        </license>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>70</value>
+        <description>Very High</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>PolarSSL Discussion Forum</title>
+          <url>https://polarssl.org/discussions</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>PolarSSL Knowledge Base</title>
+          <url>https://polarssl.org/kb</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>PolarSSL Issues</title>
+          <url>https://polarssl.org/tickets</url>
+          <category>Issue Trackers</category>
+        </link>
+        <link>
+          <title>PolarSSL Tech Updates</title>
+          <url>https://polarssl.org/tech-updates</url>
+          <category>Mailing Lists</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>
