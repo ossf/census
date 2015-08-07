@@ -49,12 +49,50 @@ import os
 import sys
 from bs4 import BeautifulSoup
 
+# Dict instance of projects and information from Debian
 debian_data = {}
+# Dict instance of projects and their ranks, popularity counts
 debian_pop = {}
-popualrity_threshold = 0
+popularity_threshold = {'one_percent': 0, 'five_percent': 0}
 openhub_api_key = ''
 # Values to extract from debian apt-cache for each project
 debian_include = ['Source:', 'Version:', 'Description:', 'Homepage:']
+
+
+def file_accessible(filename, mode):
+    ''' Check if a file exists and is accessible. '''
+    try:
+        f = open(filename, mode)
+        f.close()
+    except IOError as e:
+        return False
+    return True
+
+
+def get_projects_to_analyze(filename):
+  '''Gets list of projects with all the details from the input file'''
+  projects_to_analyze = {}
+  with open(filename) as project_file:
+    project_reader = csv.reader(project_file, delimiter=',')
+    headers = project_reader.next()
+    for project_info in project_reader:
+      project_details = {}
+      project_name = project_info[headers.index('Debian_Package')].strip()
+      if project_name == '':
+        continue
+      project_details['openhub_lookup_name'] = \
+             project_info[headers.index('openhub_lookup_name')].strip().lower()
+      project_details['direct_network_exposure'] =\
+             project_info[headers.index('direct_network_exposure')]
+      project_details['process_network_data'] = \
+             project_info[headers.index('process_network_data')]
+      project_details['potential_privilege_escalation'] = \
+             project_info[headers.index('potential_privilege_escalation')]
+      project_details['comment_on_priority'] = \
+             project_info[headers.index('comment_on_priority')]
+      projects_to_analyze[project_name] = project_details
+
+  return projects_to_analyze
 
 
 def cache_data(url, destination):
@@ -78,20 +116,14 @@ def remove_non_ascii(text_list):
   return text_list
 
 
-def get_debian():
+def get_debian_data(project_list, apt_cache_file):
   '''
-  Convert information from apt-cache dumpavail output to
-  dictionary form with indicated fields
+  Get information for selected projects from the apt-cache dumpavail file in
+  a dictionary format
   '''
-  try:
-    file = open('apt_cache_dumpavail.txt', 'r')
-  except IOError:
-    print('Please include apt_cache_dumpavail.txt into the working directory.')
-    sys.exit(1)
-
   package_data = {}
   all_packages = {}
-  for line in open('apt_cache_dumpavail.txt'):
+  for line in open(apt_cache_file, 'r'):
     if line.startswith('Package:'):
       package_name = line[len('Package:'):].strip()
       continue
@@ -118,40 +150,41 @@ def get_debian():
       all_packages[package_name] = package_data
       package_data = {}
 
+  # Filter out projects that are not being analyzed from debian dictionary
+  all_packages = {project_name: all_packages.get(project_name, {})
+                  for project_name in project_list}
   return all_packages
 
 
-def get_debian_pop():
-  '''Obtain Debian popularity vote for each project'''
-  try:
-    file = open('by_inst', 'r')
-  except IOError:
-    print('Please include by_inst file with popularities into the working \
-    directory. \nSee http://popcon.debian.org/by_inst')
-    sys.exit(1)
-
+def get_debian_pop(by_inst_file):
+  '''Obtain Debian popularity vote and rank for each project'''
   pop_dict = {}
-  for line in open('by_inst'):
+  for line in open(by_inst_file, 'r'):
     if not line.startswith('#') and not line.startswith('---'):
       data = line.split()
-      # Keys are project names and values are popularities
-      pop_dict[data[1]] = int(data[2])
+      package_popularity = {}
+      package_name = data[1]
+      package_popularity['rank'] = data[0]
+      package_popularity['popularity'] = str(data[2])
+      pop_dict[package_name] = package_popularity
   return pop_dict
 
 
 def get_pop_threshold(debian_pop):
-  pop_values = sorted(debian_pop.values())
-  tenth_percentile = int(0.1*len(pop_values))
-  threshold = pop_values[tenth_percentile]
-  return threshold
+  '''Get popularity cut-offs for 1 percent and 5 percent'''
+  total_count = int(debian_pop['Total']['rank'])
+  one_percent = int(0.01 * total_count)
+  five_percent = int(0.05 * total_count)
+  return {'one_percent': one_percent, 'five_percent': five_percent}
 
 
 class Oss_Package(object):
   '''
   Class that represents an OSS package and corresponding attributes
   '''
-  def __init__(self, package_name, direct_network_exposure, process_network_data,
-               potential_privilege_escalation, comment_on_priority):
+  def __init__(self, package_name, openhub_lookup_name, direct_network_exposure,
+               process_network_data, potential_privilege_escalation,
+               comment_on_priority):
     self.package_name = package_name
     self.direct_network_exposure = str(direct_network_exposure)
     self.process_network_data = str(process_network_data)
@@ -165,24 +198,18 @@ class Oss_Package(object):
     self.implemented = debian_data[package_name].get('implemented-in', '')
     self.role = debian_data[package_name].get('role', '')
 
-    self.popularity = str(debian_pop[package_name])
+    self.popularity = debian_pop.get(package_name, {'rank': 1e6, 'popularity': ''})
+    self.get_openhub_data(openhub_lookup_name)
+    self.get_cve_debian()
+    self.get_risk_index()
 
-    self.website_points = 0
-    self.CVE_points = 0
-    self.recent_contributor_points = 0
-    self.popularity_points = 0
-    self.language_points = 0
-    self.exposure_points = 0
-    self.data_only_points = 0
-
-  def get_openhub(self, openhub_lookup_name):
-    '''Get project's details from https://www.openhub.net/'''
+  def get_openhub_data(self, openhub_lookup_name):
+    '''Get project details from https://www.openhub.net/'''
     project_tags = ['name', 'description', 'homepage_url', 'download_url']
     analysis_tags = ['twelve_month_contributor_count', 'total_contributor_count',
                      'total_code_lines', 'main_language_name']
     factoid_types = ['FactoidActivity', 'FactoidAge', 'FactoidComments',
                      'FactoidTeamSize']
-
     self.openhub_name = ''
     self.openhub_desc = ''
     self.openhub_home = ''
@@ -284,25 +311,34 @@ class Oss_Package(object):
     self.cve_page = url
 
   def get_risk_index(self):
-    ret = 0
     # If no homepage, add a point
     if len(self.debian_home) == 0 and len(self.openhub_home) == 0:
       self.website_points = 1
+    else:
+      self.website_points = 0
     # If implemented in C/C++, add two points
     if self.main_language.upper() in ['C', 'C++'] or self.implemented.upper() in ['C', 'C++']:
       self.language_points = 2
+    else:
+      self.language_points = 0
     # Add points depending on number of CVEs
     self.CVE_points = {'0': 0, '1': 1, '2': 2, '3': 2}.get(self.cve_since_2010, 3)
     # Add points depending on number of recent contributors
     self.recent_contributor_points = {'0': 5, '1': 4, '2': 4, '3': 4, '': 2}.\
         get(self.twelve_month_contributor_count, 0)
-    # If popular, add 1 point
-    if int(self.popularity) >= int(popularity_threshold):
+    # 2 points if in the top 1 percent.  1 point if in the top 5 percent
+    if int(self.popularity['rank']) <= int(popularity_threshold['one_percent']):
+      self.popularity_points = 2
+    elif int(self.popularity['rank']) <= int(popularity_threshold['five_percent']):
       self.popularity_points = 1
+    else:
+     self.popularity_points = 0
     # If this is data or documentation, deduct 3 points
     if any(role in self.role.lower() for role in ['data', 'documentation']):
       self.data_only_points = -3
-
+    else:
+      self.data_only_points = 0
+    # Get exposure points
     if self.direct_network_exposure == '1':
       self.exposure_points = 2  # Network exposure is weighted more
     elif self.process_network_data == '1':
@@ -311,15 +347,14 @@ class Oss_Package(object):
       self.exposure_points = 1
     else:
       self.exposure_points = 0
-
-    ret = self.website_points + self.language_points + self.CVE_points + \
-        self.recent_contributor_points + self.popularity_points + \
-        self.data_only_points + self.exposure_points
-
-    if ret < 0:
+    # Sum up all points to get the risk index value
+    self.risk_index = self.website_points + self.language_points + self.CVE_points + \
+                      self.recent_contributor_points + self.popularity_points + \
+                      self.data_only_points + self.exposure_points
+    if self.risk_index < 0:
       self.risk_index = '0'
     else:
-      self.risk_index = str(ret)
+      self.risk_index = str(self.risk_index)
 
 
 def main():
@@ -327,6 +362,7 @@ def main():
   global debian_data
   global debian_pop
   global popularity_threshold
+  package_list = []
 
   parser = argparse.ArgumentParser(description='OSS Metrics',
            usage='python program.py -p projects_to_examine.csv')
@@ -334,71 +370,46 @@ def main():
                       help='path to csv file with project list', required=True)
   args = parser.parse_args()
 
-  try:
-    file = open(args.project_file, 'r')
-  except IOError:
-    print('Invalid file. Please provide a csv file with projects to examine.')
-    sys.exit(1)
+  files = set([args.project_file, 'apt_cache_dumpavail.txt', 'by_inst'])
+  for filename in files:
+    if not file_accessible(filename, 'r'):
+      print('Please provide the projects file, apt_cache_dumpavail.txt \
+             and by_inst files.')
+      sys.exit(1)
 
-  try:
-    file = open('openhub_key.txt', 'r')
-    openhub_api_key = f.readline().strip()
-  except IOError:
+  if not file_accessible('openhub_key.txt', 'r'):
     openhub_api_key = ''
     print('[*] No Openhub API key was provided. \
-    Will only use cached data (if available).')
+          Will only use cached data (if available).')
+  else:
+    file = open('openhub_key.txt', 'r')
+    openhub_api_key = f.readline().strip()
 
-  # dict instance with debian data(source, version, description,homepage)
-  debian_data = get_debian()
-  # dict instance with total installs per package
-  debian_pop = get_debian_pop()
-  project_name_list = []
-  package_list = []
-
-  project_file = open(args.project_file)
-  project_reader = csv.reader(project_file, delimiter=',')
-  headers = project_reader.next()
-  for project_info in project_reader:
-    project_name = project_info[headers.index('Debian_Package')].strip()
-    if project_name == '':
-      continue
-    project_name_list.append(project_name)
-
-  # Filter out projects that are not being analyzed from popularity dictionary
-  debian_pop = {project_name: debian_pop.get(project_name, 0)
-                for project_name in project_name_list}
-  # Filter out projects that are not being analyzed from debian dictionary
-  debian_data = {project_name: debian_data.get(project_name, {})
-                 for project_name in project_name_list}
-
+  # Dict instance of projects and their ranks, popularity counts
+  debian_pop = get_debian_pop('by_inst')
+  # Dict instance of values for top 1 and 5 percents
   popularity_threshold = get_pop_threshold(debian_pop)
+  # Dict instance with projects to analyze and corresponding info
+  projects_to_analyze = get_projects_to_analyze(args.project_file)
+  # Get list of project names to analyze
+  project_name_list = projects_to_analyze.keys()
+  # Dict instance with projects and debian data(source, version, description,homepage)
+  debian_data = get_debian_data(project_name_list, 'apt_cache_dumpavail.txt')
+  #  Each project is represented as an instance of the Oss_Package class
+  for project_name in sorted(projects_to_analyze):
+    project_data = projects_to_analyze[project_name]
+    Package = Oss_Package(project_name, project_data['openhub_lookup_name'],
+                          project_data['direct_network_exposure'],
+                          project_data['process_network_data'],
+                          project_data['potential_privilege_escalation'],
+                          project_data['comment_on_priority'])
+    print(project_name)
+    package_list.append(Package)
 
-  with open(args.project_file) as project_file:
-    project_reader = csv.reader(project_file, delimiter=',')
-    headers = project_reader.next()
-    for project_info in project_reader:
-      project_name = project_info[headers.index('Debian_Package')].strip()
-      if project_name == '':
-        continue
-      openhub_lookup_name = project_info[headers.index('openhub_lookup_name')].strip().lower()
-      direct_network_exposure = project_info[headers.index('direct_network_exposure')]
-      process_network_data = project_info[headers.index('process_network_data')]
-      potential_privilege_escalation = project_info[headers.index('potential_privilege_escalation')]
-      comment_on_priority = project_info[headers.index('comment_on_priority')]
-      print(project_name)
-
-      Package = Oss_Package(project_name, direct_network_exposure, process_network_data,
-                            potential_privilege_escalation, comment_on_priority)
-
-      Package.get_openhub(openhub_lookup_name)
-      Package.get_cve_debian()
-      Package.get_risk_index()
-      package_list.append(Package)
-
-  # Sort by risk index
+  # Sort by risk index from highest to lowest
   package_list.sort(key=lambda package: int(package.risk_index), reverse=True)
 
-  # Add the headers row
+  # Write the headers row
   with open('results.csv', 'w') as csvfile:
     headerwriter = csv.writer(csvfile, delimiter=',')
     headerwriter.writerow(['project_name', 'debian_source', 'debian_version',
@@ -408,25 +419,24 @@ def main():
           'main_language_name', 'licenses', 'fact_activity', 'fact_age', 'fact_comments',
           'fact_team_size', 'package_popularity', 'implemented_in', 'role',
           'direct_network_exposure', 'process_network_data', 'potential_privilege_escalation',
-          'risk_index(max = 16)', 'risk_index components', 'comment_on_priority'])
+          'risk_index(max = 15)', 'risk_index components', 'comment_on_priority'])
 
+  # Add each package results into the csv file
   csvfile = open('results.csv', 'a')
   resultwriter = csv.writer(csvfile, delimiter=',')
-  # Write each package results into csv
   for p in package_list:
     row = [p.package_name, p.debian_source, p.debian_version,
            p.debian_desc, p.debian_home, p.cve_since_2010, p.cve_page,  p.openhub_page,
            p.openhub_name, p.openhub_desc, p.openhub_home, p.openhub_download,
            p.twelve_month_contributor_count, p.total_contributor_count, p.total_code_lines,
            p.main_language, p.licenses, p.fact_activity, p.fact_age, p.fact_comments,
-           p.fact_team_size, p.popularity, p.implemented,p.role,
+           p.fact_team_size, p.popularity['popularity'], p.implemented, p.role,
            p.direct_network_exposure, p.process_network_data, p.potential_privilege_escalation,
            p.risk_index, 'Website points: ' + str(p.website_points) +
            ', CVE: ' + str(p.CVE_points) + ', 12-month contributor: ' +
            str(p.recent_contributor_points) + ', Popularity: ' + str(p.popularity_points) +
            ', Language: ' + str(p.language_points) + ', Exposure: ' + str(p.exposure_points) +
            ' , Data only: ' + str(p.data_only_points), p.comment_on_priority]
-
     resultwriter.writerow(remove_non_ascii(row))
 
 if __name__ == "__main__":
