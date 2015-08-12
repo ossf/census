@@ -1,4 +1,13 @@
-2015-11-15   Version 1.1.0
+2015-08-10   Version 1.2.0
+
+* Issue #21: Adjust Popularity count component of the risk index
+  by adding 2 points if in the top 1% and 1 point if in the
+  top 5% of ALL Debian packages
+* Updated results as per Issue #21
+* Updated the by_inst file with Debian Popularity counts with the
+  latest data
+
+2015-07-27   Version 1.1.0
 
 * Issue #29: Included breakdown of risk index score into the result
 * Added original cached data from Openhub and Debian,
