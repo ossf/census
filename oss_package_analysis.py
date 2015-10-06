@@ -236,7 +236,7 @@ class Oss_Package(object):
         try:
           cache_data(url, filename)
         except:
-          print('Could not get OpenHub data for' + self.package_name)
+          print('Could not get OpenHub data for ' + self.package_name)
           return 1
 
       tree = ET.parse(filename)
