@@ -236,7 +236,7 @@ class Oss_Package(object):
         try:
           cache_data(url, filename)
         except:
-          print('Could not get OpenHub data for' + self.package_name)
+          print('Could not get OpenHub data for ' + self.package_name)
           return 1
 
       tree = ET.parse(filename)
@@ -382,7 +382,7 @@ def main():
     print('[*] No Openhub API key was provided. \
           Will only use cached data (if available).')
   else:
-    file = open('openhub_key.txt', 'r')
+    f = open('openhub_key.txt', 'r')
     openhub_api_key = f.readline().strip()
 
   # Dict instance of projects and their ranks, popularity counts
