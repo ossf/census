@@ -40,16 +40,25 @@ candidates for further consideration. For our initial set of projects to
 examine, we took the set of packages installed by Debian base and added a set
 of packages that were identified as potentially concerning.
 
-We invite you to contribute in the following ways:
-* fork the repository and try different metrics and heuristics. Send us pull
-requests for the ones that you find experimentally make the most sense.
-* fork the repository and try different data sources.
+We invite you to contribute via:
+
+* [pull request](https://github.com/linuxfoundation/cii-census/pulls) -
+  if you have a specific change to propose in the documentation, code, or data.
+  We prefer these, since these are easy to merge and show
+  exactly what the proposer has in mind.
+* [issue](https://github.com/linuxfoundation/cii-census/issues) -
+  if you have an idea, but want to discuss it broadly.
+* [mailing list](https://lists.coreinfrastructure.org/mailman/listinfo/cii-census) - for general discussion of this project.
+
+Here are some examples of things you could do:
+
+* try different metrics and heuristics. Send us pull
+  requests for the ones that you find experimentally make the most sense.
+* try different data sources.
 * review the data in projects_to_examine.csv and send corrections and elaborations.
 * suggest more projects to consider in the future.
-* open an issue to mention additional relevant literature in the field.
+* mention additional relevant literature in the field.
 
-There is a [mailing list](https://lists.coreinfrastructure.org/mailman/listinfo/cii-census)
-for general discussion of this project.
 
 # Background
 
