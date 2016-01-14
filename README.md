@@ -48,6 +48,9 @@ requests for the ones that you find experimentally make the most sense.
 * suggest more projects to consider in the future.
 * open an issue to mention additional relevant literature in the field.
 
+There is a [mailing list](https://lists.coreinfrastructure.org/mailman/listinfo/cii-census)
+for general discussion of this project.
+
 # Background
 
 This work was sponsored by the Linux Foundation's [Core Infrastructure Initiative](http://www.linuxfoundation.org/programs/core-infrastructure-initiative)
