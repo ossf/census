@@ -419,7 +419,7 @@ def main():
           'main_language_name', 'licenses', 'fact_activity', 'fact_age', 'fact_comments',
           'fact_team_size', 'package_popularity', 'implemented_in', 'role',
           'direct_network_exposure', 'process_network_data', 'potential_privilege_escalation',
-          'risk_index(max = 15)', 'risk_index components', 'comment_on_priority'])
+          'risk_index', 'risk_index components', 'comment_on_priority'])
 
   # Add each package results into the csv file
   csvfile = open('results.csv', 'a')
