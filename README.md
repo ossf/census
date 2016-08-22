@@ -62,4 +62,4 @@ Here are some examples of things you could do:
 
 # Background
 
-This work was sponsored by the Linux Foundation's [Core Infrastructure Initiative](http://www.linuxfoundation.org/programs/core-infrastructure-initiative)
+This work was sponsored by the Linux Foundation's [Core Infrastructure Initiative](https://www.coreinfrastructure.org/)
