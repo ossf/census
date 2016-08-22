@@ -364,6 +364,7 @@ nginx,nginx,nginx,nginx,https://trac.nginx.org/nginx/,"small, powerful, scalable
 nodejs,nodejs,node,node.js,https://github.com/nodejs/node/issues,evented I/O for V8 javascript,web,1,1,1,,
 node-stylus,node-stylus,stylus,stylus,https://github.com/stylus/stylus/issues,"Robust, expressive, and feature-rich CSS superset – Node.js module",web,1,1,1,,
 ntp,,,ntp,,,,1,0,0,"Directly connects to network and open to attack. HAS Home Page, NO issue tracker, Has Mailing list, public repo. CII investing. ++",,
+ntpsec,ntpsec,ntpsec,ntpsec,https://gitlab.com/NTPsec/ntpsec/issues,,,1,1,1,"Directly connects to network. HAS Home Page, HAS issue tracker, HAS Mailing list, HAS public repo. CII investing",,
 openssh-blacklist-extra,openssh-blacklist,openssh,openssh,, list of non-default blacklisted OpenSSH RSA and DSA keys,Standard System Utilities,0,0,0,,,
 openssh-blacklist,,openssh,openssh,, list of default blacklisted OpenSSH RSA and DSA keys,Standard System Utilities,0,0,0,,,
 openssh-client,openssh,openssh,openssh,," secure shell (SSH) client, for secure access to remote machines",Standard System Utilities,1,0,0,Vital for security. CII already investing in this. ++,,
