@@ -64,7 +64,7 @@ def file_accessible(filename, mode):
     try:
         f = open(filename, mode)
         f.close()
-    except IOError as e:
+    except IOError:
         return False
     return True
 
@@ -205,11 +205,11 @@ class Oss_Package(object):
 
   def get_openhub_data(self, openhub_lookup_name):
     '''Get project details from https://www.openhub.net/'''
-    project_tags = ['name', 'description', 'homepage_url', 'download_url']
-    analysis_tags = ['twelve_month_contributor_count', 'total_contributor_count',
-                     'total_code_lines', 'main_language_name']
-    factoid_types = ['FactoidActivity', 'FactoidAge', 'FactoidComments',
-                     'FactoidTeamSize']
+    # project_tags = ['name', 'description', 'homepage_url', 'download_url']
+    # analysis_tags = ['twelve_month_contributor_count',
+    #   'total_contributor_count', 'total_code_lines', 'main_language_name']
+    # factoid_types = ['FactoidActivity', 'FactoidAge', 'FactoidComments',
+    #   'FactoidTeamSize']
     self.openhub_name = ''
     self.openhub_desc = ''
     self.openhub_home = ''

@@ -11,6 +11,11 @@ check:
 	python -t -3 ../oss_package_analysis.py -p projects_to_examine.csv && \
 	diff -u correct_results.csv results.csv 
 
+# "make analyze" runs static analysis on source code
+# Must have "pyflakes" installed
+analyze:
+	pyflakes oss_package_analysis.py
+
 # When creating a tarball, here's what goes in it.
 # The oss-results.xlsx file is manually created from results.csv.
 DISTRIBUTABLES = results.csv projects_to_examine.csv oss_package_analysis.py \
