@@ -1,10 +1,10 @@
 # Core Infrastructure Initiative Census
 
-Automated review of open source software projects
+Automated quantitative review of open source software projects.
 
 This project contains programs and documentation to help identify
 open source software (OSS) projects that may need additional investment
-to improve security.
+to improve security, by combining a variety of metrics.
 
 Key files include:
 
@@ -40,6 +40,8 @@ candidates for further consideration. For our initial set of projects to
 examine, we took the set of packages installed by Debian base and added a set
 of packages that were identified as potentially concerning.
 
+# Collaboration
+
 We invite you to contribute via:
 
 * [pull request](https://github.com/linuxfoundation/cii-census/pulls) -
@@ -47,8 +49,14 @@ We invite you to contribute via:
   We prefer these, since these are easy to merge and show
   exactly what the proposer has in mind.
 * [issue](https://github.com/linuxfoundation/cii-census/issues) -
-  if you have an idea, but want to discuss it broadly.
+  if you have an idea or bug report (but no specific change to pull).
 * [mailing list](https://lists.coreinfrastructure.org/mailman/listinfo/cii-census) - for general discussion of this project.
+
+If you have a *vulnerability* report, please privately send an email to
+Marcus Streets mstreets&#64;linuxfoundation.org and
+David A. Wheeler dwheeler&#64;ida.org.
+Please try to use TLS encryption when you send the email
+(many providers, like Gmail, will try to do this automatically).
 
 Here are some examples of things you could do:
 
@@ -59,6 +67,9 @@ Here are some examples of things you could do:
 * suggest more projects to consider in the future.
 * mention additional relevant literature in the field.
 
+Changes to the Python code should generally comply with
+[Python PEP 8](https://www.python.org/dev/peps/pep-0008/)
+but use 2 spaces per indentation level.
 
 # Background
 
