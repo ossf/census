@@ -12,7 +12,8 @@ check:
 	diff -u correct_results.csv results.csv 
 
 # "make analyze" runs static analysis on source code
-# Must have "pyflakes" installed
+# Must have "pyflakes" installed.  For more about Python analyzers, see:
+# http://blog.codacy.com/2016/01/08/review-of-python-static-analysis-tools/
 analyze:
 	pyflakes oss_package_analysis.py
 
