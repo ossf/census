@@ -70,6 +70,8 @@ Here are some examples of things you could do:
 Changes to the Python code should generally comply with
 [Python PEP 8](https://www.python.org/dev/peps/pep-0008/)
 but use 2 spaces per indentation level.
+It's written in Python2, but the goal is to avoid any construct that
+2to3 can't automatically fix (we use the "-3" option to detect such problems).
 
 # Background
 
