@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>4214</id>
+      <name>BIND (Berkeley Internet Name Domain)</name>
+      <url>https://www.openhub.net/p/bind.xml</url>
+      <html_url>https://www.openhub.net/p/bind</html_url>
+      <created_at>2007-01-31T20:48:00Z</created_at>
+      <updated_at>2015-07-16T09:47:22Z</updated_at>
+      <description>BIND (Berkeley Internet Name Domain) is an implementation of the Domain Name System (DNS) protocols and provides an openly redistributable reference implementation of the major components of the Domain Name System, including a Domain Name System server, a Domain Name System resolver library and tools for verifying the proper operation of the DNS server.</description>
+      <homepage_url>https://www.isc.org/wordpress/software/bind/</homepage_url>
+      <download_url>https://www.isc.org/wordpress/downloads/</download_url>
+      <url_name>bind</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1780/bind_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1780/bind_small.png</small_logo_url>
+      <user_count>598</user_count>
+      <average_rating>4.18644</average_rating>
+      <rating_count>117</rating_count>
+      <review_count>2</review_count>
+      <analysis_id>25118115</analysis_id>
+      <tags>
+        <tag>nameserver</tag>
+        <tag>network</tag>
+        <tag>bind</tag>
+        <tag>recursor</tag>
+        <tag>dns</tag>
+        <tag>server</tag>
+        <tag>networking</tag>
+        <tag>dnssec</tag>
+      </tags>
+      <analysis>
+        <id>25118115</id>
+        <url>https://www.openhub.net/analyses/25118115.xml</url>
+        <project_id>4214</project_id>
+        <updated_at>2015-07-19T22:14:03Z</updated_at>
+        <logged_at>2015-07-19T22:13:51Z</logged_at>
+        <min_month>1998-08-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>9</twelve_month_contributor_count>
+        <total_contributor_count>48</total_contributor_count>
+        <twelve_month_commit_count>973</twelve_month_commit_count>
+        <total_commit_count>23542</total_commit_count>
+        <total_code_lines>648199</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/bind/analyses/25118115/languages.png">
+          <language percentage="60" color="FF8F00" id="42">
+C          </language>
+          <language percentage="12" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="10" color="777777" id="11">
+shell script          </language>
+          <language percentage="18" color="000000" id="">
+12 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>isc</name>
+          <nice_name>ISC License</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>60</value>
+        <description>High</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>Administrator's Reference Manual</title>
+          <url>https://www.isc.org/software/bind/documentation</url>
+          <category>Documentation</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

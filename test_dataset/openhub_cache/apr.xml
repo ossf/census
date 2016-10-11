@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>5552</id>
+      <name>Apache Portable Runtime</name>
+      <url>https://www.openhub.net/p/apr.xml</url>
+      <html_url>https://www.openhub.net/p/apr</html_url>
+      <created_at>2007-05-23T18:45:58Z</created_at>
+      <updated_at>2015-07-14T18:31:39Z</updated_at>
+      <description>The mission of the Apache Portable Runtime (APR) project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. The primary goal is to provide an API to which software developers may code and be assured of predictable if not identical behaviour regardless of the platform on which their software is built, relieving them of the need to code special-case conditions to work around or take advantage of platform-specific deficiencies or features.</description>
+      <homepage_url>http://apr.apache.org/</homepage_url>
+      <download_url></download_url>
+      <url_name>apr</url_name>
+      <user_count>40</user_count>
+      <average_rating>3.42857</average_rating>
+      <rating_count>7</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25118936</analysis_id>
+      <tags>
+        <tag>framework</tag>
+        <tag>apache</tag>
+        <tag>platform</tag>
+        <tag>portable</tag>
+        <tag>library</tag>
+        <tag>libraries</tag>
+        <tag>runtime</tag>
+      </tags>
+      <analysis>
+        <id>25118936</id>
+        <url>https://www.openhub.net/analyses/25118936.xml</url>
+        <project_id>5552</project_id>
+        <updated_at>2015-07-19T22:36:32Z</updated_at>
+        <logged_at>2015-07-19T22:35:45Z</logged_at>
+        <min_month>1999-07-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>14</twelve_month_contributor_count>
+        <total_contributor_count>67</total_contributor_count>
+        <twelve_month_commit_count>242</twelve_month_commit_count>
+        <total_commit_count>26144</total_commit_count>
+        <total_code_lines>419947</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/apr/analyses/25118936/languages.png">
+          <language percentage="88" color="FF8F00" id="42">
+C          </language>
+          <language percentage="12" color="000000" id="">
+10 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>apache_2</name>
+          <nice_name>Apache License 2.0</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

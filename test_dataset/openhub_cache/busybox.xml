@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>4929</id>
+      <name>BusyBox</name>
+      <url>https://www.openhub.net/p/busybox.xml</url>
+      <html_url>https://www.openhub.net/p/busybox</html_url>
+      <created_at>2007-04-18T12:28:09Z</created_at>
+      <updated_at>2015-07-21T14:27:51Z</updated_at>
+      <description>BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete environment for any small or embedded system.
+
+BusyBox has been written with size-optimization and limited resources in mind. It is also extremely modular so you can easily include or exclude commands (or features) at compile time. This makes it easy to customize your embedd</description>
+      <homepage_url>http://busybox.net/</homepage_url>
+      <download_url>http://busybox.net/download.html</download_url>
+      <url_name>busybox</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/5837/busybox1_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/5837/busybox1_small.png</small_logo_url>
+      <user_count>188</user_count>
+      <average_rating>4.16667</average_rating>
+      <rating_count>42</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>25128713</analysis_id>
+      <tags>
+        <tag>embedded</tag>
+        <tag>system</tag>
+        <tag>linux</tag>
+        <tag>shell</tag>
+        <tag>tools</tag>
+      </tags>
+      <analysis>
+        <id>25128713</id>
+        <url>https://www.openhub.net/analyses/25128713.xml</url>
+        <project_id>4929</project_id>
+        <updated_at>2015-07-21T14:27:51Z</updated_at>
+        <logged_at>2015-07-21T14:26:15Z</logged_at>
+        <min_month>1999-10-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>41</twelve_month_contributor_count>
+        <total_contributor_count>250</total_contributor_count>
+        <twelve_month_commit_count>237</twelve_month_commit_count>
+        <total_commit_count>13694</total_commit_count>
+        <total_code_lines>175036</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidCommentsHigh">
+Well-commented source code          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/busybox/analyses/25128713/languages.png">
+          <language percentage="91" color="FF8F00" id="42">
+C          </language>
+          <language percentage="9" color="000000" id="">
+9 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>gpl</name>
+          <nice_name>GNU General Public License v2.0 or later</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>Busybox runs on IP cameras</title>
+          <url>http://cam.ly</url>
+          <category>Documentation</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

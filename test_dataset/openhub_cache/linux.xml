@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>3141</id>
+      <name>Linux Kernel</name>
+      <url>https://www.openhub.net/p/linux.xml</url>
+      <html_url>https://www.openhub.net/p/linux</html_url>
+      <created_at>2006-10-12T18:17:49Z</created_at>
+      <updated_at>2015-07-22T17:23:29Z</updated_at>
+      <description>Linux is a free software kernel, which combined with the GNU libraries, core utils and shell form the GNU/Linux operating system.
+
+!!!PLEASE!!! DO NOT REMOVE git://git.kernel.org/pub/scm/linux/kernel/git/tglx/history.git enlistment. It contains historical pre-2.6.12 commit data.</description>
+      <homepage_url>http://kernel.org/</homepage_url>
+      <download_url></download_url>
+      <url_name>linux</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/27724/tux_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/27724/tux_small.png</small_logo_url>
+      <user_count>7056</user_count>
+      <average_rating>4.69994</average_rating>
+      <rating_count>1553</rating_count>
+      <review_count>2</review_count>
+      <analysis_id>25126204</analysis_id>
+      <tags>
+        <tag>#dacl</tag>
+        <tag>x86_64</tag>
+        <tag>arm</tag>
+        <tag>lkm</tag>
+        <tag>x86</tag>
+        <tag>linux</tag>
+        <tag>kernel</tag>
+        <tag>posix</tag>
+        <tag>operating_system</tag>
+        <tag>unix</tag>
+        <tag>os</tag>
+        <tag>c</tag>
+        <tag>x64</tag>
+        <tag>linuxkernel</tag>
+        <tag>ia64</tag>
+        <tag>#sacl</tag>
+      </tags>
+      <analysis>
+        <id>25126204</id>
+        <url>https://www.openhub.net/analyses/25126204.xml</url>
+        <project_id>3141</project_id>
+        <updated_at>2015-07-21T01:47:23Z</updated_at>
+        <logged_at>2015-07-19T23:39:10Z</logged_at>
+        <min_month>2002-02-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>3714</twelve_month_contributor_count>
+        <total_contributor_count>14514</total_contributor_count>
+        <twelve_month_commit_count>67816</twelve_month_commit_count>
+        <total_commit_count>597185</total_commit_count>
+        <total_code_lines>18036029</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeVeryLarge">
+Very large, active development team          </factoid>
+          <factoid type="FactoidCommentsAverage">
+Average number of code comments          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/linux/analyses/25126204/languages.png">
+          <language percentage="95" color="FF8F00" id="42">
+C          </language>
+          <language percentage="5" color="000000" id="">
+16 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>GNU_General_Public_License_v2_0_only</name>
+          <nice_name>GNU General Public License v2.0 only</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>70</value>
+        <description>Very High</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>Kernel Mailing List</title>
+          <url>http://www.tux.org/lkml/</url>
+          <category>Mailing Lists</category>
+        </link>
+        <link>
+          <title>Linux Kernel Mailing List</title>
+          <url>http://www.tux.org/lkml/</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>Linux kernel mailing list archive</title>
+          <url>http://lkml.org/</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>Linux man pages</title>
+          <url>http://www.kernel.org/doc/man-pages/</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>Kmemleak support for MIPS</title>
+          <url>https://patchwork.linux-mips.org/patch/2244/</url>
+          <category>Documentation</category>
+        </link>
+        <link>
+          <title>Bugzilla</title>
+          <url>https://bugzilla.kernel.org/</url>
+          <category>Issue Trackers</category>
+        </link>
+        <link>
+          <title>Available Mailing Lists</title>
+          <url>http://vger.kernel.org/vger-lists.html</url>
+          <category>Mailing Lists</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

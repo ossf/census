@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>139</id>
+      <name>w3m</name>
+      <url>https://www.openhub.net/p/w3m.xml</url>
+      <html_url>https://www.openhub.net/p/w3m</html_url>
+      <created_at>2006-10-10T15:51:31Z</created_at>
+      <updated_at>2015-07-10T13:20:33Z</updated_at>
+      <description>w3m is a pager/text-based WWW browser. It is similar to Lynx, but handles some things like page navigation differently. It can render tables and frames (by converting frames into tables) or display a document given from standard input. It can also be used with mouse in an xterm or in a gpm-driven console, and it is small.</description>
+      <homepage_url>http://w3m.sourceforge.net</homepage_url>
+      <download_url>http://sourceforge.net/project/showfiles.php?group_id=39518</download_url>
+      <url_name>w3m</url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1189/console_small.png</small_logo_url>
+      <user_count>88</user_count>
+      <average_rating>4.0</average_rating>
+      <rating_count>24</rating_count>
+      <review_count>1</review_count>
+      <analysis_id>25107239</analysis_id>
+      <tags>
+        <tag>html</tag>
+        <tag>emacs</tag>
+        <tag>http</tag>
+        <tag>textmode</tag>
+        <tag>consoleapplication</tag>
+        <tag>keyboardinterface</tag>
+        <tag>console</tag>
+        <tag>web_browser</tag>
+        <tag>browser</tag>
+        <tag>text</tag>
+        <tag>www</tag>
+        <tag>web</tag>
+        <tag>text-mode</tag>
+        <tag>terminal</tag>
+        <tag>unix</tag>
+        <tag>keyboard</tag>
+        <tag>images</tag>
+      </tags>
+      <analysis>
+        <id>25107239</id>
+        <url>https://www.openhub.net/analyses/25107239.xml</url>
+        <project_id>139</project_id>
+        <updated_at>2015-07-18T04:09:42Z</updated_at>
+        <logged_at>2015-07-18T04:09:31Z</logged_at>
+        <min_month>2001-11-01T00:00:00Z</min_month>
+        <max_month>2015-07-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>17</twelve_month_contributor_count>
+        <total_contributor_count>28</total_contributor_count>
+        <twelve_month_commit_count>124</twelve_month_commit_count>
+        <total_commit_count>1561</total_commit_count>
+        <total_code_lines>166972</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeLarge">
+Large, active development team          </factoid>
+          <factoid type="FactoidActivityStable">
+Stable Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsVeryLow">
+Very few source code comments          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/w3m/analyses/25107239/languages.png">
+          <language percentage="68" color="FF8F00" id="42">
+C          </language>
+          <language percentage="15" color="EEE" id="51">
+Autoconf          </language>
+          <language percentage="5" color="777777" id="11">
+shell script          </language>
+          <language percentage="12" color="000000" id="">
+6 Other          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>mit</name>
+          <nice_name>MIT License</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>50</value>
+        <description>Moderate</description>
+      </project_activity_index>
+      <links>
+        <link>
+          <title>emacs-w3m  @ emacswiki</title>
+          <url>http://www.emacswiki.org/emacs/emacs-w3m</url>
+          <category>Forums</category>
+        </link>
+        <link>
+          <title>Emacs-w3m, a simple Emacs interface to w3m.</title>
+          <url>http://emacs-w3m.namazu.org/</url>
+          <category>Documentation</category>
+        </link>
+      </links>
+    </project>
+  </result>
+</response>

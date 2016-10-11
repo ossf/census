@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>5523</id>
+      <name>Bouncy Castle</name>
+      <url>https://www.openhub.net/p/5523.xml</url>
+      <html_url>https://www.openhub.net/p/5523</html_url>
+      <created_at>2007-05-22T17:39:53Z</created_at>
+      <updated_at>2015-07-10T00:32:25Z</updated_at>
+      <description>Here at the Bouncy Castle, we believe in encryption. That's something that's near and dear to our hearts. We believe so strongly in encryption, that we've gone to the effort to provide some for everybody.</description>
+      <homepage_url>http://www.bouncycastle.org</homepage_url>
+      <download_url></download_url>
+      <url_name></url_name>
+      <medium_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1183/java_library_med.png</medium_logo_url>
+      <small_logo_url>https://s3.amazonaws.com/cloud.ohloh.net/attachments/1183/java_library_small.png</small_logo_url>
+      <user_count>51</user_count>
+      <average_rating>4.46154</average_rating>
+      <rating_count>13</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>24745426</analysis_id>
+      <tags>
+        <tag>security</tag>
+        <tag>c#</tag>
+        <tag>cryptography</tag>
+        <tag>crypto</tag>
+        <tag>utilities</tag>
+        <tag>java</tag>
+        <tag>x509</tag>
+        <tag>encryption</tag>
+        <tag>tls</tag>
+      </tags>
+      <analysis>
+        <id>24745426</id>
+        <url>https://www.openhub.net/analyses/24745426.xml</url>
+        <project_id>5523</project_id>
+        <updated_at>2015-07-18T04:08:00Z</updated_at>
+        <logged_at>2015-07-18T04:07:57Z</logged_at>
+        <min_month>2005-07-01T00:00:00Z</min_month>
+        <max_month>2014-01-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>0</twelve_month_contributor_count>
+        <total_contributor_count>1</total_contributor_count>
+        <twelve_month_commit_count>0</twelve_month_commit_count>
+        <total_commit_count>3623</total_commit_count>
+        <total_code_lines>468546</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidCommentsLow">
+Few source code comments          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidTeamSizeZero">
+No recent development activity          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/5523/analyses/24745426/languages.png">
+          <language percentage="99" color="9A63AD" id="5">
+Java          </language>
+          <language percentage="1" color="000000" id="">
+4 Other          </language>
+        </languages>
+        <main_language_id>5</main_language_id>
+        <main_language_name>Java</main_language_name>
+      </analysis>
+      <licenses>
+        <license>
+          <name>BSD-3-Clause</name>
+          <nice_name>BSD 3-clause "New" or "Revised" License</nice_name>
+        </license>
+      </licenses>
+      <project_activity_index>
+        <value>30</value>
+        <description>Very Low</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>

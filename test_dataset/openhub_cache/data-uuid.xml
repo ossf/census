@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <project>
+      <id>513513</id>
+      <name>data-uuid</name>
+      <url>https://www.openhub.net/p/data-uuid.xml</url>
+      <html_url>https://www.openhub.net/p/data-uuid</html_url>
+      <created_at>2011-04-21T17:48:50Z</created_at>
+      <updated_at>2015-07-01T16:07:11Z</updated_at>
+      <description>perl library for generating universally unique identifiers</description>
+      <homepage_url>http://github.com/rjbs/data-uuid</homepage_url>
+      <download_url></download_url>
+      <url_name>data-uuid</url_name>
+      <user_count>0</user_count>
+      <average_rating></average_rating>
+      <rating_count>0</rating_count>
+      <review_count>0</review_count>
+      <analysis_id>24745343</analysis_id>
+      <analysis>
+        <id>24745343</id>
+        <url>https://www.openhub.net/analyses/24745343.xml</url>
+        <project_id>513513</project_id>
+        <updated_at>2015-07-18T03:14:32Z</updated_at>
+        <logged_at>2015-07-18T03:14:30Z</logged_at>
+        <min_month>2006-02-01T00:00:00Z</min_month>
+        <max_month>2015-01-01T00:00:00Z</max_month>
+        <twelve_month_contributor_count>2</twelve_month_contributor_count>
+        <total_contributor_count>13</total_contributor_count>
+        <twelve_month_commit_count>3</twelve_month_commit_count>
+        <total_commit_count>87</total_commit_count>
+        <total_code_lines>1118</total_code_lines>
+        <factoids>
+          <factoid type="FactoidAgeVeryOld">
+Mature, well-established codebase          </factoid>
+          <factoid type="FactoidTeamSizeSmall">
+Small development team          </factoid>
+          <factoid type="FactoidActivityDecreasing">
+Decreasing Y-O-Y development activity          </factoid>
+          <factoid type="FactoidCommentsVeryLow">
+Very few source code comments          </factoid>
+        </factoids>
+        <languages graph_url="https://www.openhub.net/p/data-uuid/analyses/24745343/languages.png">
+          <language percentage="66" color="FF8F00" id="42">
+C          </language>
+          <language percentage="34" color="D2C690" id="8">
+Perl          </language>
+        </languages>
+        <main_language_id>42</main_language_id>
+        <main_language_name>C</main_language_name>
+      </analysis>
+      <licenses>
+      </licenses>
+      <project_activity_index>
+        <value>30</value>
+        <description>Very Low</description>
+      </project_activity_index>
+    </project>
+  </result>
+</response>
