@@ -70,13 +70,18 @@ Here are some examples of things you could do:
 Changes to the Python code should generally comply with
 [Python PEP 8](https://www.python.org/dev/peps/pep-0008/)
 but use 2 spaces per indentation level.
-It should pass "make check" (which uses pyflakes) and "make test"
-(which runs the automated test suite).
-It shouldn't add new pylint reports, and fixing some reports is very welcome
+Changes must pass "make analyze" (which runs the static analysis tool pyflakes)
+and "make test" (which runs the automated test suite).
+Changes that add major new functionality *must* extend the automated test
+suite as necessary to cover it.
+We use the "-t" and "-3" warning flags ("-3" detects some Python 2/3 problems).
+
+In the future we hope to add using an additional static analysis tool,
+pylint.  So changes shouldn't add new pylint reports,
+and fixing pylint reports is welcome
 (you can see them by running "make pylint").
 It's written in Python2, but the goal is to avoid any construct that
 2to3 can't automatically fix.
-We use the "-t" and "-3" warning flags ("-3" detects some Python 2/3 problems).
 
 # Background
 
