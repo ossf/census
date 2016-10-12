@@ -1,3 +1,5 @@
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/428/badge)](https://bestpractices.coreinfrastructure.org/projects/428)
+
 # Core Infrastructure Initiative Census
 
 Automated quantitative review of open source software projects.
