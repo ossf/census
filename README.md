@@ -93,4 +93,4 @@ It's written in Python2, but the goal is to avoid any construct that
 
 # Background
 
-This work was sponsored by the Linux Foundation's [Core Infrastructure Initiative](http://www.linuxfoundation.org/programs/core-infrastructure-initiative)
+This work was sponsored by the Linux Foundation's [Core Infrastructure Initiative](https://www.coreinfrastructure.org/)
