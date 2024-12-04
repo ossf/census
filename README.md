@@ -2,11 +2,17 @@
 
 # Core Infrastructure Initiative Census (aka Census I)
 
-Automated quantitative review of open source software projects.
-
 This project contains programs and documentation to help identify
 open source software (OSS) projects that may need additional investment
-to improve security, by combining a variety of metrics.
+to improve security, by combining a variety of quantitative metrics
+to estimate risk.
+
+You can see the final report derived from this work,
+"Open Source Software Needing Security Investments"
+by David A. Wheeler and Samir Khakimov (June 2015), via
+<a href="https://openssf.org/resources/census-i-whitepaper-open-source-software-needing-security-investments/">OpenSSF
+(the successor to the Core Infrastructure Initiative (CII))</a> or via
+<a href="https://www.ida.org/research-and-publications/publications/all/o/op/open-source-software-projects-needing-security-investments">IDA</a>.
 
 Key files include:
 
