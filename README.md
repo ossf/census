@@ -8,9 +8,8 @@ to improve security, by combining a variety of quantitative metrics
 to estimate risk.
 
 You can see the final report derived from this work,
-<a href="https://openssf.org/resources/census-i-whitepaper-open-source-software-needing-security-investments/"
->"Open Source Software Needing Security Investments" (aka "Census I")
-by David A. Wheeler and Samir Khakimov (June 2015)</a>, via
+<a href="https://openssf.org/resources/census-i-whitepaper-open-source-software-needing-security-investments/" >"Open Source Software Needing Security Investments" (aka "Census I") by David A. Wheeler and Samir Khakimov (June 2015)</a>,
+via
 <a href="https://openssf.org/resources/census-i-whitepaper-open-source-software-needing-security-investments/">OpenSSF
 (the successor to the Core Infrastructure Initiative (CII))</a><a
 href="https://openssf.org/programs/census-program-i/">*</a> or via
