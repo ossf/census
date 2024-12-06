@@ -18,7 +18,7 @@ There has been follow-on work, so this final 2015 report is often
 retroactively referred to as "Census I".
 
 For a more recent related report, see the <a href="https://www.linuxfoundation.org/research/census-iii">Census III of Free and Open Software</a>
-report by Frank Nagle, Kate Powell, Richie Zitomer, and David A. Wheeler (December 2024).
+report by Frank Nagle, Kate Powell, Richie Zitomer, and David A. Wheeler (December 2024) along with its <a href="https://data.world/login?next=%2Fthelinuxfoundation%2F">data set available on data.world from the Linux Foundation</a>.
 
 Key files include in this project are:
 
